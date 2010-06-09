@@ -1,0 +1,660 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="verify-v1" content="1EHNj1m4JXy7y+w5UQjs1Kq77nIZxgUOF+JTqdSXQpk=" />
+<meta name="y_key" content="7d450e76f3cd3f23">
+<meta name="msvalidate.01" content="77DB878BB7729C644BCFC3B592A081A1" />
+<meta name="description" content="北海道新聞社のホームページです。道新が提供する社会、スポーツ、政治、経済などの最新ニュースのほか、札幌はじめ道内各地の情報、ロシアなどの国際ニュースを提供。温泉、グルメ、住宅やオンライン通販などのサイトもあります。" />
+
+<meta name="keywords" content="道新,北海道新聞,ニュース,速報" />
+<title>燃えろ！コンサドーレ　平川弘の通信簿－北海道新聞[FORZA！コンサドーレ]</title>
+
+<link href="http://www.hokkaido-np.co.jp/generalimg/1000101/favicon.ico" rel="shortcut icon"/>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.hokkaido-np.co.jp/rss/index.rdf" />
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="http://www.hokkaido-np.co.jp/rss/index.rdf" />
+<link rel="stylesheet" type="text/css" href="http://www.hokkaido-np.co.jp/common/import.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.hokkaido-np.co.jp/common/css/enter/enter.css" media="all" />
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/jquery.js"></script>
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/rollover.js"></script>
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/scroll.js"></script>
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/font.swich.js"></script>
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/doshinmenu.js"></script>
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/ad.js"></script>
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/cont.js"></script>
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/search.js"></script>
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/tracker.js"></script>
+
+
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/swfobject.js"></script>
+
+
+<script type="text/javascript" src="http://www.hokkaido-np.co.jp/common/js/dropdown.js"></script>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4188563-2']);
+_gaq.push(['_setDomain', 'hokkaido-np.co.jp']);
+_gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+    })();
+</script>
+
+</head>
+
+
+
+<body id="enter" class="font_M">
+<div id="back" class="wrapper">
+  
+    <script type="text/javascript">initFontSize()</script>
+
+<div class="header">
+<p><a onclick="dt('/pt/top/head/logo/');" href="http://www.hokkaido-np.co.jp/">
+<img 
+src="http://www.hokkaido-np.co.jp/generalimg/1020000/logo.jpg" alt="どうしんウェブ　北海道新聞" width="230" height="102" /></a></p>
+
+  <div class="headerPrBn">
+<script language="JavaScript" type="text/javascript">
+ordsb=Math.random()*10000000000000000;
+document.write('<script language="JavaScript" src="http://ad.jp.doubleclick.net/adj/doshin-newsgenre.superbanner/;sz=728x90;ord=' + ordsb + '?" type="text/javascript"></scr' + 'ipt>');
+</script><noscript><a href="http://ad.jp.doubleclick.net/jump/doshin-newsgenre.superbanner/;sz=728x90;ord=123456789?" target="_top"><img src="http://ad.jp.doubleclick.net/ad/doshin-newsgenre.superbanner/;sz=728x90;ord=123456789?" width="728" height="90" border="0" alt=""></a></noscript>
+</div>
+
+
+<div class="hNavi-main">
+  <div class="upper clearfix">
+<ul class="weather">
+<li><a onclick="dt('/pt/top/head/weather/');" href="http://www.hokkaido-np.co.jp/cont/Weather/"><img title="天気" alt="天気" src="http://www.hokkaido-np.co.jp/generalimg/1020100/weather.jpg" /></a></li>
+<li><a onclick="dt('/pt/top/head/weather_area/');" href="http://www.hokkaido-np.co.jp/cont/Weather/12606.php#014162"><img src="http://www.hokkaido-np.co.jp/generalimg/1020100/area-01.gif" title="札幌中央区・南区・豊平区・清田区" alt="石狩" width="37" height="22" /></a></li>
+<li class="day"><a onclick="dt('/pt/top/head/weather_area/');" href="http://www.hokkaido-np.co.jp/cont/Weather/12606.php#014162"><img src="http://www.hokkaido-np.co.jp/generalimg/1020100/day27.jpg" alt="27日" width="24" height="22" /><img src="http://www.hokkaido-np.co.jp/generalimg/1020100/11.gif" alt="" width="44" height="22" /></a></li>
+<li class="day"><a onclick="dt('/pt/top/head/weather_area/');" href="http://www.hokkaido-np.co.jp/cont/Weather/12606.php#014162"><img src="http://www.hokkaido-np.co.jp/generalimg/1020100/day28.jpg" alt="28日" width="24" height="22" /><img src="http://www.hokkaido-np.co.jp/generalimg/1020100/01.gif" alt="" width="44" height="22" /></a></li>
+<li><a onclick="dt('/pt/top/head/my_weather/');" href="http://www.hokkaido-np.co.jp/cont/my_weather/"><img title="地域を設定" alt="地域を設定" src="http://www.hokkaido-np.co.jp/generalimg/1020100/local.jpg"/></a></li>
+<!-- /weather -->
+</ul>
+
+
+
+<!-- #BeginPopIn -->
+<script type="text/javascript" charset="UTF-8">
+	var _popIn_search_box = {
+	  "_popin_default" : {
+	    "action" : "http://www.hokkaido-np.co.jp/cont/popinsearch/",
+	    "qname" : "?q={_popIn_word}"
+	  }
+	};
+</script>
+<script type="text/javascript" src="http://api.popin.cc/searchbox/hokkaido-np.js" charset="UTF-8"></script>
+<!-- #EndPopIn -->
+
+  </div>
+
+  <div class="under clearfix">
+<ul class="menu-tabs">
+  <li id="top"><a onclick="dt('/pt/top/head/home/');" href="http://www.hokkaido-np.co.jp/">
+      <img src="http://www.hokkaido-np.co.jp/generalimg/1030100/tabs-home.jpg" alt="ホーム" width="70" height="28" class="btn" />
+  </a>
+  </li>
+  <li id="news">
+    <a onclick="dt('/pt/top/head/news/');" href="http://www.hokkaido-np.co.jp/news/top/">
+          <img src="http://www.hokkaido-np.co.jp/generalimg/1030100/tabs-news.jpg" alt="ニュース" width="120" height="28" class="btn" />
+    </a>
+        <div class="pulldown news_column clearfix">
+      <ul class="left"><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/donai/">道内</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/dogai/">道外</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/environment/">自然・科学</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/education/">教育</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/fuhou/">訃報</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/politics/">政治</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/2010sanin/">2010参院選</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/economic/">経済</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/agriculture/">農林水産</a></li><!--
+   --></ul>
+      <ul class="right"><!--
+     --><li><a href="http://www.hokkaido-np.co.jp/news/new_product/">新商品</a></li><!--
+    --><li><a href="http://www.hokkaido-np.co.jp/cont/market/">マーケット速報</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/international/">国際</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/topic/">話題</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/sapporo/">札幌圏</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/culture/">文化</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/life/">生活</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/editorial/">社説</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/news/fourseasons/">卓上四季</a></li><!--
+   --></ul>
+    <!-- /.dropdown --></div>
+      </li><!--
+  --><li id="enter"><a onclick="dt('/pt/top/head/enter/');" href="http://www.hokkaido-np.co.jp/news/e_top/">
+          <img src="http://www.hokkaido-np.co.jp/generalimg/1030100/tabs-enter_on.jpg" alt="エンタメ＆スポーツ" width="120" height="28" />
+    </a>
+      </li><!--
+  --><li id="lifeInfo"><a onclick="dt('/pt/top/head/life/');" href="http://www.hokkaido-np.co.jp/cont/lifeinfo_top/">
+              <img src="http://www.hokkaido-np.co.jp/generalimg/1030100/tabs-lifeinfo.jpg" alt="生活情報" width="120" height="28" class="btn" />
+      </a>
+          <div class="pulldown lifeInfo_column">
+      <ul class="left"><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/cont/event/">イベント</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/cont/kankou/">観光</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/cont/onsen/">温泉</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/cont/gourmet/">グルメ</a></li><!--
+      --><li><a href="http://shopping.hokkaido-np.co.jp/">通販</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/cont/gg/">ゴルフ</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/cont/shufoo_how/">ネットチラシ</a></li><!--
+      --><li><a href="http://blog.hokkaido-np.co.jp/jititai_list/index.html">市町村からのお知らせ</a></li><!--
+   --></ul>
+      <ul class="right"><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/cont/health/">医療</a></li><!--
+      --><li><a href="http://sumai.hokkaido-np.co.jp/">住まい</a></li><!--
+      --><li><a href="http://kuruma.hokkaido-np.co.jp/">クルマ</a></li><!--
+      --><li><a href="http://bridal.hokkaido-np.co.jp/">ブライダル</a></li><!--
+      --><li><a href="http://iju.hokkaido-np.co.jp/">移住</a></li><!--
+      --><li><a href="http://www.do-shinro.net/">進路</a></li><!--
+      --><li><a href="http://job.hokkaido-np.co.jp/">求人</a></li><!--
+      --><li><a href="http://www.hokkaido-np.co.jp/cont/tsunagaru9/">＜PR＞もっとつながる北海道</a></li><!--
+   --></ul>
+    <!-- /.dropdown --></div>
+        </li>
+</ul>
+<ul class="menu-text">
+<li class="first"><a onclick="dt('/pt/top/head/video/');" href="http://www.hokkaido-np.co.jp/cont/video/">動画</a></li>
+<li><a onclick="dt('/pt/top/head/blog/');" href="http://blog.hokkaido-np.co.jp/">ブログ</a></li>
+<li><a onclick="dt('/pt/top/head/golf/');" href="http://www.hokkaido-np.co.jp/cont/gg/">ゴルフ</a></li>
+<li><a onclick="dt('/pt/top/head/health/');" href="http://www.hokkaido-np.co.jp/cont/health/">医療</a></li>
+<li><a onclick="dt('/pt/top/head/sumai/');" href="http://sumai.hokkaido-np.co.jp/">住まい</a></li>
+<li><a onclick="dt('/pt/top/head/kuruma/');" href="http://kuruma.hokkaido-np.co.jp/">クルマ</a></li>
+<li><a onclick="dt('/pt/top/head/bridal/');" href="http://bridal.hokkaido-np.co.jp/">ブライダル</a></li>
+<li><a onclick="dt('/pt/top/head/ijuu/');" href="http://iju.hokkaido-np.co.jp/">移住</a></li>
+<li><a onclick="dt('/pt/top/head/shopping/');" href="http://shopping.hokkaido-np.co.jp/">通販</a></li>
+<!-- /menu-txt --></ul>
+
+  </div>
+<!-- /hNavi-main --></div>
+
+<div class="hNavi-sub">
+<ul class="sub clearfix">
+<li><a href="http://www.hokkaido-np.co.jp/news/hsb/">高校野球</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/news/2010worldcup/">サッカーＷ杯</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/news/eg_sports/">スポーツ</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/news/fighters/">ファイターズ</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/news/consadole/">コンサドーレ</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/news/rerakamuy/">レラカムイ</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/news/eg_entertainment/">芸能</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/news/eg_igoshogi/">囲碁・将棋</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/news/e_top#pagebook">本</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/cont/fortune/">占い</a></li>
+
+
+</ul>
+<!-- /hNavi-sub --></div>
+
+<!-- /header --></div>
+
+  <div class="content">
+        
+
+<ul id="breadcrumbs">
+    <li><a href="http://www.hokkaido-np.co.jp/">ホーム</a></li>
+                    <!-- 1 : 3 -->
+                              <li><a href="http://www.hokkaido-np.co.jp/news/e_top/">エンタメ＆スポーツ</a></li>
+                                                                              <!-- 2 : 3 -->
+                              <li><a href="http://www.hokkaido-np.co.jp/news/consadole">FORZA！コンサドーレ</a></li>
+                                                                              <!-- 3 : 3 -->
+                              <li><a href="http://www.hokkaido-np.co.jp/cont/consa-burn/" class="no-bread">燃えろ！コンサドーレ　平川弘の通信簿</a></li>
+                              <!-- /breadcrumbs --></ul>
+
+          <div class="switch">
+    <ul class="inline">
+    <li><img src="http://www.hokkaido-np.co.jp/generalimg/9010000/switch-title.jpg" width="73" height="20" alt="文字サイズを変更" class="switchTitle" /><a href="#" class="size_M">文字サイズ標準</a><a href="#" class="size_L">文字サイズ大</a></li>
+    <li><a onclick="dt('/tp/top/tab/RSS/');" href="http://www.hokkaido-np.co.jp/rss/index.rdf"><img src="http://www.hokkaido-np.co.jp/generalimg/9010000/rss.jpg" width="34" height="20" alt="RSSを受信する" class="rss" /></a></li><li><a href="http://www.hokkaido-np.co.jp/cont/sitemap/" onclick="dt('/tp/top/tab/sitemap/');"><img src="http://www.hokkaido-np.co.jp/generalimg/9010000/sitemap.gif" width="73" height="20" alt="サイトマップ" class="sitemap" /></a></li>
+    </ul>
+  <!-- /switch --></div>
+
+
+        <div id="contentHeaderPr" class="clearfix">
+  <ul>
+  <li><h4><img src="http://www.hokkaido-np.co.jp/generalimg/1010800/title-pr.gif" alt="PR" width="18" 
+height="18" /></h4><p> <span id="adminpr_1">
+  <noscript><a href="http://ad.jp.doubleclick.net/jump/doshin-newsgenre.text2009/;tile=1;sz=1x1;ord=123456789?" target="_top"><img src="http://ad.jp.doubleclick.net/ad/doshin-newsgenre.text2009/;tile=1;sz=1x1;ord=123456789?" width="1" height="1" border="0" alt=""></a>
+  </noscript>
+</span>
+
+</p></li>
+  <li><h4><img src="http://www.hokkaido-np.co.jp/generalimg/1010800/title-pr.gif" alt="PR" width="18" 
+height="18" /></h4><p> <span id="adminpr_2">
+  <noscript><a href="http://ad.jp.doubleclick.net/jump/doshin-newsgenre.text2009/;tile=2;sz=1x1;ord=123456789?" target="_top"><img src="http://ad.jp.doubleclick.net/ad/doshin-newsgenre.text2009/;tile=2;sz=1x1;ord=123456789?" width="1" height="1" border="0" alt=""></a>
+  </noscript>
+</span>
+
+</p></li>
+  </ul>
+<!-- /contentHeaderPr --></div>
+
+
+    <div class="content-inner clearfix"> 
+      <div class="box">
+                                          
+                            <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <div class="boxIn">
+        
+    <div class="i-space">
+      <div id="topCaptionBar" class="i-redtitle"><span class="i-caption i-genre-title">燃えろ！コンサドーレ　平川弘の通信簿</span></div>
+              <div class="i-news-txt">
+        
+            <div style="text-align: right; margin-bottom: 5px; margin-top: 5px;">
+     <ul class="btList">
+<li style="display: inline;"><a href="http://www.hokkaido-np.co.jp/cont/consa2010/"><img src="http://www.hokkaido-np.co.jp/common/img/content/tabs/enter/bt-nittei.gif" alt="日程" width="40" height="22" /></a></li><li style="display: inline;"><a href="http://www.hokkaido-np.co.jp/cont/2010consa_result/"><img src="http://www.hokkaido-np.co.jp/common/img/content/tabs/enter/bt-senseki.gif" alt="戦績" width="36" height="22" /></a></li><li style="display: inline;"><a href="http://www.hokkaido-np.co.jp/cont/2010_j2standings/"><img src="http://www.hokkaido-np.co.jp/common/img/content/tabs/enter/bt-jyunihyo.gif" alt="順位表" width="48" height="22" /></a></li><li style="display: inline;"><a href="http://www.hokkaido-np.co.jp/news/consagameflash/"><img src="http://www.hokkaido-np.co.jp/common/img/content/tabs/enter/bt-shiaisokuho.gif" alt="試合速報" width="60" height="22" /></a></li><li style="display: inline;"><a href="http://www.hokkaido-np.co.jp/cont/consa-player/"><img src="http://www.hokkaido-np.co.jp/common/img/content/tabs/enter/bt-staff.gif" alt="選手・スタッフ" width="82" height="22" /></a></li>
+</ul>
+</div>
+            
+                                                            
+                                                             
+      <h2 style="text-align:left">Ｊ１昇格で人気回復を
+                        (2010/06/23)</span>
+              </h2>
+
+              <div>
+          <table>
+<tr>
+
+<td style="padding:10px;">
+
+
+
+
+<!-- 写真（右側に表示） -->
+<table class="i-news-photoD2">
+<tr>
+<td>
+  <!-- 写真1 -->
+  <img src="image/burn20100623.jpg" />
+  
+  <p>１週間の休養後の２１日、練習を再開したコンサドーレ。今後、ブランド力向上ができるか―</p>
+  
+
+
+
+
+
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+
+<!-- 本文 -->
+<div class="i-news-txt">
+　Ｗ杯開幕直前のテストマッチでは結果が出ず岡田さんはサポーターやメディアからすさまじいバッシングを受けた。それがカメルーン戦後は手のひらを返したように論調は一変－。まあ、勝負の世界は結果がすべてなだけに仕方のないことではあるのだが、あまりの変わりようにはちょっとうんざりする部分もある。普段、Ｊリーグには見向きもしない一般人がデンマークはどうのこうの、引き分け狙いじゃ危ないとか言ったりするのである。全国民が「監督」であるブラジルなどに比べたら日本代表監督、選手が受けるプレッシャーなどかわいいものだが。<br>
+<br>
+　それだけ日本でもＷ杯が注目されていると喜ばなければならない。サッカーのＷ杯以外でこれほど日本がひとつになりナショナリズムを感じることがあるだろうか。それはオリンピック、野球のＷＢＣをもしのいでいる。だがＷ杯だけでなくＪリーグがもっとレベルアップし盛り上がらないとサッカーが絶対的一番の国であるブラジル、オランダ、デンマークなどに勝てるわけがないのである（だからカメルーンに勝ったのはすごいことなのだ）。<br>
+<br>
+　コンサドーレをさほど応援しない人でも日本代表に興味がある人は多い。それはなぜか。コンサのサッカーが弱くてつまらないからか。今の代表だってたいしておもしろくないし世界のサッカー界の中ではまだ２部リーグにいるようなものだ。<br>
+<br>
+　ではどうして？　マスコミがとりあげ報道するからだ。どうしてマスコミは代表をとりあげるのか。やはりＷ杯を含むそのブランド力である。カズ、中田、中村俊介、本田など話題性のあるスターがいておいしいコンテンツだからだ。<br>
+<br>
+　日本ハムの場合は単純に比較できないが日本一にもなって強いし、ダルビッシュもいる。コンサには今季から中山が加入し話題となったが本当の意味でのスターはいない。藤田、宮沢、古田らの若い道産子選手が代表に入って活躍しコンサドーレのブランド力を高めること。コンサドーレを応援することがファッション化してしまうことはあまり好ましくないが人気回復の近道である。それにはＪ１昇格がやっぱり必要なのである。（平川弘＝サッカー解説者、元日本代表）
+<P></p>
+<!-- i-news-txt --></div>
+</td>
+</tr>
+</table>
+
+<div class="i-clear"></div>
+
+      </div>
+
+			 </div>
+      <!-- /i-space --></div>
+      <!-- /boxIn --></div>
+
+              <div class="bannerLong group">
+	<script language="JavaScript" type="text/javascript">
+    ord=Math.random()*10000000000000000;
+    document.write('<script language="JavaScript" src="http://ad.jp.doubleclick.net/adj/doshin-newsgenre.fullbanner/;sz=468x60;ord=' + ord + '?" type="text/javascript"></scr' + 'ipt>');
+    </script><noscript><a href="http://ad.jp.doubleclick.net/jump/doshin-newsgenre.fullbanner/;sz=468x60;ord=123456789?" target="_top"><img src="http://ad.jp.doubleclick.net/ad/doshin-newsgenre.fullbanner/;sz=468x60;ord=123456789?" width="468" height="60" border="0" alt="" /></a></noscript>
+<!-- /bannerLong --></div>
+
+    
+      <div id="list" class="entryListBox2 line group2">  
+    <h2><strong>燃えろ！コンサドーレ　平川弘の通信簿　コンテンツ一覧</strong></h2> 
+      <ul class="iSwBox" id="news_list">
+          <li><a href="http://www.hokkaido-np.co.jp/cont/consa-burn/94908.html">Ｊ１昇格で人気回復を<span>（2010/06/23）</span></a></li>
+            <li><a href="http://www.hokkaido-np.co.jp/cont/consa-burn/94297.html">内村の攻撃力に期待<span>（2010/06/16）</span></a></li>
+            <li><a href="http://www.hokkaido-np.co.jp/cont/consa-burn/93740.html">有効な攻撃繰り出せず<span>（2010/06/09）</span></a></li>
+            <li><a href="http://www.hokkaido-np.co.jp/cont/consa-burn/93065.html">初登場の三上　非凡な才能<span>（2010/06/02）</span></a></li>
+            <li><a href="http://www.hokkaido-np.co.jp/cont/consa-burn/92392.html">パスつなげず攻撃不発<span>（2010/05/26）</span></a></li>
+            <li><a href="http://www.hokkaido-np.co.jp/cont/consa-burn/91784.html">キリノの復調に期待<span>（2010/05/19）</span></a></li>
+            <li><a href="http://www.hokkaido-np.co.jp/cont/consa-burn/91095.html">疲労で動き鈍った熊本戦<span>（2010/05/12）</span></a></li>
+  
+              
+      </ul>
+      <!--/entryListBox2--></div>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        
+                                          <div id="list" class="entryListBox2 line group2">
+	<script language="JavaScript" type="text/javascript">
+		var google_adnum = 0;
+		function google_ad_request_done(google_ads) {
+			var s = '';
+			var i;
+
+			if (google_ads.length == 0) {
+				return;
+			}
+
+			if (google_ads.length == 1) {
+				s += '<h2><strong><a style="color:#FFFFFF;text-decoration:none" href=\"' + google_info.feedback_url + '\">Ads by Google</a></strong></h2>';
+				s += '<ul><li style="padding: 0 20px;"><a target=_blank href="' + google_ads[0].url + '" ' +
+					'onmouseout="window.status=\'\'" ' +
+					'onmouseover="window.status=\'go to ' +
+					google_ads[0].visible_url + '\';return true;" ' +
+					'style="text-decoration:none">' +
+					'<span style="text-decoration:none">' +
+					'<b>' + google_ads[0].line1 + '</b></a><br /></span>' +
+					'<span style=""text-decoration:none">' +
+					google_ads[0].line2 + ' ' +
+					google_ads[0].line3 + '<br /></span>' +
+					'<a target=_blank href="' + google_ads[0].url + '" ' +
+					'onmouseout="window.status=\'\'" ' +
+					'onmouseover="window.status=\'go to ' +
+					google_ads[0].visible_url + '\';return true;" ' +
+					'style="text-decoration:none"><span style="color:#008000">' +
+					google_ads[0].visible_url + '</span></a></li></ul><br />';
+			} else if (google_ads.length > 1) {
+				s += '<h2><strong><a style="color:#FFFFFF;text-decoration:none" href=\"' + google_info.feedback_url + '\">Ads by Google</a></strong></h2>';
+				s += '<ul>' ;
+				for (i = 0; i < google_ads.length; ++i) {
+					s += '<li style="padding: 3px 20px;"><a target=_blank href="' + google_ads[i].url + '" ' +
+						'onmouseout="window.status=\'\'" ' +
+						'onmouseover="window.status=\'go to ' +
+						google_ads[i].visible_url + '\';return true;">' +
+						'<b>' +
+						google_ads[i].line1 + '</b>&nbsp;' +
+						'<span style="color:#008000;text-decoration:none">' +
+						google_ads[i].visible_url + '</span></a><br>' +
+						'<span style="color:#000000">' +
+						google_ads[i].line2 + '&nbsp;' +
+						google_ads[i].line3 + '</span></li>';
+				}
+				s += '</ul>' ;
+			}
+
+			if (google_ads[0].bidtype == "CPC") {  /* insert this snippet for each ad call */    
+				google_adnum = google_adnum + google_ads.length;    
+			}
+
+			document.write(s); 
+		}
+
+		google_ad_client = 'pub-4886100732679601';
+		google_ad_channel = '2447662769';
+		google_ad_output = 'js';
+		google_max_num_ads = '5';
+		google_ad_type = 'text';
+		google_language = 'ja';
+		google_feedback = 'on';
+		google_safe = 'high';
+	</script>      
+
+	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+      <!-- /box --></div>
+
+      <div class="side">
+                <div class="adrectangle">
+<p>
+<!-- begin ad tag-->
+<script language="JavaScript" type="text/javascript">
+if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+document.write('<script language="JavaScript" src="http://ad.jp.doubleclick.net/adj/doshin-news.rectangle_300_250/;tile=1;sz=1x1;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script><noscript><a href="http://ad.jp.doubleclick.net/jump/doshin-news.rectangle_300_250/;tile=1;sz=1x1;ord=123456789?" target="_top"><img src="http://ad.jp.doubleclick.net/ad/doshin-news.rectangle_300_250/;tile=1;sz=1x1;ord=123456789?" width="1" height="1" border="0" alt=""></a></noscript>
+<!-- End ad tag -->
+</p>
+<!-- /adrectangle --></div>
+
+
+<div class="subscription">
+<a onclick="dt('/pt/top/side/koudoku_1/');" href="http://www.hokkaido-np.co.jp/cont/koudoku/"><img src="http://www.hokkaido-np.co.jp/generalimg/9030100/subscription.jpg" width="300" height="51" alt="北海道新聞・道新スポーツ購読のお申し込み" /></a>
+<!-- /subscription --></div>
+
+
+<div class="rectangle-banner-long clearfix">
+    <ul class="inline">
+    <li><script language="JavaScript" type="text/javascript">
+ord=Math.random()*10000000000000000;
+document.write('<script language="JavaScript" src="http://ad.jp.doubleclick.net/adj/doshin-newsgenre.halfbanner/;tn=2;tnm=2;tcs=5;tcp=5;to=v;sz=234x60;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script>
+<noscript><a href="http://ad.jp.doubleclick.net/jump/doshin-newsgenre.halfbanner/;sz=234x60;ord=123456789?" target="_top"><img src="http://ad.jp.doubleclick.net/ad/doshin-newsgenre.halfbanner/;sz=234x60;ord=123456789?" width="234" height="60" border="0" alt=""></a></noscript></li>
+    </ul>
+<!-- /rectangle-banner-long --></div>
+
+
+<div class="mobile2 clearfix">
+<dl>
+<dt><a href="http://www.hokkaido-np.co.jp/cont/doshin-dospo_plus/"><img src="http://www.hokkaido-np.co.jp/generalimg/9120001/mobile2.gif" alt="携帯サイト道新＆道スポ＋へ" width="296" height="33"/></a></dt>
+<dd><img src="http://www.hokkaido-np.co.jp/generalimg/9120001/mobile2-url.gif" alt="QRコード" width="75" height="75"/>
+<ul>
+<h3>コンサの最新情報が満載！</h3>
+<h3>試合経過・結果はメールで！</h3>
+<h3>右のコードからアクセス！！</h3>
+</ul></dd>
+</dl>
+<!-- /mobile2 --></div>
+
+
+<div class="shopping">
+    <dl class="clearfix">
+    <dt><strong><a href="http://shopping.hokkaido-np.co.jp/">特選！北海道ネット通販</a></strong></dt>
+    <dd>
+    <p><a href="http://shopping.hokkaido-np.co.jp/store/main/?store=14"><strong>ぬいぐるみドーレくん</strong></a>
+おまたせしました。ドーレくんのぬいぐるみが3種類の大きさになりました。</p>
+    <a href="http://shopping.hokkaido-np.co.jp/store/main/?store=14"><img src="http://www.hokkaido-np.co.jp/generalimg/3602/consa.jpg" alt="" /></a></dd>
+    </dl>
+<!-- /shopping --></div>
+
+
+  <div class="monthlyConsa line">
+    <dl class="enter clearfix">
+    <dt><strong><a href="http://www.hokkaido-np.co.jp/cont/consa-gekkan/">月刊コンサドーレ</a></strong></dt>
+    <dd>
+    <a href="http://www.hokkaido-np.co.jp/cont/consa-gekkan/"><img src="http://www.hokkaido-np.co.jp/generalimg/9250000/g-consa.jpg" alt="月刊コンサドーレ" width="95" height="132" /></a>
+    <p><strong>7月号の内容</strong></p>
+    <p><a href="http://www.hokkaido-np.co.jp/cont/consa-gekkan/">●BRAVE HEART INTERVIEW　FW近藤祐介<br />
+    ●SPECIAL ARTICLE 闘魂対談　アントニオ猪木×石崎信弘監督</a></p>
+    </dd>
+    </dl>
+<!-- /link --></div>
+
+
+
+<div class="do-sports2 line">
+    <dl class="enter">
+    <dt><strong><a href="http://jyoho.hokkaido-np.co.jp/douspo/index.php3">道新スポーツ</a></strong></dt>
+    <dd><h3><a href="http://jyoho.hokkaido-np.co.jp/douspo/index.php3">ハム91日ぶり最下位脱出　ダル粘投７勝目Ｖ字回復宣言</a></h3>
+    <p><a href="http://jyoho.hokkaido-np.co.jp/douspo/index.php3"><img src="http://jyoho.hokkaido-np.co.jp/douspo/ds1thumb.jpg" alt="道新スポーツ" width="206" height="273" /></a></p>
+    <h3><a href="http://shopping.hokkaido-np.co.jp/turisin/">北海道で釣りをするなら必見 Web つりしん</a></h3>
+    <p><a href="http://shopping.hokkaido-np.co.jp/turisin/"><img src="http://www.hokkaido-np.co.jp/generalimg/9080000/bn-tsurishin.jpg" alt="webつりしん" width="267" height="49" /></a></p>
+    <h3><a href="http://www.hokkaido-np.co.jp/cont/bajitsushin/">馬産地ならではの競馬情報　馬事通信</a></h3>
+    <p><a href="http://www.hokkaido-np.co.jp/cont/bajitsushin/"><img src="http://www.hokkaido-np.co.jp/generalimg/9080000//bn-bajitushin.jpg" alt="馬事通信" width="267" height="60" /></a></p>
+    </dd>
+    </dl>
+<!-- /project --></div>
+
+
+<div class="link line">
+    <dl class="enter">
+    <dt><strong>関連リンク</strong></dt>
+    <dd>
+    <h3><a href="http://consadole-sapporo.jp/" target="_blank">コンサドーレ公式サイト</a></h3>
+    <h3><a href="http://www.j-league.or.jp/" target="_blank">Jリーグ公式サイト</a></h3>
+    <h3><a href="http://www.kyodonews.jp/feature/worldcup2010/" target="_blank">サッカー・ワールドカップ 南アフリカ大会（共同通信）</a></h3>
+    </dd>
+    </dl>
+<!-- /link --></div>
+
+
+<center><script type="text/javascript"><!--
+google_ad_client = "pub-4886100732679601";
+/* 300x250, 作成済み 09/06/14 */
+google_ad_slot = "5255448436";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+
+      <!-- /side --></div>
+
+            <div class="extra">
+<a href="#back"><img src="http://www.hokkaido-np.co.jp/generalimg/1080100/top.jpg" width="142" height="24" alt="このページの先頭へ" class="link" /></a>
+<!-- /extra --></div>
+
+
+    <!-- /content-inner --></div>
+  <!-- /content --></div>
+
+<div class="footer">
+<!-- sitemap:include-->
+
+
+  <a onclick="dt('/pt/top/footer/logo/');"href="http://www.hokkaido-np.co.jp/"><img src="http://www.hokkaido-np.co.jp/generalimg/1040100/logo.jpg" width="145" height="50" alt="どうしんウェブ　北海道新聞" class="logo" /></a>
+
+<ul class="fNavi-main clearfix">
+	<li>
+		<a onclick="dt('/pt/top/footer/news/');" href="http://www.hokkaido-np.co.jp/news/top/"><img src="http://www.hokkaido-np.co.jp/generalimg/1040100/link.jpg" width="25" height="21" alt="ニュース" class="link" /></a>
+		<div class="news clearfix heightLine-footerG1">
+			<p class="line"><img src="http://www.hokkaido-np.co.jp/generalimg/1040100/t-news.jpg" width="135" height="44" alt="ニュース" /></p>
+			<a onclick="dt('/pt/top/footer/news_society/');"href="http://www.hokkaido-np.co.jp/news/g_society/">社会</a>
+			<a onclick="dt('/pt/top/footer/news_local/');" href="http://www.hokkaido-np.co.jp/news/g_local/">まち・むら</a>
+			<a onclick="dt('/pt/top/footer/news_politics/');" href="http://www.hokkaido-np.co.jp/news/g_politics/">政治</a>
+			<a onclick="dt('/pt/top/footer/news_culture/');" href="http://www.hokkaido-np.co.jp/news/g_culture/">文化・生活</a>
+			<a onclick="dt('/pt/top/footer/news_business/');" href="http://www.hokkaido-np.co.jp/news/g_business/">ビジネス</a>
+			<a onclick="dt('/pt/top/footer/news_opinion/');" href="http://www.hokkaido-np.co.jp/news/g_opinion/">オピニオン</a>
+			<a onclick="dt('/pt/top/footer/news_international/');" href="http://www.hokkaido-np.co.jp/news/g_international/">国際</a>
+			<a onclick="dt('/pt/top/footer/news_gogai/');" href="http://jyoho.hokkaido-np.co.jp/gogai/">号外一覧</a>
+			<!--<a onclick="dt('/pt/top/footer/news_feature/');" href="http://www.hokkaido-np.co.jp/news/g_feature/">特集</a>-->
+		</div><!-- /news -->
+	</li>
+	<li>
+		<a onclick="dt('/pt/top/footer/enter/');" href="http://www.hokkaido-np.co.jp/news/e_top/"><img src="http://www.hokkaido-np.co.jp/generalimg/1040100/link.jpg" width="25" height="21" alt="エンタメ＆スポーツ" class="link" /></a>
+		<div class="enter clearfix heightLine-footerG1">
+			<p class="line"><img src="http://www.hokkaido-np.co.jp/generalimg/1040100/t-enter.jpg" width="135" height="44" alt="エンタメ＆スポーツ" /></p>
+			<a onclick="dt('/pt/top/footer/enter_sports/');" href="http://www.hokkaido-np.co.jp/news/eg_sports/">スポーツ</a>
+			<a onclick="dt('/pt/top/footer/enter_entertainment/');" href="http://www.hokkaido-np.co.jp/news/eg_entertainment/">芸能</a>
+			<a onclick="dt('/pt/top/footer/enter_igoshogi/');" href="http://www.hokkaido-np.co.jp/news/eg_igoshogi/">囲碁・将棋</a>
+			<a onclick="dt('/pt/top/footer/enter_book/');" href="http://www.hokkaido-np.co.jp/news/e_top/#pagebook">本</a>
+		</div><!-- /enter -->
+	</li>
+	<li class="footer_lifeinfo">
+		<a onclick="dt('/pt/top/footer/life/');" href="http://www.hokkaido-np.co.jp/cont/lifeinfo_top/"><img src="http://www.hokkaido-np.co.jp/generalimg/1040100/link.jpg" width="25" height="21" alt="生活情報" class="link" /></a>
+		<div class="life clearfix heightLine-footerG1">
+			<p class="line"><img src="http://www.hokkaido-np.co.jp/generalimg/1040100/t-lifeinfo.jpg" width="107" height="44" alt="生活情報" /></p>
+			<a onclick="dt('/pt/top/footer/life_event/');" href="http://www.hokkaido-np.co.jp/cont/event/">イベント</a>
+			<a onclick="dt('/pt/top/footer/leisure_ski/');" href="http://www.hokkaido-np.co.jp/cont/hg/">スキー</a>
+			<a onclick="dt('/pt/top/footer/life_bridal/');" href="http://bridal.hokkaido-np.co.jp/">ブライダル</a>
+			<a onclick="dt('/pt/top/footer/leisure_kankou/');" href="http://www.hokkaido-np.co.jp/cont/kankou/">観光</a>
+			<a onclick="dt('/pt/top/footer/leisure_golf/');" href="http://www.hokkaido-np.co.jp/cont/gg/">ゴルフ</a>
+			<a onclick="dt('/pt/top/footer/life_ijuu/');" href="http://iju.hokkaido-np.co.jp/">移住</a>
+			<a onclick="dt('/pt/top/footer/leisure_onsen/');" href="http://www.hokkaido-np.co.jp/cont/onsen/">温泉</a>
+			<a onclick="dt('/pt/top/footer/life_health/');" href="http://www.hokkaido-np.co.jp/cont/health/">医療</a>
+			<a onclick="dt('/pt/top/footer/life_shinro/');" href="http://www.do-shinro.net/">進路</a>
+			<a onclick="dt('/pt/top/footer/leisure_gourmet/');" href="http://www.hokkaido-np.co.jp/cont/gourmet/">グルメ</a>
+			<a onclick="dt('/pt/top/footer/copyright/');" href="http://sumai.hokkaido-np.co.jp/">住まい</a>
+			<a onclick="dt('/pt/top/footer/life_kyujin/');" href="http://job.hokkaido-np.co.jp/">求人</a>
+			<a onclick="dt('/pt/top/footer/life_shopping/');" href="http://shopping.hokkaido-np.co.jp/">通販</a>
+			<a onclick="dt('/pt/top/footer/life_kuruma/');" href="http://kuruma.hokkaido-np.co.jp/">クルマ</a>
+			<a onclick="dt('/pt/top/footer/life_shufoo/');" href="http://www.hokkaido-np.co.jp/cont/shufoo/">ネットチラシ</a>
+			<a onclick="dt('/pt/top/footer/life_jititai/');" href="http://blog.hokkaido-np.co.jp/jititai_list/" class="width">市町村からのお知らせ</a>
+		</div>
+	</li>
+	<li class="otherBox">
+		<div class="other clearfix">
+			<p class="line"></p>
+			<a onclick="dt('/pt/top/footer/newshokkaido/');" href="http://www.hokkaido-np.co.jp/news/hokkaido/">道内のニュース</a><a onclick="dt('/pt/top/footer/weather/');" href="http://www.hokkaido-np.co.jp/cont/Weather/">天気</a><a onclick="dt('/pt/top/footer/video/');" href="http://www.hokkaido-np.co.jp/cont/video/">動画</a><a onclick="dt('/pt/top/footer/blog/');" href="http://blog.hokkaido-np.co.jp/">ブログ</a><a onclick="dt('/pt/top/footer/data-service/');" href="http://www.hokkaido-np.co.jp/cont/data-service/">記事・写真提供サービス</a><a onclick="dt('/pt/top/footer/welcome/');" href="http://www.hokkaido-np.co.jp/cont/welcome/">ようこそ道新へ</a><a onclick="dt('/pt/top/footer/about/');" href="http://kk.hokkaido-np.co.jp/joho/">会社概要</a><a onclick="dt('/pt/top/footer/ad/');" href="http://adv.hokkaido-np.co.jp/index.html">広告掲載について</a>
+		</div>
+	</li>
+</ul><!-- /fNavi-main -->
+
+
+
+  <div class="fNavi-sub">
+    <ul>
+    <li class="first"><a href="https://ssl.hokkaido-np.co.jp/copyright/index.php" onclick="dt('/pt/top/footer/copyright/');">著作物利用について</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/cont/information/27587.html" onclick="dt('/pt/top/footer/link/');">リンク</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/cont/information/27588.html" onclick="dt('/pt/top/footer/privacy/');">個人情報の取扱について</a></li>
+<li><a href="http://www5.hokkaido-np.co.jp/information/inquiry.php3" onclick="dt('/pt/top/footer/inquiry/');">ご意見・お問い合わせ</a></li>
+<li><a href="http://www.hokkaido-np.co.jp/cont/sitemap/" onclick="dt('/pt/top/footer/sitemap/');">サイトマップ</a></li>
+    </ul>
+  <!-- /fNavi-sub --></div>
+
+
+<ul class="info">
+<li>ホームページ内に掲載の記事、写真などの一切の無断転載を禁じます。</li>
+<li>ニュースの一部は共同通信などの配信を受けています。</li>
+<li>すべての著作権は北海道新聞社ならびにニュース配信元である通信社、情報提供者に帰属します。</li>
+<!-- /info --></ul>
+
+  <address class="logo">
+  <a href="http://www.hokkaido-np.co.jp/" onclick="dt('/pt/top/footer/title_logo/');"><img src="http://www.hokkaido-np.co.jp/generalimg/1040300/img_footlogo.gif" alt="どうしんウェブ トップページへ" width="120" height="14" /></a><br />
+  Copyright(c)1996-2010 The Hokkaido Shimbun Press.
+  <!-- /logo --></address>
+
+<!-- /footer --></div>
+
+<script type="text/javascript" src="http://i.yimg.jp/images/analytics/js/ywa.js"></script>
+<script type="text/javascript">
+var YWATracker = YWA.getTracker("1000105416851");
+YWATracker.addExcludeProtocol("file:");
+YWATracker.submit();
+</script>
+<noscript>
+<div><img src="http://by.analytics.yahoo.co.jp/p.pl?a=1000105416851&js=no" width="1" height="1" alt="" /></div>
+</noscript>
+
+<!-- /footer 追加-->
+
+
+<!-- /wrapper --></div>
+
+
+ <script type="text/javascript">AdBlock.begin('delay_adminpr_1','pr')</script>
+<script language="JavaScript" type="text/javascript">
+  if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+document.write('<script language="JavaScript" src="http://ad.jp.doubleclick.net/adj/doshin-newsgenre.text2009/;tile=1;sz=1x1;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script>
+<script type="text/javascript">AdBlock.end('delay_adminpr_1', 'adminpr_1',true)</script>
+<!-- /PR1 -->
+
+ <script type="text/javascript">AdBlock.begin('delay_adminpr_2','pr')</script>
+<script language="JavaScript" type="text/javascript">
+document.write('<script language="JavaScript" src="http://ad.jp.doubleclick.net/adj/doshin-newsgenre.text2009/;tile=2;sz=1x1;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script>
+<script type="text/javascript">AdBlock.end('delay_adminpr_2', 'adminpr_2',true)</script>
+<!-- /PR2 -->
+
+
+
+</body>
+</html>
+

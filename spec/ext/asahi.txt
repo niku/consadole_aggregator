@@ -1,0 +1,1068 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="content-language" content="ja">
+<meta http-equiv="content-type" content="text/html; charset=euc-jp">
+<title>asahi.com:記事一覧-マイタウン北海道</title>
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta name="author" content="">
+<meta name="copyright" content="Copyright The Asahi Shimbun Company. All rights reserved. No reproduction or republication without written permission.">
+<meta name="description" content="朝日新聞の速報ニュースサイト、アサヒ・コムのページです。">
+<meta name="keywords" content="新聞,朝日新聞,ニュース,地域ニュース新聞,北海道">
+
+<link rel="stylesheet" type="text/css" href="http://www.asahi.com/css08/common/common_07mytown.css" media="screen,print" title="asahi.com css style">
+<link rel="stylesheet" type="text/css" href="http://www.asahi.com/css/mytown/mytown.css" media="screen,print" title="asahi.com css style">
+
+<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/jquery.js"></script>
+<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/asahi.js"></script>
+<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/asahi.fontsizecontroller.fullpass.js"></script>
+<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/asahi.gnav.fullpass.js"></script>
+<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/asahi.contentsloader.js"></script>
+
+<meta name="be_img" content="dot.gif">
+<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/beacon.js"></script>
+
+</head>
+
+
+
+
+<body id="top">
+<!--googleoff: index-->
+<noscript>
+<p>お使いのブラウザはJavaScriptに対応していないか、または無効になっています。詳しくは<a href="http://www.asahi.com/policy/index.html"> サイトポリシーのページ </a>をご覧ください。</p>
+</noscript>
+
+
+<!-- ====ヘッダエリア==== -->
+
+<div id="Container">
+
+<div id="Header">
+
+<p id="Logo">
+<a href="http://www.asahi.com/" name="Top" id="Top">
+<img src="http://www.asahi.com/images08/common/logo.gif" alt="アサヒ・コム" width="116" height="28"></a></p>
+
+<p id="SubLogo">
+<a href="http://mytown.asahi.com/hokkaido/">
+<img src="http://www.asahi.com/mytown/images08/mtlogo_hokkaido.gif" alt="マイタウン北海道" width="85" height="30"></a></p>
+
+<p class="hide"><a href="#cnt">メインメニューをとばして、このページの本文エリアへ</a></p>
+<div id="HedSearch"><form action="http://sitesearch.asahi.com/.cgi/sitesearch/sitesearch.pl" method="post" class="SearchBoxHed"><fieldset><input type="text" value="" class="Txt" name="Keywords" /><input type="image" src="http://www.asahicom.jp/images08/common/btn_search_top.gif" alt="検索" class="Btn" /></fieldset></form></div>
+<ul id="Unav">
+<li class="Fst"><a href="http://aspara.asahi.com/">
+<img src="http://www.asahi.com/images08/common/icn_aspara.gif" alt="アスパラクラブ" width="51" height="17"></a></li>
+
+<!--
+<li><a href="#">
+<img src="http://www.asahi.com/images08/common/icn_rss_l.gif" alt="RSS" width="45" height="17"></a></li>
+-->
+
+</ul>
+
+
+
+<div id="TopBnr">
+<!--スーパーバナー-->
+<div id="ad">
+<!-- マイタウン728*90 ★ここから-->
+<!-- impact北海道スーパーバナー 728*90 ★ここから -->
+<script type="text/javascript" language="JavaScript">
+<!--
+var impAcn  = "IMPASEG";
+var impAco  = document.cookie;
+var impApos = impAco.indexOf(impAcn + "=");
+var impAseg = (impApos != -1) ? impAco.substring(impApos + impAcn.length + 1, (impAco.indexOf("; ", impApos) != -1) ? impAco.indexOf("; ", impApos) : impAco.length) : null;
+impAseg = (impAseg) ? unescape(impAseg) : '';
+
+var impAserver = "http://imp.asahi.com";
+var impAtag    = "/SITE=MT.HOKKAIDO/AREA=BANNER/AAMSZ=728X90";
+var impAtarget = (impAseg.match(/^[\w\/=]+$/)) ? impAtag + "/" + impAseg : impAtag;
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+document.write('<scr');
+document.write('ipt src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('</scr');
+document.write('ipt>');
+//-->
+</script>
+<noscript>
+<iframe src="http://imp.asahi.com/hserver/SITE=MT.HOKKAIDO/AREA=BANNER/AAMSZ=728X90/OENCJP=EUC" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=728 height=90 allowTransparency="true">
+</iframe>
+</noscript>
+<!-- impact北海道スーパーバナー 728*90 ★ここまで -->
+<!-- マイタウン728*90 ★ここまで-->
+</div>
+<!--/スーパーバナー-->
+</div>
+
+
+
+<div id="Nav">
+<dl id="Gnav">
+<dt>主分類項目</dt>
+<dd>
+<ul id="Genre1">
+<li class="Top"><a href="http://www.asahi.com/">
+<img src="http://www.asahi.com/images08/common/gnav_top_off.gif" alt="トップ" width="70" height="24"></a></li>
+<li class="News Current"><a href="http://www.asahi.com/news/">
+<img src="http://www.asahi.com/images08/common/gnav_news_on.gif" alt="ニュース" width="85" height="24"></a></li>
+<li class="Sports"><a href="http://www.asahi.com/sports/">
+<img src="http://www.asahi.com/images08/common/gnav_sports_off.gif" alt="スポーツ" width="84" height="24"></a></li>
+<li class="Entertainment"><a href="http://www.asahi.com/entertainment/">
+<img src="http://www.asahi.com/images08/common/gnav_entertainment_off.gif" alt="エンタメ" width="83" height="24"></a></li>
+<li class="Life"><a href="http://www.asahi.com/life/">
+<img src="http://www.asahi.com/images08/common/gnav_life_off.gif" alt="ライフ" width="71" height="24"></a></li>
+</ul>
+
+<ul id="Genre2">
+<li class="Shopping"><a href="http://www.asahi.com/shopping/"><img src="http://www.asahi.com/images08/common/gnav_shopping_off.gif" alt="ショッピング" width="100" height="24"></a></li>
+<li class="Premium"><a href="http://astand.asahi.com/"><img src="http://www.asahicom.jp/images08/common/gnav_astand_off.gif" alt="Astand" width="92" height="24" /></a></li>
+<li class="Topics"><a href="http://www.asahi.com/topics/"><img src="http://www.asahi.com/images08/common/gnav_topics_off.gif" alt="トピックス" width="92" height="24" /></a></li>
+
+
+</ul>
+</dd>
+</dl>
+
+
+
+<dl id="Lnav">
+<dt>分類内項目</dt>
+<dd>
+<ul>
+<li class="Fst"><a href="http://www.asahi.com/national/">社会</a></li>
+<li><a href="http://www.asahi.com/business/">ビジネス</a></li>
+<li><a href="http://www.asahi.com/politics/">政治</a></li>
+<li><a href="http://www.asahi.com/international/">国際</a></li>
+<li><a href="http://www.asahi.com/culture/">文化</a></li>
+<li><a href="http://www.asahi.com/science/">サイエンス</a></li>
+<li><a href="http://www.asahi.com/paper/editorial.html">社説</a></li>
+<li><a href="http://www.asahi.com/column/">コラム</a></li>
+<li><a href="http://weather.asahi.com/">天気</a></li>
+<li><a href="http://www.asahi.com/traffic/">交通</a></li>
+<li><a href="http://www.asahi.com/video/">動画</a></li>
+<li class="Current"><a href="http://mytown.asahi.com/">マイタウン</a></li>
+<li><a href="http://www.asahi.com/english/">ENGLISH</a></li>
+</ul>
+</dd>
+</dl>
+</div>
+
+
+<hr>
+</div><!-- /Header -->
+
+<!-- ====/ヘッダエリア==== -->
+
+<!-- telop index -->
+
+
+<!-- ====コンテンツエリア==== -->
+<table id="mLay">
+<tr>
+<td id="Main">
+
+<p class="hide">ここから本文エリア</p>
+<div id="cnt">
+
+
+
+<!--ブレッドクラム -->
+<p id="bc">現在位置：<a href="http://www.asahi.com/" title="アサヒコム">asahi.com</a>&gt;&#160;<a href="http://mytown.asahi.com/">マイタウン</a>&gt;&#160;<a href="http://mytown.asahi.com/hokkaido/">北海道</a>&gt;&#160;記事一覧</p>
+<!--/ブレッドクラム -->
+
+<h1 id="genre">コンサドーレ札幌</h1>
+<p class="bg-gray p10 small"></p>
+
+<!--特集リスト -->
+<!-- 小分類が１件以上設定されている場合 ここから-->
+
+
+
+
+<div class="sec">
+<h2 class="topi">コンサドーレ札幌</h2>
+
+<ul class="list">
+
+<li>
+<a href="news.php?k_id=01000191006140001">内村が同点弾　愛媛と分ける</a><span class="s"> (06/14)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191006070001">リードを守れず　草津に引き分け</a><span class="s"> (06/06)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005310001">３−１　富山に快勝</a><span class="s"> (05/31)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005310002">試合支える仕事　親子５組が体験</a><span class="s"> (05/31)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005250001">「コンサ昇格・収穫祝いたい」</a><span class="s"> (05/25)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005240001">徳島とドロー　ゴール奪えず</a><span class="s"> (05/23)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005170001">リードを守れず大分に引き分け</a><span class="s"> (05/17)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005100001">７試合ぶり勝利　キリノ初ゴール</a><span class="s"> (05/10)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005070001">好機作ってもゴールできず</a><span class="s"> (05/07)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005060001">低迷チームに「ゴン魂」期待</a><span class="s"> (05/04)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191005030001">熊本に引き分け　後半決めきれず</a><span class="s"> (05/03)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191004300001">甲府に１−４　前半失点響く</a><span class="s"> (04/30)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191004260001">水戸に１−２　ホームで黒星</a><span class="s"> (04/26)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191004130001">昇格へスタート不発　６試合終え１１位</a><span class="s"> (04/13)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191004050001">岐阜に０−３　３連勝ならず</a><span class="s"> (04/05)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191003290001">ホームで初白星飾る</a><span class="s"> (03/29)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191003240001">初白星　 「負けられぬ」チーム 一丸</a><span class="s"> (03/24)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191003230001">コンサドーレ　１点守りきり今季初の白星</a><span class="s"> (03/22)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191003150001">ホーム初戦完敗　福岡に０−３</a><span class="s"> (03/14)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191003100001">「攻めの形つくれず」開幕戦引き分け</a><span class="s"> (03/10)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191003080001">開幕戦引き分け　鳥栖に１−１</a><span class="s"> (03/08)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191003080002">開幕勝利へ意欲</a><span class="s"> (03/07)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191002170001">ホーム初戦　来月１３日　日程決まる</a><span class="s"> (02/17)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191001200001">開幕はサガン鳥栖戦コンサドーレ、３月７日</a><span class="s"> (01/20)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191001180001">ようこそゴン！　交流イベントに新加入選手</a><span class="s"> (01/18)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191001130001">「札幌の中山になる」ゴンが活動本格化</a><span class="s"> (01/13)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000191001050001">ダニルソン選手　Ｊ１名古屋移籍</a><span class="s"> (01/05)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190912250001">中山選手 コンサドーレ入団会見</a><span class="s"> (12/25)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190912240001">ゴン中山、札幌に加入　精神的支柱に期待</a><span class="s"> (12/24)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190912180001">ＦＷ石井選手がＪ２愛媛に移籍</a><span class="s"> (12/18)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190912170001">ＭＦ西選手が期限付き移籍</a><span class="s"> (12/17)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190912090001">来季向け課題探る　開幕は万全戦力で</a><span class="s"> (12/09)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190912070001">最終戦粘ってドロー／退団選手にエール</a><span class="s"> (12/06)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190911300001">ホーム最終戦で快勝</a><span class="s"> (11/30)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190911300002">石井ら４選手と契約の更新せず</a><span class="s"> (11/29)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190911260001">石崎監督が続投　「経験を生かす」</a><span class="s"> (11/26)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190911240001">岐阜と対戦し ４−２で快勝</a><span class="s"> (11/23)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190911180001">曽田選手が引退</a><span class="s"> (11/18)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190911100001">富山に引き分け</a><span class="s"> (11/10)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190911090001">コンサドーレスポンサー　ニトリ、今季限り</a><span class="s"> (11/08)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190911020001">清水の壁崩せず　天皇杯３回戦</a><span class="s"> (11/01)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190910260001">仙台に敗れる</a><span class="s"> (10/26)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190910220001">栃木に競り勝つ</a><span class="s"> (10/22)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190910190002">Ｊ１昇格の可能性消滅</a><span class="s"> (10/19)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190910190001">Ｊ１昇格可能性　きょうにも消滅</a><span class="s"> (10/18)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190910140001">「昇格」崖っぷち続く</a><span class="s"> (10/14)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190910130001">鳥取に逆転辛勝　天皇杯３回戦へ</a><span class="s"> (10/12)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190910080001">終了間際失点　セ大阪に惜敗</a><span class="s"> (10/08)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190910050001">攻撃の形作れず　熊本と引き分け</a><span class="s"> (10/05)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190909280001">高原鉄壁　３連勝　湘南に２−０</a><span class="s"> (09/28)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190909240002">岡山下し２連勝</a><span class="s"> (09/24)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190909240001">室蘭で勝利　福岡と接戦　１−０</a><span class="s"> (09/21)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190909140001">甲府に１−２　　８試合ぶり黒星</a><span class="s"> (09/14)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190909090001">終盤へ好調保てるか</a><span class="s"> (09/09)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190909070001">２点差を逆転　愛媛ＦＣ下す</a><span class="s"> (09/07)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190909030001">追いつかれて引き分け　７位変わらず</a><span class="s"> (09/03)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190908310001">好調コンサ　草津に圧勝　７位に</a><span class="s"> (08/31)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190908240001">ロスタイム失点　鳥栖と引き分け</a><span class="s"> (08/23)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190908180001">札幌が３連勝　岐阜に２−０</a><span class="s"> (08/18)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190908100001">東京ヴ下し連勝　キリノが２得点</a><span class="s"> (08/10)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190908060001">福岡と対戦　３−０で快勝</a><span class="s"> (08/06)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190908030001">セレッソ大阪に０−３で敗れる</a><span class="s"> (08/03)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190907290001">試合の裏方体験　小学生参加募る</a><span class="s"> (07/29)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190907260001">岡山に４−２　厚別で初白星</a><span class="s"> (07/26)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190907230001">富山と０−０　連敗は止まる</a><span class="s"> (07/23)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190907190001">草津に惜敗</a><span class="s"> (07/19)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190907160001">クライトン退団で新外国人選手獲得</a><span class="s"> (07/16)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190907130001">決定力欠き　熊本に０−１</a><span class="s"> (07/12)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190907130002">後半逆転して愛媛に２―１</a><span class="s"> (07/09)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190907050001">決定力を欠き水戸に０−１</a><span class="s"> (07/05)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190906280001">先制を守れず　仙台とドロー</a><span class="s"> (06/28)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190906250001">横浜とドロー　８位に下がる</a><span class="s"> (06/25)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190906220001">リードを守れず　湘南に逆転負け</a><span class="s"> (06/22)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190906160001">追加点奪えず 徳島とドロー</a><span class="s"> (06/16)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190906080001">鳥栖に逆転負け　１４試合ぶり黒星</a><span class="s"> (06/08)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190906030001">上位へ足踏み続く　決定力に課題</a><span class="s"> (06/03)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190906010001">甲府と０−０　３戦引き分け</a><span class="s"> (05/31)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190905250001">終了間際失点　痛い引き分け</a><span class="s"> (05/25)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190905210001">ゴールを奪えず　水戸と引き分け</a><span class="s"> (05/21)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190905180001">ホーム４連勝　暫定５位に</a><span class="s"> (05/17)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190905110001">２点差守れず　徳島とドロー</a><span class="s"> (05/11)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190905070002">猛攻、２点差逆転　栃木に３−２</a><span class="s"> (05/06)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190905070001">福岡と０−０　５連勝ならず</a><span class="s"> (05/03)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190904300002">愛媛ＦＣを下し　連勝４にのばす</a><span class="s"> (04/30)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190904300001">攻撃サッカー機能　きょう愛媛戦</a><span class="s"> (04/29)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190904270001">退場で１人減も　横浜ＦＣに勝利</a><span class="s"> (04/27)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190904200001">首位セレッソを圧倒　４−１</a><span class="s"> (04/20)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190904160001">１カ月ぶりに勝利　キリノ２ゴール</a><span class="s"> (04/16)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190904150001">コンサドーレ　Ｊ２ 不覚の序盤戦</a><span class="s"> (04/15)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190904140001">先制するも守りきれず　富山に１−１</a><span class="s"> (04/14)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190904060001">勝ち星遠く　１６位に転落　熊本に０−４</a><span class="s"> (04/06)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190903300001">後半追いつかれ　岡山に引き分け</a><span class="s"> (03/30)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190903260001">攻め続けるもゴール割れず　湘南に０−１</a><span class="s"> (03/26)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190903230001">甲府に１−２　連勝は成らず</a><span class="s"> (03/23)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190903160001">鳥栖破り初勝利</a><span class="s"> (03/16)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190903110001">開幕戦、魅せた攻撃サッカー</a><span class="s"> (03/11)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190903090002">Ｊ２舞台、惜敗の開幕　仙台に０−１</a><span class="s"> (03/09)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190902040001">コンサＵ１２がメンバー選抜</a><span class="s"> (02/04)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190901190001">ファン５２００人にＪ１復帰誓う</a><span class="s"> (01/19)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190901150001">石崎監督が上田・札幌市長を訪問</a><span class="s"> (01/15)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190901140001">１年でＪ１復帰　石崎新監督が抱負</a><span class="s"> (01/14)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190901050001">新監督に柏・石崎氏</a><span class="s"> (12/30)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190812080001">「再来年にはＪ１戻る」　コンサ最終戦</a><span class="s"> (12/07)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190812010001">後半ダビ一矢も　名古屋勢い勝る</a><span class="s"> (12/01)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190811250001">連敗ストップ　久々の勝ち点</a><span class="s"> (11/24)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190811100001">三浦監督が退任明言　浦和に１−２</a><span class="s"> (11/09)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190810290001">元主将の店で食べ　コンサの試合応援</a><span class="s"> (10/29)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190810270001">守備崩される　川崎に１−３</a><span class="s"> (10/27)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190810200002">《解説》　けが人続出し ＤＦ主力欠く</a><span class="s"> (10/20)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190810200001">Ｊ２降格　スタンド静まる</a><span class="s"> (10/20)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190810290002">コンサ元主将、三重でジンギスカン店開業</a><span class="s"> (10/15)</span>
+</li>
+
+<li>
+<a href="news.php?k_id=01000190712030001">Ｊ１復帰　６年ぶり、本拠で歓喜</a><span class="s"> (12/01)</span>
+</li>
+
+
+</ul>
+</div>
+
+
+<!-- 小分類が１件以上設定されている場合 ここまで-->
+<!-- 小分類が１件も設定されていない場合 ここから-->
+
+<!-- 小分類が１件も設定されていない場合 ここまで-->
+<!--/特集リスト -->
+
+
+
+</div><!-- /#cnt -->
+
+
+
+</td>
+<td id="Sub">
+
+<!-- ====右ナビ==== -->
+<div id="rcnt">
+
+
+<div class="BnrLnkSbs">
+<a href="http://33.asahi.com/"><img
+src="http://www.asahi.com/images08/common/sub_bnr_kodoku.gif" alt="朝日新聞購読のご案内"
+width="300" height="25"></a>
+</div>
+
+
+
+
+
+<!--★☆★AD★☆★-->
+<p class="hide">ここから広告です</p>
+<div class="BnrLnkLct"><!--  ★要注意★　このdivに対応する閉じdivは広告担当部分の中で行います -->
+
+<!-- ★☆★☆★広告担当部分ここから★☆★☆★　-->
+<!-- impactマイタウン北海道ラージタイル 200*200 ★ここから -->
+<script type="text/javascript" language="JavaScript">
+<!-- 
+impAserver = "http://imp.asahi.com";
+impAtarget = "/SITE=MT.HOKKAIDO/AREA=RECT/AAMSZ=300X250/OENCJP=EUC";
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('</scr');
+document.write('ipt>');
+//-->
+</script>
+<!-- impactマイタウン北海道ラージタイル 200*200 ★ここまで -->
+</div>
+<!-- impact注目情報マイタウン ★ここから-->
+<script type="text/javascript" language="JavaScript">
+impAserver = "http://imp.asahi.com";
+impAtarget1 = "/AAMB1/SITE=MT.ALL/AREA=CHUMOKU01/AAMSZ=50X50/OENCJP=EUC";
+impAtarget  = impAtarget1 ;
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+document.write('<scr');
+document.write('ipt src="' + impAserver + '/bservers/AAMALL/acc_random=' + impArnd + '/pageid=' + impApid + impAtarget+'">');
+document.write('</scr');
+document.write('ipt>');
+//-->
+</script>
+
+<!-- 広告並び替え -->
+<script>
+var impAnads = 1;
+var impAbs = new Array(impAnads);
+for ( i = 0 ; i < impAnads ; i++) {
+	eval('impAbs['+i+'] = (typeof(AAMB' + (i+1) + ') != "undefined")?AAMB' + (i+1) + ':"";');
+	impAbs[i] = (impAbs[i].indexOf('AEAH') == -1)?impAbs[i]:'';
+}
+
+impAads = impA_rotate(impAbs);
+
+function impA_rotate(list) {
+	var i = list.length;
+	while (--i) {
+		var j = Math.floor(Math.random() * (i + 1));
+		if (i == j) continue;
+		var k = list[i]; list[i] = list[j]; list[j] = k;
+	}
+	for ( i = 0; i <= list.length; i++){ if ( list[i] == "" ) list.splice(i,1);}
+	return list;
+}
+</script>
+
+<!-- 広告書き出し部分 広告数に応じて書き出す-->
+
+<script>
+if (typeof(impAads[0]) !='undefined' && impAads[0] !=""){document.write(impAads[0]);}
+</script>
+<!-- impact注目情報マイタウン ★ここまで-->
+<!-- ★☆★☆★広告担当部分ここまで★☆★☆★　-->
+
+<p class="hide">広告終わり</p>
+<!--/★☆★AD★☆★-->
+
+
+
+
+
+
+<!-- プレミアム企画特集 -->
+<script type="text/javascript">
+</script><noscript><div class="Box1 BoxFeatPlan PremiumClntBox">
+<div class="HeadingSet">
+<h2>企画特集 PICK UP!</h2>
+<p><a href="http://www.asahi.com/ad/clients/">一覧へ</a></p>
+</div>
+<ul class="PrmLnk"></ul>
+</div></noscript>
+
+<!-- /プレミアム企画特集 -->
+
+
+<!-- 地域のメニュー -->
+<div class="Box1">
+<h2><a href="http://mytown.asahi.com/hokkaido/" class="areatop">マイタウン北海道</a></h2>
+
+
+<!-- 天気ここから -->
+<div class="FlatLnk2Col FstMod">
+<ul class="Lnk">
+<li><a href="http://weather.asahi.com/pinpoint/hokkaido/sapporo.html">札幌の天気</a></li>
+<li class="Lst NoArrow"><div>29日<img src="../image/hare_kumo.gif" alt="晴→曇" width="40" height="18"></div></li>
+</ul>
+</div>
+<!-- 天気ここまで -->
+
+
+<div class="FlatLnk2Col">
+<ul class="Lnk LstMargin">
+
+
+
+<li><a href="newslist.php?d_id=0100000">ニュース一覧</a></li>
+
+<li><a href="newslist.php?d_id=0100087">２０１０参院選</a></li>
+
+<li><a href="newslist.php?d_id=0100081">２０１０高校野球</a></li>
+
+<li><a href="newslist.php?d_id=0100083">企画特集１</a></li>
+
+<li><a href="newslist.php?d_id=0100068">企画特集２</a></li>
+
+<li><a href="newslist.php?d_id=0100084">百年企業＠北海道</a></li>
+
+
+<li><a href="net.php">地域の取材網</a></li>
+</ul>
+</div><!-- /FlatLnk2Col -->
+
+</div><!-- /Box1 -->
+
+<!-- /地域のメニュー -->
+
+
+
+<!-- 企画特集 -->
+<script type="text/javascript">
+
+var ad= new Array(11);
+
+ad[0]='<em><a href="http://www.asahi.com/ad/clients/maison/">賃貸経営を始めるなら今！：</a></em><a href="http://www.asahi.com/ad/clients/maison/">カタログプレゼント</a>'; 
+ad[1]='<em><a href="http://www.asahi.com/ad/clients/kokusai/">初心者にもやさしい：</a></em><a href="http://www.asahi.com/ad/clients/kokusai/">大橋マキと一緒に学ぼう！</a>'; 
+ad[2]='<em><a href="http://www.asahi.com/ad/clients/daigakuryoku-kansai/">関西の大学力：</a></em><a href="http://www.asahi.com/ad/clients/daigakuryoku-kansai/">タレント中野裕太の必勝受験極意</a>'; 
+ad[3]='<em><a href="http://www.asahi.com/ad/clients/malaysia/">ハッピー＆ビューティ：</a></em><a href="http://www.asahi.com/ad/clients/malaysia/">プリンセスキャンペーン</a>'; 
+ad[4]='<em><a href="http://ac.ebis.ne.jp/tr_set.php?argument=FWG9mMAb&amp;ai=a4bea220be6a93">クラウド：</a></em><a href="http://ac.ebis.ne.jp/tr_set.php?argument=FWG9mMAb&amp;ai=a4bea220be6a93">なぜマイクロソフトが提供するのか</a>'; 
+ad[5]='<em><a href="http://www.asahi.com/ad/clients/seikyo/index.html">環境特集：</a></em><a href="http://www.asahi.com/ad/clients/seikyo/index.html">聖教新聞社の「環境啓発活動」とは</a>'; 
+ad[6]='<em><a href="http://www.asahi.com/food/gourmet/">大人のグルメ：</a></em><a href="http://www.asahi.com/food/gourmet/">見つけた！隠れ家的オススメ店</a>'; 
+ad[7]='<em><a href="http://www.major7.net/mrd/50304/">『理想のマンション』：</a></em><a href="http://www.major7.net/mrd/50260">駅はスグそこ！駅近物件</a>'; 
+ad[8]='<em><a href="http://www.campusasahi.com/">キャンパス アサヒ・コム：</a></em><a href="http://www.asahi.com/ad/clients/campusasahicom/feature/open/">大学を体験しよう！</a>'; 
+ad[9]='<em><a href="http://www.asahi.com/ad/clients/tsushinseidaigaku/">通信制大学特集：</a></em><a href="http://www.asahi.com/ad/clients/tsushinseidaigaku/">空き時間に学ぶ、学位も取れる</a>'; 
+ad[10]='<em><a href="http://www.asahi.com/ad/clients/lostcrime/">三億円事件封印された真相：</a></em><a href="http://www.asahi.com/ad/clients/lostcrime/">「遺留品」</a>'; 
+underad=''; 
+function tokusyuAD(lines) {
+    var i;
+    var f=0;
+    if(lines == 0){lines=ad.length;}
+    for(i=0;i<ad.length;i++){
+        if(ad[i]!=''){if(++f>=lines){break;}}
+    }
+    lines=f;
+    for(i=0;i<lines;){
+        val=Math.floor(Math.random() * ad.length);
+        if (ad[val]!=''){
+　　　　　　if (i == 0){
+               document.write('<li class="FstItm"><div>' + ad[val] + '</div></li>');
+            }else{
+            document.write('<li><div>' + ad[val] + '</div></li>');
+            }
+            ad[val]='';
+            i++;
+        }
+    }
+}
+document.write('<div class="Box1 BoxFeatPlan">');
+document.write('<div class="HeadingSet">');
+document.write('<h2>企画特集</h2>');
+document.write('<p><a href="http://www.asahi.com/ad/clients/">一覧へ</a></p>');
+document.write('</div>');
+document.write('<ul class="DividLnk FstMod">');
+
+
+tokusyuAD(11);
+
+
+if (underad != ""){
+document.write('<li><div>' + underad + '</div></li>');
+}
+document.write('</ul>');
+document.write('</div>');
+
+</script><noscript><div class="Box1 BoxFeatPlan">
+<div class="HeadingSet">
+<h2>企画特集</h2>
+<p><a href="http://www.asahi.com/ad/clients/">一覧へ</a></p>
+</div>
+<ul class="DividLnk FstMod">
+<li class="FstItm"><div>
+<a href="http://www.asahi.com/ad/clients/maison/">賃貸経営を始めるなら今！：</a><a href="http://www.asahi.com/ad/clients/maison/">カタログプレゼント</a>
+</div></li>
+<li><div>
+<a href="http://www.asahi.com/ad/clients/kokusai/">初心者にもやさしい：</a><a href="http://www.asahi.com/ad/clients/kokusai/">大橋マキと一緒に学ぼう！</a>
+</div></li>
+<li><div>
+<a href="http://www.asahi.com/ad/clients/daigakuryoku-kansai/">関西の大学力：</a><a href="http://www.asahi.com/ad/clients/daigakuryoku-kansai/">タレント中野裕太の必勝受験極意</a>
+</div></li>
+<li><div>
+<a href="http://www.asahi.com/ad/clients/malaysia/">ハッピー＆ビューティ：</a><a href="http://www.asahi.com/ad/clients/malaysia/">プリンセスキャンペーン</a>
+</div></li>
+<li><div>
+<a href="http://ac.ebis.ne.jp/tr_set.php?argument=FWG9mMAb&amp;ai=a4bea220be6a93">クラウド：</a><a href="http://ac.ebis.ne.jp/tr_set.php?argument=FWG9mMAb&amp;ai=a4bea220be6a93">なぜマイクロソフトが提供するのか</a>
+</div></li>
+<li><div>
+<a href="http://www.asahi.com/ad/clients/seikyo/index.html">環境特集：</a><a href="http://www.asahi.com/ad/clients/seikyo/index.html">聖教新聞社の「環境啓発活動」とは</a>
+</div></li>
+<li><div>
+<a href="http://www.asahi.com/food/gourmet/">大人のグルメ：</a><a href="http://www.asahi.com/food/gourmet/">見つけた！隠れ家的オススメ店</a>
+</div></li>
+<li><div>
+<a href="http://www.major7.net/mrd/50304/">『理想のマンション』：</a><a href="http://www.major7.net/mrd/50260">駅はスグそこ！駅近物件</a>
+</div></li>
+<li><div>
+<a href="http://www.campusasahi.com/">キャンパス アサヒ・コム：</a><a href="http://www.asahi.com/ad/clients/campusasahicom/feature/open/">大学を体験しよう！</a>
+</div></li>
+<li><div>
+<a href="http://www.asahi.com/ad/clients/tsushinseidaigaku/">通信制大学特集：</a><a href="http://www.asahi.com/ad/clients/tsushinseidaigaku/">空き時間に学ぶ、学位も取れる</a>
+</div></li>
+<li><div>
+<a href="http://www.asahi.com/ad/clients/lostcrime/">三億円事件封印された真相：</a><a href="http://www.asahi.com/ad/clients/lostcrime/">「遺留品」</a>
+</div></li>
+</ul>
+</div></noscript>
+<script language="JavaScript"><!--
+bust = Math.floor(1000000*Math.random());
+document.write("<img src='http://www3.asahi.com/image/count.gif?ord=" + bust +"&ref=" + document.URL + "' height='1' width='1' alt='' />");
+//--></script>
+<noscript><img src="http://www3.asahi.com/image/count.gif?ref=noscript" width="1" height="1" alt= "" /></noscript>
+
+
+
+<!-- /企画特集 -->
+
+
+<!-- マイタウン地域情報 -->
+<p class="bnr2"><a href="http://mytown.asahi.com/"><img src="http://www.asahi.com/images/mytown.gif" alt="マイタウン地域情報" width="298" height="52"></a></p>
+<!-- /マイタウン地域情報 -->
+
+
+<!--★☆★AD★☆★-->
+<p class="hide">ここから広告です</p>
+<div class="bnr2">
+<!-- 速報タイル 55*250 ★ここから -->
+<!-- 速報タイル ★ここから-->
+
+<!-- 速報タイル ★ここまで-->
+<!-- 速報タイル　55*250 ★ここまで -->
+</div>
+<p class="hide">広告終わり</p>
+<!--/★☆★AD★☆★-->
+
+
+<!-- 朝日新聞社から -->
+<!-- 080603 -->
+<div class="Box1">
+<h2><a href="http://www.asahi.com/shimbun/">朝日新聞社インフォメーション</a></h2>
+<div class="FlatLnk2Col FstMod">
+<ul class="Lnk">
+<li><a href="http://www.asahishimbun-saiyou.com/">採用情報</a></li>
+<li class="Lst"><a href="http://www.asahi.com/shimbun/edu.html">教育関連・ＮＩＥ</a></li>
+</ul>
+<ul class="Lnk">
+<li><a href="http://www.asahi.com/chizai/">記事や写真利用案内</a></li>
+<li class="Lst"><a href="http://www.asahi.com/advertising/">広告掲載のご案内</a></li>
+</ul>
+</div>
+<div class="FlatLnk2Col">
+<ul class="Lnk">
+<li><a href="http://www.asahi.com/information/service/">asahi.com利用案内</a></li>
+<li class="Lst"><a href="http://www.asahi.com/information/service/list.html">デジタルサービス一覧</a></li>
+</ul>
+</div>
+<div class="FlatLnk2Col">
+<ul class="Lnk">
+<li><a href="http://kotobank.jp/">kotobank 用語解説</a></li>
+<li class="Lst"><a href="http://publications.asahi.com/">朝日新聞出版の本</a></li>
+</ul>
+</div>
+<!--
+<div class="FlatLnk2Col">
+<ul class="Lnk">
+<li><a href="http://www.asahi.com/information/mobile/">携帯サービス</a></li>
+<li class="Lst"><a href="http://kotobank.jp/">kotobank 用語解説</a></li>
+</ul>
+</div>
+-->
+</div>
+
+
+<!-- /朝日新聞社から -->
+
+
+
+<!-- 写真リンク -->
+
+<!-- /写真リンク -->
+
+
+</div><!-- /#rcnt -->
+
+
+
+
+</td>
+</tr>
+</table>
+
+
+<!-- ====/コンテンツエリア==== -->
+
+
+
+<!-- ====フッタエリア==== -->
+
+<div id="Footer">
+<hr>
+<ul id="PageTop"><li><a href="#Top">ページトップへ戻る</a></li></ul>
+<p>asahi.comに掲載の記事・写真の無断転載を禁じます。すべての内容は日本の著作権法並びに国際条
+約により保護されています。</p>
+<ul id="FooterLnk">
+<li class="Fst"><a href="http://www.asahi.com/policy/" rel="nofollow">サイトポリシー</a></li>
+<li><a href="http://www.asahi.com/kojinjoho/index.html" rel="nofollow">個人情報</a></li>
+<li><a href="http://www.asahi.com/policy/copyright.html" rel="nofollow">著作権</a></li>
+<li><a href="http://www.asahi.com/policy/link.html" rel="nofollow">リンク</a></li>
+<li><a href="http://www.asahi.com/shimbun/" rel="nofollow">会社案内</a></li>
+<li><a href="http://www.asahi.com/advertising/" rel="nofollow">広告掲載</a></li>
+<li><a href="http://www.asahi.com/reference/" rel="nofollow">お問い合わせ・ヘルプ</a></li>
+</ul>
+<img alt="Copyright The Asahi Shimbun Company. All rights reserved. No reproduction or
+republication without written permission."
+src="http://www.asahi.com/images/copyright.gif" width="552" height="20">
+<!-- /Footer --></div>
+
+<!-- ====/フッタエリア==== -->
+
+
+
+<form name="web_s" action="http://websearch.asahi.com/.cgi/websearch/websearch.pl" method="post"><input type="hidden" name="Keywords"></form>
+<form name="site_s" action="http://sitesearch.asahi.com/.cgi/sitesearch/sitesearch.pl" method="post"><input type="hidden" name="Keywords"></form>
+<form name="dic_s" action="http://jishosearch.asahi.com/.cgi/jishosearch/jishosearch.pl" method="get"><input type="hidden" name="Word"></form>
+<form name="map_num_s" action="http://www.mapion.co.jp/c/f" method="get">
+<input type="hidden" name="uc" value="11"><input type="hidden" name="grp" value="asahicom"><input type="hidden" name="zip">
+</form>
+<form name="map_free_s" action="http://www.mapion.co.jp/c/f" method="get">
+<input type="hidden" name="uc" value="7"><input type="hidden" name="grp" value="asahicom"><input type="hidden" name="find">
+</form>
+<form name="shop_s" action="http://esearch.asahicom.rakuten.co.jp/search/e.search" method="get">
+
+<input type="hidden" name="sv" value="2"><input type="hidden" name="sitem">
+</form>
+
+</div>
+
+<!-- SC start -->
+<!-- SiteCatalyst code version: G.9.
+Copyright 1997-2004 Omniture, Inc. More info available at
+http://www.omniture.com -->
+
+<script language="JavaScript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+var s_pageName=""
+var s_channel=""
+var s_pageType=""
+
+/* set s_channel */
+/* s_channel=""; */
+
+/* E-commerce Variables */
+/********* INSERT THE DOMAIN AND PATH TO YOUR CODE BELOW ************/
+//--></script>
+<script language="JavaScript" src="http://www.asahi.com/js/s_code_mytown.js"></script>
+<!-- End SiteCatalyst code version: G.9. -->
+
+<!-- SC end -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6624382-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+<!--googleon:index-->
+
+</body>
+</html>

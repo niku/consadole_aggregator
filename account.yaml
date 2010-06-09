@@ -1,0 +1,6 @@
+consumer:
+  key: # your consumer key here
+  secret: # your consumer secret here
+access:
+  key: # your access key here
+  secret: # your secret key here

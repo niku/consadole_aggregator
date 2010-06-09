@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/">
+
+<channel rdf:about="http://www.nikkansports.com/">
+<title>コンサドーレ札幌 - nikkansports.com</title>
+<link>http://www.nikkansports.com/soccer/jleague/team/co-team.html</link>
+<description>ニッカンスポーツ・コム コンサドーレ札幌最新ニュース</description>
+<dc:language>ja</dc:language>
+<dc:rights>Copyright 2008 Nikkan Sports News. All rights reserved. No reproduction or republication without written permission.</dc:rights>
+<dc:date>2010-06-16T21:43:45+09:00</dc:date>
+<dc:publisher>日刊スポーツ新聞社</dc:publisher>
+<dc:creator>日刊スポーツ新聞社</dc:creator>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100616-642177.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641475.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641472.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641473.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100613-641217.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100613-641043.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100612-640675.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640293.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640295.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640294.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100610-639915.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100609-639524.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100608-639373.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100608-639207.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100607-638874.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100607-638873.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638484.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638483.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638488.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100605-638270.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100605-638070.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100604-637670.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100604-637671.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100603-637342.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100603-637343.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636572.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636570.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636571.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636259.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636263.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636261.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100530-635977.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100530-635793.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100530-635794.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100529-635371.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100528-634966.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100528-634968.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100527-634583.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100527-634581.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100526-634156.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100526-634153.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633764.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633768.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633765.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100524-633389.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100524-633390.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100523-632983.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100522-632743.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100522-632562.html" />
+<rdf:li rdf:resource="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100522-632563.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100616-642177.html">
+<title>札幌宮沢が代表松井の姿勢に刺激／観戦記 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100616-642177.html</link>
+<description>札幌宮沢が代表松井の姿勢に刺激/観戦記＜コンサドーレ 南ア観戦記＞ サッカーW杯南アフリカ大会期間中「コンサドーレ 南ア観戦記」と題し、札幌の選手たちに日本代表や海外選手のプレーから感じたこと、刺激を</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-16 13:22:56</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641475.html">
+<title>札幌、中断期間に「基本から改善」／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641475.html</link>
+<description>札幌、中断期間に「基本から改善」/J2＜J2:札幌2－2愛媛＞◇第17節◇13日◇函館 札幌は前半終了間際に同点に追いつくも、気の緩みから後半開始1分に失点した。内村のゴールで追いついたものの、石崎信</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-16 12:51:50</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641472.html">
+<title>11戦ぶり先発内村奮闘で札幌ドロー／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641472.html</link>
+<description>11戦ぶり先発内村奮闘で札幌ドロー/J2後半28分に同点ゴールを決め上里と抱き合うMF内村（13）＜J2:札幌2－2愛媛＞◇第17節◇13日◇函館 コンサドーレ札幌は愛媛に引き分けた。11試合ぶりの先</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-16 12:51:51</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641473.html">
+<title>愛媛石井、古巣札幌戦で今季初得点／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100614-641473.html</link>
+<description>愛媛石井、古巣札幌戦で今季初得点/J2＜J2:札幌2－2愛媛＞◇第17節◇13日◇函館 今季から愛媛に完全移籍した札幌出身のFW石井謙伍（24）が、故郷北海道で移籍後初得点を決めた。1－1で迎えた後半</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-16 12:51:50</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100613-641217.html">
+<title>札幌が２度追いつき勝ち点拾う／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/f-sc-tp0-20100613-641217.html</link>
+<description>札幌が2度追いつき勝ち点拾う/J2【札幌－愛媛】同点弾を決め上里と抱き合うMF内村⑬（撮影・永野高輔）＜J2:札幌2－2愛媛＞◇第17節◇13日◇函館 J2札幌が2度のビハインドを追いつき勝ち点1を拾</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-14 12:02:58</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100613-641043.html">
+<title>札幌石崎監督函館は「イメージいい」 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100613-641043.html</link>
+<description>札幌石崎監督函館は「イメージいい」用具を片付けながら笑顔を見せる石崎監督（左） 石さんが“函館ドラマ”を再現する。コンサドーレ札幌は13日、函館千代台公園陸上競技場で愛媛と対戦する。同会場での戦績は過</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-14 12:02:59</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100612-640675.html">
+<title>札幌古田左サイドで利き足クロス生かす - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100612-640675.html</link>
+<description>札幌古田左サイドで利き足クロス生かす左サイドからクロスを挙げるMF古田。手前は荒野 コンサドーレ札幌は11日、札幌ドームサブグラウンドで紅白戦を行った。石崎信弘監督（52）は3－5－2システムの左MF</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-12 23:05:30</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640293.html">
+<title>札幌の高校生ＦＷ三上が３戦連続先発へ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640293.html</link>
+<description>札幌の高校生FW三上が3戦連続先発へ練習後、並んでランニングする札幌U-18の三上（左）と荒野 高校生・三上の3試合連続メンバー入りが濃厚となった。コンサドーレ札幌は10日、札幌・宮の沢で紅白戦を行っ</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-11 21:17:35</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640295.html">
+<title>札幌ＭＦ神田がＵ－16代表候補 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640295.html</link>
+<description>札幌MF神田がU－16代表候補 日本協会が10日、U－16日本代表候補トレーニングキャンプメンバーを発表、札幌U－18MF神田夢実（15）が選出された。11年U－17W杯出場を目標としたチームで、17</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-11 21:17:35</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640294.html">
+<title>札幌ＦＷ近藤が愛媛戦強行出場 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100611-640294.html</link>
+<description>札幌FW近藤が愛媛戦強行出場 右かかとを骨折している札幌FW近藤祐介（25）が10日、次節愛媛戦（13日）に強行出場する可能性が出てきた。8日の練習中に痛みを訴えて早退したが、この日の紅白戦ではスター</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-11 21:17:35</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100610-639915.html">
+<title>札幌４バックか３バックか…石さん悩む - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100610-639915.html</link>
+<description>札幌4バックか3バックか…石さん悩む コンサドーレ札幌は9日、札幌・宮の沢で戦術練習を行った。13日の次節愛媛戦は、右サイドバックの藤田が右足関節ねんざで欠場する。そのため、FWキリノ、近藤の2トップ</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-10 16:41:13</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100609-639524.html">
+<title>札幌左右ＳＢ不在…藤田ねんざ全治６週間 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100609-639524.html</link>
+<description>札幌左右SB不在…藤田ねんざ全治6週間 コンサドーレ札幌に、また悩みの種が浮上した。5日の草津戦で右足を負傷していた右サイドバックの藤田征也（23）が8日、右足関節ねんざのため全治6週間と診断された。</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-09 23:30:27</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100608-639373.html">
+<title>札幌ＭＦ藤田は全治６週間 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/f-sc-tp0-20100608-639373.html</link>
+<description></description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-08 21:23:37</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100608-639207.html">
+<title>札幌選手20人を“ＰＲ大使”として派遣 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100608-639207.html</link>
+<description>札幌選手20人を“PR大使”として派遣 コンサドーレ札幌が、クラブ認知度アップのため「全道大ローラー作戦」を敢行する。6月下旬のW杯中断期間を利用し、道内7振興局11市町村へ選手約20人を“PR大使”</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-08 21:23:37</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100607-638874.html">
+<title>札幌上里が全体メニューに部分合流 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100607-638874.html</link>
+<description>札幌上里が全体メニューに部分合流 コンサドーレ札幌は6日、札幌・宮の沢で約1時間半の練習を行った。16日の大分戦後に左ひざ痛を訴え別メニュー調整が続いていたMF上里一将（24）が、この日から全体メニュ</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-08 00:54:33</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100607-638873.html">
+<title>55歳ゴンと32歳宮沢で代表２トップ？ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100607-638873.html</link>
+<description>55歳ゴンと32歳宮沢で代表2トップ? 22年W杯日本招致を呼びかける「ワールドカップを日本へ!」トークバトルin札幌が6日、札幌市内で行われた。98年フランス大会、02年日韓大会と2度経験しているコ</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-08 00:54:35</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638484.html">
+<title>札幌近藤骨折耐え決めた／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638484.html</link>
+<description>札幌近藤骨折耐え決めた/J2＜J2:札幌1－1草津＞◇第16節◇5日◇正田スタ 札幌FW近藤祐介（25）はクラブ節目のゴール、自身10試合ぶりの1発も空砲に終わった。前半21分、宮沢からのパスを受け左</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-06 20:41:38</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638483.html">
+<title>札幌７度目ドローまるで敗戦／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638483.html</link>
+<description>札幌7度目ドローまるで敗戦/J2ドローに終わり下を向く札幌の選手たち＜J2:札幌1－1草津＞◇第16節◇5日◇正田スタ コンサドーレ札幌は引き分けた。前半21分にFW近藤祐介（25）がクラブ通算800</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-06 20:41:38</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638488.html">
+<title>札幌藤田が右足首ねんざ／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100606-638488.html</link>
+<description>札幌藤田が右足首ねんざ/J2＜J2:札幌1－1草津＞◇第16節◇5日◇正田スタ 札幌MF藤田征也（23）は試合中に右足首をねんざした。痛みをおしてフル出場したが、試合後は松葉づえ姿での移動となった。「</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-06 20:41:39</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100605-638270.html">
+<title>また…札幌が今季最多７度目ドロー／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/f-sc-tp0-20100605-638270.html</link>
+<description>また…札幌が今季最多7度目ドロー/J2【草津－札幌】ドローに終わり下を向く札幌の選手たち（撮影・永野高輔）＜J2:札幌1－1草津＞◇第16節◇5日◇正田スタ 札幌が勝ち点3を逃した。前半21分にFW近</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-05 23:14:33</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100605-638070.html">
+<title>札幌Ｕ18三上リーグ戦最年少ゴール狙う - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100605-638070.html</link>
+<description>札幌U18三上リーグ戦最年少ゴール狙う 高校生三上が最年少ゴールに挑む。コンサドーレ札幌は5日、アウェーで草津と対戦する。札幌U－18三上陽輔（18）は前節富山戦同様、2戦連続で左サイドハーフでの先発</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-05 23:14:34</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100604-637670.html">
+<title>札幌キリノが草津ＤＦ陣足でかき回す - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100604-637670.html</link>
+<description>札幌キリノが草津DF陣足でかき回す紅白戦で突破を図るFWキリノ（中央）。右は村田コーチ キリノの速さを生かす。コンサドーレ札幌は3日、札幌・宮の沢で紅白戦を行った。石崎監督は前節富山戦同様FWキリノ（</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-04 22:05:21</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100604-637671.html">
+<title>道産子トリオがセットプレーでかく乱狙う - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100604-637671.html</link>
+<description>道産子トリオがセットプレーでかく乱狙う 道産子トリオはセットプレーでのかく乱を狙う。コンサドーレ札幌は3日、札幌・宮の沢での練習後、赤池コーチを中心にMF藤田征也（23）、宮沢裕樹（20）、古田寛幸（</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-04 22:05:27</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100603-637342.html">
+<title>札幌三上５日草津戦、学ラン移動 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100603-637342.html</link>
+<description>札幌三上5日草津戦、学ラン移動練習後、MF古田（右端）と話す三上（右から2人目） コンサドーレ札幌は2日、札幌・宮の沢で練習を再開した。前節富山戦で18歳と25日のクラブ最年少出場を果たした三上陽輔も</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-03 20:50:02</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100603-637343.html">
+<title>札幌藤田が23歳「後輩の手本に」 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100603-637343.html</link>
+<description>札幌藤田が23歳「後輩の手本に」 札幌MF藤田征也が23歳の誓いを立てた。誕生日となった2日の戦術練習では、最初に富山戦と同じサイドバックに入り、その後は本来のサイドハーフも務めるなど精力的に動いた。</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-03 20:50:02</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636572.html">
+<title>ゴンが三上の活躍に刺激受けた - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636572.html</link>
+<description>ゴンが三上の活躍に刺激受けた石崎監督が準備するボールに近寄るFW中山（左） 42歳の大ベテラン札幌FW中山雅史も18歳の活躍に刺激を受けた。5月31日の練習後、富山戦でのFW三上陽輔（18）のプレーを</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-01 19:13:44</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636570.html">
+<title>札幌ＦＷ三上に石崎監督が学業優先シフト - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636570.html</link>
+<description>札幌FW三上に石崎監督が学業優先シフト 石さんが練習時間の“三上シフト”を示唆した。コンサドーレ札幌は5月31日、札幌・宮の沢で1時間半の練習を行った。30日の富山戦で、18歳と25日のクラブ最年少出</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-01 19:13:44</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636571.html">
+<title>札幌ＭＦ古田に祝福メール50件 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100601-636571.html</link>
+<description>札幌MF古田に祝福メール50件 札幌MF古田寛幸（19）に富山戦でのプロ初ゴールから一夜明けた31日、携帯電話に約50件の祝福メールが届いた。「それだけいろんな人に支えられていたということ。あらためて</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-06-01 19:13:44</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636259.html">
+<title>18歳三上で札幌今季初の逆転勝利／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636259.html</link>
+<description>18歳三上で札幌今季初の逆転勝利/J2ゴール前でヘディングで競り合い、宮沢のゴールをアシストしたMF三上＜J2:札幌3－1富山＞◇第15節◇30日◇札幌厚別 チーム最年少が厚別開幕戦勝利を演出した。コ</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-31 19:43:09</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636263.html">
+<title>札幌ＭＦ古田プロ初ゴール／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636263.html</link>
+<description>札幌MF古田プロ初ゴール/J2＜J2:札幌3－1富山＞◇第15節◇30日◇札幌厚別 札幌MF古田寛幸（19）が、兄への恩返しとなるプロ初ゴールを決めた。2－1で迎えた後半25分、FWキリノからのパスを</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-31 19:43:09</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636261.html">
+<title>「10」継承札幌ＭＦ宮沢が決勝弾／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100531-636261.html</link>
+<description>「10」継承札幌MF宮沢が決勝弾/J2＜J2:札幌3－1富山＞◇第15節◇30日◇札幌厚別 札幌MF宮沢裕樹（20）が背番号10初ゴールを決めた。1－1で迎えた後半5分、MF三上がヘディングで落とした</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-31 19:43:09</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100530-635977.html">
+<title>札幌古田初ゴール、３試合ぶり勝利／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/f-sc-tp0-20100530-635977.html</link>
+<description>札幌古田初ゴール、3試合ぶり勝利/J2＜J2:札幌3－1富山＞◇第15節◇30日◇札幌厚別 J2札幌が3試合ぶりの勝利を挙げた。1点ビハインドで迎えた前半42分にDF西嶋弘之（28）のミドルシュートで</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-31 01:20:57</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100530-635793.html">
+<title>札幌Ｕ18ＦＷ三上クラブ最年少出場だ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100530-635793.html</link>
+<description>札幌U18FW三上クラブ最年少出場だ激しくボールに寄せる三上 厚別開幕戦は“新鮮力”で勝つ。コンサドーレ札幌は30日、札幌厚別公園競技場で富山と対戦する。高校生でも出場が可能な2種登録をしている札幌U</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-31 01:20:58</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100530-635794.html">
+<title>札幌厚別初戦は道産子４人が出場 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100530-635794.html</link>
+<description>札幌厚別初戦は道産子4人が出場 コンサドーレ札幌の厚別初戦は道産子で決める。30日の富山戦は、FW三上陽輔（18）を含め道産子選手がMF藤田征也（22）、MF宮沢裕樹（20）、MF古田寛幸（19）と今</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-31 01:21:06</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100529-635371.html">
+<title>札幌石崎監督に猪木氏が闘魂注入ダァ～！ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100529-635371.html</link>
+<description>札幌石崎監督に猪木氏が闘魂注入ダァ～!対談後、拳を掲げてポーズを取るアントニオ猪木（左）と石崎監督 石さんがチームに“猪木イズム”を注入する。コンサドーレ札幌の石崎信弘監督（52）が28日、札幌市内で</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-29 22:24:08</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100528-634966.html">
+<title>札幌キリノ得意の厚別で勝ち点３を狙う - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100528-634966.html</link>
+<description>札幌キリノ得意の厚別で勝ち点3を狙う紅白戦でヘディングするキリノ（右） 厚別男が得点奪取と勝利を誓った。コンサドーレ札幌は30日、ホームに富山を迎え撃つ。Jリーグ通算21得点を挙げているFWキリノ（2</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-28 20:03:46</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100528-634968.html">
+<title>札幌ＦＷ近藤ゆりかごゴール決めるぞ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100528-634968.html</link>
+<description>札幌FW近藤ゆりかごゴール決めるぞ 決めるぞ、ゆりかご!札幌FW近藤祐介（25）の第1子となる長女が、23日に誕生。娘の誕生後、富山戦が初の試合となるだけに「みんなにパスをくれと言う。貪欲（どんよく）</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-28 20:03:46</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100527-634583.html">
+<title>札幌石川＆古田がローソンでＰＲ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100527-634583.html</link>
+<description>札幌石川&amp;古田がローソンでPRDF石川（左）とMF古田は、子どもたちに試食のパンを配る 札幌のDF石川直樹（24）とMF古田寛幸（19）が初めてのアルバイト体験でリフレッシュした。26日、クラブスポン</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-27 22:05:29</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100527-634581.html">
+<title>札幌、厚別開幕戦は新システムで勝つ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100527-634581.html</link>
+<description>札幌、厚別開幕戦は新システムで勝つ コンサドーレ札幌が、新システムで札幌厚別開幕戦を勝ちにいく。30日のホーム富山戦に向け26日、札幌・宮の沢で紅白戦を行った。主力組はボランチを3枚にし、トップ下に内</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-27 22:05:30</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100526-634156.html">
+<title>札幌藤田がＪ通算150戦目「勝ちたい」 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100526-634156.html</link>
+<description>札幌藤田がJ通算150戦目「勝ちたい」険しい表情でヘディングするMF藤田 節目の一戦は勝利で飾る。コンサドーレ札幌MF藤田征也（22）が、30日富山戦でJリーグ通算150試合目出場を迎える。ユース時代</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-26 23:59:00</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100526-634153.html">
+<title>石崎監督Ｗ杯期待「岡田さんなら大丈夫」 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100526-634153.html</link>
+<description>石崎監督W杯期待「岡田さんなら大丈夫」 札幌の石崎信弘監督（52）は、日本代表の韓国戦敗退にも「心配なし」の姿勢だった。24日に0－2と完敗したが「韓国は合宿でしっかり準備してきてるんだから。日本はリ</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-26 23:59:00</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633764.html">
+<title>兄弟で共闘！札幌ＭＦ古田に歓喜の歌を - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633764.html</link>
+<description>兄弟で共闘!札幌MF古田に歓喜の歌を 古田ブラザーズで厚別開幕戦を盛り上げる。コンサドーレ札幌MF古田寛幸（19）の実兄で、アマチュアミュージシャンの昌大さん（26）が、札幌厚別公園競技場で今季初戦と</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-25 20:02:06</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633768.html">
+<title>札幌ＭＦ古田　実りの秋へフル回転 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633768.html</link>
+<description>札幌MF古田 実りの秋へフル回転トウモロコシの種を植えるMF古田 札幌MF古田寛幸（19）は26日、札幌市内でコンビニの1日店長を務める。チケット販売などの業務を手伝い、富山戦の集客を呼び掛ける。「と</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-25 20:02:06</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633765.html">
+<title>コンサ農園開園　札幌５選手が畑仕事 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100525-633765.html</link>
+<description>コンサ農園開園 札幌5選手が畑仕事 札幌が昨年からJAグループ北海道と提携して運営している農園「コンサ・ド・ファーム」の開園式が24日、北広島市内で行われた。チームからはMF古田寛幸（19）、MF朴鎭</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-25 20:02:06</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100524-633389.html">
+<title>札幌ＤＦ吉弘５カ月ぶり90分フル出場 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100524-633389.html</link>
+<description>札幌DF吉弘5カ月ぶり90分フル出場スライディングでボールを奪いにいくDF吉弘（右） コンサドーレ札幌のDF吉弘充志（25）が23日、札幌・宮の沢で行われた札幌U－18との練習試合で、1月の左足長腓骨</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-24 12:04:03</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100524-633390.html">
+<title>札幌ＭＦ古田誕生日ＰＫ失敗にガクッ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100524-633390.html</link>
+<description>札幌MF古田誕生日PK失敗にガクッ 札幌のMF古田寛幸（19）が“誕生日プレゼント”を逃した。この日は右サイドハーフで先発して、後半からはボランチに入りフル出場。19歳の誕生日とあり、後半25分にはF</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-24 12:04:10</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100523-632983.html">
+<title>札幌宮沢ら強行出場も勝ちきれず／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100523-632983.html</link>
+<description>札幌宮沢ら強行出場も勝ちきれず/J2険しい表情で試合を見守る札幌石崎監督＜J2:徳島0－0札幌＞◇第14節◇22日◇鳴門大塚 コンサドーレ札幌は徳島に引き分けた。MF宮沢裕樹（20）が21日の練習で痛</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-23 12:23:26</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/f-sc-tp0-20100522-632743.html">
+<title>札幌は２戦連続ドロー／Ｊ２ - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/f-sc-tp0-20100522-632743.html</link>
+<description>札幌は2戦連続ドロー/J2＜J2:徳島0－0札幌＞◇第14節◇22日◇鳴門大塚 札幌は2試合連続で引き分けとなった。MF宮沢裕樹（20）が左足首のねんざのため急きょ先発回避。MF朴鎭■（■は王ヘンに秀</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-22 23:49:12</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100522-632562.html">
+<title>札幌ＭＦ古田18歳ラスト弾決める - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100522-632562.html</link>
+<description>札幌MF古田18歳ラスト弾決める徳島戦へ向けた練習でボールを巧みに操るMF古田（右） 古田が“18歳弾”ラストチャンスに挑む。コンサドーレ札幌は22日、アウェーで徳島と対戦する。23日に19歳の誕生日</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-22 23:49:19</dc:date>
+</item>
+
+<item rdf:about="http://www.nikkansports.com/soccer/news/p-sc-tp0-20100522-632563.html">
+<title>札幌ＭＦ宮沢ねんざで徳島戦出場微妙 - サッカーニュース</title>
+<link>http://www.nikkansports.com/soccer/news/p-sc-tp0-20100522-632563.html</link>
+<description>札幌MF宮沢ねんざで徳島戦出場微妙 札幌MF宮沢裕樹（20）が21日の練習中に左足首をねんざし、徳島戦出場が微妙となった。ミニゲーム中の接触プレーで負傷し、その後の練習には加わらず治療に専念した。遠征</description>
+<dc:subject>コンサドーレ札幌</dc:subject>
+<dc:date>2010-05-22 23:49:19</dc:date>
+</item>
+
+</rdf:RDF>

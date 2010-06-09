@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss1full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+	<channel rdf:about="http://www.jsgoal.jp/news/jsgoal/">
+		<title>J's GOAL - J's GOALニュース</title>
+		<link>http://www.jsgoal.jp/news/jsgoal/</link>
+		<description>J's GOAL - J's GOALニュース</description>
+		<dc:language>ja</dc:language>
+		<dc:rights>(C)J's GOAL</dc:rights>
+		<dc:date>2010-07-19T21:50:01+09:00</dc:date>
+		<dc:publisher>株式会社Ｊリーグメディアプロモーション</dc:publisher>
+		<dc:creator>株式会社Ｊリーグメディアプロモーション</dc:creator>
+		<syn:updatePeriod>hourly</syn:updatePeriod>
+		<syn:updateFrequency>4</syn:updateFrequency>
+		<syn:updateBase>2010-07-19T21:50:01+09:00</syn:updateBase>
+		<items>
+			<rdf:Seq>
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104015.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104014.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104013.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103930.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104004.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103999.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104001.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103993.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103998.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103997.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103996.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104000.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103995.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103994.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103964.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103992.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103988.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103987.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103991.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103986.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103985.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103984.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103983.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103982.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103990.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103989.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103977.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103976.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103975.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103974.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103979.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103978.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103973.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103972.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103980.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103971.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103970.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103981.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103968.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103967.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103966.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103965.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103963.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103961.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103960.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103959.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103958.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103957.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103956.html" />
+				<rdf:li rdf:resource="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103955.html" />
+			</rdf:Seq>
+		</items>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://feeds.feedburner.com/jsgoal/jsgoal" /><feedburner:info uri="jsgoal/jsgoal" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104015.html">
+		<title><![CDATA[【J2：第18節 徳島 vs 鳥栖】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/o5w24tOcVvU/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-19T19:50:35+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/f8wLe88Elbt3vlf2DaAqn_HGR5g/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/f8wLe88Elbt3vlf2DaAqn_HGR5g/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/f8wLe88Elbt3vlf2DaAqn_HGR5g/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/f8wLe88Elbt3vlf2DaAqn_HGR5g/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/o5w24tOcVvU" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104015.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104014.html">
+		<title><![CDATA[【J2第18節:SUPER GOAL】今節もSUPER GOALが満載！]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/XOPT5pr47pA/</link>
+		<dc:subject>ニュース</dc:subject>
+		<dc:date>2010-07-19T19:45:31+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/oFJE69qJ4oE_rL8Kb0BD9K7VrUA/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/oFJE69qJ4oE_rL8Kb0BD9K7VrUA/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/oFJE69qJ4oE_rL8Kb0BD9K7VrUA/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/oFJE69qJ4oE_rL8Kb0BD9K7VrUA/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/XOPT5pr47pA" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104014.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104013.html">
+		<title><![CDATA[【J1第13節:SUPER GOAL】今節もSUPER GOALが満載！]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/KwTfuSOVI4g/</link>
+		<dc:subject>ニュース</dc:subject>
+		<dc:date>2010-07-19T19:42:47+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/GHaG5EJAtdkqW632I4rZaUgOlGs/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/GHaG5EJAtdkqW632I4rZaUgOlGs/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/GHaG5EJAtdkqW632I4rZaUgOlGs/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/GHaG5EJAtdkqW632I4rZaUgOlGs/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/KwTfuSOVI4g" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104013.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103930.html">
+		<title><![CDATA[【J2：第18節 徳島 vs 鳥栖】プレビュー：中断期間にいい切り替えが図れた徳島。高い安定感を誇る鳥栖に対し自分たちの掲げる攻撃的戦いを貫けるか！？]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/xmEXJ339S1M/</link>
+		<dc:subject>試合プレビュー</dc:subject>
+		<dc:date>2010-07-18T11:15:45+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/6O0Y8-E0MJ_B6qxUgNDXkFoFvJo/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/6O0Y8-E0MJ_B6qxUgNDXkFoFvJo/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/6O0Y8-E0MJ_B6qxUgNDXkFoFvJo/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/6O0Y8-E0MJ_B6qxUgNDXkFoFvJo/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/xmEXJ339S1M" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103930.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104004.html">
+		<title><![CDATA[【J2：第18節】徳島 vs 鳥栖：スターティングメンバー発表]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/PzTNBUjFTjY/</link>
+		<dc:subject>試合プレビュー</dc:subject>
+		<dc:date>2010-07-19T16:26:37+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/ddCLjj4ZkU_VeqyFvJB2mebWoW4/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/ddCLjj4ZkU_VeqyFvJB2mebWoW4/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/ddCLjj4ZkU_VeqyFvJB2mebWoW4/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/ddCLjj4ZkU_VeqyFvJB2mebWoW4/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/PzTNBUjFTjY" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104004.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103999.html">
+		<title><![CDATA[【J1：第13節 京都 vs 湘南】レポート：一瞬の隙を突いて湘南が勝利。ゲームを支配しながら敗れた京都は最下位に]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/RsNFWQCe0a4/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T13:13:50+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/kca8IdI5sdeFeyQp0nxWohLECvE/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/kca8IdI5sdeFeyQp0nxWohLECvE/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/kca8IdI5sdeFeyQp0nxWohLECvE/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/kca8IdI5sdeFeyQp0nxWohLECvE/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/RsNFWQCe0a4" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103999.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104001.html">
+		<title><![CDATA[【J1：第13節 広島 vs 横浜FM】レポート：今季最多の２万3948人を飲み込んだビッグアーチが、４日前とは別次元のチームとなった広島の完勝劇に沸騰した。]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/CA4NdzH2AYw/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T13:57:48+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/7Y8LSBVPlpEOvAcLwci3xCHFtEI/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/7Y8LSBVPlpEOvAcLwci3xCHFtEI/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/7Y8LSBVPlpEOvAcLwci3xCHFtEI/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/7Y8LSBVPlpEOvAcLwci3xCHFtEI/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/CA4NdzH2AYw" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104001.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103993.html">
+		<title><![CDATA[【J1：第13節 Ｇ大阪 vs 浦和】レポート：戦列復帰のMF遠藤保仁が全得点に絡む活躍！G大阪が執念で勝点３を奪い取る。]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/w_srJB27S8c/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T07:13:02+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/0w8GDIpxr07kT3U6ye0LmUblQ3U/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/0w8GDIpxr07kT3U6ye0LmUblQ3U/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/0w8GDIpxr07kT3U6ye0LmUblQ3U/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/0w8GDIpxr07kT3U6ye0LmUblQ3U/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/w_srJB27S8c" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103993.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103998.html">
+		<title><![CDATA[【J2：第18節 北九州 vs 熊本】熊本側レポート：終了間際の失点で痛恨のドロー。勝点２をこぼした熊本だが、収穫がなかったわけではない。]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/rw9PlBHScs8/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T12:43:12+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/iru9kgYwseGnOJvxvk6pXR-8EWI/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/iru9kgYwseGnOJvxvk6pXR-8EWI/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/iru9kgYwseGnOJvxvk6pXR-8EWI/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/iru9kgYwseGnOJvxvk6pXR-8EWI/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/rw9PlBHScs8" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103998.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103997.html">
+		<title><![CDATA[【J2：第18節 北九州 vs 熊本】北九州側レポート：劇的幕切れ。最後まで諦めない姿勢が、後半ロスタイムの同点劇を呼び込む]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/M5VouQ29Igc/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T12:22:24+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/lsyFdcbhFHWMald190PRxXly-y8/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/lsyFdcbhFHWMald190PRxXly-y8/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/lsyFdcbhFHWMald190PRxXly-y8/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/lsyFdcbhFHWMald190PRxXly-y8/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/M5VouQ29Igc" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103997.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103996.html">
+		<title><![CDATA[【J2：第18節 千葉 vs 札幌】レポート：ボールへの強い執着心が見られず、攻守両面の課題を解消できなかった千葉は完敗。札幌はこの一戦の重要性をプレーで表現しての見事な勝利。]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/Bia588DTo3I/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T11:47:31+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/GjO1yyouL1wb9peQWmrNEZOXJLs/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/GjO1yyouL1wb9peQWmrNEZOXJLs/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/GjO1yyouL1wb9peQWmrNEZOXJLs/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/GjO1yyouL1wb9peQWmrNEZOXJLs/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/Bia588DTo3I" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103996.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104000.html">
+		<title><![CDATA[【J2：第18節 岡山 vs 水戸】レポート：声援が押し込んだ、勝ち越しゴール。岡山が4月18日以来のホーム戦勝利で後半戦をスタート。]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/du7HgSaIUC8/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T13:30:59+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/q92Sh5UV0ISlBm01V5jlCEJlZpA/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/q92Sh5UV0ISlBm01V5jlCEJlZpA/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/q92Sh5UV0ISlBm01V5jlCEJlZpA/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/q92Sh5UV0ISlBm01V5jlCEJlZpA/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/du7HgSaIUC8" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00104000.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103995.html">
+		<title><![CDATA[【J2：第18節 栃木 vs 東京Ｖ】レポート：リーグ戦再開後も敗戦を喫し、3連敗の栃木は上位から脱落。東京Ｖは2連勝で上位追撃の狼煙を上げた。]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/DnAV6PBVJtI/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T11:07:22+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/6hYKKKUIq3wXI4ETuXItH-Tu0UA/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/6hYKKKUIq3wXI4ETuXItH-Tu0UA/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/6hYKKKUIq3wXI4ETuXItH-Tu0UA/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/6hYKKKUIq3wXI4ETuXItH-Tu0UA/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/DnAV6PBVJtI" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103995.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103994.html">
+		<title><![CDATA[【J2：第18節 大分 vs 甲府】レポート：後半に大分が失速。本調子に及ばないものの甲府が勝利し、13試合連続負けなしのクラブ新記録を更新中。]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/FVpgfqTVrNA/</link>
+		<dc:subject>試合レポート</dc:subject>
+		<dc:date>2010-07-19T10:54:44+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/AOPBXoQzrfR8035iDgE3xw1hmlc/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/AOPBXoQzrfR8035iDgE3xw1hmlc/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/AOPBXoQzrfR8035iDgE3xw1hmlc/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/AOPBXoQzrfR8035iDgE3xw1hmlc/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/FVpgfqTVrNA" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103994.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103964.html">
+		<title><![CDATA[【J2日記】徳島：地に足がついているからこその期待]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/V9HIIdbMAhQ/</link>
+		<dc:subject>ニュース</dc:subject>
+		<dc:date>2010-07-18T21:15:26+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/DDNpE3pgSVlePxMkyoLARqoAa0Q/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/DDNpE3pgSVlePxMkyoLARqoAa0Q/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/DDNpE3pgSVlePxMkyoLARqoAa0Q/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/DDNpE3pgSVlePxMkyoLARqoAa0Q/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/V9HIIdbMAhQ" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103964.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103992.html">
+		<title><![CDATA[【J2：第18節 岡山 vs 水戸】試合終了後の各選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/bRdm_oB1Ass/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-19T00:37:24+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/_XHcH5_xbmlZdBRcJZbm26gsFzo/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/_XHcH5_xbmlZdBRcJZbm26gsFzo/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/_XHcH5_xbmlZdBRcJZbm26gsFzo/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/_XHcH5_xbmlZdBRcJZbm26gsFzo/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/bRdm_oB1Ass" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103992.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103988.html">
+		<title><![CDATA[【J2：第18節 岡山 vs 水戸】木山隆之監督（水戸）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/ErfZlD7pggs/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T23:44:08+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/T48IyJtAq5QVSv8fbt990sdfTzc/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/T48IyJtAq5QVSv8fbt990sdfTzc/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/T48IyJtAq5QVSv8fbt990sdfTzc/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/T48IyJtAq5QVSv8fbt990sdfTzc/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/ErfZlD7pggs" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103988.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103987.html">
+		<title><![CDATA[【J2：第18節 岡山 vs 水戸】影山雅永監督（岡山）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/jPVtppVZZLI/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T23:40:55+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/gfRukharIRZn_9qalj19NJNVFdY/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/gfRukharIRZn_9qalj19NJNVFdY/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/gfRukharIRZn_9qalj19NJNVFdY/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/gfRukharIRZn_9qalj19NJNVFdY/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/jPVtppVZZLI" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103987.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103991.html">
+		<title><![CDATA[【J1：第13節 広島 vs 横浜FM】試合終了後の各選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/HNZct26fwII/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-19T00:30:08+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/8sFwxZPjwWiMJ_PS3yoUuIAQJHk/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/8sFwxZPjwWiMJ_PS3yoUuIAQJHk/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/8sFwxZPjwWiMJ_PS3yoUuIAQJHk/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/8sFwxZPjwWiMJ_PS3yoUuIAQJHk/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/HNZct26fwII" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103991.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103986.html">
+		<title><![CDATA[【J1：第13節 広島 vs 横浜FM】ペトロヴィッチ監督（広島）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/mHlpQ3GfTdc/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T23:34:22+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/5Pn3bow4RTBbe6k7dOuq0LQbv-o/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/5Pn3bow4RTBbe6k7dOuq0LQbv-o/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/5Pn3bow4RTBbe6k7dOuq0LQbv-o/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/5Pn3bow4RTBbe6k7dOuq0LQbv-o/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/mHlpQ3GfTdc" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103986.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103985.html">
+		<title><![CDATA[【J1：第13節 広島 vs 横浜FM】木村和司監督（横浜FM）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/HphAoRvISqk/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T23:30:45+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/jNd4AdPR4I6VcEydksCKYy8hYkc/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/jNd4AdPR4I6VcEydksCKYy8hYkc/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/jNd4AdPR4I6VcEydksCKYy8hYkc/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/jNd4AdPR4I6VcEydksCKYy8hYkc/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/HphAoRvISqk" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103985.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103984.html">
+		<title><![CDATA[【J1：第13節 京都 vs 湘南】試合終了後の各選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/nbeDlH-QDZs/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-18T23:27:04+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/d8pP-o3HiJJONpoULZj5JI2vrso/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/d8pP-o3HiJJONpoULZj5JI2vrso/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/d8pP-o3HiJJONpoULZj5JI2vrso/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/d8pP-o3HiJJONpoULZj5JI2vrso/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/nbeDlH-QDZs" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103984.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103983.html">
+		<title><![CDATA[【J1：第13節 京都 vs 湘南】反町康治監督（湘南）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/KK6_JiZ_n5M/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T23:20:23+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/AHaZq7MmKn1zEUvQ-0IDgqpRz4M/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/AHaZq7MmKn1zEUvQ-0IDgqpRz4M/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/AHaZq7MmKn1zEUvQ-0IDgqpRz4M/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/AHaZq7MmKn1zEUvQ-0IDgqpRz4M/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/KK6_JiZ_n5M" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103983.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103982.html">
+		<title><![CDATA[【J1：第13節 京都 vs 湘南】加藤久監督（京都）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/iUTVawutdj0/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T23:11:30+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/yGHfVBk5-7aefJbyEKRvhLhrMY8/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/yGHfVBk5-7aefJbyEKRvhLhrMY8/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/yGHfVBk5-7aefJbyEKRvhLhrMY8/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/yGHfVBk5-7aefJbyEKRvhLhrMY8/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/iUTVawutdj0" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103982.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103990.html">
+		<title><![CDATA[【J2：第18節 千葉 vs 札幌】試合終了後の各選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/sjzvuaIRAfM/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-19T00:06:53+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/RnXSJzoif-ckGaAMVNRRQR24k9U/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/RnXSJzoif-ckGaAMVNRRQR24k9U/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/RnXSJzoif-ckGaAMVNRRQR24k9U/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/RnXSJzoif-ckGaAMVNRRQR24k9U/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/sjzvuaIRAfM" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103990.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103989.html">
+		<title><![CDATA[【J2：第18節 千葉 vs 札幌】石崎信弘監督（札幌）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/6tGiFoinPHQ/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T23:59:15+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/txWvCBiu4RRimnOfexFmmbwno1Q/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/txWvCBiu4RRimnOfexFmmbwno1Q/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/txWvCBiu4RRimnOfexFmmbwno1Q/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/txWvCBiu4RRimnOfexFmmbwno1Q/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/6tGiFoinPHQ" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103989.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103977.html">
+		<title><![CDATA[【J2：第18節 千葉 vs 札幌】江尻篤彦監督（千葉）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/oZW-dfsm1Ew/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T22:21:22+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/uM1QLrTUE5WgKxAMYVd6cFUbOjQ/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/uM1QLrTUE5WgKxAMYVd6cFUbOjQ/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/uM1QLrTUE5WgKxAMYVd6cFUbOjQ/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/uM1QLrTUE5WgKxAMYVd6cFUbOjQ/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/oZW-dfsm1Ew" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103977.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103976.html">
+		<title><![CDATA[【J2：第18節 大分 vs 甲府】試合終了後の各選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/Rz1q81aTcVE/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-18T22:15:49+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/qew6mAQ1PhZlUIazKf5Ohj5Iu0k/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/qew6mAQ1PhZlUIazKf5Ohj5Iu0k/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/qew6mAQ1PhZlUIazKf5Ohj5Iu0k/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/qew6mAQ1PhZlUIazKf5Ohj5Iu0k/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/Rz1q81aTcVE" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103976.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103975.html">
+		<title><![CDATA[【J2：第18節 大分 vs 甲府】内田一夫監督（甲府）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/2XxyTcQi1As/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T22:11:23+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/pmGXr2IV5GBZH1X3ehUyRhUkZcg/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/pmGXr2IV5GBZH1X3ehUyRhUkZcg/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/pmGXr2IV5GBZH1X3ehUyRhUkZcg/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/pmGXr2IV5GBZH1X3ehUyRhUkZcg/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/2XxyTcQi1As" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103975.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103974.html">
+		<title><![CDATA[【J2：第18節 大分 vs 甲府】皇甫官監督（大分）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/ovv9ELP422A/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T22:09:55+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/1-agnTWdvtATbKHYY2aW1QFS3wY/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/1-agnTWdvtATbKHYY2aW1QFS3wY/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/1-agnTWdvtATbKHYY2aW1QFS3wY/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/1-agnTWdvtATbKHYY2aW1QFS3wY/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/ovv9ELP422A" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103974.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103979.html">
+		<title><![CDATA[【J2：第18節 北九州 vs 熊本】試合終了後の北九州選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/Q9DB7E3izSg/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-18T22:33:03+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/8oGv4c1Iy50TeXCLYbHp-kzawEU/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/8oGv4c1Iy50TeXCLYbHp-kzawEU/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/8oGv4c1Iy50TeXCLYbHp-kzawEU/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/8oGv4c1Iy50TeXCLYbHp-kzawEU/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/Q9DB7E3izSg" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103979.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103978.html">
+		<title><![CDATA[【J2：第18節 北九州 vs 熊本】試合終了後の熊本選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/EiIGXYWY_Ck/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-18T22:26:21+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/oWbYpx8qwvosdW_Bnz382L6aAOU/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/oWbYpx8qwvosdW_Bnz382L6aAOU/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/oWbYpx8qwvosdW_Bnz382L6aAOU/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/oWbYpx8qwvosdW_Bnz382L6aAOU/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/EiIGXYWY_Ck" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103978.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103973.html">
+		<title><![CDATA[【J2：第18節 北九州 vs 熊本】与那城ジョージ監督（北九州）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/rMSEls1jHwg/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T22:05:02+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/l-_LN6Ddo-_Fop6rL-CtfqvTs9g/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/l-_LN6Ddo-_Fop6rL-CtfqvTs9g/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/l-_LN6Ddo-_Fop6rL-CtfqvTs9g/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/l-_LN6Ddo-_Fop6rL-CtfqvTs9g/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/rMSEls1jHwg" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103973.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103972.html">
+		<title><![CDATA[【J2：第18節 北九州 vs 熊本】高木琢也監督（熊本）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/GxyWjCWkjPM/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T22:00:38+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/kmrX9prnkqTFN_9qh3ORop8kaGQ/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/kmrX9prnkqTFN_9qh3ORop8kaGQ/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/kmrX9prnkqTFN_9qh3ORop8kaGQ/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/kmrX9prnkqTFN_9qh3ORop8kaGQ/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/GxyWjCWkjPM" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103972.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103980.html">
+		<title><![CDATA[【J1：第13節 Ｇ大阪 vs 浦和】試合終了後の各選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/ZdXd_99o2Rc/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-18T22:53:15+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/Nd8Fi4Z9PR6WHy9RZY-BksQmnYA/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/Nd8Fi4Z9PR6WHy9RZY-BksQmnYA/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/Nd8Fi4Z9PR6WHy9RZY-BksQmnYA/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/Nd8Fi4Z9PR6WHy9RZY-BksQmnYA/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/ZdXd_99o2Rc" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103980.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103971.html">
+		<title><![CDATA[【J1：第13節 Ｇ大阪 vs 浦和】フォルカーフィンケ監督（浦和）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/sMVqU4dPsTI/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T21:53:58+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/SSu4m5_JPJN2c7vOiku2l8T17-o/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/SSu4m5_JPJN2c7vOiku2l8T17-o/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/SSu4m5_JPJN2c7vOiku2l8T17-o/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/SSu4m5_JPJN2c7vOiku2l8T17-o/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/sMVqU4dPsTI" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103971.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103970.html">
+		<title><![CDATA[【J1：第13節 Ｇ大阪 vs 浦和】西野朗監督（Ｇ大阪）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/MUq2YEAPCSg/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T21:47:27+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/6mG3rS3WTYyDn8jdWuyE0ciB9tg/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/6mG3rS3WTYyDn8jdWuyE0ciB9tg/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/6mG3rS3WTYyDn8jdWuyE0ciB9tg/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/6mG3rS3WTYyDn8jdWuyE0ciB9tg/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/MUq2YEAPCSg" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103970.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103981.html">
+		<title><![CDATA[【J2：第18節 栃木 vs 東京Ｖ】試合終了後の各選手コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/hce0GBVOHrc/</link>
+		<dc:subject>選手コメント</dc:subject>
+		<dc:date>2010-07-18T23:02:22+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/5C-RUmHjtPrm6RrWJH4RaKXIXXY/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/5C-RUmHjtPrm6RrWJH4RaKXIXXY/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/5C-RUmHjtPrm6RrWJH4RaKXIXXY/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/5C-RUmHjtPrm6RrWJH4RaKXIXXY/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/hce0GBVOHrc" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103981.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103968.html">
+		<title><![CDATA[【J2：第18節 栃木 vs 東京Ｖ】松田浩監督（栃木）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/3ek-nZvxeTI/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T21:32:15+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/QpzpQ49FvwvVudabJIwe6T1pkZs/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/QpzpQ49FvwvVudabJIwe6T1pkZs/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/QpzpQ49FvwvVudabJIwe6T1pkZs/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/QpzpQ49FvwvVudabJIwe6T1pkZs/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/3ek-nZvxeTI" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103968.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103967.html">
+		<title><![CDATA[【J2：第18節 栃木 vs 東京Ｖ】川勝良一監督（東京Ｖ）記者会見コメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/6DCyftv7oKo/</link>
+		<dc:subject>監督コメント</dc:subject>
+		<dc:date>2010-07-18T21:30:31+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/J-oVa6EReMXAEio_oSu9FVLqYmU/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/J-oVa6EReMXAEio_oSu9FVLqYmU/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/J-oVa6EReMXAEio_oSu9FVLqYmU/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/J-oVa6EReMXAEio_oSu9FVLqYmU/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/6DCyftv7oKo" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103967.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103966.html">
+		<title><![CDATA[【J2：第18節】本日の試合結果]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/8Oo1QGocS4Y/</link>
+		<dc:subject>ニュース</dc:subject>
+		<dc:date>2010-07-18T21:20:59+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/WolKXIwM1AJ6MKWbe-xYm6qML_I/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/WolKXIwM1AJ6MKWbe-xYm6qML_I/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/WolKXIwM1AJ6MKWbe-xYm6qML_I/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/WolKXIwM1AJ6MKWbe-xYm6qML_I/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/8Oo1QGocS4Y" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103966.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103965.html">
+		<title><![CDATA[【J1：第13節】本日の試合結果]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/Dvg14PNkUao/</link>
+		<dc:subject>ニュース</dc:subject>
+		<dc:date>2010-07-18T21:20:34+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/RZ80XOwpDmbF2miaz4Zg2GDeL8I/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/RZ80XOwpDmbF2miaz4Zg2GDeL8I/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/RZ80XOwpDmbF2miaz4Zg2GDeL8I/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/RZ80XOwpDmbF2miaz4Zg2GDeL8I/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/Dvg14PNkUao" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103965.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103963.html">
+		<title><![CDATA[【J1：第13節 広島 vs 横浜FM】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/y35kYV3D_5k/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-18T20:24:04+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/RKivHJ44MLKGt9BES22UseqQwDs/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/RKivHJ44MLKGt9BES22UseqQwDs/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/RKivHJ44MLKGt9BES22UseqQwDs/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/RKivHJ44MLKGt9BES22UseqQwDs/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/y35kYV3D_5k" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103963.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103961.html">
+		<title><![CDATA[【J2：第18節 岡山 vs 水戸】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/WSxkFDmlWEg/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-18T20:19:16+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/qE3Tm_O1oGmbcrqgou9i9a32H9A/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/qE3Tm_O1oGmbcrqgou9i9a32H9A/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/qE3Tm_O1oGmbcrqgou9i9a32H9A/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/qE3Tm_O1oGmbcrqgou9i9a32H9A/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/WSxkFDmlWEg" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103961.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103960.html">
+		<title><![CDATA[【J2：第18節 千葉 vs 札幌】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/JlURmCfTFgo/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-18T20:16:54+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/ZsqzQJhhtTDI136tfYzTCXGuyM8/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/ZsqzQJhhtTDI136tfYzTCXGuyM8/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/ZsqzQJhhtTDI136tfYzTCXGuyM8/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/ZsqzQJhhtTDI136tfYzTCXGuyM8/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/JlURmCfTFgo" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103960.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103959.html">
+		<title><![CDATA[【J2：第18節 北九州 vs 熊本】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/XMDp8FiTm-E/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-18T19:44:17+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/ddjVnu6ogdbtCgS4E1Qx5vxNX5o/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/ddjVnu6ogdbtCgS4E1Qx5vxNX5o/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/ddjVnu6ogdbtCgS4E1Qx5vxNX5o/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/ddjVnu6ogdbtCgS4E1Qx5vxNX5o/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/XMDp8FiTm-E" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103959.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103958.html">
+		<title><![CDATA[【J1：第13節 Ｇ大阪 vs 浦和】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/EwnVCJjI4Z0/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-18T19:39:23+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/IUhe84UcAf4woUmHrVImFGzp9E4/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/IUhe84UcAf4woUmHrVImFGzp9E4/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/IUhe84UcAf4woUmHrVImFGzp9E4/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/IUhe84UcAf4woUmHrVImFGzp9E4/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/EwnVCJjI4Z0" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103958.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103957.html">
+		<title><![CDATA[【J1：第13節 京都 vs 湘南】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/GkHdiEYxL0E/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-18T19:26:34+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/vCbbqNgjud8_pK0YrT9cPaJhkr8/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/vCbbqNgjud8_pK0YrT9cPaJhkr8/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/vCbbqNgjud8_pK0YrT9cPaJhkr8/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/vCbbqNgjud8_pK0YrT9cPaJhkr8/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/GkHdiEYxL0E" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103957.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103956.html">
+		<title><![CDATA[【J2：第18節 大分 vs 甲府】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/9M-Z1QuXF94/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-18T19:24:20+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/5Fzz0VmWmgclKenh0NIFOsS1vgI/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/5Fzz0VmWmgclKenh0NIFOsS1vgI/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/5Fzz0VmWmgclKenh0NIFOsS1vgI/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/5Fzz0VmWmgclKenh0NIFOsS1vgI/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/9M-Z1QuXF94" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103956.html</feedburner:origLink></item>
+	<item rdf:about="http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103955.html">
+		<title><![CDATA[【J2：第18節 栃木 vs 東京Ｖ】ハーフタイムコメント]]></title>
+		<link>http://feedproxy.google.com/~r/jsgoal/jsgoal/~3/mMEWBJYvO4E/</link>
+		<dc:subject>ハーフタイムコメント</dc:subject>
+		<dc:date>2010-07-18T19:20:10+09:00</dc:date>
+	<description>&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~a/z7o9po-WOE7RCDNOV_NHNdutxeg/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/z7o9po-WOE7RCDNOV_NHNdutxeg/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~a/z7o9po-WOE7RCDNOV_NHNdutxeg/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~a/z7o9po-WOE7RCDNOV_NHNdutxeg/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/jsgoal/jsgoal/~4/mMEWBJYvO4E" height="1" width="1"/&gt;</description><feedburner:origLink>http://www.jsgoal.jp/rss/redirect/?r=%2Fnews%2Fjsgoal%2F00103955.html</feedburner:origLink></item>
+
+</rdf:RDF>
