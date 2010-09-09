@@ -4,6 +4,13 @@ require 'rubytter'
 require 'consadole_aggregator/entry.rb'
 
 module ConsadoleAggregator
+  def self.truncate str, url
+    if str.size > 110
+      "#{str[0...107]}... #{url}"
+    else
+      "#{str} #{url}"
+    end
+  end
 end
 
 if __FILE__==$0
@@ -26,12 +33,7 @@ if __FILE__==$0
    ConsadoleAggregator::JsGoalPhoto.new
   ].each do |items|
     items.new_items.each do |item|
-      text = "#{item.title} #{item.uri} #consadole"
-      if text.size > 140
-        truncate_size = text.size - 140 + '...'.size
-        text = "#{item.title[0...-truncate_size]}... #{item.uri} #consadole"
-      end
-      t.update text
+      t.update "#{ConsadoleAggregator.truncate(item.title, item.uri)} #consadole"
       item.save
     end
   end
