@@ -2,6 +2,7 @@
 require 'oauth'
 require 'rubytter'
 require 'consadole_aggregator/entry.rb'
+require 'consadole_aggregator/live.rb'
 
 module ConsadoleAggregator
   def self.truncate str, url
