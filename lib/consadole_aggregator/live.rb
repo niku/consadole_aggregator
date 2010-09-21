@@ -21,6 +21,16 @@ module ConsadoleAggregator
       def empty?
         @time.nil? || @post.nil? || @time.empty? || @post.empty?
       end
+      def == other
+        self.eql? other
+      end
+      def eql? other
+        other.respond_to?(:time) && other.respond_to?(:post) &&
+        @time == other.time && @post == other.post
+      end
+      def hash
+        "#{@time}#{@post}".hash
+      end
     end
     class Live
       BASE_URI = URI.parse('http://www.consadole-sapporo.jp/view/s674.html')

@@ -30,10 +30,23 @@ module ConsadoleAggregator::Live
     end
     it 'add_timeline changes result of new_timline' do
       live = Live.new
-      timelines = [TimeLine.new, TimeLine.new, TimeLine.new]
+      doc = '1分　右サイドからボールをつながれ攻撃を仕掛けられるが札幌DFが落ち着いてクリア'
+      base_timeline = TimeLine.parse doc
+      timelines =
+        [
+         TimeLine.parse(doc),
+         TimeLine.parse('2分　左サイドキリノのパスカットから攻撃を仕掛けるがシュートまでは持ち込めず'),
+         TimeLine.parse('3分　ゴール前ほぼ正面やや遠めのFKを上里が直接狙うが湘南DFの壁に当たる'),
+        ]
       ->{
-        live.add_timeline(timelines[0])
+        live.add_timeline(base_timeline)
       }.should change{ live.new_timeline(timelines) }.from(timelines).to(timelines[1..2])
+    end
+    it '==, eql?, hash  should true' do
+      doc = '1分　右サイドからボールをつながれ攻撃を仕掛けられるが札幌DFが落ち着いてクリア'
+      TimeLine.parse(doc).should == TimeLine.parse(doc)
+      TimeLine.parse(doc).eql?(TimeLine.parse(doc)).should be_true
+      TimeLine.parse(doc).hash.should == TimeLine.parse(doc).hash
     end
   end
 end
