@@ -14,26 +14,28 @@ t = OAuthRubytter.new(access_token)
 live = Live.new
 
 fork do
-  begin
-    wait_second = Live.sleeptime(Time.parse(ARGV[0]))
-    puts "wait #{wait_second} seconds"
-    sleep wait_second
-  rescue
-    puts $!
-  end
-
-  120.times do
-    puts Time.now
+  fork do
     begin
-      live.new_timeline(Live.parse(Live::BASE_URI)).each do |timeline|
-        text = timeline.time + ' ' + timeline.post
-        puts "#{ConsadoleAggregator.truncate(text)} #consadole"
-        t.update "#{ConsadoleAggregator.truncate(text)} #consadole"
-        live.add_timeline(timeline)
-      end
+      wait_second = Live.sleeptime(Time.parse(ARGV[0]))
+      puts "wait #{wait_second} seconds"
+      sleep wait_second
     rescue
       puts $!
     end
-    sleep 60
+
+    120.times do
+      puts Time.now
+      begin
+        live.new_timeline(Live.parse(Live::BASE_URI)).each do |timeline|
+          text = timeline.time + ' ' + timeline.post
+          puts "#{ConsadoleAggregator.truncate(text)} #consadole"
+          t.update "#{ConsadoleAggregator.truncate(text)} #consadole"
+          live.add_timeline(timeline)
+        end
+      rescue
+        puts $!
+      end
+      sleep 60
+    end
   end
 end
