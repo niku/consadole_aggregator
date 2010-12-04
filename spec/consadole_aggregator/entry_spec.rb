@@ -106,7 +106,7 @@ module ConsadoleAggregator::Entry
     end
     it "list's element should link of 'www.hokkaido-np.co.jp/news/consadole/dddddd_all.html'" do
       @forza_consadole.list.should be_all{ |e|
-        e.uri.host =~ /^www\.hokkaido\-np\.co\.jp$/ && e.uri.path =~ /^\/news\/consadole\/\d{6}_all\.html$/
+        e.uri.host =~ /^www\.hokkaido\-np\.co\.jp$/ && e.uri.path =~ /^\/news\/consadole\/\d{6}(_all)?\.html$/
       }
     end
   end
