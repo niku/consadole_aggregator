@@ -30,8 +30,8 @@ fork do
       begin
         live.new_timeline(Live.parse(Live::BASE_URI)).each do |timeline|
           text = timeline.time + ' ' + timeline.post
-          t.update "#{ConsadoleAggregator.truncate(text)} #consadole"
-          LOG.info "#{ConsadoleAggregator.truncate(text)} #consadole"
+          t.update ConsadoleAggregator::Helper.concat(text, '' '#consadole')
+          LOG.info ConsadoleAggregator::Helper.concat(text, '' '#consadole')
           live.add_timeline(timeline)
         end
       rescue

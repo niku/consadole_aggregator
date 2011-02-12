@@ -25,7 +25,7 @@ t = OAuthRubytter.new(access_token)
  JsGoalPhoto.new
 ].each do |items|
   items.new_items.each do |item|
-    t.update "#{ConsadoleAggregator.truncate(item.title, item.uri)} #consadole"
+    t.update ConsadoleAggregator::Helper.concat(item.title, item.uri '#consadole')
     item.save
   end
 end
