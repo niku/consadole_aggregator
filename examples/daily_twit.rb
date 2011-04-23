@@ -4,28 +4,29 @@ require 'consadole_aggregator'
 require 'oauth'
 require 'rubytter'
 
-include ConsadoleAggregator::Entry
+include ConsadoleAggregator
 
+LOGGER = Logger.new('log/consadole_news.log')
 ACCOUNT = YAML.load_file('account.yaml')
 oauth = Rubytter::OAuth.new(ACCOUNT['consumer']['key'], ACCOUNT['consumer']['secret'])
 access_token = OAuth::AccessToken.new(oauth.create_consumer, ACCOUNT['access']['key'], ACCOUNT['access']['secret'])
 t = OAuthRubytter.new(access_token)
 
 [
- NikkanSports.new,
- HochiYomiuri.new,
- Asahi.new,
- ForzaConsadole.new,
- ConsaBurn.new,
- ConsaClub.new,
- ConsadoleNews.new,
- ConsadoleSponsorNews.new,
- ConsadolePhotos.new,
- JsGoalNews.new,
- JsGoalPhoto.new
-].each do |items|
-  items.new_items.each do |item|
-    t.update ConsadoleAggregator::Helper.concat(item.title, item.uri '#consadole')
-    item.save
-  end
-end
+ News::Nikkansports.new,
+ News::Hochiyomiuri.new,
+ News::Asahi.new,
+ News::Forzaconsadole.new,
+ News::Consaburn.new,
+ News::Consaclub.new,
+ News::Consadolenews.new,
+ News::Consadolesponsornews.new,
+ News::Consadolephotos.new,
+ News::Jsgoalnews.new,
+ News::Jsgoalphotos.new
+].each { |news|
+  news.update{ |article|
+    status = Helper.concat(article[:title], article[:url], '#consadole')
+    t.update status
+  }
+}

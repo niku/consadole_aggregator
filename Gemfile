@@ -5,10 +5,6 @@ group :development do
   gem "jeweler"
   gem "rcov"
   gem "nokogiri"
-  gem "dm-sqlite-adapter"
-  gem "dm-core"
-  gem 'dm-types'
-  gem 'dm-migrations'
   gem "oauth"
   gem "rubytter"
 end
