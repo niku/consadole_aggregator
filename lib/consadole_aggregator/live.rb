@@ -40,21 +40,31 @@ module ConsadoleAggregator
       def execute &block
         be_daemonize
         wait_initial
-        @times.times do
+        @logger.info 'start of loop'
+        @times.times do |i|
+          @logger.debug "#{i} times"
           update &block rescue @logger.error $!
-          sleep @wait_sec
+          wait_interval
         end
+        @logger.info 'end of loop'
       end
 
       def wait_initial
         return unless @reservation_time
-        wait_sec = @reservation_time - Time.now
-        sleep wait_sec if wait_sec > 0
+        diff_sec = @reservation_time - Time.now
+        wait_sec = diff_sec > 0 ? diff_sec : 0
+        @logger.info "initial wait #{wait_sec} seconds"
+        sleep wait_sec
+      end
+
+      def wait_interval
+        sleep @wait_sec
       end
 
       def update
         new_timeline = ConsadoleAggregator::Live.parse - @posted
         new_timeline.each do |timeline|
+          @logger.debug timeline
           yield timeline if block_given?
           @posted << timeline
         end

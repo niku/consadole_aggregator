@@ -63,14 +63,12 @@ describe ConsadoleAggregator do
       end
       context 'when raise Exception' do
         before do
-          @logger = double()
-          @live = Live::Live.new(nil, { times:1, logger:@logger })
+          @live = Live::Live.new(nil, { times:1 })
           @live.stub!(:be_daemonize)
           @live.stub!(:wait_initial)
         end
         subject{ @live }
         it 'should log exception and sleep' do
-          @logger.should_receive(:error)
           subject.should_receive(:sleep).once
           subject.execute{ |timeline| raise }
         end
@@ -97,7 +95,7 @@ describe ConsadoleAggregator do
         before { Time.stub!(:now).and_return(Time.parse('2011-03-05 14:01')) }
         subject{ Live.reserve(Time.parse('2011-03-05 14:00')) }
         it 'not sleep' do
-          subject.should_not_receive(:sleep)
+          subject.should_receive(:sleep).with(0)
           subject.wait_initial
         end
       end
