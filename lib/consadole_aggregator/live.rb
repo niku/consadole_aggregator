@@ -32,8 +32,8 @@ module ConsadoleAggregator
       def initialize reservation_time=nil, opt ={}
         @reservation_time = reservation_time
         @posted = []
-        @times = opt[:times] || 120 # サッカーは120分あれば終わる
-        @wait_sec = opt[:wait_sec] || 1
+        @wait_sec = opt[:wait_sec] || 30
+        @times = opt[:times] || (60/@wait_sec)*120 # サッカーは120分あれば終わる
         @logger = opt[:logger] || Logger.new(File.expand_path('log/live.log'))
       end
 

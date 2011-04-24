@@ -56,8 +56,8 @@ describe ConsadoleAggregator do
         it 'should to be be_daemonize' do
           subject.should_receive(:be_daemonize).ordered
           subject.should_receive(:wait_initial).ordered
-          subject.should_receive(:update).ordered.exactly(120).times
-          subject.should_receive(:sleep).with(1).exactly(120).times
+          subject.should_receive(:update).ordered.exactly(240).times
+          subject.should_receive(:sleep).with(30).exactly(240).times
           subject.execute
         end
       end
