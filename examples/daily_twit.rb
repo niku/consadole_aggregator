@@ -6,7 +6,6 @@ require 'rubytter'
 
 include ConsadoleAggregator
 
-LOGGER = Logger.new('log/consadole_news.log')
 ACCOUNT = YAML.load_file('account.yaml')
 oauth = Rubytter::OAuth.new(ACCOUNT['consumer']['key'], ACCOUNT['consumer']['secret'])
 access_token = OAuth::AccessToken.new(oauth.create_consumer, ACCOUNT['access']['key'], ACCOUNT['access']['secret'])

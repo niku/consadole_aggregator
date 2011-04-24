@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require 'logger'
 require 'uri'
 require 'kconv'
 require 'nokogiri'
@@ -31,15 +32,16 @@ module ConsadoleAggregator
       def initialize reservation_time=nil, opt ={}
         @reservation_time = reservation_time
         @posted = []
-        @times = opt[:times] ? opt[:times] : 120 # サッカーは120分あれば終わる
-        @wait_sec = opt[:wait_sec] ? opt[:wait_sec] : 1
+        @times = opt[:times] || 120 # サッカーは120分あれば終わる
+        @wait_sec = opt[:wait_sec] || 1
+        @logger = opt[:logger] || Logger.new(File.expand_path('log/live.log'))
       end
 
       def execute &block
         be_daemonize
         wait_initial
         @times.times do
-          update &block rescue LOGGER.error $!
+          update &block rescue @logger.error $!
           sleep @wait_sec
         end
       end

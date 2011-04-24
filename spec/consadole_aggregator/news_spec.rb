@@ -66,7 +66,7 @@ describe ConsadoleAggregator do
     describe '#get_strage' do
       context 'when yaml can load' do
         it 'should load from yaml' do
-          YAML.should_receive(:load_file).with("./db/TestClass.yaml")
+          YAML.should_receive(:load_file).with(/\/db\/TestClass.yaml$/)
           subject.get_strage
         end
       end
@@ -82,7 +82,7 @@ describe ConsadoleAggregator do
 
     describe '#build_strage_path' do
       context 'when Testclass' do
-        it { subject.build_strage_path.should == "./db/TestClass.yaml" }
+        it { subject.build_strage_path.should match /\/db\/TestClass.yaml$/ }
       end
     end
   end

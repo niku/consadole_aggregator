@@ -16,3 +16,5 @@ pkg
 
 # project specific
 *.sqlite3
+db
+log

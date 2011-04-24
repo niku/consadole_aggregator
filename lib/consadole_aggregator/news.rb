@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require 'logger'
 require 'rss'
 require 'uri'
 require 'kconv'
@@ -27,14 +28,14 @@ module ConsadoleAggregator
           yield article if block_given?
           @strage << article
         rescue
-          LOGGER.error $!
+          @logger.error $!
         end
       end
       save_strage
     end
 
     def get_strage
-      @strage ||= YAML.load_file(build_strage_path)
+      @strage ||= YAML.load_file(build_strage_path) || [] # fix when YAML.load_file is nil
     rescue
       @strage = []
     end
@@ -45,7 +46,7 @@ module ConsadoleAggregator
 
     def build_strage_path
       class_name = /([^:]+)$/.match(self.class.to_s)[1]
-      "./db/#{class_name}.yaml"
+      File.expand_path "db/#{class_name}.yaml"
     end
 
     # define class method's
@@ -154,6 +155,9 @@ module ConsadoleAggregator
       klass = Class.new do
         include Aggregatable
         @get_resource, @parse_list, @parse_article = *v
+        def initialize logger=nil
+          @logger = logger || Logger.new(File.expand_path 'log/news.log')
+        end
       end
       const_set(k, klass)
     end

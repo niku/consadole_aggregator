@@ -62,14 +62,15 @@ describe ConsadoleAggregator do
         end
       end
       context 'when raise Exception' do
-        subject{ Live::Live.new }
         before do
-          subject.tap{ |o| o.instance_eval { @times = 1 } }
-          subject.stub!(:be_daemonize)
-          subject.stub!(:wait_initial)
+          @logger = double()
+          @live = Live::Live.new(nil, { times:1, logger:@logger })
+          @live.stub!(:be_daemonize)
+          @live.stub!(:wait_initial)
         end
+        subject{ @live }
         it 'should log exception and sleep' do
-          LOGGER.should_receive(:error)
+          @logger.should_receive(:error)
           subject.should_receive(:sleep).once
           subject.execute{ |timeline| raise }
         end
