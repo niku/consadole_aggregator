@@ -156,7 +156,7 @@ module ConsadoleAggregator
         include Aggregatable
         @get_resource, @parse_list, @parse_article = *v
         def initialize logger=nil
-          @logger = logger || Logger.new(File.expand_path 'log/news.log')
+          @logger = logger || Logger.new(File.expand_path(File.dirname(__FILE__) + '/../../log/news.log'))
         end
       end
       const_set(k, klass)

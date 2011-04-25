@@ -34,7 +34,7 @@ module ConsadoleAggregator
         @posted = []
         @wait_sec = opt[:wait_sec] || 30
         @times = opt[:times] || (60/@wait_sec)*120 # サッカーは120分あれば終わる
-        @logger = opt[:logger] || Logger.new(File.expand_path('log/live.log'))
+        @logger = opt[:logger] || Logger.new(File.expand_path(File.dirname(__FILE__) + '/../../log/live.log'))
       end
 
       def execute &block
