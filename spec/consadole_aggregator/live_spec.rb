@@ -14,12 +14,12 @@ describe ConsadoleAggregator do
 
     describe '.parse' do
       context 'when start of game' do
-        before { Live.stub!(:get_resource).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html').force_encoding('Shift_JIS')) }
+        before { Live.stub!(:get_resource).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html').toutf8) }
         subject{ Live.parse }
         it{ should have(3).items }
       end
       context 'when end of game' do
-        before { Live.stub!(:get_resource).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html.120').force_encoding('Shift_JIS')) }
+        before { Live.stub!(:get_resource).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html.120').toutf8) }
         describe 'first TimeLine' do
           subject{ Live.parse.first }
           its(:time){ should == '試合開始' }
@@ -50,7 +50,7 @@ describe ConsadoleAggregator do
 
   describe Live::Live do
     describe '#execute' do
-      before { Live.stub!(:get_resource).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html.120').force_encoding('Shift_JIS')) }
+      before { Live.stub!(:get_resource).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html.120').toutf8) }
       context 'when normal update' do
         subject{ Live::Live.new }
         it 'should to be be_daemonize' do

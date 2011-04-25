@@ -15,11 +15,11 @@ module ConsadoleAggregator
     end
 
     def self.get_resource
-      Net::HTTP.get(BASE_URI).force_encoding('Shift_JIS')
+      Net::HTTP.get(BASE_URI).toutf8
     end
 
     def self.parse
-      doc = Nokogiri::HTML.parse(get_resource.toutf8, nil, 'UTF-8')
+      doc = Nokogiri::HTML.parse(get_resource)
       doc.search('hr + p').last.inner_html.split(/<br>|\n/).reverse.each_with_object([]) do |line, memo|
         timeline = Timeline.parse line
         memo << timeline if timeline
