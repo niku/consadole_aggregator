@@ -26,4 +26,28 @@ describe Timeline do
       it{ should eql Timeline.new('5分', nil) }
     end
   end
+  describe '#to_s' do
+    before do
+      @timeline = Timeline.new
+    end
+    context 'when empty' do
+      subject{ @timeline.to_s }
+      it{ should == '' }
+    end
+    context 'when only time' do
+      before do
+        @timeline.time = '1分'
+      end
+      subject{ @timeline.to_s }
+      it{ should == '1分' }
+    end
+    context 'when filled time and post' do
+      before do
+        @timeline.time = '1分'
+        @timeline.post = '右サイドからボールをつながれ攻撃を仕掛けられるが札幌DFが落ち着いてクリア'
+      end
+      subject{ @timeline.to_s }
+      it{ should == '1分 右サイドからボールをつながれ攻撃を仕掛けられるが札幌DFが落ち着いてクリア' }
+    end
+  end
 end
