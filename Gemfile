@@ -1,10 +1,12 @@
 source "http://rubygems.org"
+
+gem "nokogiri"
+gem "oauth"
+gem "rubytter"
+
 group :development do
-  gem "rspec"
   gem "bundler"
-  gem "jeweler"
   gem "rcov"
-  gem "nokogiri"
-  gem "oauth"
-  gem "rubytter"
+  gem "rspec"
+  gem "jeweler"
 end

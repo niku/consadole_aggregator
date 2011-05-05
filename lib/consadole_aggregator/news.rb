@@ -46,7 +46,7 @@ module ConsadoleAggregator
 
     def build_strage_path
       class_name = /([^:]+)$/.match(self.class.to_s)[1]
-      File.expand_path "db/#{class_name}.yaml"
+      File.expand_path(File.dirname(__FILE__) + "/../../db/#{class_name}.yaml")
     end
 
     # define class method's
