@@ -1,9 +1,17 @@
-= consadole_aggregator
+= Consadole Aggregator
 
-Description goes here.
+Aggregate infomation of 'Consadole Sapporo'.
+
+== Install
+
+ $ gem install consadole_aggregator
+
+== Usage
+
+ $ consadole_aggregator
 
 == Contributing to consadole_aggregator
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
 * Fork the project
