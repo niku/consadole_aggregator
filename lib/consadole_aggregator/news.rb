@@ -9,6 +9,10 @@ require 'nokogiri'
 
 module ConsadoleAggregator
   module Aggregatable
+    def initialize logger=nil
+      @logger = logger || Logger.new(nil)
+    end
+
     def get_new_articles
       get_resource = self.class.get_resource
       parse_list = self.class.parse_list
@@ -23,6 +27,7 @@ module ConsadoleAggregator
     end
 
     def update
+      @logger.info('begin of update')
       get_new_articles.each do |article|
         begin
           yield article if block_given?
@@ -32,6 +37,7 @@ module ConsadoleAggregator
         end
       end
       save_strage
+      @logger.info('end of update')
     end
 
     def get_strage
@@ -86,7 +92,7 @@ module ConsadoleAggregator
       [
        ->{ get_resource('http://hochi.yomiuri.co.jp/hokkaido/soccer/index.htm') },
        ->(list){ Nokogiri::HTML(list).search('div.list1 > ul > li a').reverse },
-       ->(article){ { url:"http://hochi.yomiuri.co.jp/hokkaido/soccer#{article['href']}", title:article.text } if article.text =~ /…札幌$/ }
+       ->(article){ { url:"http://hochi.yomiuri.co.jp#{article['href']}", title:article.text } if article.text =~ /…札幌$/ }
       ],
       Asahi:
       [
