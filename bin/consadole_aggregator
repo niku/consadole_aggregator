@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'optparse'
-params = ARGV.getopts(nil, "module:news", "output:log", "date")
+params = ARGV.getopts(nil, "module:news", "output:log", "date:")
 
 $:.unshift(File.expand_path('../../lib', __FILE__)) if $0 == __FILE__
 
