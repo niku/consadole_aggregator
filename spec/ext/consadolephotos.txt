@@ -1,5 +1,554 @@
-text01=7/25(��)���lFC��͊y�������ځI�@���F�B�E���Ƒ������ĎD�y�h�[����GO�I
-&text02=7/25(��)�D�y�h�[���ōs���鉡�lFC���PR����������I��Ƌ{�V�I��
-&text03=6/13vs���Q2-2 �F��͑O���E��Ļ��ނŤ�㔼���������ڰ�B���u������ڰ��������
-&text04=6/13vs���Q2-2 12�߈ȗ���1�����Ԃ�ɏo�ꂵ���g�O�B�㔼�r����������ޯ�����ڰ
-&text05=6/13vs���Q 2-2 4�����Ԃ�ɐ攭�����㗢�͍����̐��m���߽�Źްт���۰ق���
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="description" content="コンサドーレ札幌のオフィシャルサイト。ニュース、試合情報、チケット、スケジュール、チームデータ、クラブ情報、グッズ、スポンサー。" />
+<meta name="keywords" content="コンサドーレ,札幌,CONSADOLE,SAPPORO" />
+
+<title>コンサドーレ札幌オフィシャルサイト | CONSADOLE SAPPORO</title>
+
+<link href="./style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<script src="/common/js/jquery.min.js" type="text/javascript"></script>
+<script src="/common/js/megamenu.js" type="text/javascript"></script>
+<script src="/common/js/jquery_easing_1_2.js" type="text/javascript"></script>
+<script src="/common/js/jquery_anythingslider.js" type="text/javascript"></script>
+<script src="/common/js/common.js" type="text/javascript"></script>
+<script src="/common/js/top.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div id="header">
+<h1 title="コンサドーレ札幌 / CONSADOLE SAPPORO OFFICIAL WEB SITE"><a href="/"><img src="/common/images/logo_text.png" alt="コンサドーレ札幌 / CONSADOLE SAPPORO OFFICIAL WEB SITE" /></a></h1>
+<ul id="other-link">
+<li id="other-top"><a href="/" title="トップページ"><img src="/common/images/h_navi01.gif" alt="トップページ" /></a></li>
+<li id="other-sitemap"><a href="/sitemap/" title="サイトマップ"><img src="/common/images/h_navi02.gif" alt="サイトマップ" /></a></li>
+<li id="other-blog"><a href="http://www.consadole.net/" target="_blank" title="オフィシャルブログ"><img src="/common/images/h_navi03.gif" alt="オフィシャルブログ" /></a></li>
+</ul>
+<ul id="sponcor-link">
+<li><a href="http://www.shiroikoibito.ishiya.co.jp/" target="_blank" title="石屋製菓【白い恋人】"><img src="/common/images/header_s01.png" alt="石屋製菓【白い恋人】" /></a></li>
+<li><a href="http://www.sapporobeer.jp/" target="_blank" title="サッポロビール"><img src="/common/images/header_s02.png" alt="サッポロビール" /></a></li>
+<li><a href="http://www.jal.co.jp/" target="_blank" title="JAPAN  AIRLINES"><img src="/common/images/header_s03.png" alt="JAPAN  AIRLINES" /></a></li>
+<li><a href="http://www.jrhokkaido.co.jp/" target="_blank" title="JR北海道"><img src="/common/images/header_s04.png" alt="JR北海道" /></a></li>
+<li><a href="http://www.kappa.ne.jp/" target="_blank" title="Kappa"><img src="/common/images/header_s05.png" alt="Kappa" /></a></li>
+<li class="none"><a href="http://ja-dosanko.jp/" target="_blank" title="JAグル－プ北海道"><img src="/common/images/header_s06.png" alt="JAグル－プ北海道" /></a></li>
+</ul>
+<dl id="logo-mark">
+<dt><a href="/" title="コンサドーレ札幌 / CONSADOLE SAPPORO"><img class="iepngfix" src="/common/images/logo_mark.png" width="86" height="102" alt="コンサドーレ札幌 / CONSADOLE SAPPORO" /></a></dt>
+<dd><a href="/" title="コンサドーレ札幌おかげ様で15周年"><img src="/common/images/logo.gif" alt="コンサドーレ札幌おかげ様で15周年" /></a></dd>
+</dl>
+
+<ul class="megamenu">
+<li><a href="javascript:void(0)" title="ニュース"><img class="iepngfix" src="/common/images/navi01.png" width="57" height="24" alt="ニュース" /></a>
+<div style="width:830px;">
+<ul class="clear">
+<li><p><a href="/news/"><strong>ニュース一覧</strong></a></p></li>
+</ul>
+<ul class="clear">
+<li><p><a href="/news/team/">チーム</a></p></li>
+<li><p><a href="/news/sponsor/">スポンサー</a></p></li>
+<li><p><a href="/news/hometown/">ホームタウン</a></p></li>
+<li><p><a href="/news/event/">イベント</a></p></li>
+</ul>
+</div></li>
+
+<li><a href="javascript:void(0)" title="試合情報"><img class="iepngfix" src="/common/images/navi02.png" width="62" height="24" alt="試合情報" /></a>
+<div style="width:830px;">
+<div class="mega-inner clear">
+<dl>
+<dt>試合情報</dt>
+<dd><ol>
+<li class="width01"><p><a href="/info/">試合速報</a></p></li>
+<li class="width02"><p><a href="/info/topteam/">トップチーム試合日程・結果</a></p></li>
+<li class="width02"><p><a href="/info/satellite/">サテライトチーム試合日程・結果</a></p></li>
+<li class="width01"><p><a href="/info/ranking/">順位表</a></p></li>
+</ol></dd>
+</dl>
+<dl>
+<dt>スタジアム</dt>
+<dd><ol>
+<li><p><a href="/info/stadium/">札幌厚別公園競技場</a></p></li>
+<li><p><a href="/info/stadium/dome.html">札幌ドーム</a></p></li>
+<li><p><a href="/info/stadium/muroran.html">室蘭市入江運動公園陸上競技場</a></p></li>
+<li><p><a href="/info/stadium/hakodate.html">函館市千代台公園陸上競技場</a></p></li>
+<li><p><a href="/info/stadium/manner.html">観戦マナー・ルール</a></p></li>
+</ol></dd>
+</dl>
+</div><!--/mega_inner-->
+</div></li>
+
+<li><a href="javascript:void(0)" title="チケット"><img class="iepngfix" src="/common/images/navi03.png" width="57" height="24" alt="チケット" /></a>
+<div style="width:830px;">
+<ul class="clear">
+<li><p><a href="/ticket/">チケット販売日程・状況</a></p></li>
+<li><p><a href="/ticket/list/">チケット券種・価格表</a></p></li>
+<li><p><a href="/ticket/shop/">チケット取扱店</a></p></li>
+<li><p><a href="/ticket/guide/">チケットの買い方</a></p></li>
+</ul>
+<ul class="clear">
+<li><p><a href="/ticket/season/">シーズンシート</a></p></li>
+<li><p><a href="/ticket/etike/">え・チ・ケ</a></p></li>
+<li><p><a href="/ticket/online/">ネット販売</a></p></li>
+<li><p><a href="http://l-tike.com/consadole_kabu/" target="_blank">株主招待</a></p></li>
+</ul>
+</div></li>
+
+<li><a href="javascript:void(0)" title="チームデータ"><img class="iepngfix" src="/common/images/navi04.png" width="83" height="24" alt="チームデータ" /></a>
+<div style="width:830px;">
+<div class="mega-inner clear">
+<dl>
+<dt>プロフィール</dt>
+<dd><ol>
+<li><p><a href="/teamdata/">選手プロフィール</a></p></li>
+<li><p><a href="/teamdata/staff/">スタッフプロフィール</a></p></li>
+</ol></dd>
+</dl>
+<dl>
+<dt>練習場</dt>
+<dd><ol>
+<li><p><a href="/teamdata/stadium/">宮の沢白い恋人サッカー場</a></p></li>
+</ol></dd>
+</dl>
+</div><!--/mega_inner-->
+</div></li>
+
+<li><a href="javascript:void(0)" title="アカデミー"><img class="iepngfix" src="/common/images/navi05.png" width="71" height="24" alt="アカデミー" /></a>
+<div style="width:830px;">
+<div class="mega-inner clear">
+<dl class="width03">
+<dt>U-18</dt>
+<dd><ol>
+<li><p><a href="/youth/">U-18メンバー</a></p></li>
+<li><p><a href="/youth/u18game.html">U-18試合日程・結果</a></p></li>
+</ol></dd>
+<dt class="pat15">U-15</dt>
+<dd><ol>
+<li><p><a href="/youth/u15/">U-15メンバー</a></p></li>
+<li><p><a href="/youth/u15/u15game.html">U-15試合日程・結果</a></p></li>
+</ol></dd>
+</dl>
+<dl class="width03">
+<dt>U-15旭川</dt>
+<dd><ol>
+<li><p><a href="/youth/u15asa/">U-15旭川メンバー</a></p></li>
+<li><p><a href="/youth/u15asa/u15asagame.html">U-15旭川試合日程・結果</a></p></li>
+</ol></dd>
+<dt class="pat15">U-12</dt>
+<dd><ol>
+<li><p><a href="/youth/u12/">U-12メンバー</a></p></li>
+<li><p><a href="/youth/u12/u12game.html">U-12試合日程・結果</a></p></li>
+</ol></dd>
+</dl>
+<dl class="width03">
+<dt>育成</dt>
+<dd><ol>
+<li class="width01"><p><a href="/youth/selection.html">セレクション</a></p></li>
+<li class="width01"><p><a href="/youth/dispatch/">派遣</a></p></li>
+</ol></dd>
+</dl>
+</div><!--/mega_inner-->
+</div></li>
+
+<li><a href="javascript:void(0)" title="クラブ情報"><img class="iepngfix" src="/common/images/navi06.png" width="71" height="24" alt="クラブ情報" /></a>
+<div style="width:830px;">
+<ul class="clear">
+<li><p><a href="/club/">北海道フットボールクラブ</a></p></li>
+<li><p><a href="/club/history.html">沿革</a></p></li>
+<li><p><a href="/club/kessan.html">決算情報</a></p></li>
+<li><p><a href="/club/public_notice.html">電子公告</a></p></li>
+</ul>
+<ul class="clear">
+<li><p><a href="http://www.consadole-sapporo.jp/club/pdf/kyouka.pdf" target="_blank">強化計画（PDF）</a></p></li>
+<li><p><a href="http://www.consadole-sapporo.jp/club/pdf/chuki09_11.pdf" target="_blank">中期経営計画（PDF）</a></p></li>
+<li><p><a href="/club/design.html">チームデザイン</a></p></li>
+<li><p><a href="/club/volunteer.html">ボランティア</a></p></li>
+</ul>
+<ul class="clear">
+<li><p><a href="/club/consadolls.html">コンサドールズ</a></p></li>
+</ul>
+</div></li>
+
+<li><a href="http://www.club-consadole.com/" target="_blank" title="クラブコンサドーレ"><img class="iepngfix" src="/common/images/navi07.png" width="115" height="24" alt="クラブコンサドーレ" /></a></li>
+
+<li><a href="javascript:void(0)" title="グッズ"><img class="iepngfix" src="/common/images/navi08.png" width="46" height="24" alt="グッズ" /></a>
+<div style="width:830px;">
+<ul class="clear">
+<li><p><a href="/goods/">グッズ</a></p></li>
+<li><p><a href="/goods/shop/">ショップ</a></p></li>
+</ul>
+</div></li>
+
+<li><a href="javascript:void(0)" title="スポンサー"><img class="iepngfix" src="/common/images/navi09.png" width="72" height="24" alt="スポンサー" /></a>
+<div style="width:830px;">
+<ul class="clear">
+<li><p><a href="/sponsor/">オフィシャルパートナー</a></p></li>
+<li><p><a href="/sponsor/sponsor/">チームスポンサー</a></p></li>
+<li><p><a href="/sponsor/dreamplan/">夢プランパートナー</a></p></li>
+<li><p><a href="/sponsor/support/">サポートシップスポンサー</a></p></li>
+</ul>
+<ul class="clear">
+<li><p><a href="/sponsor/personal/">パーソナルスポンサー</a></p></li>
+<li><p><a href="/sponsor/guidance/">各種ご協賛のご案内</a></p></li>
+<li><p><a href="/contact/">スポンサー募集</a></p></li>
+</ul>
+</div></li>
+
+<li><a href="javascript:void(0)" title="ホームタウン活動"><img class="iepngfix" src="/common/images/navi10.png" width="106" height="24" alt="ホームタウン活動" /></a>
+<div style="width:830px;">
+<ul class="clear">
+<li><p><a href="/hometown/">ホームタウン活動</a></p></li>
+</ul>
+<div class="mega-inner clear">
+<dl>
+<dt>コンサドーレスポーツアカデミー</dt>
+<dd><ol>
+<li><p><a href="/hometown/junior_soccer.html">ジュニアサッカースクール</a></p></li>
+<li><p><a href="/hometown/sports_school.html">スポーツスクール in Fu&rsquo;s</a></p></li>
+<li><p><a href="/hometown/ski_school.html">スキースクール</a></p></li>
+<li><p><a href="/hometown/food_education.html">スポーツ食育＆スポーツ教室</a></p></li>
+</ol></dd>
+</dl>
+<dl>
+<dt>その他の活動</dt>
+<dd><ol>
+<li><p><a href="/hometown/welfare.html">福祉活動・地域貢献</a></p></li>
+<li><p><a href="/hometown/nature.html">環境・自然保護活動</a></p></li>
+</ol></dd>
+</dl>
+</div><!--/mega_inner-->
+</div></li>
+
+<li><a href="/media/" title="メディア"><img class="iepngfix" src="/common/images/navi11.png" width="56" height="24" alt="メディア" /></a></li>
+</ul>
+</div><!--/header-->
+
+<hr />
+
+<div id="contents">
+<div id="contents-inner" class="clear">
+
+<div id="main">
+<div id="v-r-box" class="clear">
+<div id="visual">
+<div id="visual-inner">
+<div class="anythingSlider">
+<div class="wrapper" style="overflow:hidden;">
+<h2>コンサドーレ札幌の最新情報</h2>
+<ul>
+<li class="cloned" title="6/12（日）13時vs横浜FC（室蘭入江） 3連勝目指し赤黒の戦士が室蘭で大暴れ！"><img src="http://www.consadole-sapporo.jp/visual/assets_c/2011/06/muroran1-thumb-480xauto-28.jpg" alt="6/12（日）13時vs横浜FC（室蘭入江） 3連勝目指し赤黒の戦士が室蘭で大暴れ！" />
+<div class="btnarea-link"><a class="link02" href="javascript:void(0);">6/12（日）13時vs横浜FC（室蘭入江） 3連勝目指し赤黒の戦士が室蘭で大暴れ！</a></div></li>
+<li title="6/12（日）13時vs横浜FC（室蘭入江） 一足先にドーレくんが室蘭へ｡詳しくはブログで！"><img src="http://www.consadole-sapporo.jp/visual/assets_c/2011/06/muroran2-thumb-480xauto-27.jpg" alt="6/12（日）13時vs横浜FC（室蘭入江） 一足先にドーレくんが室蘭へ｡詳しくはブログで！" />
+<div class="btnarea-link"><a class="link02" href="javascript:void(0);">6/12（日）13時vs横浜FC（室蘭入江） 一足先にドーレくんが室蘭へ｡詳しくはブログで！</a></div></li>
+<li title="6/5 【国際親善試合】札幌2-1大田　決勝点を決めた横野を中山や曵地らが祝福！"><img src="http://www.consadole-sapporo.jp/visual/assets_c/2011/06/yokonosssss-thumb-480xauto-29.jpg" alt="6/5 【国際親善試合】札幌2-1大田　決勝点を決めた横野を中山や曵地らが祝福！" />
+<div class="btnarea-link"><a class="link02" href="javascript:void(0);">6/5 【国際親善試合】札幌2-1大田　決勝点を決めた横野を中山や曵地らが祝福！</a></div></li>
+<li title="6/4 札幌2-1大分　左足からの豪快なシュートで決勝点を決めた近藤 2戦連発弾！"><img src="http://www.consadole-sapporo.jp/visual/assets_c/2011/06/kondounew-thumb-480xauto-18.jpg" alt="6/4 札幌2-1大分　左足からの豪快なシュートで決勝点を決めた近藤 2戦連発弾！" />
+<div class="btnarea-link"><a class="link02" href="javascript:void(0);">6/4 札幌2-1大分　左足からの豪快なシュートで決勝点を決めた近藤 2戦連発弾！</a></div></li>
+<li title="6/4 札幌2-1大分　豊富な運動量でボールに絡み、近藤のゴールをアシストした"><img src="http://www.consadole-sapporo.jp/visual/assets_c/2011/06/andolenew-thumb-480xauto-19.jpg" alt="6/4 札幌2-1大分　豊富な運動量でボールに絡み、近藤のゴールをアシストした" />
+<div class="btnarea-link"><a class="link02" href="javascript:void(0);">6/4 札幌2-1大分　豊富な運動量でボールに絡み、近藤のゴールをアシストした</a></div></li>
+</ul>        
+</div>
+</div>
+</div>
+</div><!--/visual-->
+
+<hr />
+
+<div id="result">
+
+<div id="result-box">
+<h3 title="最近の試合結果"><img src="./images/tit_result.jpg" alt="最近の試合結果" /></h3>
+<p id="game-spec">6/4 第15節 16:00 大銀ド</p>
+<ul id="game-result" class="clear">
+<li id="consa-result"><dl class="clear"><dt title="コンサドーレ札幌"><img src="/common/images/team/sapporo.png" alt="コンサドーレ札幌" /></dt><dd><p>1</p></dd></dl></li>
+<li id="game-score"><p>1<span>前半</span>0<br />0<span>後半</span>0</p></li>
+<li id="guest-result"><dl class="clear"><dt title="大分トリニータ"><img src="/common/images/team/oita.png" alt="大分トリニータ" /></dt><dd><p>0</p></dd></dl></li>
+</ul>
+<p id="btn-game"><a href="/info/topteam/detail/15_110604.html" title="試合詳細はこちら"><img src="./images/btn_result.png" alt="試合詳細はこちら" /></a></p>
+</div>
+
+<hr />
+
+<div id="next-match">
+<h3 title="Next Match"><img src="./images/next_match.gif" alt="Next Match" /></h3>
+<dl class="clear"><dt title="横浜FC"><img src="/common/images/team/yokohama_fc.png" alt="横浜FC" /></dt>
+<dd><p>6/12 第16節<br />13:00 室蘭入江<br />
+vs 横浜FC</p></dd></dl>
+</div>
+
+<hr />
+
+<div id="ranking-box">
+<h3 title="2011 J2 順位表"><img src="./images/tit_ranking.gif" alt="2011 J2 順位表" /></h3>
+<ol start="0">
+<li class="typeB"><dl class="clear"><dt>8</dt><dd class="t-name">愛媛ＦＣ</dd><dd class="t-point">14</dd></dl></li>
+<li><dl class="clear"><dt>9</dt><dd class="t-name">ＦＣ東京</dd><dd class="t-point">13</dd></dl></li>
+<li class="typeB"><dl class="clear"><dt>10</dt><dd class="t-name"><strong>コンサドーレ札幌</strong></dd><dd class="t-point">13</dd></dl></li>
+<li><dl class="clear"><dt>11</dt><dd class="t-name">ギラヴァンツ北九州</dd><dd class="t-point">13</dd></dl></li>
+<li class="typeB"><dl class="clear"><dt>12</dt><dd class="t-name">ガイナーレ鳥取</dd><dd class="t-point">12</dd></dl></li></ol>
+<p id="btn-ranking"><a href="/info/ranking/" title="全チーム順位表を見る"><img src="./images/btn_ranking.png" alt="全チーム順位表を見る" /></a></p>
+</div><!--/ranking_box-->
+
+</div><!--/result-->
+</div><!--/clear-->
+
+<hr />
+
+<div id="news-box">
+<ul class="clear">
+<li><dl class="clear"><dt title="お得なチケットで観戦しよう！"><img src="http://www.consadole-sapporo.jp/news/assets_c/2011/06/rt-thumb-90x90-32.jpg" alt="お得なチケットで観戦しよう！" /></dt>
+<dd><p class="news-title"><a href="http://www.consadole-sapporo.jp/news/2011/06/004573.html">お得なチケットで観戦しよう！</a></p>
+<div class="news-entry"><p>コンサドーレ札幌では、お得なチケット割引を実施！</…</div></dd></dl></li>
+<li><dl class="clear"><dt title="室蘭ホームゲーム迫る！"><img src="http://www.consadole-sapporo.jp/news/assets_c/2011/06/vsyokofc-thumb-90x90-34.jpg" alt="室蘭ホームゲーム迫る！" /></dt>
+<dd><p class="news-title"><a href="http://www.consadole-sapporo.jp/news/2011/05/001791.html">室蘭ホームゲーム迫る！</a></p>
+<div class="news-entry"><p>いよいよ12日(日)、室蘭での公式戦が開催されます。…</div></dd></dl></li>
+<li class="none"><dl class="clear"><dt title="震災による代替試合日程について"><img src="http://www.consadole-sapporo.jp/news/assets_c/2011/06/ru-thumb-90x90-31.jpg" alt="震災による代替試合日程について" /></dt>
+<dd><p class="news-title"><a href="http://www.consadole-sapporo.jp/news/2011/04/001790.html">震災による代替試合日程について</a></p>
+<div class="news-entry"><p>東日本大震災の影響により中止となった、第2節〜第7節…</div></dd></dl></li>
+</ul>
+</div><!--/news_box-->
+
+<hr />
+
+<ul id="pr-box" class="clear">
+<li><a href="http://www.jrhokkaidobus.com/" target="_blank" title="JHB：ジェイ・アール北海道バス"><img src="/common/bnr/bnr_jrhb.gif" alt="JHB：ジェイ・アール北海道バス" /></a></li>
+<li style="background-color:#036; padding:9px 20px; width:160px;"><a href="http://www.jsgoal.jp/special/skyperfectv/" target="_blank" title="アウェイにいけないときはスカパー！で"><img src="/common/bnr/bnr_e2_110606.gif" alt="アウェイにいけないときはスカパー！で" /></a></li>
+<li><a href="http://www.hokusen.jp/campaign/consa.html" target="_blank" title="ほくせんサポーターズカード 新規入会キャンペーン実施中！"><img src="/common/bnr/bnr_hokusen.gif" alt="ほくせんサポーターズカード 新規入会キャンペーン実施中！" /></a></li>
+</ul>
+
+<hr />
+
+<div class="clear">
+<div id="news">
+<h3 title="最新ニュース"><img src="./images/tit_news.gif" alt="最新ニュース" /></h3>
+<ul id="rss-box">
+<li id="btn-rss"><a href="/news/atom.xml" title="RSS"><img src="./images/btn_rss.png" alt="RSS" /></a></li>
+<li id="btn-news-list"><a href="/news/" title="ニュース一覧"><img src="./images/btn_news_list.png" alt="ニュース一覧" /></a></li>
+</ul>
+<ul id="news-list-category" class="clear">
+<li><a href="/news/sponsor/">スポンサー</a></li>
+<li><a href="/news/team/">チーム</a></li>
+<li><a href="/news/hometown/">ホームタウン</a></li>
+<li><a href="/news/event/">イベント</a></li>
+</ul>
+<ol id="news-list">
+<li><dl class="clear"><dt>2011/06/08<span>スポンサー</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/004677.html">コンサドーレ札幌コレクションハウス内「東日本大震災 災害義援金」募金額のご報告</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/08<span>チーム</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/004572.html">コンサドーレ札幌　芳賀 博信 選手の負傷について</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/08<span>チーム</span><span>メディア</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/004571.html">サッカーダイジェスト（6.21号）にコンサドーレ札幌特集が掲載！</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/08<span>ニュース</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/004568.html">コンサドーレ札幌公式サイト リニューアルのお知らせ</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/07<span>ゲーム</span><span>スポンサー</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/002355.html">J2リーグ第18節 コンサドーレ札幌vsカターレ富山【JAグループ北海道サンクスマッチ】「エスコートキッズ」参加者大募集!</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/06<span>ニュース</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/002356.html">コンサドーレ札幌 チームスケジュール変更のお知らせ</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/06<span>ニュース</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/002357.html">コンサドーレ札幌 室蘭市入江運動公園陸上競技場で公式練習を実施</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/06<span>ホームタウン</span><span>活動スケジュール</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/002358.html">コンサドーレ札幌 スポーツスクール in Fu's 第8期参加者募集のお知らせ</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/05<span>ニュース</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/002359.html">国際親善試合vs大田シチズンの試合結果</a></p></dd></dl></li>
+<li><dl class="clear"><dt>2011/06/03<span>ニュース</span></dt>
+<dd><p><a href="http://www.consadole-sapporo.jp/news/2011/06/002360.html">注目の瞬間を見逃すな!! スカパー!e2で、明日6/4（土）大分戦を16日間無料体験で観よう!</a></p></dd></dl></li>
+</ol>
+<p id="btn-news"><a href="/news/" title="ニュース一覧"><img src="./images/btn_news.png" alt="ニュース一覧" /></a></p>
+</div><!--/news-->
+
+<hr />
+
+<div id="bnr-area">
+<ul>
+<li class="clear"><a href="/hometown/guide_muroran.html" title="2011室蘭観戦・観光ガイド"><img src="/common/bnr/bnr_muroran2011.gif" alt="2011室蘭観戦・観光ガイド" /></a></li>
+<li class="clear"><a href="/sponsor/support/" title="サポートシップスポンサー募集中！"><img src="/common/bnr/bnr_supportship.png" alt="サポートシップスポンサー募集中！" /></a></li>
+<li class="clear"><a href="/sponsor/personal/" title="パーソナルスポンサー募集中！"><img src="/common/bnr/bnr_parsonalsponcer.png" alt="パーソナルスポンサー募集中！" /></a></li>
+<li class="clear"><a href="/hometown/junior_soccer.html" title="ジュニアスクール生募集中！！"><img src="/common/bnr/bnr_school.png" alt="ジュニアスクール生募集中！！" /></a></li>
+<li class="clear"><a href="http://www.consadole.net/smile-league/index.html" target="_blank" title="コンサドーレスマイルリーグ"><img src="/common/bnr/bnr_smile.png" alt="コンサドーレスマイルリーグ" /></a></li>
+</ul>
+</div><!--/bnr_area-->
+</div><!--/clear-->
+
+</div><!--/main-->
+
+<hr />
+
+<div id="left-clm">
+
+<div id="mobile-box">
+<h3 title="公式携帯サイト更新情報"><img src="./images/tit_mobile.png" alt="公式携帯サイト更新情報" /></h3>
+<dl class="clear">
+<dt title="大田国際親善試合のハイライトやインタビューを公開！"><img src="http://www.consadole-sapporo.jp/news/assets_c/2011/06/yokonoaaaa-thumb-60x60-23.jpg" alt="大田国際親善試合のハイライトやインタビューを公開！" /><!--<img src="./images/ph_mobile.jpg" alt="大田国際親善試合のハイライトやインタビューを公開！" />--></dt>
+<dd><strong>NEW!!</strong>2011/06/07<br />大田国際親善試合のハイライトやインタビューを公開！</dd>
+</dl>
+<p class="normal">2011/06/06<br />大分戦 決勝点を決めた近藤選手のインタビュー公開！</p>
+<dl class="clear">
+<dt title="QRコード"><img src="./images/qr_code.png" alt="QRコード" /></dt>
+<dd><img src="./images/mobile_text.png" alt="アクセスはこちらから！" />
+<p class="btn-detail"><a href="/mobile/" title="詳細はこちら"><img src="./images/btn_mobile.png" alt="詳細はこちら" /></a></p></dd>
+</dl>
+</div><!--/mobile_box-->
+
+<hr />
+
+<div id="schedule-box">
+<h3 title="直近のスケジュール"><img src="./images/tit_schedule.gif" alt="直近のスケジュール" /></h3>
+<ol>
+<li><dl class="clear"><dt>06/09（木）</dt><dd>練習 10:30（室蘭入江）</dd></dl></li>
+<li class="typeA"><dl class="clear"><dt>06/10（金）</dt><dd>練習 9:30(ﾄﾞｰﾑｻﾌﾞ)</dd></dl></li>
+<li><dl class="clear"><dt class="sat">06/11（土）</dt><dd>練習 9:30(ﾄﾞｰﾑｻﾌﾞ)</dd></dl></li>
+<li class="typeA"><dl class="clear"><dt class="sun">06/12（日）</dt><dd>vs 横浜FC（室蘭/13時）</dd></dl></li>
+<li><dl class="clear"><dt>06/13（月）</dt><dd>練習 9:30(宮の沢)</dd></dl></li>
+<li class="typeA"><dl class="clear"><dt>06/14（火）</dt><dd>オフ</dd></dl></li>
+<li><dl class="clear"><dt>06/15（水）</dt><dd>9:30/14:30（宮の沢）</dd></dl></li>
+<li class="typeA"><dl class="clear"><dt>06/16（木）</dt><dd>&nbsp;</dd></dl></li>
+<li><dl class="clear"><dt>06/17（金）</dt><dd>&nbsp;</dd></dl></li>
+<li class="typeA"><dl class="clear"><dt class="sat">06/18（土）</dt><dd>&nbsp;</dd></dl></li>
+<li><dl class="clear"><dt class="sun">06/19（日）</dt><dd>vs岐阜（長良川/18時）</dd></dl></li>
+<li class="typeA"><dl class="clear"><dt>06/20（月）</dt><dd>&nbsp;</dd></dl></li>
+<li><dl class="clear"><dt>06/21（火）</dt><dd>&nbsp;</dd></dl></li>
+<li class="typeA"><dl class="clear"><dt>06/22（水）</dt><dd>&nbsp;</dd></dl></li>
+</ol>
+<p id="btn-schedule"><a href="/schedule/" title="スケジュールを見る"><img src="./images/btn_schedule.png" alt="スケジュールを見る" /></a></p>
+</div><!--/schedule_box-->
+
+<hr />
+
+<div id="site-box">
+<h3 title="関連サイト"><img src="./images/tit_site.gif" alt="関連サイト" /></h3>
+<ul>
+<li class="clear"><a href="http://www.club-consadole.com/" target="_blank" title="クラブコンサドーレ"><img src="/common/bnr/bnr_clubconsa.png" alt="クラブコンサドーレ" /></a></li>
+<li class="clear"><a href="http://www.hokkaido-np.co.jp/cont/gekkan-consa/" target="_blank" title="月刊コンサドーレ[シーエス]毎月25日発売"><img src="/common/bnr/bnr_consa_magazine.png" alt="月刊コンサドーレ[シーエス]毎月25日発売" /></a></li>
+<li class="clear"><a href="http://cs-support.jp/" target="_blank" title="北海道後援会"><img src="/common/bnr/bnr_consa_backup.png" alt="北海道後援会" /></a></li>
+<li class="clear"><a href="/mochikabu/" title="サポーターズ持株会"><img src="/common/bnr/bnr_stock.png" alt="サポーターズ持株会" /></a></li>
+<li class="clear"><a href="/sitemap/dolebox.html" title="ドーレBOX設置マップ"><img src="/common/bnr/bnr_dolebox.png" alt="ドーレBOX設置マップ" /></a></li>
+<li class="clear"><a href="http://www.consadole.net/" target="_blank" title="オフィシャルブログ"><img src="/common/bnr/bnr_consa_blog.png" alt="オフィシャルブログ" /></a></li>
+</ul>
+</div><!--/site_box-->
+
+</div><!--/left_clm-->
+
+</div><!--/contents_inner-->
+</div><!--/contents-->
+
+<hr />
+
+<div id="gototop">
+<p><a href="javascript:fortop();" title="このページのトップへ"><img src="/common/images/gototop.png" alt="このページのトップへ" /></a></p>
+</div><!--/gototop-->
+
+<hr />
+
+<div id="footer-link">
+<div id="footer-link-inner" class="clear">
+<ul>
+<li><p><a href="/">トップページ</a></p></li>
+<li><p>ニュース</p>
+<ol>
+<li><p><a href="/news/">ニュース一覧</a></p></li>
+<li><p><a href="/news/team/">チーム</a></p></li>
+<li><p><a href="/news/sponsor/">スポンサー</a></p></li>
+<li><p><a href="/news/hometown/">ホームタウン</a></p></li>
+<li><p><a href="/news/event/">イベント</a></p></li>
+</ol></li>
+<li><p>試合情報</p>
+<ol>
+<li><p><a href="/info/">試合速報</a></p></li>
+<li><p><a href="/info/topteam/">トップチーム試合日程・結果</a></p></li>
+<li><p><a href="/info/ranking/">順位表</a></p></li>
+<li><p><a href="/info/stadium/">スタジアム</a></p></li>
+</ol></li>
+</ul>
+<ul class="short">
+<li><p>チケット</p>
+<ol>
+<li><p><a href="/ticket/">チケット販売日程・状況</a></p></li>
+<li><p><a href="/ticket/list/">チケット券種・価格表</a></p></li>
+<li><p><a href="/ticket/shop/">チケット取扱店</a></p></li>
+<li><p><a href="/ticket/season/">シーズンシート</a></p></li>
+<li><p><a href="/ticket/etike/">え・チ・ケ</a></p></li>
+<li><p><a href="/ticket/online/">ネット販売</a></p></li>
+<li><p><a href="http://l-tike.com/consadole_kabu/" target="_blank">株主招待</a></p></li>
+</ol></li>
+<li><p>スケジュール</p>
+<ol>
+<li><p><a href="/schedule/">月間スケジュール</a></p></li>
+</ol></li>
+</ul>
+<ul>
+<li><p>チームデータ</p>
+<ol>
+<li><p><a href="/teamdata/">選手プロフィール</a></p></li>
+<li><p><a href="/teamdata/staff/">スタッフプロフィール</a></p></li>
+<li><p><a href="/teamdata/stadium/">練習場</a></p></li>
+</ol></li>
+<li><p>アカデミー</p>
+<ol>
+<li><p><a href="/youth/">U-18</a></p></li>
+<li><p><a href="/youth/u15/">U-15</a></p></li>
+<li><p><a href="/youth/u15asa/">U-15旭川</a></p></li>
+<li><p><a href="/youth/u12/">U-12</a></p></li>
+<li><p><a href="/youth/selection.html">セレクション</a></p></li>
+<li><p><a href="/youth/dispatch/">派遣</a></p></li>
+</ol></li>
+</ul>
+<ul class="short">
+<li><p>クラブ情報</p>
+<ol>
+<li><p><a href="/club/">クラブ情報</a></p></li>
+</ol></li>
+<li><p>グッズ</p>
+<ol>
+<li><p><a href="/goods/">グッズ</a></p></li>
+<li><p><a href="/goods/shop/">ショップ</a></p></li>
+</ol></li>
+<li><p><a href="http://www.consadole-sapporo.jp/funclub/" target="_blank">クラブコンサドーレ</a></p></li>
+</ul>
+<ul>
+<li><p>スポンサー</p>
+<ol>
+<li><p><a href="/sponsor/">オフィシャルパートナー</a></p></li>
+<li><p><a href="/sponsor/sponsor/">チームスポンサー</a></p></li>
+<li><p><a href="/sponsor/dreamplan/">夢プランパートナー</a></p></li>
+<li><p><a href="/sponsor/support/">サポ－トシップスポンサー</a></p></li>
+<li><p><a href="/sponsor/personal/">パーソナルスポンサー</a></p></li>
+<li><p><a href="/sponsor/guidance/">各種ご協賛のご案内</a></p></li>
+<li><p><a href="/contact/">スポンサー募集</a></p></li>
+</ol></li>
+<li><p><a href="/hometown/">ホームタウン活動</a></p></li>
+<li><p><a href="/">メディア</a></p></li>
+</ul>
+</div><!--/footer_link_inner-->
+<div id="text-link"><ul class="clear">
+<li><a href="/privacy/">プライバシーポリシー</a></li>
+<li><a href="/copyright/">著作権について</a></li>
+<li><a href="https://www.consadole-sapporo.jp/contact/">お問い合わせ</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+<li><a href="/mobile/">携帯サイト</a></li>
+<li><a href="http://www.consadole.net/" target="_blank">オフィシャルブログ</a></li>
+</ul></div>
+</div><!--/footer_link-->
+
+<hr />
+
+<div id="footer">
+<div id="footer-inner" class="clear">
+<p title="コンサドーレ札幌 / 北海道フットボールクラブ"><a href="/"><img src="/common/images/footer_logo.gif" alt="コンサドーレ札幌 / 北海道フットボールクラブ" /></a></p>
+<dl>
+<dt>本サイトで使用している文章、画像等の無断での複製・転載を禁止します。</dt>
+<dd class="clear"><address title="Copyright(c)2011 HFC co,.ltd. All Rights Reserved."><img src="/common/images/copy.gif" alt="Copyright(c)2011 HFC co,.ltd. All Rights Reserved." /></address></dd>
+</dl>
+</div><!--/footer_inner-->
+</div><!--/footer-->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2718076-1";
+urchinTracker();
+</script>
+</body>
+</html>

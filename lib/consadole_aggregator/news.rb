@@ -68,12 +68,9 @@ module ConsadoleAggregator
       ],
       Consadolephotos:
       [
-       ->{ get_resource('http://www.consadole-sapporo.jp/comment.txt') },
-       ->(list){ list.split("\n").reverse },
-       ->(article){
-         photo = article.match(/^&?text(?<number>\d\d)=(?<title>.+)/)
-         { url:"http://www.consadole-sapporo.jp/img/#{photo[:number]}.jpg", title:photo[:title] }
-       }
+       ->{ get_resource('http://www.consadole-sapporo.jp/') },
+       ->(list){ Nokogiri::HTML(list).search('div.anythingSlider img').reverse },
+       ->(article){ { url:article['src'], title:article['alt'] } }
       ],
       Jsgoalnews:
       [

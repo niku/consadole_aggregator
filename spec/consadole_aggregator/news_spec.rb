@@ -142,8 +142,12 @@ describe ConsadoleAggregator do
       end
       it{ subject.get_new_articles.should have_at_least(1).items }
     end
-    it 'Consadolephotos should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Consadolephotos.new.get_new_articles }.to_not raise_error
+    describe ConsadoleAggregator::News::Consadolephotos do
+      subject{ ConsadoleAggregator::News::Consadolephotos.new }
+      it 'Consadolephotos should not raise Exception' do
+        expect{ subject.get_new_articles }.to_not raise_error
+      end
+      it{ subject.get_new_articles.should have_at_least(1).items }
     end
     it 'Jsgoalnews should not raise Exception' do
       expect{ ConsadoleAggregator::News::Jsgoalnews.new.get_new_articles }.to_not raise_error
