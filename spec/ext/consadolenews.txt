@@ -1,251 +1,446 @@
-<?xml version="1.0" encoding="shift_jis"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>ニュース</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/" />
+    <link rel="self" type="application/atom+xml" href="http://www.consadole-sapporo.jp/news/atom.xml" />
+    <id>tag:www.consadole-sapporo.jp,2011-05-16:/news//2</id>
+    <updated>2011-06-08T10:00:18Z</updated>
+    <subtitle>コンサドーレ札幌のニュース一覧。</subtitle>
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type Pro 5.04</generator>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<entry>
+    <title>コンサドーレ札幌コレクションハウス内「東日本大震災 災害義援金」募金額のご報告</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/004677.html" />
+    <id>tag:www.consadole-sapporo.jp,2011:/news//2.4677</id>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="content-style-type" content="text/css" />
-<meta http-equiv="content-script-type" content="text/javascript" />
-<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
-<meta name="copyright" content="Copyright(C) 2006 Consadole Sapporo Official Site. All Rights Reserved." />
-<meta name="googlebot" content="all" />
-<meta name="robots" content="all" />
-<meta name="description" content="コンサドーレ札幌のウェブサイトへようこそ！最新ニュース、チーム情報など、コンサドーレ札幌に関する情報はここから。" />
-<meta name="keyword" content="コンサドーレ札幌,サッカー,フットボール,Jリーグ,スタジアム,国立競技場,CONSADOLE SAPPORO,soccer,football,J.league" />
+    <published>2011-06-08T09:52:49Z</published>
+    <updated>2011-06-08T10:00:18Z</updated>
 
-<title>CONSADOLE SAPPORO OFFICIAL SITE</title>
-<link rel="index" href="./" />
-<link rel="stylesheet" type="text/css" href="./css/news.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/common/css/header.css" media="screen, projection" />
-</head>
+    <summary>◆石屋製菓 白い恋人パーク内「コンサドーレ札幌コレクションハウス」設置しておりま...</summary>
+    <author>
+        <name>奥村</name>
+        
+    </author>
+    
+        <category term="スポンサー" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆石屋製菓 白い恋人パーク内「コンサドーレ札幌コレクションハウス」設置しております募金箱にお寄せいただいた義援金額についてご報告いたします。<br />
+<br />
+<strong>■義援金額：</strong>　４,０３９円<br />
+<strong>■集計期間：</strong>　５月１日～５月３１日<br />
+<strong>■義援金累計額：　１３３,３９６円</strong><br />
+<strong>■集計期間：</strong>　３月２８日～５月３１日<br />
+<br />
+多くのご支援に心より御礼申し上げます。<br />
+お寄せいただきました義援金につきましては、Ｊリーグを通じ、日本赤十字社に寄付いたします。<br />
+なお、募金箱は引き続き設置しておりますので、コレクションハウスにお立ち寄りの際は、募金に御協力くださいますようお願いいたします。</p>
+]]>
+        
+    </content>
+</entry>
 
-<body>
-<a id="top"></a>
-<div id="header2008" title="CONSADOLE SAPPORO OFFICIAL SITE">
-<h1><a href="/"><img src="/common/img/consa_logo.jpg" alt="コンサドーレ札幌オフィシャルウェブサイト／CONSADOLE SAPPORO OFFICIAL SITE" /></a></h1>
-<ul>
-<li id="hbot01"><a href="http://www.consadole.net/" target="_blank" title="コンサドーレ札幌オフィシャルブログ">コンサドーレ札幌オフィシャルブログ</a></li>
-<li id="hbot02"><a href="/mobile/" title="携帯サイト">携帯サイト</a></li>
-</ul></div>
-<div id="navi2008">
-<h2 class="hid">コンサドーレ札幌のメインコンテンツメニュー</h2>
-<ul>
-<li id="navi01"><a href="/news/diary.cgi" title="ニュース&nbsp;/&nbsp;NEWS">ニュース&nbsp;/&nbsp;NEWS</a></li>
-<li id="navi02"><a href="/info/" title="試合情報&nbsp;/&nbsp;GAME&nbsp;INFO">試合情報&nbsp;/&nbsp;GAME&nbsp;INFO</a></li>
-<li id="navi03"><a href="/ticket/" title="チケット&nbsp;/&nbsp;TICKET">チケット&nbsp;/&nbsp;TICKET</a></li>
-<li id="navi04"><a href="/schedule/" title="スケジュール&nbsp;/&nbsp;SCHEDULE">スケジュール&nbsp;/&nbsp;SCHEDULE</a></li>
-<li id="navi05"><a href="/teamdata/" title="チームデータ&nbsp;/&nbsp;TEAM&nbsp;DATA">チームデータ&nbsp;/&nbsp;TEAM&nbsp;DATA</a></li>
-<li id="navi06"><a href="/youth/" title="ユース&nbsp;/&nbsp;YOUTH">ユース&nbsp;/&nbsp;YOUTH</a></li>
-<li id="navi07"><a href="/club/" title="クラブ情報&nbsp;/&nbsp;CLUB">クラブ情報&nbsp;/&nbsp;CLUB</a></li>
-<li id="navi08"><a href="/funclub/" title="ファンクラブ&nbsp;/&nbsp;FANCLUB">ファンクラブ&nbsp;/&nbsp;FUNCLUB</a></li>
-<li id="navi09"><a href="/goods/" title="グッズ&nbsp;/&nbsp;GOODS">グッズ&nbsp;/&nbsp;GOODS</a></li>
-<li id="navi10"><a href="/sponsor/" title="スポンサー&nbsp;/&nbsp;SPONSOR">スポンサー&nbsp;/&nbsp;SPONSOR</a></li>
-</ul>
-<hr /></div>
-<div id="subnavi">
-<h3 class="hid">コンサドーレ札幌ニュースのコンテンツメニュー</h3>
-<ul>
-<li id="subnavi01x"><a href="./diary.cgi" title="ニュースリリース">ニュースリリース</a></li>
-<li id="subnavi02"><a href="../snews/diary.cgi" title="スポンサーニュース">スポンサーニュース</a></li>
-</ul></div>
-<div id="pan">
-<p><a href="../">トップ</a>&nbsp;&gt;&gt;&nbsp;<a href="./diary.cgi">ニュース</a>&nbsp;&gt;&gt;&nbsp;ニュースリリース</p></div>
-<div id="main" class="clear">
-<div id="sidenavi" title="サイドナビゲーション">
-<ul>
-<li id="subsub01"><a href="./diary.cgi" title="ニュース一覧">ニュース一覧</a></li>
-</ul>
-<hr /></div>
-<div id="contents">
+<entry>
+    <title>コンサドーレ札幌　芳賀 博信 選手の負傷について</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/004572.html" />
+    <id>tag:www.consadole-sapporo.jp,2011:/news//2.4572</id>
 
-<form>
-<table class="pagetitle" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td colspan="2" id="pagetitle">
-	
-<select onchange="location.href=this.options[this.selectedIndex].value">
-<option>過去のニュース</option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=201006">2010年06月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=201005">2010年05月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=201004">2010年04月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=201003">2010年03月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=201002">2010年02月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=201001">2010年01月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200912">2009年12月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200911">2009年11月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200910">2009年10月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200909">2009年09月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200908">2009年08月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200907">2009年07月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200906">2009年06月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200905">2009年05月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200904">2009年04月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200903">2009年03月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200902">2009年02月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200901">2009年01月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200812">2008年12月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200811">2008年11月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200810">2008年10月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200809">2008年09月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200808">2008年08月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200807">2008年07月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200806">2008年06月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200805">2008年05月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200804">2008年04月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200803">2008年03月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200802">2008年02月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200801">2008年01月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200712">2007年12月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200711">2007年11月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200710">2007年10月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200709">2007年09月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200708">2007年08月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200707">2007年07月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200706">2007年06月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200705">2007年05月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200704">2007年04月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200703">2007年03月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200702">2007年02月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200701">2007年01月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200612">2006年12月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200611">2006年11月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200610">2006年10月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200609">2006年09月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200608">2006年08月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200607">2006年07月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200606">2006年06月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200605">2006年05月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200604">2006年04月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200603">2006年03月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200602">2006年02月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200601">2006年01月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200512">2005年12月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200510">2005年10月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200509">2005年09月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200508">2005年08月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200507">2005年07月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200506">2005年06月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200505">2005年05月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200504">2005年04月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200503">2005年03月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200502">2005年02月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200501">2005年01月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200412">2004年12月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200411">2004年11月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200410">2004年10月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200409">2004年09月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200408">2004年08月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200407">2004年07月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200406">2004年06月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200405">2004年05月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200404">2004年04月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200403">2004年03月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200402">2004年02月</a></option>
-<option value="http://www.consadole-sapporo.jp/news/diary.cgi?date=200401">2004年01月</a></option>
-</select>
-</form>
-	</td>
-</tr>
+    <published>2011-06-08T05:11:44Z</published>
+    <updated>2011-06-08T05:17:33Z</updated>
 
-</table>
+    <summary>◇６月４日（土）の大分戦にて負傷した芳賀博信選手の診断結果が出ましたのでお知らせ...</summary>
+    <author>
+        <name>熱海</name>
+        
+    </author>
+    
+        <category term="チーム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◇６月４日（土）の大分戦にて負傷した芳賀博信選手の診断結果が出ましたのでお知らせいたします。</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 130%"><strong>■芳賀 博信選手（背番号１８　ＭＦ）</strong></span></p>
+<p>■負傷名：　　左足底腱膜部分断裂</p>
+<p>■全治：　　４週</p>]]>
+        
+    </content>
+</entry>
 
+<entry>
+    <title>サッカーダイジェスト（6.21号）にコンサドーレ札幌特集が掲載！</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/004571.html" />
+    <id>tag:www.consadole-sapporo.jp,2011:/news//2.4571</id>
 
+    <published>2011-06-08T05:02:24Z</published>
+    <updated>2011-06-08T09:48:52Z</updated>
 
-<div id="frame">
+    <summary>◆今週発売のサッカーダイジェスト（6.21号）にコンサドーレ札幌特集が掲載されま...</summary>
+    <author>
+        <name>熱海</name>
+        
+    </author>
+    
+        <category term="チーム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="メディア" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆今週発売のサッカーダイジェスト（6.21号）にコンサドーレ札幌特集が掲載されます。</p>
+<p><br />
+【掲載内容】<br />
+●古田寛幸選手のインタビュー<br />
+●石崎監督のインタビュー</p>
 
+<p>●芳賀選手が語るチームメイトの素顔<br />
+●コンサドーレ札幌Ｕ－１８特集</p>]]>
+        
+    </content>
+</entry>
 
+<entry>
+    <title>コンサドーレ札幌公式サイト リニューアルのお知らせ</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/004568.html" />
+    <id>tag:www.consadole-sapporo.jp,2011:/news//2.4568</id>
 
-<table class="frametable" border="0" cellspacing="0" cellpadding="0">
+    <published>2011-06-08T02:16:18Z</published>
+    <updated>2011-06-08T02:38:19Z</updated>
 
+    <summary>◆この度、コンサドーレ札幌のオフィシャルサイトがリニューアルされました。 トップ...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆この度、コンサドーレ札幌のオフィシャルサイトがリニューアルされました。<br />
+トップ画面から公式携帯サイト「チャオ!コン」の更新情報やトップチームのスケジュール情報が閲覧可能になりました。</p>
+<p>また、ニュースリリース記事も「チーム」や「ホームタウン」「イベント」など各カテゴリ毎に集約。<br />
+今後も「見やすさ」と「わかりやすさ」をコンセプトに、新たなページを構築していく予定です。</p>
+<p>これからも「コンサドーレ札幌オフィシャルサイト」を宜しくお願いします。</p>
+]]>
+        
+    </content>
+</entry>
 
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月26日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2420" title="記事No.2420の固定URL">JFAプリンスリーグU-18 北海道2010 コンサドーレ札幌U-18　第4節の試合結果</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月26日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2419" title="記事No.2419の固定URL">練習試合vs川崎フロンターレ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月24日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2418" title="記事No.2418の固定URL">『“コンサドーレ札幌 ハーフタイム パーティー２０１０”～白い恋人パーク 15周年記念感謝イベント～』　ご来場に関するお願い</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月24日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2417" title="記事No.2417の固定URL">『“コンサドーレ札幌 ハーフタイム パーティー２０１０”～白い恋人パーク 15周年記念感謝イベント～』　実施概要のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月24日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2416" title="記事No.2416の固定URL">コンサドーレ札幌応援プロジェクト｢コンサレッド｣植樹のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月24日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2415" title="記事No.2415の固定URL">中山雅史選手　テレビ番組出演のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月24日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2414" title="記事No.2414の固定URL">6月25日（金）練習時間　変更のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月21日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2413" title="記事No.2413の固定URL">横浜FC 片山奨典選手 練習参加のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月20日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2412" title="記事No.2412の固定URL">中山雅史選手　テレビ番組出演のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月18日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2411" title="記事No.2411の固定URL">コンサドーレ札幌｢共通ウィズユーカード｣完売のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月18日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2410" title="記事No.2410の固定URL">“コンサドーレ札幌ハーフタイムパーティー2010”オンリーユーシート・スペシャルシート完売のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月17日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2409" title="記事No.2409の固定URL">中山雅史選手　テレビ番組出演のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月17日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2408" title="記事No.2408の固定URL">コンサドーレ札幌応援写真パネル展 開催中</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月16日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2407" title="記事No.2407の固定URL">コンサドーレ札幌 父の日限定グッズ販売のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月16日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2406" title="記事No.2406の固定URL">コンサドーレ札幌 近藤祐介選手の手術について</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月15日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2405" title="記事No.2405の固定URL">コンサドーレ札幌U-18　堀米悠斗選手　U-16日本代表候補 トレーニングキャンプ参加のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月15日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2404" title="記事No.2404の固定URL">“ホームアイランド北海道”道内PR展開のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月14日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2403" title="記事No.2403の固定URL">中山雅史選手　テレビ番組出演のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月14日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2402" title="記事No.2402の固定URL">コンサドーレ札幌｢共通ウィズユーカード｣発売のお知らせ</a></td></tr>
-		<tr><td class="frame01"><img src="./img/icon_plus.gif" width="10" height="13" alt="+" />
-		2010年06月14日
-		</td><td><a href="http://www.consadole-sapporo.jp/news/diary.cgi?no=2401" title="記事No.2401の固定URL">“コンサドーレ札幌　ハーフタイムパーティー2010”オンリーユーシート・スペシャルシート販売のご案内</a></td></tr>
-</table>
+<entry>
+    <title>J2リーグ第18節 コンサドーレ札幌vsカターレ富山【JAグループ北海道サンクスマッチ】「エスコートキッズ」参加者大募集!</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002355.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2355</id>
 
+    <published>2011-06-07T08:27:00Z</published>
+    <updated>2011-06-08T01:48:44Z</updated>
 
-</div>
-		
-<div id="gototop">
+    <summary>◆6月26日（日）札幌ドームで開催されますカターレ富山戦は「JAグループ北海道サ...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ゲーム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="スポンサー" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆6月26日（日）札幌ドームで開催されますカターレ富山戦は「JAグループ北海道サンクスマッチ」となっております。JAグループ北海道様では、この試合でキックオフ前に選手と一緒に入場するエスコートキッズを次のとおり募集しております。<br />
+JAグループ北海道様からエスコートキッズと保護者1名（親子一組）の観戦チケットをプレゼントいたします。<br />
+（チケットはSA自由席大人とお子様用となります）<br />
+<br />
+<br />
+<b><font style="color:red;">【エスコートキッズ募集要領】</font></b><br />
+<br />
+<b>■実施時間:</b><br />
+集合時間・・・13:20 北側総合案内所前<br />
+解散時間・・・14:10頃<br />
+<b>■対象:</b><br />
+5歳〜小学校低学年の男女のお子様<br />
+<b>■募集人数:</b><br />
+11名（応募多数の場合は抽選）<br />
+<b>■応募方法:</b><br />
+JAグループ北海道ポータルサイト<a href="http://ja-dosanko.jp/" target="_blank"><font style="color:red;">「農業&quot;道&quot;でしょう!」</font></a>からご応募願います。<br />
+<b>■締め切り:</b><br />
+2011年6月17日（金）正午受信分までといたします。<br />
+<b>■当選通知:</b><br />
+当選された方のみ、6月22日までにJAグループ北海道事務局よりご連絡いたします。<br />
+<b>■注意事項:</b><br />
+・当選されても所定の時間、場所にお越しにならない場合は当選無効となります。<br />
+・当日は運動靴を着用ください<br />
+<br />
+<b>■対象試合:</b><br />
+「JAグループ北海道」サンクスマッチ<br />
+2011Jリーグディビジョン2 6月26日（日） 14:00キックオフ<br />
+<b><font size="3">第18節 コンサドーレ札幌 vs カターレ富山</font></b><br />
+[会場] 札幌ドーム（札幌市豊平区羊ヶ丘1番地）地下鉄東豊線/福住駅より徒歩10分</p>
+]]>
+        
+    </content>
+</entry>
 
-<a href="#top" title="ページのトップへ戻る">ページのトップへ戻る</a>
-<hr /></div>
-</div></div>
-<div id="footer" title="Copyright&nbsp;(C)&nbsp;2007&nbsp;H.F.C&nbsp;Co.,&nbsp;Ltd">
-<h3 class="hid">コンサドーレ札幌のサブコンテンツメニュー</h3>
+<entry>
+    <title>コンサドーレ札幌 チームスケジュール変更のお知らせ</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002356.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2356</id>
 
-<ul>
-<li id="fbot01"><a href="../privacy/" title="プライバシーポリシー">プライバシーポリシー</a></li>
-<li id="fbot02"><a href="../copyright/" title="著作権について">著作権について</a></li>
-<li id="fbot05"><a href="../contact/" title="お問い合わせ">お問い合わせ</a></li>
-<li id="fbot06"><a href="../sitemap/" title="サイトマップ">サイトマップ</a></li>
-</ul><hr />
-<p class="hid">Copyright&nbsp;(C)&nbsp;2007&nbsp;H.F.C&nbsp;Co.,&nbsp;Ltd&nbsp;無断転載・複製・配布を禁止します。</p></div>
+    <published>2011-06-06T10:07:00Z</published>
+    <updated>2011-06-07T17:51:59Z</updated>
 
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-2718076-1";
-urchinTracker();
-</script>
+    <summary>◆6月7日（火）のトップチームのスケジュールが変更になりました。【変更前】6月7...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆6月7日（火）のトップチームのスケジュールが変更になりました。<br /><br />【変更前】<br />6月7日（火） 9:30トレーニング<br />⇒<br />【変更後】<br /><b><font size="3">オフ</b></font></p>]]>
+        
+    </content>
+</entry>
 
-</body>
-</html>
+<entry>
+    <title>コンサドーレ札幌 室蘭市入江運動公園陸上競技場で公式練習を実施</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002357.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2357</id>
+
+    <published>2011-06-06T05:32:00Z</published>
+    <updated>2011-06-07T17:51:59Z</updated>
+
+    <summary>◆6月12日（日）に室蘭市で開催されるJ2リーグ第16節コンサドーレ札幌vs横浜...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆6月12日（日）に室蘭市で開催されるJ2リーグ第16節コンサドーレ札幌vs横浜FC戦を前にした6月9日（木）、試合会場である室蘭市入江運動公園陸上競技場にて公式練習を行うことになりました。<br /><br /><b><font size="3">≪コンサドーレ札幌 公式練習≫</font></b><br />■日時:<br /><b>6月9日（木）10:30〜</b><br />■場所:<br /><b>室蘭市入江運動公園陸上競技場</b><br />室蘭市入江町1<br />■その他:<br />当日はメインスタンドを開放いたします。見学はメインスタンドからお願いします。</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>コンサドーレ札幌 スポーツスクール in Fu&apos;s 第8期参加者募集のお知らせ</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002358.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2358</id>
+
+    <published>2011-06-06T05:30:00Z</published>
+    <updated>2011-06-08T10:57:35Z</updated>
+
+    <summary>◆当クラブでは、さっぽろ健康スポーツ財団様の協力のもと、子供たちに様々なスポーツ...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ホームタウン" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="活動スケジュール" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆当クラブでは、さっぽろ健康スポーツ財団様の協力のもと、子供たちに様々なスポーツを通じて体を動かす大切さを学んでもらおうと、『コンサドーレ札幌 スポーツスクール in Fu&#39;s』を開催しております。今年で8年目となる当スクールの参加者を下記の要領で募集したします。<br />
+<br />
+<img src="/news/data/upfile/2972-1.jpg" /><br />
+<br />
+<b>■開催期間:</b><br />
+2011年7月〜2012年2月<br />
+<b>■実施回数:</b><br />
+全15回<br />
+<b>■実施場所:</b><br />
+札幌市藤野野外スポーツ交流施設（Fu&#39;sスノーエリア）及び周辺地域<br />
+札幌市南区藤野473-1 ※地下鉄真駒内駅から送迎バス有り<br />
+<b>■対象者:</b><br />
+小学校3〜6年生の元気にスポーツしたい男の子・女の子<br />
+<b>■定員:</b><br />
+50人（※先着順）<br />
+<b>■募集期間:</b><br />
+2011年6月7日（火）〜 ※定員になり次第締め切り<br />
+<b>■指導者:</b><br />
+各種目インストラクター、コンサドーレ札幌スポーツアカデミースタッフ<br />
+<b>■参加料:</b><br />
+20,000円（傷害保険料、施設利用料、指導料、バス利用料含む）<br />
+☆参加特典:『2011コンサドーレ札幌ホームゲーム観戦パス』の発行<br />
+<b>■実施日・実施種目:</b><br />
+・2011年7月10日（日） 、16日（土）・・・開講式&amp;軽登山/健康スポーツフェア参加&amp;試合観戦（水戸ホーリーホック戦）<br />
+・2011年8月20日（土）、28日（日）・・・ツーリングアドベンチャー/野菜収穫ウォーキング<br />
+・2011年9月11日（日）、25日（日）・・・サッカー&amp;試合観戦（栃木SC戦）/登山<br />
+・2011年10月8日（土）、15日（土）・・・ゴルフ、ミニバレー<br />
+・2011年11月19日（土）・27日（日）・・・カーリング/キンボール<br />
+・2011年12月27日（火）・28日（水）・・・スキー/スキー検定<br />
+・2012年1月21日（土）・28日（土）・・・リュージュ&amp;スノースクート/歩くスキー&amp;イグルー作り<br />
+・2012年2月4日（土）・・・スノーシュー&amp;閉講式<br />
+※実施時間は午前中を予定しておりますが、種目によって午後までかかる場合もございます。<br />
+※日程・種目は変更になる場合がございます。悪天候時は場合によって室内でのスクールまたは延期となります。<br />
+※登山やスキーなど午後にかかる場合はお弁当を持参いただく場合があります。<br />
+※スキー授業の2日目は検定を行います。別途、検定料及び公認料が必要です。<br />
+※参加希望者が定員に達しなかった場合、スクールを開催できない場合がございます。<br />
+<b>■応募方法:</b><br />
+所定の<a href="/pdf/2011fus.pdf"><b><font size="3" style="color: red">&lt;&lt;申込書[PDF]&gt;&gt;</font></b></a>をプリントアウトし、必要事項を記入のうえ、FAXで送信ください（申込書をご請求の場合は下記へ。後日郵送いたします）。<br />
+<b>■応募先・お問い合わせ:</b><br />
+（株）北海道フットボールクラブ コンサドーレ札幌スポーツアカデミー<br />
+『コンサドーレ札幌スポーツスクール』係<br />
+FAX.011-858-5320 TEL.011-858-5310（9:30〜18:00 土・日・祝日は除く）<br />
+<b>■主催:</b><br />
+（株）北海道フットボールクラブ・（財）さっぽろ健康スポーツ財団</p>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>国際親善試合vs大田シチズンの試合結果</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002359.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2359</id>
+
+    <published>2011-06-05T13:23:00Z</published>
+    <updated>2011-06-07T17:51:59Z</updated>
+
+    <summary>◆本日行われた国際親善試合『第5回 It&apos;s Daejeon 国際サッカー大会』...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆本日行われた国際親善試合『第5回 It's Daejeon 国際サッカー大会』大田シチズン戦の試合結果をお知らせ致します。<br /><br />■会場/大田市ワールドカップ・スタジアム<br />■キックオフ/19:00<br /><br /><b>コンサドーレ札幌 2-1 大田シチズン（2-1/0-0）</b><br /><br />■得点者:<b>上原、横野</b><br /> <br /><br />◆出場選手:<br />GK高木（曵地）、DF※小山内、チアゴ（西村）、※永井、上原（※神田） MFブルーノ（※鈴木）、※前、横野、岡本（※堀米）、荒野 FW中山（※榊）<br /><br />※はU-18所属選手<br /><br /><b><font size="3">石崎監督のコメント</font></b><br /><b>『昨日、Jリーグがあり、厳しい日程の中での試合、タフな試合でしたが、勝つことが出来てよかったです。<br />前半からリズムよく攻めることも出来ていました。後半はほとんどがU-18の選手たちでしたが、粘り強く戦ってくれました。勝つことができて本当によかったです。』</b></p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>注目の瞬間を見逃すな!! スカパー!e2で、明日6/4（土）大分戦を16日間無料体験で観よう!</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002360.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2360</id>
+
+    <published>2011-06-03T10:16:00Z</published>
+    <updated>2011-06-07T17:51:59Z</updated>
+
+    <summary>コンサドーレ札幌のリーグ戦全試合放送を行っているスカパー!e2では、約70チャン...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>コンサドーレ札幌のリーグ戦全試合放送を行っているスカパー!e2では、約70チャンネルの高品質な番組が16日間無料体験できるサービスがあります。<br />本日のアウェイ愛媛戦に行くことができない方は、スカパー!e2の無料体験で是非ご覧ください!<br /><br />■<b>16日間無料体験</b>の視聴確認及びお申込みは <a href="https://www.customer.skyperfectv.co.jp/web/form2/te02010.jsp" TARGET"_blank">こちら</a><br /><br />6/4（土）の大分戦、現地に行けない方はスカパー!e2で熱いご声援をお願いします!<br />コンサドーレ札幌の熱き戦いは「ホームはスタジアムで!アウェイはスカパー!で」お見逃しなく!!<br /><br /><b>≪放送概要≫</b><br /><b>第15節6月4日（土） 大分トリニータ vs コンサドーレ札幌 （16:00キックオフ）</b><br /><b>放送時間:</b> 15:50〜<br /><b>放送チャンネル:</b> スカパー!e2:Ch.801、スカパー!:Ch.181、スカパー!HD:Ch.191<br /><br /><b>≪放送スケジュールについて≫</b><br />詳しい放送スケジュール、放送チャンネルについては、<a href="http://soccer.skyperfectv.co.jp/110/" TARGET"_blank">スカパー!e2公式サイト</a>でお伝えいたします。<br /><br /><b><font style="color:red;">≪スカパー!e2について≫</font></b><br />110度CSデジタルチューナー内蔵のテレビまたはレコーダーで手軽にハイビジョンを含む約70チャンネルを楽しんでいただけるサービスです。<br />また、16日間無料体験でも愛媛戦をご視聴することができます。<br />サービスに関する詳細は<a href="http://www.e2sptv.jp/" TARGET"_blank">スカパー!e2公式サイト</a>をご覧ください。</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>コンサドーレ札幌U-18 阿波加俊太選手（札幌東陵高） 深井一希選手（札幌拓北高） 『FIFA U-17ワールドカップMEXICO2011』 日本代表 選出のお知らせ</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002361.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2361</id>
+
+    <published>2011-06-03T04:51:00Z</published>
+    <updated>2011-06-07T17:51:59Z</updated>
+
+    <summary>◆この度、コンサドーレ札幌U-18 阿波加俊太、深井一希の2選手が、6/18（土...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆この度、コンサドーレ札幌U-18 阿波加俊太、深井一希の2選手が、6/18（土）〜7/10（日）の期間、メキシコで開催される『FIFA U-17ワールドカップMEXICO2011』に出場するU-17日本代表に選出されました。<br /><br /><b><font size="3">コンサドーレ札幌U-18 阿波加 俊太 Shunta AWAKA （札幌東陵高校）</font></b><br /><img src="/news/data/upfile/2969-3.jpg" /><br />■生年月日:<br />1995年2月7日生<br />■ポジション:<br />GK<br />■経歴:   <br />空知FC - コンサドーレ札幌U-15 - コンサドーレ札幌U-18<br />■代表歴:<br />2010年U-16日本代表<br /><br /><b><font size="3">コンサドーレ札幌U-18 深井 一希 Kazuki FUKAI （札幌拓北高校）</font></b><br /><img src="/news/data/upfile/2969-4.jpg" /><br />■生年月日:<br />1995年3月11日生<br />■ポジション:<br />MF<br />■経歴:   <br />コンサドーレ札幌U-12 - コンサドーレ札幌U-15 - コンサドーレ札幌U-18<br />■代表歴:<br />2010年U-16日本代表<br /><br />●スケジュール<br />6/7（火）〜10（金）・・・ トレーニング（トルーカ）<br />6/11（土）・・・ 国際親善試合 vsU-20トルーカ（トルーカ）<br />6/12（日）〜17（金）・・・ トレーニング（トルーカ/モンテレイ）<br />6/18（土）・・・ FIFA U-17ワールドカップ2011 グループリーグ（グループB） vsジャマイカ（モンテレイ）<br />6/21（火）・・・ FIFA U-17ワールドカップ2011 グループリーグ（グループB） vsフランス（モンテレイ）<br />6/24（金）・・・ FIFA U-17ワールドカップ2011 グループリーグ（グループB） vsアルゼンチン（モレリア）<br />6/29（水）・30（木）・・・ FIFA U-17ワールドカップ2011 決勝トーナメント ラウンド16<br />7/3（日）・4（月）・・・  FIFA U-17ワールドカップ2011 決勝トーナメント 準々決勝<br />7/7（木）・・・  FIFA U-17ワールドカップ2011 決勝トーナメント 準決勝<br />7/10（日）・・・ FIFA U-17ワールドカップ2011 決勝トーナメント 3位決定戦/決勝</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>J2リーグ 第15節 6月4日（土）大分トリニータ戦をご観戦の皆様へお知らせとお願い</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002362.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2362</id>
+
+    <published>2011-06-02T06:03:00Z</published>
+    <updated>2011-06-07T17:51:59Z</updated>
+
+    <summary>◆J2リーグ 第15節 6月4日（土）大分トリニータ戦をご観戦の皆様へ、観戦ルー...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆J2リーグ 第15節 6月4日（土）大分トリニータ戦をご観戦の皆様へ、観戦ルール及び横断幕掲出エリアについてご案内いたします。ご協力のほど、お願い申し上げます。<br /><br /><a href="http://www.oita-trinita.co.jp/guide/index.html#manners"><font style="color: red;">大分トリニータ戦 観戦ルール及び横断幕掲出エリア</font></a></p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>コンサドーレ札幌 髙原 寿康 選手の手術について</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002363.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2363</id>
+
+    <published>2011-06-02T04:39:00Z</published>
+    <updated>2011-06-07T17:55:41Z</updated>
+
+    <summary>◆右アキレス腱断裂のため戦列を離れております髙原寿康選手が6月1日札幌市内の病院...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆右アキレス腱断裂のため戦列を離れております髙原寿康選手が6月1日札幌市内の病院にて右アキレス腱炎と診断され、手術を行いました。<br />
+<br />
+<br />
+<b><font size="3">髙原 寿康 選手（背番号21 GK）</font></b><br />
+<br />
+■負傷名:右アキレス腱炎<br />
+<br />
+■全治:4ヶ月</p>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>『 第5回 It&apos;s Daejeon 国際サッカー大会 』 についてのお知らせ</title>
+    <link rel="alternate" type="text/html" href="http://www.consadole-sapporo.jp/news/2011/06/002364.html" />
+    <id>tag:110.50.90.150,2011:/news//2.2364</id>
+
+    <published>2011-06-01T08:33:00Z</published>
+    <updated>2011-06-07T17:51:59Z</updated>
+
+    <summary>◆韓国・大田市で開催される国際大会『第5回 It&apos;s Daejeon 国際サッカ...</summary>
+    <author>
+        <name>admin</name>
+        
+    </author>
+    
+        <category term="ニュース" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.consadole-sapporo.jp/news/">
+        <![CDATA[<p>◆韓国・大田市で開催される国際大会『第5回 It's Daejeon 国際サッカー大会』のキックオフ時刻変更、および日本人招待事業について、お知らせいたします。<br /><br /><br />【第5回 It's Daejeon 国際サッカー大会】<br /><b><font size="3">大田シチズン（Kリーグ）vs コンサドーレ札幌</font></b><br /><br /><img src="/news/data/upfile/2966-1.jpg" /> <br /><br /><b>■日時:2011年6月5日（日）</b><br />18:00キックオフ → <b>19:00キックオフ</b><br /><b>■会場:</b>大田市ワールドカップ・スタジアム<br /><br /><b>◆日本人の方のご入場方法</b><br />当日、在韓日本人並びに日本からお越しの皆さまは無料でご観戦いただけます。<br /><b>内   容:</b> 当日日本人は北ゲートの案内担当者に証明書類を見せると無料で入場できます。<br /><b>入場時間:</b> キックオフ2時間前から<br /><b>対   象:</b> 日本人<br /><b>証明書類:</b> 日本国のパスポートまたは外国人登録証<br />       <br /><font style="color:red;">※コンサドーレ札幌のシートエリアはN-23およびN-24となっております。座席数は約500席以上です。</font></p>]]>
+        
+    </content>
+</entry>
+
+</feed>

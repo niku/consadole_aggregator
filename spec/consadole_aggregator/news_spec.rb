@@ -103,8 +103,6 @@ describe ConsadoleAggregator do
         ->{ File.read('./spec/ext/consaclub.txt').toutf8 }
       ConsadoleAggregator::News::Consadolenews.get_resource =
         ->{ File.read('./spec/ext/consadolenews.txt').toutf8 }
-      ConsadoleAggregator::News::Consadolesponsornews.get_resource =
-        ->{ File.read('./spec/ext/consadolesponsornews.txt').toutf8 }
       ConsadoleAggregator::News::Consadolephotos.get_resource =
         ->{ File.read('./spec/ext/consadolephotos.txt').toutf8 }
       ConsadoleAggregator::News::Jsgoalnews.get_resource =
@@ -137,11 +135,12 @@ describe ConsadoleAggregator do
     it 'Consaclub should not raise Exception' do
       expect{ ConsadoleAggregator::News::Consaclub.new.get_new_articles }.to_not raise_error
     end
-    it 'Consadolenews should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Consadolenews.new.get_new_articles }.to_not raise_error
-    end
-    it 'Consadolesponsornews should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Consadolesponsornews.new.get_new_articles }.to_not raise_error
+    describe ConsadoleAggregator::News::Consadolenews do
+      subject{ ConsadoleAggregator::News::Consadolenews.new }
+      it 'Consadolenews should not raise Exception' do
+        expect{ subject.get_new_articles }.to_not raise_error
+      end
+      it{ subject.get_new_articles.should have_at_least(1).items }
     end
     it 'Consadolephotos should not raise Exception' do
       expect{ ConsadoleAggregator::News::Consadolephotos.new.get_new_articles }.to_not raise_error

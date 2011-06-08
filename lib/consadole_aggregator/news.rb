@@ -62,15 +62,9 @@ module ConsadoleAggregator
       ],
       Consadolenews:
       [
-       ->{ get_resource('http://www.consadole-sapporo.jp/news/diary.cgi') },
-       ->(list){ Nokogiri::HTML(list).search('table.frametable > tr  a').reverse },
-       ->(article){ { url:article['href'], title:article.text } }
-      ],
-      Consadolesponsornews:
-      [
-       ->{ get_resource('http://www.consadole-sapporo.jp/snews/diary.cgi') },
-       ->(list){ Nokogiri::HTML(list).search('table.frametable > tr  a').reverse },
-       ->(article){ { url:article['href'], title:article.text } }
+       ->{ get_resource('http://www.consadole-sapporo.jp/news/atom.xml') },
+       ->(list){ RSS::Parser.parse(list, false).items.map{ |e| { url:e.link, title:e.title } }.reverse },
+       ->(article){ article }
       ],
       Consadolephotos:
       [
