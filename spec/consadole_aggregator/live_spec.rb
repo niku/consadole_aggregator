@@ -7,35 +7,41 @@ describe ConsadoleAggregator do
   describe Live do
     describe '.get_resource' do
       it 'should exec Net::HTTP.get with Live::BASE_URI' do
-        Net::HTTP.should_receive(:get).with(Live::BASE_URI).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html'))
-        Live.get_resource
+        Net::HTTP.should_receive(:get)
+          .with(URI.parse('http://www.consadole-sapporo.jp/view/s674.html'))
+          .and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html'))
+        Live::Live.get_resource.call
       end
     end
 
-    describe '.parse' do
+    describe '.parse_list' do
       context 'when start of game' do
-        before { Live.stub!(:get_resource).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html').toutf8) }
-        subject{ Live.parse }
+        let(:resource){ File.read(File.dirname(__FILE__) + '/../ext/live/s674.html').toutf8 }
+        let(:parsed_list){ Live::Live.parse_list.call(resource) }
+        subject{ parsed_list }
         it{ should have(3).items }
       end
       context 'when end of game' do
-        before { Live.stub!(:get_resource).and_return(File.read(File.dirname(__FILE__) + '/../ext/live/s674.html.120').toutf8) }
+        let(:resource){ File.read(File.dirname(__FILE__) + '/../ext/live/s674.html.120').toutf8 }
+        let(:parsed_list){ Live::Live.parse_list.call(resource) }
         describe 'first TimeLine' do
-          subject{ Live.parse.first }
-          its(:time){ should == '試合開始' }
-          its(:post){ should == '札幌ボールでキックオフ' }
+          subject{ parsed_list.first }
+          it{ should == '試合開始　札幌ボールでキックオフ' }
         end
         describe 'second TimeLine' do
-          subject{ Live.parse[1] }
-          its(:time){ should == '1分' }
-          its(:post){ should == '右サイドからボールをつながれ攻撃を仕掛けられるが札幌DFが落ち着いてクリア' }
+          subject{ parsed_list[1] }
+          it{ should == '1分　右サイドからボールをつながれ攻撃を仕掛けられるが札幌DFが落ち着いてクリア' }
         end
         describe 'last TimeLine' do
-          subject{ Live.parse.last }
-          its(:time){ should == '試合終了' }
-          its(:post){ should == 'ロスタイムも余裕のプレーで相手の攻撃を許さず、3試合連続完封で3連勝を飾る' }
+          subject{ parsed_list.last }
+          it{ should == '試合終了　ロスタイムも余裕のプレーで相手の攻撃を許さず、3試合連続完封で3連勝を飾る' }
         end
       end
+    end
+
+    describe '.parse_article' do
+      let(:article){ '1分　右サイドからボールをつながれ攻撃を仕掛けられるが札幌DFが落ち着いてクリア' }
+      it{ Live::Live.parse_article.call(article) }
     end
 
     describe '.reserve' do

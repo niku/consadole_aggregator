@@ -8,25 +8,13 @@ require_relative 'live/timeline.rb'
 
 module ConsadoleAggregator
   module Live
-    BASE_URI = URI.parse('http://www.consadole-sapporo.jp/view/s674.html')
 
     def self.reserve reservation_time=nil, opt ={}
       Live.new(reservation_time, opt)
     end
 
-    def self.get_resource
-      Net::HTTP.get(BASE_URI).toutf8
-    end
-
-    def self.parse
-      doc = Nokogiri::HTML.parse(get_resource)
-      doc.search('hr + p').last.inner_html.split(/<br>|\n/).reverse.each_with_object([]) do |line, memo|
-        timeline = Timeline.parse line
-        memo << timeline if timeline
-      end
-    end
-
     class Live
+      include Aggregatable
       attr_reader :reservation_time, :posted, :times, :wait_sec
 
       def initialize reservation_time=nil, opt ={}
@@ -68,6 +56,27 @@ module ConsadoleAggregator
           yield timeline if block_given?
           @posted << timeline
         end
+      end
+
+      def self.get_resource
+        ->{ Net::HTTP.get(URI.parse('http://www.consadole-sapporo.jp/view/s674.html')).toutf8 }
+      end
+
+      def self.parse_list
+        ->(list){
+          live_block = Nokogiri::HTML::parse(list)
+            .search("hr + p")
+            .last
+            .inner_html
+          lines = live_block
+            .split(/<br>|\n/)
+            .delete_if{ |line| line.empty? || line =~ /&lt;前|後半&gt;/ }
+          lines.map{ |line| line.sub(/　+$/, "") }.reverse
+        }
+      end
+
+      def self.parse_article
+        ->(article){ Timeline.parse article }
       end
 
       private
