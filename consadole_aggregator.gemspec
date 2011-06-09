@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{consadole_aggregator}
-  s.version = "0.1.7"
+  s.version = "0.1.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["niku"]
-  s.date = %q{2011-06-09}
+  s.date = %q{2011-06-10}
   s.default_executable = %q{consadole_aggregator}
   s.description = %q{ It aggregates infomation of 'Consadole Sapporo' }
   s.email = %q{niku@niku.name}
@@ -43,6 +43,7 @@ Gem::Specification.new do |s|
     "spec/consadole_aggregator/live_spec.rb",
     "spec/consadole_aggregator/news_spec.rb",
     "spec/ext/asahi.txt",
+    "spec/ext/clubconsadole.txt",
     "spec/ext/consaburn.txt",
     "spec/ext/consaclub.txt",
     "spec/ext/consadolenews.txt",
