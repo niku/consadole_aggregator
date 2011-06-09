@@ -109,6 +109,8 @@ describe ConsadoleAggregator do
         ->{ File.read('./spec/ext/jsgoalnews.txt').toutf8 }
       ConsadoleAggregator::News::Jsgoalphotos.get_resource =
         ->{ File.read('./spec/ext/jsgoalphotos.txt').toutf8 }
+      ConsadoleAggregator::News::Clubconsadole.get_resource =
+        ->{ File.read('./spec/ext/clubconsadole.txt').toutf8 }
 
       module News
         def self.trace(url_path, limit=nil)
@@ -154,6 +156,14 @@ describe ConsadoleAggregator do
     end
     it 'Jsgoalphotos should not raise Exception' do
       expect{ ConsadoleAggregator::News::Jsgoalphotos.new.get_new_articles }.to_not raise_error
+    end
+    describe ConsadoleAggregator::News::Clubconsadole do
+      subject{ ConsadoleAggregator::News::Clubconsadole.new }
+      it 'Clubconsadole should not raise Exception' do
+        expect{ subject.get_new_articles }.to_not raise_error
+      end
+      it{ subject.get_new_articles.should have_at_least(1).items }
+      it{ p subject.get_new_articles }
     end
   end
 end

@@ -4,6 +4,7 @@ require 'rss'
 require 'uri'
 require 'kconv'
 require 'net/http'
+require 'net/https'
 require 'nokogiri'
 
 module ConsadoleAggregator
@@ -89,6 +90,18 @@ module ConsadoleAggregator
            memo << { url:trace(e.link), title:e.title } if e.title.include?('札幌')
          }.reverse },
        ->(article){ article }
+      ],
+      Clubconsadole:
+      [
+       ->{
+         uri = URI.parse('https://www.finn.ne.jp/user.cgi?fanclub_id=67&actmode=NewsArticleSummary')
+         https = Net::HTTP.new(uri.host, uri.port)
+         https.use_ssl = true
+         https.verify_mode = OpenSSL::SSL::VERIFY_NONE
+         https.start { https.get(uri.request_uri).body.toutf8 }
+       },
+       ->(list){ Nokogiri::HTML(list).search('dl dd').reverse },
+       ->(article){ { url:'https://www.finn.ne.jp/' + article.at('a')['href'], title: article.text } }
       ],
     }.each do |k,v|
       klass = Class.new do

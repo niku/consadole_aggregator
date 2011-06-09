@@ -1,0 +1,325 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="stylesheet" type="text/css" href="/style/user/cc/cms/reset.css" />
+<link rel="stylesheet" type="text/css" href="/style/user/cc/cms/news2.css" />
+</head>
+<body>
+
+	
+
+
+    <!--srt-->
+    <dl>
+        <dt>2011-06-07</dt>
+        <dd><a href="user.cgi?articleid=4247&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_4247" target="_top"><p>５月度の「勝利ポイント」「雨・雪ポイント」のポイント付加つきまして</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-05-25</dt>
+        <dd><a href="user.cgi?articleid=4159&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_4159" target="_top"><p>クラブコンサドーレ　個人会員（小中学生）の皆さまへ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-05-18</dt>
+        <dd><a href="user.cgi?articleid=4112&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_4112" target="_top"><p>プレミアム会員さま特典　「バースデイプレゼント」の発送に関しまして</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-04-26</dt>
+        <dd><a href="user.cgi?articleid=3955&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3955" target="_top"><p><span style="font-family: 'ＭＳ        明朝','serif';">４月</span><span lang="EN-US">23</span><span style="font-family: 'ＭＳ 明朝','serif';">日</span><span lang="EN-US"> vs </span><span style="">湘南ベルマーレ戦　来場ポイントつきまして<br /></span></p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-04-22</dt>
+        <dd><a href="user.cgi?articleid=3916&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3916" target="_top"><p>４月２３日(土)湘南ベルマーレ戦　クラブコンサドーレブース開設のご案内</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-04-22</dt>
+        <dd><a href="user.cgi?articleid=3910&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3910" target="_top"><p>クラブコンサドーレインフォメー ションデスク　臨時対応のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-04-15</dt>
+        <dd><a href="user.cgi?articleid=3879&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3879" target="_top"><p>クラブコンサドーレWEB受付再開のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-04-04</dt>
+        <dd><a href="user.cgi?articleid=3778&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3778" target="_top"><p>2011コンサドーレ札幌ホームゲーム　第2節・第3節・第5節の中止に伴うチケットのお取り扱いについて</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-03-22</dt>
+        <dd><a href="user.cgi?articleid=3699&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3699" target="_top"><p>2011 Jリーグディビジョン２　第５節～第7節 試合中止 及び 第８節からのリーグ戦再開決定のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-03-18</dt>
+        <dd><a href="user.cgi?articleid=3678&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3678" target="_top"><p>クラブコンサドーレ・インフォメーションデスク　臨時対応のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-03-14</dt>
+        <dd><a href="user.cgi?articleid=3652&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3652" target="_top"><p>2011 Jリーグディビジョン２　第3節 千葉戦 　第4節 水戸戦　試合中止のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-03-13</dt>
+        <dd><a href="user.cgi?articleid=3634&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3634" target="_top"><p>発送物遅延のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-03-11</dt>
+        <dd><a href="user.cgi?articleid=3628&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3628" target="_top"><p>2011 Jリーグディビジョン２<br />コンサドーレ札幌 ｖｓ ギラヴァンツ北九州　試合中止のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-03-10</dt>
+        <dd><a href="user.cgi?articleid=3623&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3623" target="_top"><p>クラブコンサドーレ特設ブースの設置について</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-03-10</dt>
+        <dd><a href="user.cgi?articleid=3616&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3616" target="_top"><p>『クラブコンサドーレ２次受付／シーズ ンシート２次販売』分にてお申込みいただいた皆様への発送についてのお知らせ </p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-03-04</dt>
+        <dd><a href="user.cgi?articleid=3584&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3584" target="_top"><p>クラブコンサドーレインフォメー ションデスク　臨時対応のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-02-28</dt>
+        <dd><a href="user.cgi?articleid=3547&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3547" target="_top"><p>クラブコンサドーレ「ICカード」誤発送等についてのお詫び</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-02-21</dt>
+        <dd><a href="user.cgi?articleid=3506&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3506" target="_top"><p><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:PunctuationKerning/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:標準の表;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0mm 5.4pt 0mm 5.4pt;
+	mso-para-margin:0mm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--></p><p class="MsoNormal"><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:PunctuationKerning/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:標準の表;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0mm 5.4pt 0mm 5.4pt;
+	mso-para-margin:0mm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--></p><p class="MsoNormal"><span lang="EN-US" style="font-family: &quot;ＭＳ Ｐゴシック&quot;;">2011</span><span style="font-family: &quot;ＭＳ Ｐゴシック&quot;;">クラブコンサドーレ　ホームゲーム入場券優先予約受付につきまして</span></p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-02-18</dt>
+        <dd><a href="user.cgi?articleid=3482&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3482" target="_top"><p>クラブコンサドーレ入会およびシーズンシート販売2次受付開始のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-02-16</dt>
+        <dd><a href="user.cgi?articleid=3480&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3480" target="_top"><p>クラブコンサドーレからのお知らせ<br />「クラブコンサドーレ2次受付/シーズンシート2次販売」「1次申込分の納品予定」</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-02-08</dt>
+        <dd><a href="user.cgi?articleid=3414&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3414" target="_top"><p>コンビニエンス・ストアでのクレジットカードでのお支払いに関しまして</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-02-01</dt>
+        <dd><a href="user.cgi?articleid=3413&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3413" target="_top"><p>シート選択用紙到着の発送遅延について</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-01-31</dt>
+        <dd><a href="user.cgi?articleid=3412&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3412" target="_top"><p>クラブコンサドーレ・シーズンシートの&rdquo;１次販売のお申込み締切&rdquo;について</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-01-31</dt>
+        <dd><a href="user.cgi?articleid=3411&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3411" target="_top"><p>コンビニエンス・ストア申し込みに対する伝票の発送遅延に関しまして</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-01-28</dt>
+        <dd><a href="user.cgi?articleid=3410&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3410" target="_top"><p>クラブコンサドーレインフォメー ションデスク　臨時対応のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-01-19</dt>
+        <dd><a href="user.cgi?articleid=3409&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3409" target="_top"><p>フルシーズン　ゴールドシート新規受付終了のお知らせ</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-01-14</dt>
+        <dd><a href="user.cgi?articleid=3408&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3408" target="_top"><p>クラブコンサドーレ 申込受付システムの障害について</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-01-13</dt>
+        <dd><a href="user.cgi?articleid=3407&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3407" target="_top"><p>CLUB CONSADOLE 携帯サイトでの継続入会がリリースされました。</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-01-11</dt>
+        <dd><a href="user.cgi?articleid=3406&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3406" target="_top"><p>2011年「CLUB CONSADOLE」が誕生！</p></a></dd>
+    </dl>
+    <!--end-->
+
+    <!--srt-->
+    <dl>
+        <dt>2011-01-11</dt>
+        <dd><a href="user.cgi?articleid=3405&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3405" target="_top">ミシュラン コンサドーレ札幌応援キャンペーン</a></dd>
+    </dl>
+    <!--end-->
+
+
+</body>
+</html>
