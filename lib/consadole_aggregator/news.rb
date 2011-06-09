@@ -63,8 +63,8 @@ module ConsadoleAggregator
       Consadolenews:
       [
        ->{ get_resource('http://www.consadole-sapporo.jp/news/atom.xml') },
-       ->(list){ RSS::Parser.parse(list, false).items.map{ |e| { url:e.link, title:e.title } }.reverse },
-       ->(article){ article }
+       ->(list){ Nokogiri::XML(list).search('entry').reverse },
+       ->(article){ { title:article.at('title').text, url:article.at('link')['href'] } }
       ],
       Consadolephotos:
       [
