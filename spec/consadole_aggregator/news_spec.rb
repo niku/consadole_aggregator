@@ -74,9 +74,7 @@ describe ConsadoleAggregator do
         before do
           YAML.stub!(:load_file){ raise }
         end
-        it 'should load from yaml' do
-          subject.get_strage == []
-        end
+        it { expect{ subject.get_strage }.to raise_error }
       end
     end
 

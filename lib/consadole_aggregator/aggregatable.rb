@@ -37,7 +37,8 @@ module ConsadoleAggregator
     def get_strage
       @strage ||= YAML.load_file(build_strage_path) || [] # fix when YAML.load_file is nil
     rescue
-      @strage = []
+      @logger.error $!
+      raise
     end
 
     def save_strage

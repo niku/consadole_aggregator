@@ -5,12 +5,12 @@ params = ARGV.getopts(nil, "module:news", "output:log", "date:")
 $:.unshift(File.expand_path('../../lib', __FILE__)) if $0 == __FILE__
 
 require 'consadole_aggregator'
+require 'logger'
+path = File.expand_path('../../log', __FILE__) + '/exec_result.log'
+log = Logger.new(path)
 
 output = case params['output']
          when 'log'
-           require 'logger'
-           path = File.expand_path('../../log', __FILE__) + '/exec_result.log'
-           log = Logger.new(path)
            puts "output to #{path}"
            ->(element){
              if element.kind_of?(ConsadoleAggregator::Live::Timeline)
@@ -41,7 +41,15 @@ output = case params['output']
 case params['module']
 when 'news'
   modules = ConsadoleAggregator::News.constants.map{ |k| ConsadoleAggregator::News.const_get(k).new }
-  modules.each{ |m| m.update &output }
+  modules.each do |m|
+    log.info "start #{m}"
+    begin
+      m.update &output
+    rescue
+      log.error $!
+    end
+    log.info "end #{m}"
+  end
 when 'live'
   reservation_time = params['date'] ? Time.parse(params['date']) : nil
   ConsadoleAggregator::Live.reserve(reservation_time).execute &output
