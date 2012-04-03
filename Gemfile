@@ -1,12 +1,13 @@
 source "http://rubygems.org"
 
-gem "nokogiri"
-gem "oauth"
-gem "rubytter"
+# Specify your gem's dependencies in consadole_aggregator.gemspec
+gemspec
 
-group :development do
-  gem "bundler"
-  gem "rcov"
-  gem "rspec"
-  gem "jeweler"
-end
+gem "rake"
+gem "rspec"
+
+gem "guard", :require => false
+gem "guard-rspec", :require => false
+gem "ruby_gntp", :require => false
+
+gem "nokogiri"

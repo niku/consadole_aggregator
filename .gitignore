@@ -1,20 +1,4 @@
-# rcov generated
-coverage
-
-# rdoc generated
-rdoc
-
-# yard generated
-doc
-.yardoc
-
-# bundler
+*.gem
 .bundle
-
-# jeweler generated
-pkg
-
-# project specific
-*.sqlite3
-db
-log
+Gemfile.lock
+pkg/*

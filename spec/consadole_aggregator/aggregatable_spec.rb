@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require_relative '../spec_helper'
+require 'spec_helper'
 
 module ConsadoleAggregator
   describe Aggregatable do
@@ -73,6 +73,7 @@ module ConsadoleAggregator
           YAML.stub!(:load_file){ raise }
         end
         it 'should load from yaml' do
+          pending
           except{ subject.get_strage }.to should_raise
         end
       end

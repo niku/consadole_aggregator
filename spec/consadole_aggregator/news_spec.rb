@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require_relative '../spec_helper'
+require 'spec_helper'
 
 include ConsadoleAggregator
 
@@ -117,51 +117,53 @@ describe ConsadoleAggregator do
       end
     end
 
-    it 'Nikkansports should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Nikkansports.new.get_new_articles }.to_not raise_error
-    end
-    it 'Hochiyomiuri should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Hochiyomiuri.new.get_new_articles }.to_not raise_error
-    end
-    it 'Asahi should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Asahi.new.get_new_articles }.to_not raise_error
-    end
-    it 'Forzaconsadole should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Forzaconsadole.new.get_new_articles }.to_not raise_error
-    end
-    it 'Consaburn should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Consaburn.new.get_new_articles }.to_not raise_error
-    end
-    it 'Consaclub should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Consaclub.new.get_new_articles }.to_not raise_error
-    end
-    describe ConsadoleAggregator::News::Consadolenews do
-      subject{ ConsadoleAggregator::News::Consadolenews.new }
-      it 'Consadolenews should not raise Exception' do
-        expect{ subject.get_new_articles }.to_not raise_error
+    pending do
+      it 'Nikkansports should not raise Exception' do
+        expect{ ConsadoleAggregator::News::Nikkansports.new.get_new_articles }.to_not raise_error
       end
-      it{ subject.get_new_articles.should have_at_least(1).items }
-    end
-    describe ConsadoleAggregator::News::Consadolephotos do
-      subject{ ConsadoleAggregator::News::Consadolephotos.new }
-      it 'Consadolephotos should not raise Exception' do
-        expect{ subject.get_new_articles }.to_not raise_error
+      it 'Hochiyomiuri should not raise Exception' do
+        expect{ ConsadoleAggregator::News::Hochiyomiuri.new.get_new_articles }.to_not raise_error
       end
-      it{ subject.get_new_articles.should have_at_least(1).items }
-    end
-    it 'Jsgoalnews should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Jsgoalnews.new.get_new_articles }.to_not raise_error
-    end
-    it 'Jsgoalphotos should not raise Exception' do
-      expect{ ConsadoleAggregator::News::Jsgoalphotos.new.get_new_articles }.to_not raise_error
-    end
-    describe ConsadoleAggregator::News::Clubconsadole do
-      subject{ ConsadoleAggregator::News::Clubconsadole.new }
-      it 'Clubconsadole should not raise Exception' do
-        expect{ subject.get_new_articles }.to_not raise_error
+      it 'Asahi should not raise Exception' do
+        expect{ ConsadoleAggregator::News::Asahi.new.get_new_articles }.to_not raise_error
       end
-      it{ subject.get_new_articles.should have_at_least(1).items }
-      it{ p subject.get_new_articles }
+      it 'Forzaconsadole should not raise Exception' do
+        expect{ ConsadoleAggregator::News::Forzaconsadole.new.get_new_articles }.to_not raise_error
+      end
+      it 'Consaburn should not raise Exception' do
+        expect{ ConsadoleAggregator::News::Consaburn.new.get_new_articles }.to_not raise_error
+      end
+      it 'Consaclub should not raise Exception' do
+        expect{ ConsadoleAggregator::News::Consaclub.new.get_new_articles }.to_not raise_error
+      end
+      describe ConsadoleAggregator::News::Consadolenews do
+        subject{ ConsadoleAggregator::News::Consadolenews.new }
+        it 'Consadolenews should not raise Exception' do
+          expect{ subject.get_new_articles }.to_not raise_error
+        end
+        it{ subject.get_new_articles.should have_at_least(1).items }
+      end
+      describe ConsadoleAggregator::News::Consadolephotos do
+        subject{ ConsadoleAggregator::News::Consadolephotos.new }
+        it 'Consadolephotos should not raise Exception' do
+          expect{ subject.get_new_articles }.to_not raise_error
+        end
+        it{ subject.get_new_articles.should have_at_least(1).items }
+      end
+      it 'Jsgoalnews should not raise Exception' do
+        expect{ ConsadoleAggregator::News::Jsgoalnews.new.get_new_articles }.to_not raise_error
+      end
+      it 'Jsgoalphotos should not raise Exception' do
+        expect{ ConsadoleAggregator::News::Jsgoalphotos.new.get_new_articles }.to_not raise_error
+      end
+      describe ConsadoleAggregator::News::Clubconsadole do
+        subject{ ConsadoleAggregator::News::Clubconsadole.new }
+        it 'Clubconsadole should not raise Exception' do
+          expect{ subject.get_new_articles }.to_not raise_error
+        end
+        it{ subject.get_new_articles.should have_at_least(1).items }
+        it{ p subject.get_new_articles }
+      end
     end
   end
 end
