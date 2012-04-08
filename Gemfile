@@ -11,3 +11,5 @@ gem "guard-rspec", :require => false
 gem "ruby_gntp", :require => false
 
 gem "nokogiri"
+gem "eventmachine"
+gem "twitter"

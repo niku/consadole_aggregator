@@ -1,88 +1,96 @@
 # -*- coding: utf-8 -*-
 require 'logger'
 require 'uri'
+require 'net/http'
 require 'kconv'
 require 'nokogiri'
-require 'net/http'
-require_relative 'live/timeline.rb'
+require 'eventmachine'
+require 'twitter'
 
 module ConsadoleAggregator
-  module Live
+  class Live
+    class Runner
+      attr_writer :length_of_a_game, :interval, :daemonize
 
-    def self.reserve reservation_time=nil, opt ={}
-      Live.new(reservation_time, opt)
+      def initialize starting_time
+        @starting_time = starting_time
+        @length_of_a_game = 120 * 60
+        @interval = 60
+        @daemonize = true
+      end
+
+      def run &block
+        Process.daemon if @daemonize
+
+        starting = @starting_time - Time.now
+        ending = starting + @length_of_a_game
+        live = Live.new
+
+        EM.run do
+          EM.add_timer(starting) do
+            EM.next_tick do
+              EM.add_periodic_timer(@interval) do
+                live.update &block
+              end
+            end
+          end
+
+          EM.add_timer(ending) do
+            EM.stop
+          end
+        end
+      end
     end
 
-    class Live
-      include Aggregatable
-      attr_reader :reservation_time, :posted, :times, :wait_sec
+    def self.run starting_time, opt = {}
+      writer = opt[:writer] || ->(post) { Twitter.update post }
+      runner = Runner.new starting_time
+      runner.length_of_a_game = opt[:length_of_a_game] if opt[:length_of_a_game]
+      runner.interval = opt[:interval] if opt[:interval]
+      runner.daemonize = opt[:daemonize] unless opt[:daemonize].nil?
+      runner.run &writer
+    end
 
-      def initialize reservation_time=nil, opt ={}
-        @reservation_time = reservation_time
-        @posted = []
-        @wait_sec = opt[:wait_sec] || 30
-        @times = opt[:times] || (60/@wait_sec)*120 # サッカーは120分あれば終わる
-        @logger = opt[:logger] || Logger.new(File.expand_path(File.dirname(__FILE__) + '/../../log/live.log'))
-      end
+    def self.parse document
+      Nokogiri
+        .parse(document)
+        .search('p:last-of-type')
+        .children
+        .grep(Nokogiri::XML::Text)
+        .map(&:text)
+        .map(&:toutf8)
+        .map { |t| t.tr('　', ' ') }
+        .map(&:strip)
+        .reject(&/<前|後半>/.method(:match))
+        .reverse
+    end
 
-      def execute &block
-        be_daemonize
-        wait_initial
-        @logger.info 'start of loop'
-        @times.times do |i|
-          @logger.debug "#{i} times"
-          update &block rescue @logger.error $!
-          wait_interval
+    def self.fetch
+      uri = URI.parse('http://www.consadole-sapporo.jp/view/s674.html')
+      doc = Net::HTTP.get(uri).force_encoding('SJIS')
+      parse(doc)
+    rescue
+      []
+    end
+
+    attr_reader :posted
+
+    def initialize
+      @posted = []
+    end
+
+    def update
+      self.class
+        .fetch
+        .reject(&@posted.method(:include?))
+        .each_with_object(@posted) { |post, posted|
+        begin
+          yield post if block_given?
+          posted << post
+        rescue
+          # do_nothing
         end
-        @logger.info 'end of loop'
-      end
-
-      def wait_initial
-        return unless @reservation_time
-        diff_sec = @reservation_time - Time.now
-        wait_sec = diff_sec > 0 ? diff_sec : 0
-        @logger.info "initial wait #{wait_sec} seconds"
-        sleep wait_sec
-      end
-
-      def wait_interval
-        sleep @wait_sec
-      end
-
-      def update
-        new_timeline = ConsadoleAggregator::Live.parse - @posted
-        new_timeline.each do |timeline|
-          @logger.debug timeline
-          yield timeline if block_given?
-          @posted << timeline
-        end
-      end
-
-      def self.get_resource
-        ->{ Net::HTTP.get(URI.parse('http://www.consadole-sapporo.jp/view/s674.html')).toutf8 }
-      end
-
-      def self.parse_list
-        ->(list){
-          live_block = Nokogiri::HTML::parse(list)
-            .search("hr + p")
-            .last
-            .inner_html
-          lines = live_block
-            .split(/<br>|\n/)
-            .delete_if{ |line| line.empty? || line =~ /&lt;前|後半&gt;/ }
-          lines.map{ |line| line.sub(/　+$/, "") }.reverse
-        }
-      end
-
-      def self.parse_article
-        ->(article){ Timeline.parse article }
-      end
-
-      private
-      def be_daemonize
-        Process.daemon
-      end
+      }
     end
   end
 end
