@@ -4,6 +4,9 @@ require 'time'
 
 module ConsadoleAggregator
   describe Live do
+    before do
+        ConsadoleAggregator.stub(:logger).and_return(double('logger').as_null_object)
+    end
     let(:document) { File.read(ext_path('live/s674.html.120')).force_encoding('SJIS') }
 
     describe ".parse" do
@@ -48,7 +51,7 @@ module ConsadoleAggregator
             raise
           end
         }
-        result.should eq [fetched.last]
+        result.should eq [{ title: fetched.last}]
       end
     end
 

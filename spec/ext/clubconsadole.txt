@@ -1,325 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
-<meta http-equiv="Pragma" content="no-cache">
-<link rel="stylesheet" type="text/css" href="/style/user/cc/cms/reset.css" />
-<link rel="stylesheet" type="text/css" href="/style/user/cc/cms/news2.css" />
-</head>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬</title>
+
+
+<meta name="keywords" content="ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬æœ­å¹Œ,ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬,ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬,ã‚µãƒƒã‚«ãƒ¼,ãƒ•ãƒƒãƒˆãƒœãƒ¼ãƒ«,Jãƒªãƒ¼ã‚°,CONSADOLE SAPPORO,ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆ,å¹´é–“ãƒã‚±ãƒƒãƒˆ,ãƒ•ã‚¡ãƒ³ã‚¯ãƒ©ãƒ–" />
+<meta name="description" content="ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬æœ­å¹Œã‚ªãƒ•ã‚£ã‚·ãƒ£ãƒ«ãƒ•ã‚¡ãƒ³ã‚¯ãƒ©ãƒ–ã€Œã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ã€2012ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ä¼šå“¡ï¼†ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆç”³è¾¼å—ä»˜ä¸­ï¼ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ã«å…¥ã£ã¦ã‚‚ã£ã¨ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬æœ­å¹Œã‚’èº«è¿‘ã«æ„Ÿã˜ã‚ˆã†ï¼" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/set.css" title="style importer" />
+<script language="JavaScript" type="text/Javascript" src="/js/common.js"></script>
+<script language="JavaScript" type="text/Javascript" src="/js/jquery_1_4_2.js"></script>
+<script language="JavaScript" type="text/Javascript" src="/js/ajaxzip.js"></script>
+<link rel="alternate" media="handheld" href="http://club-consadole.jp/m" />
+<!--[if IE]>
+<script type="text/javascript" src="/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.png');</script>
+<![endif]--> 
+
+<!--[if IE]>
+<link href="/css/style_ie.css" rel="stylesheet" type="text/css" />
+<![endif]--></head>
+
 <body>
 
-	
+<div id="CONTAINER">
+    <div id="BACK_LOGO">
+
+	<div id="LOGO">
+		<h1><a href="http://club-consadole.jp"><img src="/images/common/logo.png" alt="CLUB CONSADOLE" width="265" height="265" border="0" class="png" /></a></h1>
+	</div>
+	<div id="HEADER">
+		<div class="contents">
+			<ul class="signup_list">
+				<li><img src="/images/common/arrow_login.gif" alt="Webä¼šå“¡ãƒ­ã‚°ã‚¤ãƒ³" />ã€€<a href="https://club-consadole.jp/member/login.php"><img src="/images/common/btn_h_login.gif" alt="ãƒ­ã‚°ã‚¤ãƒ³" border="0" /></a></li>
+				<li><img src="/images/common/arrow_signup.gif" alt="Webä¼šå“¡æ–°è¦å…¥ä¼š" />ã€€<a href="https://club-consadole.jp/member/regist_member_1.php"><img src="/images/common/btn_h_signup.gif" alt="æ–°è¦ä¼šå“¡ç™»éŒ²" border="0" /></a></li>
+			</ul>
+			<ul class="submenu clearfix">
+				<li><a href="http://club-consadole.jp/info/use_guide.php">ã”åˆ©ç”¨ã‚¬ã‚¤ãƒ‰</a></li>
+				<li><a href="http://club-consadole.jp/info/faq.php">ã‚ˆãã‚ã‚‹è³ªå•</a></li>
+				<li><a href="https://club-consadole.jp/contact/">ãŠå•ã„åˆã‚ã›</a></li>
+			</ul>
+			<ul class="gmenu">
+				<li class="first" style="width:102px;"><a href="http://club-consadole.jp/news/index.php?page=1">ãƒ‹ãƒ¥ãƒ¼ã‚¹</a></li>
+				<li style="width:180px;"><a href="http://club-consadole.jp/info/cp_index.php">ã‚¤ãƒ™ãƒ³ãƒˆ&amp;ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³</a></li>
+				<li style="width:157px;"><a href="http://club-consadole.jp/cms/preview.php?pre_no=2">ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬</a></li>
+				<li style="width:131px;"><a href="http://club-consadole.jp/cms/preview.php?pre_no=3">ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆ</a></li>
+				<li style="width:131px;"><a href="http://club-consadole.jp/club/club_login.php?page_name=new">å„ç¨®ãŠç”³ã—è¾¼ã¿</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- /header -->
+
+	<div id="main" class="clearfix">
+		<div id="LEFT" style="padding-top:60px;">
+			<ul>
+				<li class="news">
+					<img src="/images/common/top_index_news_list.gif" alt="ãŠçŸ¥ã‚‰ã›" />
+                    <table width="100%" bgcolor="#f1f2f6" cellpadding=0 cellspacing=0>
+                       <tr>
+                           <td width="50%" align="left" style="padding:5px 10px;">
+                           </td>
+                           <td width="50%" align="right" style="padding:5px 10px;">
+                           </td>
+                       </tr>
+                    </table>
+					<ul>
+                		<li >
+                	        <span class="date">2012/04/18</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=16" target="_self">
+                				    	ã€2012ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆæ–°è¦ã”ç´¹ä»‹ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³ã€‘ã«ã”å‚åŠ ã®çš†æ§˜ã¸                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/04/08</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=15" target="_self">
+                				    	ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆè³¼å…¥ãƒã‚¤ãƒ³ãƒˆä»˜åŠ ã®ãŠçŸ¥ã‚‰ã›                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/04/03</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=14" target="_self">
+                				    	ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ã‹ã‚‰ã®ãŠçŸ¥ã‚‰ã›                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/03/21</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=13" target="_self">
+                				    	ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ä¼šå“¡ã®çš†ã•ã¾ã¸ã®ãŠçŸ¥ã‚‰ã›                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/03/15</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=12" target="_self">
+                				    	ãƒ¤ãƒžã‚¶ã‚­ãƒŠãƒ“ã‚¹ã‚³ã‚«ãƒƒãƒ—ã®ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆå¯¾è±¡å¤–ã€åŠã³ã€Œã¡ã³ã‚³ãƒ³ã€ä¼šå“¡å…¥å ´ç„¡æ–™ã«ã¤ã„ã¦                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/03/15</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=11" target="_self">
+                				    	ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ã‹ã‚‰ã®ãŠçŸ¥ã‚‰ã›                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/03/02</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=10" target="_self">
+                				    	ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬2/13ä»¥é™ã«ç”³ã—è¾¼ã¿é ‚ã„ãŸãŠå®¢æ§˜ã¸                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/02/21</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=9" target="_self">
+                				    	ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆæœ€çµ‚å—ä»˜(webç”³è¾¼ãƒ»ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆæ±ºæ¸ˆï¼‰ç· ã‚åˆ‡ã‚Šé–“è¿‘ï¼                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/02/01</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=8" target="_self">
+                				    	2012ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆè²©å£²å»¶é•·ã®ãŠçŸ¥ã‚‰ã›                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/01/24</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=7" target="_self">
+                				    	ãƒ¯ãƒ³ã‚¿ãƒƒãƒãƒ‘ã‚¹ã‚’ã”åˆ©ç”¨ã®çš†æ§˜ã¸ãŠçŸ¥ã‚‰ã›                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/01/13</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=6" target="_self">
+                				    	ã€Œã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬æœ­å¹Œã‚­ãƒƒã‚¯ã‚ªãƒ•2012ã€ã¸ã”æ¥å ´ã®çš†ã•ã¾ã¸                				    </a>
+                				                	        </span>
+                        </li>
+                		<li >
+                	        <span class="date">2012/01/10</span>
+                	        <span class="title">
+                				                				    <a href="http://club-consadole.jp/cms/preview.php?pre_no=5" target="_self">
+                				    	2012ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬æœ­å¹Œ ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆã‚´ãƒ¼ãƒ«ãƒ‰ã‚·ãƒ¼ãƒˆï¼ˆãƒ•ãƒ«ï¼‰å®Œå£²ã®ãŠçŸ¥ã‚‰ã›                				    </a>
+                				                	        </span>
+                        </li>
+                		<li  class="last">
+                	        <span class="date">2011/12/27</span>
+                	        <span class="title">
+                				2012å¹´åº¦ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ï¼†ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆç”³è¾¼å—ä»˜é–‹å§‹ã—ã¾ã—ãŸã€‚                	        </span>
+                        </li>
+					</ul>
+					<table width="100%" bgcolor="#f1f2f6" cellpadding=0 cellspacing=0>
+					   <tr>
+					       <td width="50%" align="left" style="padding:5px 10px;">
+					       </td>
+					       <td width="50%" align="right" style="padding:5px 10px;">
+					       </td>
+					   </tr>
+					</table>
+				</li>
+			</ul>
+		</div>
+		<div id="RIGHT">
+			<ul>
+				<li><a href="http://club-consadole.jp/cms/preview.php?pre_no=2"><img src="/images/btn_about_cc.gif" alt="ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ã«ã¤ã„ã¦" /></a></li>
+				<li class="mt15"><a href="http://club-consadole.jp/cms/preview.php?pre_no=3"><img src="/images/btn_about_ss.gif" alt="ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆã«ã¤ã„ã¦" /></a></li>
+			</ul>
+			<div class="request_wrap">
+				<ul class="request">
+					<li class="first png"><a href="http://club-consadole.jp/club/club_login.php?page_name=new">ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ä¼šå“¡å…¥ä¼š</a></li>
+					<li class="last png"><a href="http://club-consadole.jp/club/club_login.php?page_name=season">ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆè³¼å…¥</a></li>
+				</ul>
+			</div>
+			<ul class="bnr mt15">
+				<li><a href="http://club-consadole.jp/info/cp20111227-3.php"><img src="/images/ic_point_banner.gif" width="240" height="86" alt="2011 ICã‚«ãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆæ™¯å“å†…å®¹ã®ãŠçŸ¥ã‚‰ã›" /></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="BANNER_AREA">
+		<ul class="clearfix">
+			<li class="mr12"><img src="/images/bnr_mobile.jpg" alt="CLUB CONSADOLE MOBILE" /></li>
+			<li class="mr12">
+				<div class="btn_area">
+					<h4>ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ä¼šå“¡é™å®š</h4>
+					<ul class="clearfix">
+						<li>ãƒ­ãƒ¼ã‚½ãƒ³ãƒã‚±ãƒƒãƒˆå…ˆè¡Œäºˆç´„</li>
+						<li><a href="http://l-tike.com/consadole_fc/" target="_brank"><img src="/images/btn_lawtick.jpg" /></a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="btn_area">
+					<h4>Jãƒªãƒ¼ã‚°å…¨è©¦åˆè¦³æˆ¦è¨˜éŒ²ã‚·ã‚¹ãƒ†ãƒ </h4>
+					<ul class="clearfix">
+						<li>Jãƒªãƒ¼ã‚° ãƒ¯ãƒ³ã‚¿ãƒƒãƒãƒ‘ã‚¹ã®ã”æ¡ˆå†…</li>
+						<li><a href="http://www.j-league.or.jp/onetouch/" target="_brank"><img src="/images/btn_one_touch.jpg" /></a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div style="clear:right;"></div>
+
+<!-- FOOTER set02 -->
 
 
-    <!--srt-->
-    <dl>
-        <dt>2011-06-07</dt>
-        <dd><a href="user.cgi?articleid=4247&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_4247" target="_top"><p>‚TŒŽ“x‚ÌuŸ—˜ƒ|ƒCƒ“ƒgvu‰JEáƒ|ƒCƒ“ƒgv‚Ìƒ|ƒCƒ“ƒg•t‰Á‚Â‚«‚Ü‚µ‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
+	<div id="FOOTER">
+		<div class="sitemap">
+			<ul class="sitemap clearfix">
+				<li>
+					<ul>
+						<li><a href="http://club-consadole.jp">ãƒ›ãƒ¼ãƒ </a></li>
+						<li><a href="https://club-consadole.jp/member/regist_member_1.php">æ–°è¦ä¼šå“¡ç™»éŒ²</a></li>
+						<li><a href="http://club-consadole.jp/news/index.php?page=1">ãƒ‹ãƒ¥ãƒ¼ã‚¹</a></li>
+						<li><a href="http://club-consadole.jp/info/cp_index.php">ã‚¤ãƒ™ãƒ³ãƒˆ&amp;ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href="http://club-consadole.jp/cms/preview.php?pre_no=2">ã‚¯ãƒ©ãƒ–ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ã«ã¤ã„ã¦</a></li>
+						<li><a href="http://club-consadole.jp/cms/preview.php?pre_no=3">ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆã«ã¤ã„ã¦</a></li>
+						<li><a href="http://club-consadole.jp/club/club_login.php?page_name=new">ã‚³ãƒ³ã‚µãƒ‰ãƒ¼ãƒ¬ä¼šå“¡å…¥ä¼š</a></li>
+						<li><a href="http://club-consadole.jp/club/club_login.php?page_name=season">ã‚·ãƒ¼ã‚ºãƒ³ã‚·ãƒ¼ãƒˆè³¼å…¥</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href="http://club-consadole.jp/info/use_guide.php">ã”åˆ©ç”¨ã‚¬ã‚¤ãƒ‰</a></li>
+						<li><a href="http://club-consadole.jp/info/faq.php">ã‚ˆãã‚ã‚‹è³ªå•</a></li>
+						<li><a href="https://club-consadole.jp/contact/">ãŠå•ã„åˆã‚ã›</a></li>
+						<li><a href="http://club-consadole.jp/info/rule.php">ä¼šå“¡è¦ç´„</a></li>
+						<li><a href="http://club-consadole.jp/info/pay.php">ç‰¹å®šå•†ã«é–¢ã™ã‚‹è¡¨è¨˜</a></li>
+						<li><a href="http://club-consadole.jp/info/privacy.php">å€‹äººæƒ…å ±ä¿è­·æ–¹é‡</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="copyright">
+					&copy;1996 HOKKAIDO FOOTBALL CLUB CO,.LTD.     &copy;1996 H.F.C
+			</div>
+			<div id="MASCOT">
+				<img src="/images/common/consadole.gif" alt="Consadole SAPPORO" />
+			</div>
+		</div>
+	</div>
 
-    <!--srt-->
-    <dl>
-        <dt>2011-05-25</dt>
-        <dd><a href="user.cgi?articleid=4159&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_4159" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒ@ŒÂl‰ïˆõi¬’†Šw¶j‚ÌŠF‚³‚Ü‚Ö</p></a></dd>
-    </dl>
-    <!--end-->
+    <script type="text/javascript">
 
-    <!--srt-->
-    <dl>
-        <dt>2011-05-18</dt>
-        <dd><a href="user.cgi?articleid=4112&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_4112" target="_top"><p>ƒvƒŒƒ~ƒAƒ€‰ïˆõ‚³‚Ü“Á“T@uƒo[ƒXƒfƒCƒvƒŒƒ[ƒ“ƒgv‚Ì”­‘—‚ÉŠÖ‚µ‚Ü‚µ‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-27934741-1']);
+      _gaq.push(['_trackPageview']);
 
-    <!--srt-->
-    <dl>
-        <dt>2011-04-26</dt>
-        <dd><a href="user.cgi?articleid=3955&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3955" target="_top"><p><span style="font-family: '‚l‚r        –¾’©','serif';">‚SŒŽ</span><span lang="EN-US">23</span><span style="font-family: '‚l‚r –¾’©','serif';">“ú</span><span lang="EN-US"> vs </span><span style="">Ã“ìƒxƒ‹ƒ}[ƒŒí@—ˆêƒ|ƒCƒ“ƒg‚Â‚«‚Ü‚µ‚Ä<br /></span></p></a></dd>
-    </dl>
-    <!--end-->
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
 
-    <!--srt-->
-    <dl>
-        <dt>2011-04-22</dt>
-        <dd><a href="user.cgi?articleid=3916&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3916" target="_top"><p>‚SŒŽ‚Q‚R“ú(“y)Ã“ìƒxƒ‹ƒ}[ƒŒí@ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒƒu[ƒXŠJÝ‚Ì‚²ˆÄ“à</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-04-22</dt>
-        <dd><a href="user.cgi?articleid=3910&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3910" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒƒCƒ“ƒtƒHƒ[ ƒVƒ‡ƒ“ƒfƒXƒN@—ÕŽž‘Î‰ž‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-04-15</dt>
-        <dd><a href="user.cgi?articleid=3879&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3879" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒWEBŽó•tÄŠJ‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-04-04</dt>
-        <dd><a href="user.cgi?articleid=3778&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3778" target="_top"><p>2011ƒRƒ“ƒTƒh[ƒŒŽD–yƒz[ƒ€ƒQ[ƒ€@‘æ2ßE‘æ3ßE‘æ5ß‚Ì’†Ž~‚É”º‚¤ƒ`ƒPƒbƒg‚Ì‚¨Žæ‚èˆµ‚¢‚É‚Â‚¢‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-03-22</dt>
-        <dd><a href="user.cgi?articleid=3699&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3699" target="_top"><p>2011 JƒŠ[ƒOƒfƒBƒrƒWƒ‡ƒ“‚Q@‘æ‚Tß`‘æ7ß ŽŽ‡’†Ž~ ‹y‚Ñ ‘æ‚Wß‚©‚ç‚ÌƒŠ[ƒOíÄŠJŒˆ’è‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-03-18</dt>
-        <dd><a href="user.cgi?articleid=3678&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3678" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒEƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“ƒfƒXƒN@—ÕŽž‘Î‰ž‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-03-14</dt>
-        <dd><a href="user.cgi?articleid=3652&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3652" target="_top"><p>2011 JƒŠ[ƒOƒfƒBƒrƒWƒ‡ƒ“‚Q@‘æ3ß ç—tí @‘æ4ß …ŒËí@ŽŽ‡’†Ž~‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-03-13</dt>
-        <dd><a href="user.cgi?articleid=3634&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3634" target="_top"><p>”­‘—•¨’x‰„‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-03-11</dt>
-        <dd><a href="user.cgi?articleid=3628&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3628" target="_top"><p>2011 JƒŠ[ƒOƒfƒBƒrƒWƒ‡ƒ“‚Q<br />ƒRƒ“ƒTƒh[ƒŒŽD–y ‚–‚“ ƒMƒ‰ƒ”ƒ@ƒ“ƒc–k‹ãB@ŽŽ‡’†Ž~‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-03-10</dt>
-        <dd><a href="user.cgi?articleid=3623&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3623" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒ“ÁÝƒu[ƒX‚ÌÝ’u‚É‚Â‚¢‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-03-10</dt>
-        <dd><a href="user.cgi?articleid=3616&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3616" target="_top"><p>wƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒ‚QŽŸŽó•t^ƒV[ƒY ƒ“ƒV[ƒg‚QŽŸ”Ì”„x•ª‚É‚Ä‚¨\ž‚Ý‚¢‚½‚¾‚¢‚½ŠF—l‚Ö‚Ì”­‘—‚É‚Â‚¢‚Ä‚Ì‚¨’m‚ç‚¹ </p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-03-04</dt>
-        <dd><a href="user.cgi?articleid=3584&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3584" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒƒCƒ“ƒtƒHƒ[ ƒVƒ‡ƒ“ƒfƒXƒN@—ÕŽž‘Î‰ž‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-02-28</dt>
-        <dd><a href="user.cgi?articleid=3547&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3547" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒuICƒJ[ƒhvŒë”­‘—“™‚É‚Â‚¢‚Ä‚Ì‚¨˜l‚Ñ</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-02-21</dt>
-        <dd><a href="user.cgi?articleid=3506&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3506" target="_top"><p><!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:View>Normal</w:View>
-  <w:Zoom>0</w:Zoom>
-  <w:PunctuationKerning/>
-  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
-  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:Compatibility>
-   <w:SpaceForUL/>
-   <w:BalanceSingleByteDoubleByteWidth/>
-   <w:DoNotLeaveBackslashAlone/>
-   <w:ULTrailSpace/>
-   <w:DoNotExpandShiftReturn/>
-   <w:AdjustLineHeightInTable/>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:UseFELayout/>
-  </w:Compatibility>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
- </w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
- </w:LatentStyles>
-</xml><![endif]--><!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:•W€‚Ì•\;
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-parent:"";
-	mso-padding-alt:0mm 5.4pt 0mm 5.4pt;
-	mso-para-margin:0mm;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-ansi-language:#0400;
-	mso-fareast-language:#0400;
-	mso-bidi-language:#0400;}
-</style>
-<![endif]--></p><p class="MsoNormal"><!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:View>Normal</w:View>
-  <w:Zoom>0</w:Zoom>
-  <w:PunctuationKerning/>
-  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
-  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:Compatibility>
-   <w:SpaceForUL/>
-   <w:BalanceSingleByteDoubleByteWidth/>
-   <w:DoNotLeaveBackslashAlone/>
-   <w:ULTrailSpace/>
-   <w:DoNotExpandShiftReturn/>
-   <w:AdjustLineHeightInTable/>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:UseFELayout/>
-  </w:Compatibility>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
- </w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
- </w:LatentStyles>
-</xml><![endif]--><!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:•W€‚Ì•\;
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-parent:"";
-	mso-padding-alt:0mm 5.4pt 0mm 5.4pt;
-	mso-para-margin:0mm;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-ansi-language:#0400;
-	mso-fareast-language:#0400;
-	mso-bidi-language:#0400;}
-</style>
-<![endif]--></p><p class="MsoNormal"><span lang="EN-US" style="font-family: &quot;‚l‚r ‚oƒSƒVƒbƒN&quot;;">2011</span><span style="font-family: &quot;‚l‚r ‚oƒSƒVƒbƒN&quot;;">ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒ@ƒz[ƒ€ƒQ[ƒ€“üêŒ”—Dæ—\–ñŽó•t‚É‚Â‚«‚Ü‚µ‚Ä</span></p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-02-18</dt>
-        <dd><a href="user.cgi?articleid=3482&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3482" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒ“ü‰ï‚¨‚æ‚ÑƒV[ƒYƒ“ƒV[ƒg”Ì”„2ŽŸŽó•tŠJŽn‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-02-16</dt>
-        <dd><a href="user.cgi?articleid=3480&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3480" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒ‚©‚ç‚Ì‚¨’m‚ç‚¹<br />uƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒ2ŽŸŽó•t/ƒV[ƒYƒ“ƒV[ƒg2ŽŸ”Ì”„vu1ŽŸ\ž•ª‚Ì”[•i—\’èv</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-02-08</dt>
-        <dd><a href="user.cgi?articleid=3414&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3414" target="_top"><p>ƒRƒ“ƒrƒjƒGƒ“ƒXEƒXƒgƒA‚Å‚ÌƒNƒŒƒWƒbƒgƒJ[ƒh‚Å‚Ì‚¨Žx•¥‚¢‚ÉŠÖ‚µ‚Ü‚µ‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-02-01</dt>
-        <dd><a href="user.cgi?articleid=3413&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3413" target="_top"><p>ƒV[ƒg‘I‘ð—pŽ†“ž’…‚Ì”­‘—’x‰„‚É‚Â‚¢‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-01-31</dt>
-        <dd><a href="user.cgi?articleid=3412&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3412" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒEƒV[ƒYƒ“ƒV[ƒg‚Ì&rdquo;‚PŽŸ”Ì”„‚Ì‚¨\ž‚Ý’÷Ø&rdquo;‚É‚Â‚¢‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-01-31</dt>
-        <dd><a href="user.cgi?articleid=3411&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3411" target="_top"><p>ƒRƒ“ƒrƒjƒGƒ“ƒXEƒXƒgƒA\‚µž‚Ý‚É‘Î‚·‚é“`•[‚Ì”­‘—’x‰„‚ÉŠÖ‚µ‚Ü‚µ‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-01-28</dt>
-        <dd><a href="user.cgi?articleid=3410&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3410" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒƒCƒ“ƒtƒHƒ[ ƒVƒ‡ƒ“ƒfƒXƒN@—ÕŽž‘Î‰ž‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-01-19</dt>
-        <dd><a href="user.cgi?articleid=3409&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3409" target="_top"><p>ƒtƒ‹ƒV[ƒYƒ“@ƒS[ƒ‹ƒhƒV[ƒgV‹KŽó•tI—¹‚Ì‚¨’m‚ç‚¹</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-01-14</dt>
-        <dd><a href="user.cgi?articleid=3408&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3408" target="_top"><p>ƒNƒ‰ƒuƒRƒ“ƒTƒh[ƒŒ \žŽó•tƒVƒXƒeƒ€‚ÌáŠQ‚É‚Â‚¢‚Ä</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-01-13</dt>
-        <dd><a href="user.cgi?articleid=3407&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3407" target="_top"><p>CLUB CONSADOLE Œg‘ÑƒTƒCƒg‚Å‚ÌŒp‘±“ü‰ï‚ªƒŠƒŠ[ƒX‚³‚ê‚Ü‚µ‚½B</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-01-11</dt>
-        <dd><a href="user.cgi?articleid=3406&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3406" target="_top"><p>2011”NuCLUB CONSADOLEv‚ª’a¶I</p></a></dd>
-    </dl>
-    <!--end-->
-
-    <!--srt-->
-    <dl>
-        <dt>2011-01-11</dt>
-        <dd><a href="user.cgi?articleid=3405&amp;actmode=NewsArticleList&amp;fanclub_id=67#article_3405" target="_top">ƒ~ƒVƒ…ƒ‰ƒ“ ƒRƒ“ƒTƒh[ƒŒŽD–y‰ž‰‡ƒLƒƒƒ“ƒy[ƒ“</a></dd>
-    </dl>
-    <!--end-->
-
-
+</div><!-- /container -->
+</div>
 </body>
 </html>

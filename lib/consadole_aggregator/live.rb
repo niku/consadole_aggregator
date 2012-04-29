@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
-require 'logger'
 require 'uri'
 require 'net/http'
 require 'kconv'
 require 'nokogiri'
 require 'eventmachine'
-require 'twitter'
 
 module ConsadoleAggregator
   class Live
@@ -43,14 +41,35 @@ module ConsadoleAggregator
     end
 
     def self.run starting_time, opt = {}
-      writer = opt[:writer] || ->(post) { Twitter.update post }
       runner = Runner.new starting_time
       runner.length_of_a_game = opt[:length_of_a_game] if opt[:length_of_a_game]
       runner.interval = opt[:interval] if opt[:interval]
       runner.daemonize = opt[:daemonize] unless opt[:daemonize].nil?
-      runner.run &writer
+      runner.run &opt[:writer]
     end
 
+    attr_reader :posted
+
+    def initialize
+      @posted = []
+    end
+
+    def update
+      self.class
+        .fetch
+        .reject(&@posted.method(:include?))
+        .each_with_object(@posted) { |post, posted|
+        begin
+          yield({ title: post }) if block_given?
+          posted << post
+          ConsadoleAggregator.logger.info post
+        rescue
+          ConsadoleAggregator.logger.error $!
+        end
+      }
+    end
+
+    private
     def self.parse document
       Nokogiri
         .parse(document)
@@ -71,26 +90,6 @@ module ConsadoleAggregator
       parse(doc)
     rescue
       []
-    end
-
-    attr_reader :posted
-
-    def initialize
-      @posted = []
-    end
-
-    def update
-      self.class
-        .fetch
-        .reject(&@posted.method(:include?))
-        .each_with_object(@posted) { |post, posted|
-        begin
-          yield post if block_given?
-          posted << post
-        rescue
-          # do_nothing
-        end
-      }
     end
   end
 end

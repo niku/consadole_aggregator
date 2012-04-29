@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+require 'consadole_aggregator'
+require 'time'
+require 'optparse'
+require 'twitter'
+
+module ConsadoleAggregator
+  opt = OptionParser.new
+  output = ->(post) { puts post }
+  opt.on('-o output', '--output output') { |o|
+    case o
+    when 'twitter'
+      Twitter.configure do |config|
+        config.consumer_key = ENV['CONSUMER_KEY']
+        config.consumer_secret = ENV['CONSUMER_SECRET']
+        config.oauth_token = ENV['OAUTH_TOKEN']
+        config.oauth_token_secret = ENV['OAUTH_TOKEN_SECRET']
+      end
+      output = ->(post) { Twitter.update Helper.truncate_for_twitter(post[:title], { url: post[:url], hashtag: '#consadole' }) }
+    end
+  }
+
+  subcommand = ARGV.shift
+
+  case subcommand
+  when 'news'
+    opt.parse!(ARGV)
+    News.run &output
+  when 'live'
+    starting_time = Time.parse(ARGV.shift)
+    opt.parse!(ARGV)
+    Live.run starting_time, { writer: output }
+  else
+    raise 'first argument must be "news" or "live"'
+  end
+end
