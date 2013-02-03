@@ -74,13 +74,13 @@ module ConsadoleAggregator
           begin
             yield article if block_given?
             add_updated article
-            ConsadoleAggregator.logger.info article
+            ConsadoleAggregator.logger.info('%s: %s'%[name, article])
           rescue
-            ConsadoleAggregator.logger.error $!
+            ConsadoleAggregator.logger.error('%s: %s'%[name, $!])
           end
         }
       rescue
-        ConsadoleAggregator.logger.error $!
+        ConsadoleAggregator.logger.error('%s: %s'%[name, $!])
       end
 
       private
