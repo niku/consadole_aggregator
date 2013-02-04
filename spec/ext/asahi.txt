@@ -1,702 +1,804 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="ja">
-<head>
-<meta http-equiv="content-language" content="ja">
-<meta http-equiv="content-type" content="text/html; charset=euc-jp">
-<title>asahi.com:記事一覧-マイタウン北海道</title>
-<meta http-equiv="content-style-type" content="text/css">
-<meta http-equiv="content-script-type" content="text/javascript">
-<meta name="author" content="">
-<meta name="copyright" content="Copyright The Asahi Shimbun Company. All rights reserved. No reproduction or republication without written permission.">
-<meta name="description" content="朝日新聞の速報ニュースサイト、アサヒ・コムのページです。">
-<meta name="keywords" content="新聞,朝日新聞,ニュース,地域ニュース新聞,北海道">
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <meta http-equiv="content-language" content="ja" />
+    <meta http-equiv="content-type" content="text/html; charset=euc-jp" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+    <meta name="author" content="The Asahi Shimbun Company" />
+    <meta name="copyright" content="Copyright The Asahi Shimbun Company. All rights reserved. No reproduction or republication without written permission." />
+    <title>朝日新聞デジタル：Ｊリーグ・国内サッカーニュース</title>
+    <meta name="description" content="朝日新聞の速報Webサイト、朝日新聞デジタルのスポーツ、野球、サッカー、陸上、オリンピック、ワールドカップなどに関するページです。" />
+    <meta name="keywords" content="朝日新聞,スポーツ,プロ野球,巨人,ヤクルト,横浜,中日,阪神,広島,日本ハム,楽天,西武,ロッテ,オリックス,ソフトバンク,セントラル・リーグ,セ・リーグ,パシフィック・リーグ,パ・リーグ,オープン戦,公式戦,交流戦,オールスター,クライマックスシリーズ,日本シリーズ,プレーオフ,ドラフト会議,NPB,BASEBALL,CENTRAL,PACIFIC,PLAYOFF" />
+    <link rel="stylesheet" type="text/css" href="http://www.asahicom.jp/css/common2013.css" media="screen,print" />
+    <script type="text/javascript" src="http://www.asahicom.jp/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" charset="euc-jp" src="http://www.asahicom.jp/js/w12asahi.js"></script>
+    <script type="text/javascript" charset="euc-jp" src="http://www.asahicom.jp/common_js/contents/asahi.contentsloader.js"></script>
+    <script type="text/javascript" charset="euc-jp" src="http://www.asahicom.jp/common_js/contents/asahi.scroll.js"></script>
+    <script type="text/javascript" src="http://www.asahicom.jp/js/jquery-ui-1.8.7.custom.min.js"></script>
+    <script type="text/javascript" src="http://www.asahicom.jp/js/asahi2013.js"></script>
+    <script type="text/javascript" src="http://www.asahicom.jp/js/gnavi_position.js"></script>
+    <script type="text/javascript" src="http://www.asahicom.jp/js/smartlink.js"></script>
+    <link rel="alternate" type="application/rss+xml" title="朝日新聞デジタル速報全ジャンル" href="http://www3.asahi.com/rss/index.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="朝日新聞デジタル速報社会ジャンル" href="http://www3.asahi.com/rss/national.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="朝日新聞デジタル速報政治ジャンル" href="http://www3.asahi.com/rss/politics.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="朝日新聞デジタル速報スポーツジャンル" href="http://www3.asahi.com/rss/sports.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="朝日新聞デジタル速報ビジネスジャンル" href="http://www3.asahi.com/rss/business.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="朝日新聞デジタル速報国際ジャンル" href="http://www3.asahi.com/rss/international.rdf" />
+    <link rel="alternate" type="application/rss+xml" title="朝日新聞デジタル速報文化ジャンル" href="http://www3.asahi.com/rss/culture.rdf" />
+    <meta name="RELEASE_DATE" CONTENT="2013-02-02" />
+  </head>
+  <body><!--googleoff:index-->
+	<p class="hide"><a href="#Contents">メインメニューをとばして、このページの本文エリアへ</a></p><noscript><p>お使いのブラウザはJavaScriptに対応していないか、または無効になっています。詳しくは<a href="http://www.asahi.com/policy/index.html">サイトポリシーのページ</a>をご覧ください。</p></noscript><div id="Header">
+<div id="HeaderInner">
+<!-- GlobalNav BGN --><ul class="GlobalNav">
 
-<link rel="stylesheet" type="text/css" href="http://www.asahi.com/css08/common/common_07mytown.css" media="screen,print" title="asahi.com css style">
-<link rel="stylesheet" type="text/css" href="http://www.asahi.com/css/mytown/mytown.css" media="screen,print" title="asahi.com css style">
-
-<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/jquery.js"></script>
-<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/asahi.js"></script>
-<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/asahi.fontsizecontroller.fullpass.js"></script>
-<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/asahi.gnav.fullpass.js"></script>
-<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/asahi.contentsloader.js"></script>
-
-<meta name="be_img" content="dot.gif">
-<script type="text/javascript" charset="euc-jp" src="http://www.asahi.com/js08/beacon.js"></script>
-
-</head>
-
-
-
-
-<body id="top">
-<!--googleoff: index-->
-<noscript>
-<p>お使いのブラウザはJavaScriptに対応していないか、または無効になっています。詳しくは<a href="http://www.asahi.com/policy/index.html"> サイトポリシーのページ </a>をご覧ください。</p>
-</noscript>
-
-
-<!-- ====ヘッダエリア==== -->
-
-<div id="Container">
-
-<div id="Header">
-
-<p id="Logo">
-<a href="http://www.asahi.com/" name="Top" id="Top">
-<img src="http://www.asahi.com/images08/common/logo.gif" alt="アサヒ・コム" width="116" height="28"></a></p>
-
-<p id="SubLogo">
-<a href="http://mytown.asahi.com/hokkaido/">
-<img src="http://www.asahi.com/mytown/images08/mtlogo_hokkaido.gif" alt="マイタウン北海道" width="85" height="30"></a></p>
-
-<p class="hide"><a href="#cnt">メインメニューをとばして、このページの本文エリアへ</a></p>
-<div id="HedSearch"><form action="http://sitesearch.asahi.com/.cgi/sitesearch/sitesearch.pl" method="post" class="SearchBoxHed"><fieldset><input type="text" value="" class="Txt" name="Keywords" /><input type="image" src="http://www.asahicom.jp/images08/common/btn_search_top.gif" alt="検索" class="Btn" /></fieldset></form></div>
-<ul id="Unav">
-<li class="Fst"><a href="http://aspara.asahi.com/">
-<img src="http://www.asahi.com/images08/common/icn_aspara.gif" alt="アスパラクラブ" width="51" height="17"></a></li>
-
-<!--
-<li><a href="#">
-<img src="http://www.asahi.com/images08/common/icn_rss_l.gif" alt="RSS" width="45" height="17"></a></li>
--->
-
+<li class="News Fst"><a href="http://www.asahi.com/?ref=com_gnavi"><span>ニュース</span></a>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol2">
+<li><a href="http://www.asahi.com/news/index.html?ref=com_gnavi">新着</a></li>
+<li><a href="http://www.asahi.com/national/index.html?ref=com_gnavi">社会</a></li>
+<li><a href="http://www.asahi.com/politics/index.html?ref=com_gnavi">政治</a></li>
+<li><a href="http://www.asahi.com/business/index.html?ref=com_gnavi">経済・マネー</a></li>
+<li><a href="http://www.asahi.com/international/index.html?ref=com_gnavi">国際</a></li>
+<li><a href="http://www.asahi.com/tech_science/index.html?ref=com_gnavi">テック＆サイエンス</a></li>
+<li><a href="http://www.asahi.com/edu/index.html?ref=com_gnavi">教育</a></li>
+<li><a href="http://www.asahi.com/eco/index.html?ref=com_gnavi">環境・エネルギー</a></li>
+<li><a href="http://apital.asahi.com/?ref=com_gnavi" target="_blank" class="Blank">医療・健康</a></li>
+<li><a href="http://www.asahi.com/english/index.html?ref=com_gnavi">English</a></li>
 </ul>
-
-
-
-<div id="TopBnr">
-<!--スーパーバナー-->
-<div id="ad">
-<!-- マイタウン728*90 ★ここから-->
-<!-- impact北海道スーパーバナー 728*90 ★ここから -->
-<script type="text/javascript" language="JavaScript">
-<!--
-var impAcn  = "IMPASEG";
-var impAco  = document.cookie;
-var impApos = impAco.indexOf(impAcn + "=");
-var impAseg = (impApos != -1) ? impAco.substring(impApos + impAcn.length + 1, (impAco.indexOf("; ", impApos) != -1) ? impAco.indexOf("; ", impApos) : impAco.length) : null;
-impAseg = (impAseg) ? unescape(impAseg) : '';
-
-var impAserver = "http://imp.asahi.com";
-var impAtag    = "/SITE=MT.HOKKAIDO/AREA=BANNER/AAMSZ=728X90";
-var impAtarget = (impAseg.match(/^[\w\/=]+$/)) ? impAtag + "/" + impAseg : impAtag;
-
-impArnd = Math.round(Math.random() * 100000000);
-if (!impApid) var impApid = Math.round(Math.random() * 100000000);
-document.write('<scr');
-document.write('ipt src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
-document.write('</scr');
-document.write('ipt>');
-//-->
-</script>
-<noscript>
-<iframe src="http://imp.asahi.com/hserver/SITE=MT.HOKKAIDO/AREA=BANNER/AAMSZ=728X90/OENCJP=EUC" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=728 height=90 allowTransparency="true">
-</iframe>
-</noscript>
-<!-- impact北海道スーパーバナー 728*90 ★ここまで -->
-<!-- マイタウン728*90 ★ここまで-->
 </div>
-<!--/スーパーバナー-->
 </div>
-
-
-
-<div id="Nav">
-<dl id="Gnav">
-<dt>主分類項目</dt>
-<dd>
-<ul id="Genre1">
-<li class="Top"><a href="http://www.asahi.com/">
-<img src="http://www.asahi.com/images08/common/gnav_top_off.gif" alt="トップ" width="70" height="24"></a></li>
-<li class="News Current"><a href="http://www.asahi.com/news/">
-<img src="http://www.asahi.com/images08/common/gnav_news_on.gif" alt="ニュース" width="85" height="24"></a></li>
-<li class="Sports"><a href="http://www.asahi.com/sports/">
-<img src="http://www.asahi.com/images08/common/gnav_sports_off.gif" alt="スポーツ" width="84" height="24"></a></li>
-<li class="Entertainment"><a href="http://www.asahi.com/entertainment/">
-<img src="http://www.asahi.com/images08/common/gnav_entertainment_off.gif" alt="エンタメ" width="83" height="24"></a></li>
-<li class="Life"><a href="http://www.asahi.com/life/">
-<img src="http://www.asahi.com/images08/common/gnav_life_off.gif" alt="ライフ" width="71" height="24"></a></li>
+</li>
+<li class="Sports"><a href="http://www.asahi.com/sports/index.html?ref=com_gnavi">スポーツ</a>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol2">
+<li><a href="http://www.asahi.com/sports/baseball/index.html?ref=com_gnavi">野球</a></li>
+<li><a href="http://www.asahi.com/koshien/?ref=com_gnavi" target="_blank" class="Blank">高校野球</a></li>
+<li><a href="http://www.asahi.com/sports/soccer/index.html?ref=com_gnavi">サッカー</a></li>
+<li><a href="http://www.asahi.com/sports/golf/index.html?ref=com_gnavi">ゴルフ</a></li>
+<li><a href="http://www.asahi.com/sports/sumo/index.html?ref=com_gnavi">相撲</a></li>
+<li><a href="http://www.asahi.com/sports/winter/index.html?ref=com_gnavi">ウインタースポーツ</a></li>
+<li><a href="http://www.asahi.com/sports/usa/index.html?ref=com_gnavi">米プロスポーツ</a></li>
+<li><a href="http://www.asahi.com/sports/general/index.html?ref=com_gnavi">その他のスポーツ</a></li>
+<li><a href="http://www.asahi.com/sports/gallery/?ref=com_gnavi">スポーツ写真特集</a></li>
 </ul>
+</div>
+</div>
+</li>
+<li class="Culture"><a href="http://www.asahi.com/culture/?ref=com_gnavi">カルチャー</a>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol2">
+<li><a href="http://www.asahi.com/culture/movies/index.html?ref=com_gnavi">映画</a></li>
+<li><a href="http://www.asahi.com/culture/music/index.html?ref=com_gnavi">音楽</a></li>
+<li><a href="http://www.asahi.com/culture/art/index.html?ref=com_gnavi">アート</a></li>
+<li><a href="http://www.asahi.com/culture/showbiz/index.html?ref=com_gnavi">テレビ・芸能</a></li>
+<li><a href="http://www.asahi.com/culture/stage/index.html?ref=com_gnavi">舞台・演芸</a></li>
+<li><a href="http://www.asahi.com/culture/manga/index.html?ref=com_gnavi">マンガ・アニメ・ゲーム</a></li>
+<li><a href="http://www.asahi.com/culture/history/index.html?ref=com_gnavi">ひと・歴史</a></li>
+<li><a href="http://www.asahi.com/culture/columns/index.html?ref=com_gnavi">連載小説・コラム</a></li>
+<li><a href="http://www.asahi.com/goshougi/?ref=com_gnavi">囲碁・将棋</a></li>
+<li><a href="http://book.asahi.com/?ref=com_gnavi" target="_blank" class="Blank">ブック</a></li>
+</ul>
+</div>
+</div>
+</li>
 
-<ul id="Genre2">
-<li class="Shopping"><a href="http://www.asahi.com/shopping/"><img src="http://www.asahi.com/images08/common/gnav_shopping_off.gif" alt="ショッピング" width="100" height="24"></a></li>
-<li class="Premium"><a href="http://astand.asahi.com/"><img src="http://www.asahicom.jp/images08/common/gnav_astand_off.gif" alt="Astand" width="92" height="24" /></a></li>
-<li class="Topics"><a href="http://www.asahi.com/topics/"><img src="http://www.asahi.com/images08/common/gnav_topics_off.gif" alt="トピックス" width="92" height="24" /></a></li>
+<li class="Area"><a href="http://www.asahi.com/area/index.html?ref=com_gnavi">地域</a>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol2">
+<li><a href="http://www.asahi.com/area/#AREA01">北海道・東北</a></li>
+<li><a href="http://www.asahi.com/area/#AREA02">関東</a></li>
+<li><a href="http://www.asahi.com/area/#AREA03">東海・甲信越</a></li>
+<li><a href="http://www.asahi.com/area/#AREA04">近畿・北陸</a></li>
+<li><a href="http://www.asahi.com/area/#AREA05">中国・四国</a></li>
+<li><a href="http://www.asahi.com/area/#AREA06">九州・沖縄</a></li>
+<li><a href="http://digital.asahi.com/localnews_viewer.html?ref=com_gnavi">地域面紙面</a></li>
+</ul>
+</div>
+</div>
+</li>
 
+<li class="Feature"><a href="http://www.asahi.com/special/index.html?ref=com_gnavi">特集・オピニオン</a>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol2">
+<li><a href="http://www.asahi.com/paper/column.html?ref=com_gnavi">天声人語</a></li>
+<li><a href="http://www.asahi.com/paper/editorial.html?ref=com_gnavi">社説</a></li>
+<li><a href="http://www.asahi.com/opinion/?ref=com_gnavi">オピニオン・声</a></li>
+<li><a href="http://www.asahi.com/special/news/?ref=com_gnavi">ニュース特集</a></li>
+<li><a href="http://www.asahi.com/reporter/?ref=com_gnavi">記者ページ</a></li>
+<li><a href="http://webronza.asahi.com/?ref=com_gnavi" target="_blank" class="Blank">WEBRONZA+</a></li>
+</ul>
+</div>
+</div>
+</li>
+
+<li class="Media"><a href="http://www.asahi.com/multimedia/index.html?ref=com_gnavi">写真・動画</a>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol2">
+<li><a href="http://digital.asahi.com/photoviewer/index.html?ref=com_gnavi">写真地球儀</a></li>
+<li><a href="http://www.asahi.com/photonews/?ref=com_gnavi">ピックアップフォト</a></li>
+<li><a href="http://www.asahi.com/gallery/index.html?ref=com_gnavi">フォトギャラリー</a></li>
+<li><a href="http://www.asahi.com/panorama/index.html?ref=com_gnavi">パノラマ写真</a></li>
+<li><a href="http://www.asahi.com/video/index.html?ref=com_gnavi">動画</a></li>
+<li><a href="http://www.asahi.com/infograph/?ref=com_gnavi">インフォグラフ</a></li>
+</ul>
+</div>
+</div>
+</li>
+
+<li class="Magazine"><a href="http://www.asahi.com/rensai/index.html?ref=com_gnavi">連載・マガジン</a>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol2">
+<li><a href="http://www.asahi.com/rensai/index.html?ref=com_gnavi">企画・連載</a></li>
+<li><a href="http://www.asahi.com/be.html?ref=com_gnavi">ｂｅ（週末別冊）</a></li>
+<li><a href="http://www.asahi.com/plusc/?ref=com_gnavi">ａｓａｈｉ＋Ｃ</a></li>
+<li><a href="http://www.asahi.com/jsg/?ref=com_gnavi">女子組</a></li>
+<li><a href="http://www.asahi.com/shopping/?ref=com_gnavi">ショッピング</a></li>
+<li><a href="http://digital.asahi.com/job/syukatsu2014/?ref=com_gnavi">就活応援</a></li>
+
+<li><a href="http://www.asahi.com/and_M/index.html?ref=com_gnavi" target="_blank" class="Blank">＆Ｍ（男性）</a></li>
+<li><a href="http://www.asahi.com/and_w/index.html?ref=com_gnavi" target="_blank" class="Blank">＆ｗ（女性）</a></li>
+
+<li><a href="http://globe.asahi.com/?ref=com_gnavi" target="_blank" class="Blank">ＧＬＯＢＥ</a></li>
 
 </ul>
-</dd>
-</dl>
+</div>
+</div>
+</li>
 
+<li class="MoreMenu"><a href="#">ぜんぶ見る</a>
 
+<!-- MoreMenuSubNav BGN --><div class="MoreMenuSubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="MoreMenuSubNavInner">
 
-<dl id="Lnav">
-<dt>分類内項目</dt>
+<!-- SubNavBox（上段）BGN -->
+<div class="MoreMenuSubNavBox Fst">
+
+<dl class="Fst">
+<dt><a href="http://www.asahi.com/?ref=com_gnavi2">ニュース</a></dt>
 <dd>
 <ul>
-<li class="Fst"><a href="http://www.asahi.com/national/">社会</a></li>
-<li><a href="http://www.asahi.com/business/">ビジネス</a></li>
-<li><a href="http://www.asahi.com/politics/">政治</a></li>
-<li><a href="http://www.asahi.com/international/">国際</a></li>
-<li><a href="http://www.asahi.com/culture/">文化</a></li>
-<li><a href="http://www.asahi.com/science/">サイエンス</a></li>
-<li><a href="http://www.asahi.com/paper/editorial.html">社説</a></li>
-<li><a href="http://www.asahi.com/column/">コラム</a></li>
-<li><a href="http://weather.asahi.com/">天気</a></li>
-<li><a href="http://www.asahi.com/traffic/">交通</a></li>
-<li><a href="http://www.asahi.com/video/">動画</a></li>
-<li class="Current"><a href="http://mytown.asahi.com/">マイタウン</a></li>
-<li><a href="http://www.asahi.com/english/">ENGLISH</a></li>
+<li><a href="http://www.asahi.com/news/index.html?ref=com_gnavi2">新着</a></li>
+<li><a href="http://www.asahi.com/national/index.html?ref=com_gnavi2">社会</a></li>
+<li><a href="http://www.asahi.com/politics/index.html?ref=com_gnavi2">政治</a></li>
+<li><a href="http://www.asahi.com/business/index.html?ref=com_gnavi2">経済・マネー</a></li>
+<li><a href="http://www.asahi.com/international/index.html?ref=com_gnavi2">国際</a></li>
+<li><a href="http://www.asahi.com/tech_science/index.html?ref=com_gnavi2">テック＆サイエンス</a></li>
+<li><a href="http://www.asahi.com/edu/index.html?ref=com_gnavi2">教育</a></li>
+<li><a href="http://www.asahi.com/eco/index.html?ref=com_gnavi2">環境・エネルギー</a></li>
+<li><a href="http://apital.asahi.com/?ref=com_gnavi2" target="_blank" class="Blank">医療・健康</a></li>
+<li><a href="http://www.asahi.com/english/?ref=com_gnavi2">English</a></li>
 </ul>
 </dd>
 </dl>
+
+<dl>
+<dt><a href="http://www.asahi.com/sports/index.html?ref=com_gnavi2">スポーツ</a></dt>
+<dd>
+<ul>
+<li><a href="http://www.asahi.com/sports/baseball/index.html?ref=com_gnavi2">野球</a></li>
+<li><a href="http://www.asahi.com/koshien/?ref=com_gnavi2" target="_blank" class="Blank">高校野球</a></li>
+<li><a href="http://www.asahi.com/sports/soccer/index.html?ref=com_gnavi2">サッカー</a></li>
+<li><a href="http://www.asahi.com/sports/golf/index.html?ref=com_gnavi2">ゴルフ</a></li>
+<li><a href="http://www.asahi.com/sports/sumo/index.html?ref=com_gnavi2">相撲</a></li>
+<li><a href="http://www.asahi.com/sports/winter/index.html?ref=com_gnavi2">ウインタースポーツ</a></li>
+<li><a href="http://www.asahi.com/sports/usa/index.html?ref=com_gnavi2">米プロスポーツ</a></li>
+<li><a href="http://www.asahi.com/sports/general/index.html?ref=com_gnavi2">その他のスポーツ</a></li>
+<li><a href="http://www.asahi.com/sports/gallery/?ref=com_gnavi2">スポーツ写真特集</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt><a href="http://www.asahi.com/culture/?ref=com_gnavi2">カルチャー</a></dt>
+<dd>
+<ul>
+<li><a href="http://www.asahi.com/culture/movies/index.html?ref=com_gnavi2">映画</a></li>
+<li><a href="http://www.asahi.com/culture/music/index.html?ref=com_gnavi2">音楽</a></li>
+<li><a href="http://www.asahi.com/culture/art/index.html?ref=com_gnavi2">アート</a></li>
+<li><a href="http://www.asahi.com/culture/showbiz/index.html?ref=com_gnavi2">テレビ・芸能</a></li>
+<li><a href="http://www.asahi.com/culture/stage/index.html?ref=com_gnavi2">舞台・演芸</a></li>
+<li><a href="http://www.asahi.com/culture/manga/index.html?ref=com_gnavi2">マンガ・アニメ・ゲーム</a></li>
+<li><a href="http://www.asahi.com/culture/history/index.html?ref=com_gnavi2">ひと・歴史</a></li>
+<li><a href="http://www.asahi.com/culture/columns/index.html?ref=com_gnavi2">連載小説・コラム</a></li>
+<li><a href="http://book.asahi.com/?ref=com_gnavi2" target="_blank" class="Blank">ブック</a></li>
+<li><a href="http://www.asahi.com/goshougi/?ref=com_gnavi2">囲碁・将棋</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt><a href="http://www.asahi.com/area/index.html?ref=com_gnavi2">地域</a></dt>
+<dd>
+<ul>
+<li><a href="http://www.asahi.com/area/#AREA01">北海道・東北</a></li>
+<li><a href="http://www.asahi.com/area/#AREA02">関東</a></li>
+<li><a href="http://www.asahi.com/area/#AREA03">東海・甲信越</a></li>
+<li><a href="http://www.asahi.com/area/#AREA04">近畿・北陸</a></li>
+<li><a href="http://www.asahi.com/area/#AREA05">中国・四国</a></li>
+<li><a href="http://www.asahi.com/area/#AREA06">九州・沖縄</a></li>
+<li><a href="http://digital.asahi.com/localnews_viewer.html?ref=com_gnavi2">地域面紙面</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt><a href="http://www.asahi.com/special/index.html?ref=com_gnavi2">特集・オピニオン</a></dt>
+<dd>
+<ul>
+<li><a href="http://www.asahi.com/paper/column.html?ref=com_gnavi2">天声人語</a></li>
+<li><a href="http://www.asahi.com/paper/editorial.html?ref=com_gnavi2">社説</a></li>
+<li><a href="http://www.asahi.com/opinion/?ref=com_gnavi2">オピニオン・声</a></li>
+<li><a href="http://www.asahi.com/special/news/?ref=com_gnavi2">ニュース特集</a></li>
+<li><a href="http://www.asahi.com/reporter/?ref=com_gnavi2">記者ページ</a></li>
+<li><a href="http://webronza.asahi.com/?ref=com_gnavi2" target="_blank" class="Blank">WEBRONZA+</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt><a href="http://www.asahi.com/multimedia/index.html?ref=com_gnavi2">写真・動画</a></dt>
+<dd>
+<ul>
+<li><a href="http://digital.asahi.com/photoviewer/index.html?ref=com_gnavi2">写真地球儀</a></li>
+<li><a href="http://www.asahi.com/photonews/?ref=com_gnavi2">ピックアップフォト</a></li>
+<li><a href="http://www.asahi.com/gallery/index.html?ref=com_gnavi2">フォトギャラリー</a></li>
+<li><a href="http://www.asahi.com/panorama/index.html?ref=com_gnavi2">パノラマ写真</a></li>
+<li><a href="http://www.asahi.com/video/index.html?ref=com_gnavi2">動画</a></li>
+<li><a href="http://www.asahi.com/infograph/?ref=com_gnavi2">インフォグラフ</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt><a href="http://www.asahi.com/rensai/index.html?ref=com_gnavi2">連載・マガジン</a></dt>
+<dd>
+<ul>
+<li><a href="http://www.asahi.com/rensai/index.html?ref=com_gnavi2">企画・連載</a></li>
+<li><a href="http://www.asahi.com/be.html?ref=com_gnavi2">ｂｅ（週末別冊）</a></li>
+<li><a href="http://www.asahi.com/plusc/?ref=com_gnavi2">ａｓａｈｉ＋Ｃ</a></li>
+<li><a href="http://www.asahi.com/jsg/?ref=com_gnavi2">女子組</a></li>
+<li><a href="http://www.asahi.com/shopping/?ref=com_gnavi2">ショッピング</a></li>
+<li><a href="http://digital.asahi.com/job/syukatsu2014/?ref=com_gnavi2">就活応援</a></li>
+<li><a href="http://www.asahi.com/and_M/index.html?ref=com_gnavi2" target="_blank" class="Blank">＆Ｍ（男性）</a></li>
+<li><a href="http://www.asahi.com/and_w/index.html?ref=com_gnavi2" target="_blank" class="Blank">＆ｗ（女性）</a></li>
+<li><a href="http://globe.asahi.com/?ref=com_gnavi2" target="_blank" class="Blank">ＧＬＯＢＥ</a></li>
+<li><a href="http://astand.asahi.com/entertainment/starfile/?ref=com_gnavi2" target="_blank" class="Blank">スターファイル</a></li>
+</ul>
+</dd>
+</dl>
+
+
+</div><!-- SubNavBox（上段）END -->
+
 </div>
+</div><!-- MoreMenuSubNav END -->
 
-
-<hr>
-</div><!-- /Header -->
-
-<!-- ====/ヘッダエリア==== -->
-
-<!-- telop index -->
-
-
-<!-- ====コンテンツエリア==== -->
-<table id="mLay">
-<tr>
-<td id="Main">
-
-<p class="hide">ここから本文エリア</p>
-<div id="cnt">
-
-
-
-<!--ブレッドクラム -->
-<p id="bc">現在位置：<a href="http://www.asahi.com/" title="アサヒコム">asahi.com</a>&gt;&#160;<a href="http://mytown.asahi.com/">マイタウン</a>&gt;&#160;<a href="http://mytown.asahi.com/hokkaido/">北海道</a>&gt;&#160;記事一覧</p>
-<!--/ブレッドクラム -->
-
-<h1 id="genre">コンサドーレ札幌</h1>
-<p class="bg-gray p10 small"></p>
-
-<!--特集リスト -->
-<!-- 小分類が１件以上設定されている場合 ここから-->
-
-
-
-
-<div class="sec">
-<h2 class="topi">コンサドーレ札幌</h2>
-
-<ul class="list">
-
-<li>
-<a href="news.php?k_id=01000191006140001">内村が同点弾　愛媛と分ける</a><span class="s"> (06/14)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191006070001">リードを守れず　草津に引き分け</a><span class="s"> (06/06)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005310001">３−１　富山に快勝</a><span class="s"> (05/31)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005310002">試合支える仕事　親子５組が体験</a><span class="s"> (05/31)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005250001">「コンサ昇格・収穫祝いたい」</a><span class="s"> (05/25)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005240001">徳島とドロー　ゴール奪えず</a><span class="s"> (05/23)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005170001">リードを守れず大分に引き分け</a><span class="s"> (05/17)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005100001">７試合ぶり勝利　キリノ初ゴール</a><span class="s"> (05/10)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005070001">好機作ってもゴールできず</a><span class="s"> (05/07)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005060001">低迷チームに「ゴン魂」期待</a><span class="s"> (05/04)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191005030001">熊本に引き分け　後半決めきれず</a><span class="s"> (05/03)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191004300001">甲府に１−４　前半失点響く</a><span class="s"> (04/30)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191004260001">水戸に１−２　ホームで黒星</a><span class="s"> (04/26)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191004130001">昇格へスタート不発　６試合終え１１位</a><span class="s"> (04/13)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191004050001">岐阜に０−３　３連勝ならず</a><span class="s"> (04/05)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191003290001">ホームで初白星飾る</a><span class="s"> (03/29)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191003240001">初白星　 「負けられぬ」チーム 一丸</a><span class="s"> (03/24)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191003230001">コンサドーレ　１点守りきり今季初の白星</a><span class="s"> (03/22)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191003150001">ホーム初戦完敗　福岡に０−３</a><span class="s"> (03/14)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191003100001">「攻めの形つくれず」開幕戦引き分け</a><span class="s"> (03/10)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191003080001">開幕戦引き分け　鳥栖に１−１</a><span class="s"> (03/08)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191003080002">開幕勝利へ意欲</a><span class="s"> (03/07)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191002170001">ホーム初戦　来月１３日　日程決まる</a><span class="s"> (02/17)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191001200001">開幕はサガン鳥栖戦コンサドーレ、３月７日</a><span class="s"> (01/20)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191001180001">ようこそゴン！　交流イベントに新加入選手</a><span class="s"> (01/18)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191001130001">「札幌の中山になる」ゴンが活動本格化</a><span class="s"> (01/13)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000191001050001">ダニルソン選手　Ｊ１名古屋移籍</a><span class="s"> (01/05)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190912250001">中山選手 コンサドーレ入団会見</a><span class="s"> (12/25)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190912240001">ゴン中山、札幌に加入　精神的支柱に期待</a><span class="s"> (12/24)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190912180001">ＦＷ石井選手がＪ２愛媛に移籍</a><span class="s"> (12/18)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190912170001">ＭＦ西選手が期限付き移籍</a><span class="s"> (12/17)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190912090001">来季向け課題探る　開幕は万全戦力で</a><span class="s"> (12/09)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190912070001">最終戦粘ってドロー／退団選手にエール</a><span class="s"> (12/06)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190911300001">ホーム最終戦で快勝</a><span class="s"> (11/30)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190911300002">石井ら４選手と契約の更新せず</a><span class="s"> (11/29)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190911260001">石崎監督が続投　「経験を生かす」</a><span class="s"> (11/26)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190911240001">岐阜と対戦し ４−２で快勝</a><span class="s"> (11/23)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190911180001">曽田選手が引退</a><span class="s"> (11/18)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190911100001">富山に引き分け</a><span class="s"> (11/10)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190911090001">コンサドーレスポンサー　ニトリ、今季限り</a><span class="s"> (11/08)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190911020001">清水の壁崩せず　天皇杯３回戦</a><span class="s"> (11/01)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190910260001">仙台に敗れる</a><span class="s"> (10/26)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190910220001">栃木に競り勝つ</a><span class="s"> (10/22)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190910190002">Ｊ１昇格の可能性消滅</a><span class="s"> (10/19)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190910190001">Ｊ１昇格可能性　きょうにも消滅</a><span class="s"> (10/18)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190910140001">「昇格」崖っぷち続く</a><span class="s"> (10/14)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190910130001">鳥取に逆転辛勝　天皇杯３回戦へ</a><span class="s"> (10/12)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190910080001">終了間際失点　セ大阪に惜敗</a><span class="s"> (10/08)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190910050001">攻撃の形作れず　熊本と引き分け</a><span class="s"> (10/05)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190909280001">高原鉄壁　３連勝　湘南に２−０</a><span class="s"> (09/28)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190909240002">岡山下し２連勝</a><span class="s"> (09/24)</span>
 </li>
 
-<li>
-<a href="news.php?k_id=01000190909240001">室蘭で勝利　福岡と接戦　１−０</a><span class="s"> (09/21)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190909140001">甲府に１−２　　８試合ぶり黒星</a><span class="s"> (09/14)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190909090001">終盤へ好調保てるか</a><span class="s"> (09/09)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190909070001">２点差を逆転　愛媛ＦＣ下す</a><span class="s"> (09/07)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190909030001">追いつかれて引き分け　７位変わらず</a><span class="s"> (09/03)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190908310001">好調コンサ　草津に圧勝　７位に</a><span class="s"> (08/31)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190908240001">ロスタイム失点　鳥栖と引き分け</a><span class="s"> (08/23)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190908180001">札幌が３連勝　岐阜に２−０</a><span class="s"> (08/18)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190908100001">東京ヴ下し連勝　キリノが２得点</a><span class="s"> (08/10)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190908060001">福岡と対戦　３−０で快勝</a><span class="s"> (08/06)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190908030001">セレッソ大阪に０−３で敗れる</a><span class="s"> (08/03)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190907290001">試合の裏方体験　小学生参加募る</a><span class="s"> (07/29)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190907260001">岡山に４−２　厚別で初白星</a><span class="s"> (07/26)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190907230001">富山と０−０　連敗は止まる</a><span class="s"> (07/23)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190907190001">草津に惜敗</a><span class="s"> (07/19)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190907160001">クライトン退団で新外国人選手獲得</a><span class="s"> (07/16)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190907130001">決定力欠き　熊本に０−１</a><span class="s"> (07/12)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190907130002">後半逆転して愛媛に２―１</a><span class="s"> (07/09)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190907050001">決定力を欠き水戸に０−１</a><span class="s"> (07/05)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190906280001">先制を守れず　仙台とドロー</a><span class="s"> (06/28)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190906250001">横浜とドロー　８位に下がる</a><span class="s"> (06/25)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190906220001">リードを守れず　湘南に逆転負け</a><span class="s"> (06/22)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190906160001">追加点奪えず 徳島とドロー</a><span class="s"> (06/16)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190906080001">鳥栖に逆転負け　１４試合ぶり黒星</a><span class="s"> (06/08)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190906030001">上位へ足踏み続く　決定力に課題</a><span class="s"> (06/03)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190906010001">甲府と０−０　３戦引き分け</a><span class="s"> (05/31)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190905250001">終了間際失点　痛い引き分け</a><span class="s"> (05/25)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190905210001">ゴールを奪えず　水戸と引き分け</a><span class="s"> (05/21)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190905180001">ホーム４連勝　暫定５位に</a><span class="s"> (05/17)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190905110001">２点差守れず　徳島とドロー</a><span class="s"> (05/11)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190905070002">猛攻、２点差逆転　栃木に３−２</a><span class="s"> (05/06)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190905070001">福岡と０−０　５連勝ならず</a><span class="s"> (05/03)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190904300002">愛媛ＦＣを下し　連勝４にのばす</a><span class="s"> (04/30)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190904300001">攻撃サッカー機能　きょう愛媛戦</a><span class="s"> (04/29)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190904270001">退場で１人減も　横浜ＦＣに勝利</a><span class="s"> (04/27)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190904200001">首位セレッソを圧倒　４−１</a><span class="s"> (04/20)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190904160001">１カ月ぶりに勝利　キリノ２ゴール</a><span class="s"> (04/16)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190904150001">コンサドーレ　Ｊ２ 不覚の序盤戦</a><span class="s"> (04/15)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190904140001">先制するも守りきれず　富山に１−１</a><span class="s"> (04/14)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190904060001">勝ち星遠く　１６位に転落　熊本に０−４</a><span class="s"> (04/06)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190903300001">後半追いつかれ　岡山に引き分け</a><span class="s"> (03/30)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190903260001">攻め続けるもゴール割れず　湘南に０−１</a><span class="s"> (03/26)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190903230001">甲府に１−２　連勝は成らず</a><span class="s"> (03/23)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190903160001">鳥栖破り初勝利</a><span class="s"> (03/16)</span>
-</li>
+</ul><!-- GlobalNav END -->
 
-<li>
-<a href="news.php?k_id=01000190903110001">開幕戦、魅せた攻撃サッカー</a><span class="s"> (03/11)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190903090002">Ｊ２舞台、惜敗の開幕　仙台に０−１</a><span class="s"> (03/09)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190902040001">コンサＵ１２がメンバー選抜</a><span class="s"> (02/04)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190901190001">ファン５２００人にＪ１復帰誓う</a><span class="s"> (01/19)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190901150001">石崎監督が上田・札幌市長を訪問</a><span class="s"> (01/15)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190901140001">１年でＪ１復帰　石崎新監督が抱負</a><span class="s"> (01/14)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190901050001">新監督に柏・石崎氏</a><span class="s"> (12/30)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190812080001">「再来年にはＪ１戻る」　コンサ最終戦</a><span class="s"> (12/07)</span>
-</li>
+<p class="Logo"><a href="http://www.asahi.com/?ref=com_gnavi"><img src="http://www.asahicom.jp/images/logo.gif" alt="朝日新聞デジタル" /></a></p>
 
-<li>
-<a href="news.php?k_id=01000190812010001">後半ダビ一矢も　名古屋勢い勝る</a><span class="s"> (12/01)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190811250001">連敗ストップ　久々の勝ち点</a><span class="s"> (11/24)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190811100001">三浦監督が退任明言　浦和に１−２</a><span class="s"> (11/09)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190810290001">元主将の店で食べ　コンサの試合応援</a><span class="s"> (10/29)</span>
-</li>
+<!-- UserSection BGN --><div class="UserSection">
 
-<li>
-<a href="news.php?k_id=01000190810270001">守備崩される　川崎に１−３</a><span class="s"> (10/27)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190810200002">《解説》　けが人続出し ＤＦ主力欠く</a><span class="s"> (10/20)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190810200001">Ｊ２降格　スタンド静まる</a><span class="s"> (10/20)</span>
-</li>
-
-<li>
-<a href="news.php?k_id=01000190810290002">コンサ元主将、三重でジンギスカン店開業</a><span class="s"> (10/15)</span>
-</li>
+<!-- UserInfo BGN --><ul class="UserInfo">
+<li class="LoggedIn Member_inline"><span>ログイン中</span></li>
 
-<li>
-<a href="news.php?k_id=01000190712030001">Ｊ１復帰　６年ぶり、本拠で歓喜</a><span class="s"> (12/01)</span>
-</li>
+<script type="text/javascript">
+//<![CDATA[
+if(asa12_mode == 0) {
+document.write('<li class="SignUp Guest_inline"><a rel="nofollow" href="http://digital.asahi.com/info/?ref=com_gnavi1">登録申し込み</a></li>');
+}
+//]]&gt;
+</script>
+<li class="Info"><a rel="nofollow" href="http://digital.asahi.com/info/?ref=com_gnavi2">総合ガイド</a></li>
+<li class="Support Member_inline"><a rel="nofollow" href="https://digital.asahi.com/my_menu/">お客様サポート</a></li>
+<li class="LogOut Fst Member_inline"><a href="https://digital.asahi.com/logout/?jumpUrl=http%3A%2F%2Fwww.asahi.com%2F">ログアウト</a></li>
+<li class="LogIn Guest_inline"><a href="http://digital.asahi.com/rd/lgck2.html">ログイン</a></li>
+</ul><!-- UserInfo END -->
 
+<!-- UserTool BGN --><ul class="UserTool">
 
+<li class="FontSize"><div><span><a href="#">文字サイズ</a></span>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul id="FontSizeChange">
+<li class="ChangeBtn">大サイズ</li>
+<li class="ChangeBtn">中サイズ</li>
+<li class="ChangeBtn">小サイズ</li>
 </ul>
 </div>
+</div>
+</div></li>
 
 
-<!-- 小分類が１件以上設定されている場合 ここまで-->
-<!-- 小分類が１件も設定されていない場合 ここから-->
-
-<!-- 小分類が１件も設定されていない場合 ここまで-->
-<!--/特集リスト -->
-
-
-
-</div><!-- /#cnt -->
-
-
-
-</td>
-<td id="Sub">
-
-<!-- ====右ナビ==== -->
-<div id="rcnt">
+<li class="Setup"><div><span><a href="#">設定</a></span>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol1">
+<li><a href="http://www.asahi.com/customize.html#CustomWeather">天気の設定</a></li>
+<li><a href="http://www.asahi.com/customize.html#CustomTraffic1">交通情報の設定</a></li>
+<li><a href="http://www.asahi.com/customize.html#chooseMytown">地域の設定</a></li>
+<li><a href="http://digital.asahi.com/info/guide/index03_05.html?ref=com_gnavi">メールサービス</a></li>
+</ul>
+</div>
+</div>
+</div></li>
 
 
-<div class="BnrLnkSbs">
-<a href="http://33.asahi.com/"><img
-src="http://www.asahi.com/images08/common/sub_bnr_kodoku.gif" alt="朝日新聞購読のご案内"
-width="300" height="25"></a>
+<li class="OptionTool"><div><span><a href="#">便利な機能</a></span>
+<div class="SubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif" alt="">
+<div class="SubNavInner">
+<ul class="ulCol2">
+<li><a href="http://digital.asahi.com/scrapbook/?ref=com_gnavi2">スクラップブック</a></li>
+<li><a href="http://digital.asahi.com/my_keyword/?ref=com_gnavi2">ＭＹキーワード</a></li>
+<li><a href="http://weather.asahi.com/?ref=com_gnavi2">天気</a></li>
+<li><a href="http://www.asahi.com/traffic/?ref=com_gnavi2">交通情報</a></li>
+<li><a href="http://tv.digital.asahi.com/">テレビ番組表</a></li>
+<li><a href="http://www.asahi.com/news/myselect.html?ref=com_gnavi2">ＭＹセレクト</a></li>
+<li><a href="http://digital.asahi.com/info/functions/?ref=com_gnavi2" target="_blank" class="Blank">アプリ</a></li>
+<li><a href="http://www.asahi.com/tool/map/?ref=com_gnavi2">地図</a></li>
+<li><a href="http://kotobank.jp/?ref=com_gnavi2" target="_blank" class="Blank">用語（コトバンク）</a></li>
+<li><a href="http://enq.digital.asahi.com/?ref=com_gnavi2" target="_blank" class="Blank">特典・アンケート</a></li>
+<li><a href="http://www.asahi.com/uranai/12seiza/?ref=com_gnavi2">１２星座占い</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+
+
+</ul><!-- UserTool END -->
+
+</div><!-- UserSection END -->
+
+
+<!-- UserCustom BGN --><div class="UserCustom" id="HeaderCustomTraffic"></div><!-- UserCustom END --> 
+<!-- UserCustom BGN --><div class="UserCustom" id="HeaderCustomWeather"></div><!-- UserCustom END -->
+</div>
+<!-- 無料会員用 -->
+<script type="text/javascript">
+//<![CDATA[
+if(asa12_mode == 1) {
+  jQuery(function(){
+    jQuery("ul.UserInfo li.LogIn").remove();
+    jQuery("ul.UserInfo li.LoggedIn").removeClass("Member_inline");
+    jQuery("ul.UserInfo li.Support").removeClass("Member_inline");
+    jQuery("ul.UserInfo li.LogOut").removeClass("Member_inline");
+  });
+}
+//]]&gt;
+</script>
+<!-- /無料会員用 -->
 </div>
 
+	<!--#include virtual="/news/esi/header13.htm"-->
+	
+	<div id="PageTopBar"><div id="PageTopBarInner">
+<dl class="TopWords">
+<dt>話題のキーワード</dt>
+<dd><ul class="Words">
+<li class="Fst"><a href="http://www.asahi.com/topics/word/%E5%B8%82%E5%B7%9D%E5%9B%A3%E5%8D%81%E9%83%8E.html">市川団十郎さん死去</a></li>
+<li><a href="http://www.asahi.com/special/timelineviewer/index_01.html">体罰を考える</a></li>
+<li><a href="http://www.asahi.com/reporter/?ref=comtop_fbox">朝刊　きょうの見どころ</a></li>
+</ul></dd>
+</dl>
+<div class="Search Guest"><form action="http://sitesearch.asahi.com/.cgi/sitesearch/sitesearch.pl" method="post"><fieldset>
+<input type="text" name="Keywords" value="" class="SearchKeywords" title="サイト内検索"><input type="submit" name="Searchsubmit" value="検 索" class="SearchSubmit">
+</fieldset></form></div>
+<div class="Search Member"><form action="http://digital.asahi.com/article_search/s_list.html" method="GET"><fieldset>
+<input type="text" name="keyword" value="" class="SearchKeywords" title="サイト内検索"><input type="submit" name="Searchsubmit" value="検 索" class="SearchSubmit"><input type="hidden" name="searchcategory" value="1">
+</fieldset></form></div>
+</div></div>
+	<!--telop|BGN--><!--telop|END-->
 
+	<!--#include virtual="/news/esi/telop13.txt" -->
+	
 
+	<!--#include virtual="/news/esi/hottopics.htm"-->
+	<div id="Contents"><div id="ContentsInner"><div id="Main"><div class="BreadCrumb"><p class="Gnavi"><a href="/sports/">スポーツ</a></p><span>&gt;</span><p class="Genre"><a href="/sports/soccer/index.html">サッカー</a></p><span>&gt;</span><p class="Category"><a href="/sports/soccer/national.html">Ｊリーグ・国内</a></p><span>&gt;</span><h1>記事一覧</h1>
+<!-- SubMenu BGN --><div class="SubMenu"><a href="#">ジャンルメニュー</a>
+<!-- SubMenuSubNav BGN --><div class="SubMenuSubNav"><img src="http://www.asahicom.jp/images/arrow_balloon.gif">
+<div class="SubMenuSubNavInner">
 
+<!-- SubMenuSubNavBox（上段）BGN -->
+<div class="SubMenuSubNavBox Fst">
 
-<!--★☆★AD★☆★-->
-<p class="hide">ここから広告です</p>
-<div class="BnrLnkLct"><!--  ★要注意★　このdivに対応する閉じdivは広告担当部分の中で行います -->
+<dl class="Fst">
+<dt><a href="/sports/baseball/">野球</a></dt>
+<dd>
+<ul>
+<li><a href="/sports/baseball/npb/">プロ野球</a></li>
+<!-- <li><a href="/sports/baseball/npb/game/">プロ野球スコア速報</a></li> -->
+<li><a href="/sports/baseball/npb/schedule/">プロ野球日程</a></li>
+<li><a href="/sports/baseball/mlb/">大リーグ</a></li>
+<li><a href="http://www2.asahi.com/koshien/">高校野球</a></li>
+<li><a href="/sports/baseball/Univ/">大学・社会人野球</a></li>
+<li><a href="/sports/baseball/ama/">アマ野球</a></li>
+<li><a href="/sports/list/baseball/independent_league.html">独立リーグ</a></li>
+</ul>
+</dd>
+</dl>
 
-<!-- ★☆★☆★広告担当部分ここから★☆★☆★　-->
-<!-- impactマイタウン北海道ラージタイル 200*200 ★ここから -->
+<dl>
+<dt><a href="/sports/soccer/">サッカー</a></dt>
+<dd>
+<ul>
+<li><a href="/sports/soccer/japan/">日本代表</a></li>
+<li><a href="/sports/soccer/national.html">Ｊリーグ・国内</a></li>
+<li><a href="/sports/soccer/list/world.html">海外サッカー</a></li>
+<li><a href="/sports/soccer/j1standings.html">Ｊ１順位表</a></li>
+<li><a href="/sports/soccer/game.html">Ｊ１スコア速報</a></li>
+<li><a href="/sports/soccer/result-j1.html">Ｊ１日程</a></li>
+<li><a href="/sports/soccer/result-j2.html">Ｊ２日程</a></li>
+<li><a href="/sports/soccer/worldcup.html">Ｗ杯</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt><a href="/sports/general/">スポーツ一般</a></dt>
+<dd>
+<ul>
+<li><a href="/olympics/">オリンピック</a></li>
+<li><a href="/sports/golf/">ゴルフ</a></li>
+<li><a href="/sports/winter/">ウインタースポーツ</a></li>
+<li><a href="/sports/rugby/">ラグビー</a></li>
+<li><a href="/sports/sumo/">相撲</a></li>
+<li><a href="/sports/motor/">レーシング</a></li>
+<li><a href="/sports/battle/">格闘技</a></li>
+<li><a href="/sports/usa/">米プロスポーツ</a></li>
+<li><a href="/sports/americanfootball/">アメフット</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt><a href="/sports/column/">コラム</a></dt>
+<dd>
+<ul>
+<li><a href="/sports/column/list/egawa-suguru.html">江川卓</a></li>
+<li><a href="/sports/column/list/funakoshi-sonoko.html">舩越園子</a></li>
+<li><a href="/sports/column/list/nakanishi-tetsuo.html">中西哲生</a></li>
+<li><a href="/sports/column/list/ishikawa-ryo.html">石川遼</a></li>
+<li><a href="/sports/column/list/hottime.html">戦士のほっとタイム</a></li>
+</ul>
+</dd>
+</dl>
+
+</div>
+<!-- SubMenuSubNavBox（上段）END -->
+
+</div>
+</div><!-- SubMenuSubNav END -->
+</div><!-- SubMenu END -->
+</div><div id="MainInner"><h2>Ｊリーグ・国内サッカー記事一覧</h2><div id="HeadLine2"><div class="ThmbSet180"><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201302030171.html" title="　鹿島アントラーズのコーチが指導する「ファミリーサッカースクール」（朝日新聞社、茨城西部朝日会主催、鹿島アントラーズ共催）が３日、龍ケ崎市中里の陸上競技場たつのこフィールドで開かれた。小学校低学年を中心とした子どもたちと親のペア１０５組が、晴天の下でサッカーを楽しんだ。">アントラーズのコーチがサッカー教室　茨城</a>&#160;
+<span class="Update">(2/4)</span></dt><dd><p>　鹿島アントラーズのコーチが指導する「ファミリーサッカースクール」（朝日新聞社、茨城西部朝日会主催、………
+	<a class="ml5" href="/sports/articles/TKY201302030171.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0203/JJT201302030002.html" title="">なでしこ大野がデビュー　仏女子サッカー</a>&#160;
+<span class="Update">(2/3)</span></dt><dd><p>　サッカーのフランス女子リーグは２日、各地で行われ、大野忍と大滝麻未が所属するリヨンはホームでジュビ………
+	<a class="ml5" href="/sports/update/0203/JJT201302030002.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201302020049.html"><span><img src="/sports/articles/images/SEB201302020048.jpg" alt="写真：豊田選手（右）の得点につながるパスを出すロニ選手＝読谷村陸上競技場" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201302020049.html" title="　【大野宏】サッカーＪ１・サガン鳥栖は２日、読谷村陸上競技場で沖縄県選抜と今キャンプ初のトレーニングマッチを行い、８―０で勝利した。">サガン鳥栖、キャンプ初の実戦　沖縄選抜に８―０で快勝</a>&#160;
+<span class="Update">(2/3)</span></dt><dd><p>　【大野宏】サッカーＪ１・サガン鳥栖は２日、読谷村陸上競技場で沖縄県選抜と今キャンプ初のトレーニング………
+	<a class="ml5" href="/sports/articles/SEB201302020049.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0202/TKY201302020220.html" title="">サッカー元日本代表の吉原が引退　Ｊ１通算５８得点</a>&#160;
+<span class="Update">(2/2)</span></dt><dd><p>　Ｊ２水戸は２日、ＦＷ吉原宏太（３５）が引退すると発表した。吉原は１９９６年に札幌に入団し、９９年に………
+	<a class="ml5" href="/sports/update/0202/TKY201302020220.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201302010316.html"><span><img src="/sports/articles/images/TKY201302010312.jpg" alt="写真：ヘディングでゴールを決めたＤＦ青山（右）＝静岡県御殿場市の時之栖スポーツセンター" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201302010316.html" title="　【内田光】開幕に向けて基礎練習や体力づくり中心の１次キャンプを終えているサッカーＪ１のヴァンフォーレ（ＶＦ）甲府は１日、静岡県御殿場市でＪ２の松本山雅と今季初の対外試合をした。">初ゴールはヘッドから　Ｊ１甲府、Ｊ２松本と対外試合</a>&#160;
+<span class="Update">(2/2)</span></dt><dd><p>　【内田光】開幕に向けて基礎練習や体力づくり中心の１次キャンプを終えているサッカーＪ１のヴァンフォー………
+	<a class="ml5" href="/sports/articles/TKY201302010316.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/articles/HOK201302010001.html" title="　サッカー・コンサドーレ札幌は１日、ＭＦ古田寛幸選手（２１）が１〜９日、スイススーパーリーグのＦＣトゥーンのトライアルに参加すると発表した。コンサドーレ札幌によるとＦＣトゥーンは獲得に前向きで、最終確認の練習参加の意味合いが強いという。">ＭＦ古田、スイス移籍へトライアル　Ｊ２札幌発表</a>&#160;
+<span class="Update">(2/2)</span></dt><dd><p>　サッカー・コンサドーレ札幌は１日、ＭＦ古田寛幸選手（２１）が１〜９日、スイススーパーリーグのＦＣト………
+	<a class="ml5" href="/sports/articles/HOK201302010001.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0201/TKY201302010414.html" title="　サッカー・Ｊリーグは１日、今季の試合日程を発表した。１８チームが参加するＪ１は３月２日に開幕して１２月７日まで、２２チームが参加するＪ２は３月３日に開幕して１１月２４日まで、それぞれ２回戦総当たりのリーグ戦で実施される。">Ｊ１、３月２日開幕　Ｊ２は３月３日から</a>&#160;
+<span class="Update">(2/1)</span></dt><dd><p>　サッカー・Ｊリーグは１日、今季の試合日程を発表した。１８チームが参加するＪ１は３月２日に開幕して１………
+	<a class="ml5" href="/sports/update/0201/TKY201302010414.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0201/TKY201302010414.html" title="　サッカー・Ｊリーグは１日、今季の試合日程を発表した。１８チームが参加するＪ１は３月２日に開幕して１２月７日まで、２２チームが参加するＪ２は３月３日に開幕して１１月２４日まで、それぞれ２回戦総当たりのリーグ戦で実施される。">Ｊ１、３月２日開幕　Ｊ２は３月３日から</a>&#160;
+<span class="Update">(2/1)</span></dt><dd><p>　サッカー・Ｊリーグは１日、今季の試合日程を発表した。１８チームが参加するＪ１は３月２日に開幕して１………
+	<a class="ml5" href="/sports/update/0201/TKY201302010414.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301310058.html"><span><img src="/sports/articles/images/SEB201301310057.jpg" alt="写真：セレモニーを終え、歓迎の拍手の中、バスに向かうサガン鳥栖の選手たち＝那覇空港" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301310058.html" title="　【大野宏】サッカーＪ１・サガン鳥栖が３１日、キャンプインを前に沖縄入りした。那覇空港では昨年に続いてキャンプ地となる読谷（よみたん）村から、石嶺伝実（でんじつ）村長を始め、少年サッカーチームなどが出迎えた。">Ｊ１鳥栖、キャンプへ沖縄入り　読谷村長ら出迎え　佐賀</a>&#160;
+<span class="Update">(2/1)</span></dt><dd><p>　【大野宏】サッカーＪ１・サガン鳥栖が３１日、キャンプインを前に沖縄入りした。那覇空港では昨年に続い………
+	<a class="ml5" href="/sports/articles/SEB201301310058.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/national/update/0131/TKY201301310301.html" title="　サッカーＪ１のＦＣ東京は３１日、経理担当部長の男性（５５）が８年間で会社経費約２３００万円を私的に流用していたとして、同日付で懲戒解雇処分とした、と発表した。">Ｊ１・ＦＣ東京の経理部長、私的流用２３００万円で解雇</a>&#160;
+<span class="Update">(1/31)</span></dt><dd><p>　サッカーＪ１のＦＣ東京は３１日、経理担当部長の男性（５５）が８年間で会社経費約２３００万円を私的に………
+	<a class="ml5" href="/national/update/0131/TKY201301310301.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301290026.html"><span><img src="/sports/articles/images/SEB201301290025.jpg" alt="写真：リフティングの練習をする岡山湯郷ベルの選手。右端は福元美穂選手＝指宿市十二町" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301290026.html" title="　【久恒勇造】女子サッカー、なでしこリーグの岡山湯郷ベルが２９日、指宿市でキャンプを始めた。チームには昨夏のロンドン五輪でなでしこジャパンの銀メダル獲得に貢献した市出身のＧＫ福元美穂選手（２９）ら２人が所属し、市が誘致を働きかけ実現した。">なでしこ、指宿に登場　岡山湯郷が初キャンプ　鹿児島</a>&#160;
+<span class="Update">(1/30)</span></dt><dd><p>　【久恒勇造】女子サッカー、なでしこリーグの岡山湯郷ベルが２９日、指宿市でキャンプを始めた。チームに………
+	<a class="ml5" href="/sports/articles/SEB201301290026.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301290297.html"><span><img src="/sports/articles/images/TKY201301290296.jpg" alt="写真：古巣復帰に笑顔のセレーゾ新監督と、新加入の選手たち＝県立カシマサッカースタジアム" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301290297.html" title="　サッカーＪ１の鹿島アントラーズは２９日、県立カシマサッカースタジアム（鹿嶋市）で会見を開き、新体制を発表した。トニーニョ・セレーゾ新監督や新加入選手６人が抱負を語り、今年のチームスローガンやユニホームも発表された。">Ｊ１鹿島セレーゾ新監督「開幕ダッシュ重要」抱負　茨城</a>&#160;
+<span class="Update">(1/30)</span></dt><dd><p>　サッカーＪ１の鹿島アントラーズは２９日、県立カシマサッカースタジアム（鹿嶋市）で会見を開き、新体制………
+	<a class="ml5" href="/sports/articles/TKY201301290297.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0129/TKY201301290368.html" title="">Ｊ１柏、韓国代表ＤＦ金昌洙を獲得</a>&#160;
+<span class="Update">(1/29)</span></dt><dd><p>　Ｊ１柏は２９日、韓国の釜山から韓国代表ＤＦ金昌洙（２７）を獲得したと発表した。国際Ａマッチ２４試合………
+	<a class="ml5" href="/sports/update/0129/TKY201301290368.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301280416.html"><span><img src="/sports/articles/images/TKY201301280414.jpg" alt="写真：八橋球技場を視察するＪリーグ理事の大河氏（右）と秋田フットボールクラブの岩瀬社長（左）＝秋田市" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301280416.html" title="　サッカーＪＦＬ・ブラウブリッツ秋田の運営会社「秋田フットボールクラブ」がＪリーグに準加盟申請したことを受け、リーグの理事らが２８日、秋田市で使用スタジアムや行政の支援体制を確認した。来月のリーグ理事会で審議を行い準加盟の可否が決まる。">ＪＦＬ秋田、準加盟へ一歩　Ｊリーグ理事ら視察</a>&#160;
+<span class="Update">(1/29)</span></dt><dd><p>　サッカーＪＦＬ・ブラウブリッツ秋田の運営会社「秋田フットボールクラブ」がＪリーグに準加盟申請したこ………
+	<a class="ml5" href="/sports/articles/TKY201301280416.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301280042.html" title="　【柴田秀並】いよいよキャンプシーズンの到来だ。今年は、昨年プロ野球で優勝した巨人やサッカーＪ１で優勝したサンフレッチェ広島など注目のチームが目白押しだ。最大の見どころは、３月に開かれるワールド・ベースボール・クラシック（ＷＢＣ）の合宿。３連覇を目指す「侍ジャパン」を間近に見ようと多くの人が訪れそうだ。">選手に熱視線　宮崎にキャンプの季節到来</a>&#160;
+<span class="Update">(1/29)</span></dt><dd><p>　【柴田秀並】いよいよキャンプシーズンの到来だ。今年は、昨年プロ野球で優勝した巨人やサッカーＪ１で優………
+	<a class="ml5" href="/sports/articles/SEB201301280042.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301280042.html" title="　【柴田秀並】いよいよキャンプシーズンの到来だ。今年は、昨年プロ野球で優勝した巨人やサッカーＪ１で優勝したサンフレッチェ広島など注目のチームが目白押しだ。最大の見どころは、３月に開かれるワールド・ベースボール・クラシック（ＷＢＣ）の合宿。３連覇を目指す「侍ジャパン」を間近に見ようと多くの人が訪れそうだ。">選手に熱視線　宮崎にキャンプの季節到来</a>&#160;
+<span class="Update">(1/29)</span></dt><dd><p>　【柴田秀並】いよいよキャンプシーズンの到来だ。今年は、昨年プロ野球で優勝した巨人やサッカーＪ１で優………
+	<a class="ml5" href="/sports/articles/SEB201301280042.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301270164.html"><span><img src="/sports/articles/images/TKY201301270162.jpg" alt="写真：仙台大学女子サッカー部との合同練習後、グラウンドに居残って走り込みの練習をする富岡高校女子サッカー部のメンバーら＝昨年１２月２３日午前、宮城県柴田町の仙台大学船岡南グラウンド、小川智撮影" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301270164.html" title="　東京電力福島第一原発から約１０キロにあった富岡高校の女子サッカー部。福島市内のサテライト校で授業を受けながら、練習に取り組んでいる。部員が６人になった今シーズンはクラブチームに加わり、大会に参加。３人の３年生は今月、最後の公式戦で試合が終わるまで走り続けた。">地元クラブで再出発　富岡高女子サッカー部の６人　福島</a>&#160;
+<span class="Update">(1/28)</span></dt><dd><p>　東京電力福島第一原発から約１０キロにあった富岡高校の女子サッカー部。福島市内のサテライト校で授業を………
+	<a class="ml5" href="/sports/articles/TKY201301270164.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301270029.html"><span><img src="/sports/articles/images/SEB201301270027.jpg" alt="写真：必勝祈願に集まったレノファの選手と中山元気次期監督（前列左から３人目）＝山口大神宮" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301270029.html" title="　【原篤司】中国サッカーリーグのレノファ山口ＦＣは２７日、ジュニアユースの創設や財政強化策などを盛り込んだ２０２０年度までの経営計画を発表した。記者会見で河村孝ゼネラルマネジャーは「地元選手の育成を特に重視し、県民による真の地元クラブを目指す」と話した。">サッカー中国リーグＶへ必勝祈願　レノファ山口の選手ら</a>&#160;
+<span class="Update">(1/28)</span></dt><dd><p>　【原篤司】中国サッカーリーグのレノファ山口ＦＣは２７日、ジュニアユースの創設や財政強化策などを盛り………
+	<a class="ml5" href="/sports/articles/SEB201301270029.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301270061.html"><span><img src="/sports/articles/images/OSK201301270060.jpg" alt="写真：子どもたちとボールを奪い合う川澄奈穂美選手（中央）＝橿原市の県立橿原公苑陸上競技場" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301270061.html" title="　サッカー女子日本代表「なでしこジャパン」の選手が多く所属する「ＩＮＡＣ神戸レオネッサ」の選手によるサッカー教室が２６日、橿原市の県立橿原公苑陸上競技場であり、小学生ら約１５０人が参加した。">なでしこ澤選手・川澄選手ら、児童を指導　奈良</a>&#160;
+<span class="Update">(1/28)</span></dt><dd><p>　サッカー女子日本代表「なでしこジャパン」の選手が多く所属する「ＩＮＡＣ神戸レオネッサ」の選手による………
+	<a class="ml5" href="/sports/articles/OSK201301270061.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/HOK201301270003.html"><span><img src="/sports/articles/images/HOK201301270002.jpg" alt="写真：ユーモアたっぷりに新人選手を紹介する中山氏（左）＝札幌市" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/HOK201301270003.html" title="　サッカー・コンサドーレ札幌は２７日、今季の選手やユニホームなどを発表する「プレビューパーティー」を札幌市内で開いた。Ｊ２で戦う今季から指揮を執る財前監督は、約２千人のサポーターを前に、「一丸となって、粘り強くＪ１を目指して戦う」と誓った。">新人道産子ら、Ｊ１へ決意新た　Ｊ２札幌がお披露目</a>&#160;
+<span class="Update">(1/28)</span></dt><dd><p>　サッカー・コンサドーレ札幌は２７日、今季の選手やユニホームなどを発表する「プレビューパーティー」を………
+	<a class="ml5" href="/sports/articles/HOK201301270003.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301260053.html"><span><img src="/sports/articles/images/SEB201301260052.jpg" alt="写真：左から大塚佳穂さん、山崎茉奈さん、大津久あみさん。全国３位に笑顔を見せた＝豊前市" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301260053.html" title="　【中村幸基】豊前市の中学生３人が加わる中津フットボールクラブＰＯＭＡＴＯ（ポマト）が、第３回全日本女子ユース（Ｕ―１５）フットサル大会で２年連続３位に輝いた。攻守に健闘した３人。優勝を逃してちょっと悔しそうだが、銅メダルを胸にさわやかな笑顔を見せた。">福岡の豊前なでしこ、堂々の全国３位　ユースフットサル</a>&#160;
+<span class="Update">(1/27)</span></dt><dd><p>　【中村幸基】豊前市の中学生３人が加わる中津フットボールクラブＰＯＭＡＴＯ（ポマト）が、第３回全日本………
+	<a class="ml5" href="/sports/articles/SEB201301260053.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301260045.html"><span><img src="/sports/articles/images/SEB201301260044.jpg" alt="写真：活躍を誓うディエゴ選手（右）とジョナサン選手＝鳥栖市" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301260045.html" title="　【宮田富士男】サッカーＪ１・サガン鳥栖に加入したコロンビア人のＭＦジョナサン選手（１８）とＦＷディエゴ選手（１９）が２６日、鳥栖市で記者会見した。ともにサガンへの貢献を誓い、午後からトレーニングに参加した。">「タイトル狙う」サガンのコロンビア２選手会見　佐賀</a>&#160;
+<span class="Update">(1/27)</span></dt><dd><p>　【宮田富士男】サッカーＪ１・サガン鳥栖に加入したコロンビア人のＭＦジョナサン選手（１８）とＦＷディ………
+	<a class="ml5" href="/sports/articles/SEB201301260045.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301260118.html"><span><img src="/sports/articles/images/OSK201301260115.jpg" alt="写真：尾山神社で必勝祈願をするツエーゲン金沢の選手やスタッフ。今季は選手の半分以上を入れ替えた＝１７日、金沢市尾山町" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301260118.html" title="　【目黒隆行】Ｊリーグ入りをめざし、サッカーＪＦＬのツエーゲン金沢が環境整備を進めている。目標は２年後に迫った北陸新幹線金沢開業と同時期のＪ２昇格。だが、肝心の成績や観客数など克服すべき課題は多い。">成績・動員、課題残す　ツエーゲン金沢、Ｊ２目指す</a>&#160;
+<span class="Update">(1/27)</span></dt><dd><p>　【目黒隆行】Ｊリーグ入りをめざし、サッカーＪＦＬのツエーゲン金沢が環境整備を進めている。目標は２年………
+	<a class="ml5" href="/sports/articles/OSK201301260118.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/update/0126/SEB201301260011.html"><span><img src="/sports/update/0126/images/SEB201301260014.jpg" alt="写真：パレードする鵬翔高校サッカー部の選手と松崎博美監督＝２６日午前１１時２０分、宮崎市橘通東２丁目、中島健撮影" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/update/0126/SEB201301260011.html" title="　全国高校サッカー選手権を初制覇した鵬翔（ほうしょう）高校（宮崎市）の快挙を祝うパレードが２６日、宮崎市の中心街であった。松崎博美監督や矢野大樹主将らサッカー部員、地元のスポーツ少年団員ら約３００人が、市民の大歓声を受けながら約２キロを練り歩いた。">鵬翔イレブンが宮崎でＶパレード　高校サッカー優勝</a>&#160;
+<span class="Update">(1/26)</span></dt><dd><p>　全国高校サッカー選手権を初制覇した鵬翔（ほうしょう）高校（宮崎市）の快挙を祝うパレードが２６日、宮………
+	<a class="ml5" href="/sports/update/0126/SEB201301260011.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0125/TKY201301240521.html" title="">Ｊ１清水の小林、米リーグへ移籍　元日本代表</a>&#160;
+<span class="Update">(1/25)</span></dt><dd><p>　Ｊ１清水は２４日、元日本代表ＭＦ小林大悟（２９）が米メジャーリーグ・サッカー（ＭＬＳ）のバンクーバ………
+	<a class="ml5" href="/sports/update/0125/TKY201301240521.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301240406.html"><span><img src="/sports/articles/images/TKY201301250047.jpg" alt="写真：東北電力が命名権を年末で手放すことになった「東北電力ビッグスワンスタジアム」＝新潟市中央区" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301240406.html" title="　東北電力が、新潟市のサッカーＪ１アルビレックス新潟の本拠地「東北電力ビッグスワンスタジアム」の命名権を、ことしいっぱいで手放すことになった。">東北電、命名権放出へ　Ｊ１新潟本拠ビッグスワン　宮城</a>&#160;
+<span class="Update">(1/25)</span></dt><dd><p>　東北電力が、新潟市のサッカーＪ１アルビレックス新潟の本拠地「東北電力ビッグスワンスタジアム」の命名………
+	<a class="ml5" href="/sports/articles/TKY201301240406.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301240014.html"><span><img src="/sports/articles/images/SEB201301240013.jpg" alt="写真：霧島市でキャンプインしたサンフレッチェ広島の選手たち＝２４日午後５時９分、霧島市の国分運動公園" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301240014.html" title="　昨年、サッカーＪ１で優勝したサンフレッチェ広島が、２４日から霧島市の国分運動公園でキャンプインし、連覇に向けてスタートを切った。">Ｊ１広島、Ｖ２めざしキャンプイン　鹿児島・霧島で</a>&#160;
+<span class="Update">(1/25)</span></dt><dd><p>　昨年、サッカーＪ１で優勝したサンフレッチェ広島が、２４日から霧島市の国分運動公園でキャンプインし、………
+	<a class="ml5" href="/sports/articles/SEB201301240014.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301240078.html"><span><img src="/sports/articles/images/OSK201301240077.jpg" alt="写真：会談する湯崎英彦知事（左）と松井一実市長＝広島市中区の県庁" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301240078.html" title="　サンフレッチェ広島などが広島市中心部でサッカー専用スタジアムの建設を求めていることを受け、広島市の松井一実市長と湯崎英彦知事が２４日、同市中区の県庁で会談し、建設について話し合う協議会を設置することで合意した。">サッカー場建設へ協議会　広島県・広島市が設置合意</a>&#160;
+<span class="Update">(1/25)</span></dt><dd><p>　サンフレッチェ広島などが広島市中心部でサッカー専用スタジアムの建設を求めていることを受け、広島市の………
+	<a class="ml5" href="/sports/articles/OSK201301240078.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301230500.html"><span><img src="/sports/articles/images/TKY201301230498.jpg" alt="写真：キャンプインし、ランニングをするモンテの選手たち＝千葉県館山市出野尾" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301230500.html" title="　モンテディオ山形の１次キャンプが２３日、千葉県館山市でスタートした。選手２６人と奥野僚右監督らスタッフ１５人が参加し、「Ｊ１復帰」を目指して熱のこもった練習を始めた。">モンテ山形、Ｊ１復帰を目指しキャンプ開始</a>&#160;
+<span class="Update">(1/24)</span></dt><dd><p>　モンテディオ山形の１次キャンプが２３日、千葉県館山市でスタートした。選手２６人と奥野僚右監督らスタ………
+	<a class="ml5" href="/sports/articles/TKY201301230500.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301230475.html"><span><img src="/sports/articles/images/TKY201301230474.jpg" alt="写真：トレーニングでボールを取り合う選手たち＝福島市仁井田の国体記念体育館" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301230475.html" title="　今季からＪＦＬに昇格した福島ユナイテッドＦＣが２３日、福島市仁井田の国体記念体育館で今季最初の練習を行った。リーグは３月に開幕する。">ＪＦＬ福島ユナイテッドが始動　今季５位以内目指す</a>&#160;
+<span class="Update">(1/24)</span></dt><dd><p>　今季からＪＦＬに昇格した福島ユナイテッドＦＣが２３日、福島市仁井田の国体記念体育館で今季最初の練習………
+	<a class="ml5" href="/sports/articles/TKY201301230475.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0123/TKY201301230255.html" title="">Ｊ２東京ヴの阿部がドイツ２部アーレンに移籍</a>&#160;
+<span class="Update">(1/23)</span></dt><dd><p>　サッカーのドイツ２部アーレンは２２日、Ｊ２東京ヴＦＷ阿部拓馬（２５）を獲得したと公式ホームページで………
+	<a class="ml5" href="/sports/update/0123/TKY201301230255.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0123/TKY201301220429.html" title="　Ｊリーグは２２日、今季の開幕カードを発表した。３月２日のＪ１は、昨季王者広島がホームで同３位の浦和と２年連続で対戦し、同２位の仙台はＪ１に復帰した甲府を迎える。他のカードは、大宮―清水、横浜マ―湘南、名古屋―磐田、セ大阪―新潟、鳥栖―鹿島、大分―ＦＣ東京。柏―川崎はアジア・チャンピオンズリーグ（ＡＣＬ）の影響で同３日に行われる。">Ｊ１広島、２年連続で浦和と開幕戦　３月２日</a>&#160;
+<span class="Update">(1/23)</span></dt><dd><p>　Ｊリーグは２２日、今季の開幕カードを発表した。３月２日のＪ１は、昨季王者広島がホームで同３位の浦和………
+	<a class="ml5" href="/sports/update/0123/TKY201301220429.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/NGY201301220024.html"><span><img src="/sports/articles/images/NGY201301220022.jpg" alt="写真：記念撮影をする高木義成選手（中央左）＝愛知県春日井市立高森台中学校" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/NGY201301220024.html" title="　Ｊリーグ・名古屋グランパスエイトのゴールキーパー高木義成選手（３３）が２２日、愛知県春日井市立高森台中学校の「職業講話」に招かれた。部活動のほかにも１人で練習に打ち込み、プロを目指した中学時代などを語った。">極める方法、中学生に語る　グランパス高木選手　愛知</a>&#160;
+<span class="Update">(1/23)</span></dt><dd><p>　Ｊリーグ・名古屋グランパスエイトのゴールキーパー高木義成選手（３３）が２２日、愛知県春日井市立高森………
+	<a class="ml5" href="/sports/articles/NGY201301220024.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301220353.html" title="　栃木市を本拠とするサッカーＪＦＬの栃木ウーヴァＦＣが、３月開幕の新シーズンから新たに足利市を第２の本拠（セカンドホームタウン）とすることが決まった。足利市が２２日発表した。同市と栃木ウーヴァが合意し、２月に正式に覚書を交わすという。">栃木ウーヴァＦＣ、足利を第２の本拠に　来季９試合程度</a>&#160;
+<span class="Update">(1/23)</span></dt><dd><p>　栃木市を本拠とするサッカーＪＦＬの栃木ウーヴァＦＣが、３月開幕の新シーズンから新たに足利市を第２の………
+	<a class="ml5" href="/sports/articles/TKY201301220353.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301220028.html"><span><img src="/sports/articles/images/SEB201301220027.jpg" alt="写真：園児たちと記念撮影する浦和レッズの選手ら＝宮崎市の宮崎空港" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301220028.html" title="　【柴田秀並】宮崎市でキャンプをするサッカーＪ１の浦和レッズの選手やスタッフ約５０人が２２日、到着し、宮崎空港で歓迎セレモニーがあった。">浦和レッズ、園児らが歓迎　宮崎キャンプ５年目</a>&#160;
+<span class="Update">(1/23)</span></dt><dd><p>　【柴田秀並】宮崎市でキャンプをするサッカーＪ１の浦和レッズの選手やスタッフ約５０人が２２日、到着し………
+	<a class="ml5" href="/sports/articles/SEB201301220028.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301220025.html" title="　全国高校サッカー選手権大会で優勝した鵬翔高校サッカー部の祝賀セレモニーが２６日、宮崎市の中心部で開かれる。戸敷正市長らが２２日、発表した。">鵬翔高パレードで祝福　宮崎市中心部で２６日</a>&#160;
+<span class="Update">(1/23)</span></dt><dd><p>　全国高校サッカー選手権大会で優勝した鵬翔高校サッカー部の祝賀セレモニーが２６日、宮崎市の中心部で開………
+	<a class="ml5" href="/sports/articles/SEB201301220025.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/update/0122/NGY201301220006.html"><span><img src="/sports/update/0122/images/NGY201301220004.jpg" alt="写真：ベルギー１部スタンダール・リエージュへの移籍について会見する永井" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/update/0122/NGY201301220006.html" title="　サッカーのＪ１名古屋からベルギー１部スタンダール・リエージュへ移籍する永井謙佑（２３）が２２日、愛知県豊田市内で記者会見し、「１点でも多く取って自分の名前を世界に知らしめたい」と意気込みを語った。">ベルギー移籍の永井「名前、世界に知らしめたい」</a>&#160;
+<span class="Update">(1/22)</span></dt><dd><p>　サッカーのＪ１名古屋からベルギー１部スタンダール・リエージュへ移籍する永井謙佑（２３）が２２日、愛………
+	<a class="ml5" href="/sports/update/0122/NGY201301220006.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301210306.html"><span><img src="/sports/articles/images/TKY201301210302.jpg" alt="写真：チームの方針などを説明する柱谷哲二監督。後列は選手たち＝２０日、水戸市" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301210306.html" title="　サッカーＪ２水戸ホーリーホックは２０日、水戸市のケーズデンキスタジアム水戸で新体制の発表会見をした。会見には柱谷哲二監督らコーチングスタッフと、新たに加入した８人を含む全選手が参加。新加入選手の紹介や新ユニホームの披露、今シーズンのスローガンを明らかにした。">未知なるＪ１への道　ホーリーホック監督ら抱負　茨城</a>&#160;
+<span class="Update">(1/22)</span></dt><dd><p>　サッカーＪ２水戸ホーリーホックは２０日、水戸市のケーズデンキスタジアム水戸で新体制の発表会見をした………
+	<a class="ml5" href="/sports/articles/TKY201301210306.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301210329.html"><span><img src="/sports/articles/images/TKY201301210328.jpg" alt="写真：握手を交わす湘南の真壁潔社長（左）と福島の鈴木社長" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301210329.html" title="　Ｊ１湘南ベルマーレは今季の日本フットボールリーグ（ＪＦＬ）昇格を決めた福島ユナイテッドと事業提携すると発表した。湘南ＯＢの時崎悠監督（３３）が福島で指揮を執る縁もあり、特に大震災以降、被災地の子ども向けサッカー教室などで両チームは活発に交流してきた。今後はユース育成や選手強化、スポンサー開拓で協力するという。">ベルマーレ、ＪＦＬ福島と提携　ユース育成など　神奈川</a>&#160;
+<span class="Update">(1/22)</span></dt><dd><p>　Ｊ１湘南ベルマーレは今季の日本フットボールリーグ（ＪＦＬ）昇格を決めた福島ユナイテッドと事業提携す………
+	<a class="ml5" href="/sports/articles/TKY201301210329.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301210085.html"><span><img src="/sports/articles/images/OSK201301210083.jpg" alt="写真：松井一実市長（右）にサッカースタジアムの建設を求める県サッカー協会の小城得達会長＝広島市中区の市役所" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301210085.html" title="　【倉富竜太】広島市中心部へのサッカー専用スタジアム建設問題で、県サッカー協会とサンフレッチェ広島、サンフレッチェ広島後援会が２１日、県と広島市を訪れ、建設を求める３６万９６３８人分の署名簿（１７日現在）を提出した。松井一実市長と湯崎英彦知事は今週中に会談し、建設について話し合う協議会を設ける意向を示した。">サッカー場求め３６万筆　Ｊ１広島など、知事らに署名簿</a>&#160;
+<span class="Update">(1/22)</span></dt><dd><p>　【倉富竜太】広島市中心部へのサッカー専用スタジアム建設問題で、県サッカー協会とサンフレッチェ広島、………
+	<a class="ml5" href="/sports/articles/OSK201301210085.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301210359.html"><span><img src="/sports/articles/images/TKY201301210358.jpg" alt="写真：会見する本田美登里監督＝長野市" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301210359.html" title="　【渡部耕平】女子サッカーのＡＣ長野パルセイロは２１日、レディースの新監督に就任した本田美登里氏（４８）の記者会見を長野市で開いた。">長野パルセイロ、本田監督「強くなる喜び伝えたい」</a>&#160;
+<span class="Update">(1/22)</span></dt><dd><p>　【渡部耕平】女子サッカーのＡＣ長野パルセイロは２１日、レディースの新監督に就任した本田美登里氏（４………
+	<a class="ml5" href="/sports/articles/TKY201301210359.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301210322.html" title="　サッカーＪ１のアルビレックス新潟はチーム練習を１８日から始め、今季のスタートを切った。始動を前にした１７日に東北電力スタジアム（新潟市中央区）で新体制の記者会見を開き、今季から新たに加わる９選手らが意気込みを語った。">Ｊ１アルビ練習再開　新加入田中「１点でも多く」　新潟</a>&#160;
+<span class="Update">(1/22)</span></dt><dd><p>　サッカーＪ１のアルビレックス新潟はチーム練習を１８日から始め、今季のスタートを切った。始動を前にし………
+	<a class="ml5" href="/sports/articles/TKY201301210322.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301200260.html"><span><img src="/sports/articles/images/TKY201301200259.jpg" alt="写真：手形のモニュメントに手を添える川澄選手＝大和市の「大和なでしこ広場」" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301200260.html" title="　大和市の大和駅西側で２０日、「女子サッカーの街」を象徴する「大和なでしこ広場」の命名式と同市ゆかりの日本代表選手ら４人の手形モニュメントの除幕式があった。">川澄選手、手形に笑顔　「なでしこ広場」命名式　神奈川</a>&#160;
+<span class="Update">(1/21)</span></dt><dd><p>　大和市の大和駅西側で２０日、「女子サッカーの街」を象徴する「大和なでしこ広場」の命名式と同市ゆかり………
+	<a class="ml5" href="/sports/articles/TKY201301200260.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301200247.html"><span><img src="/sports/articles/images/TKY201301200246.jpg" alt="写真：元日本代表の中田英寿さん（右）や名波浩さん（左）らが会場を沸かせた＝前橋市敷島町" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301200247.html" title="　２０１１年８月に亡くなったサッカー元日本代表の松田直樹さん（当時３４）を追悼する「松田直樹メモリアル新春ドリームマッチ群馬２０１３」（県サッカー協会など主催）が２０日、前橋市の正田醤油（しょうゆ）スタジアム群馬であった。中田英寿さんら有名選手が集結し、約１万人の観客を沸かせた。">松田直樹さん追悼、約１万人の観客　ドリームマッチ群馬</a>&#160;
+<span class="Update">(1/21)</span></dt><dd><p>　２０１１年８月に亡くなったサッカー元日本代表の松田直樹さん（当時３４）を追悼する「松田直樹メモリア………
+	<a class="ml5" href="/sports/articles/TKY201301200247.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301200036.html"><span><img src="/sports/articles/images/OSK201301200035.jpg" alt="写真：今季のスローガンを掲げてファンと記念撮影する選手たち＝とりぎん文化会館" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301200036.html" title="　【村井七緒子】サッカーＪ２のガイナーレ鳥取が２０日、鳥取市尚徳町のとりぎん文化会館で２０１３シーズンに向けて出陣式をし、選手たちは、集まった約５５０人のファンに躍進を誓った。">Ｊ２鳥取、全力前進　選手ら、ファン５５０人に躍進誓う</a>&#160;
+<span class="Update">(1/21)</span></dt><dd><p>　【村井七緒子】サッカーＪ２のガイナーレ鳥取が２０日、鳥取市尚徳町のとりぎん文化会館で２０１３シーズ………
+	<a class="ml5" href="/sports/articles/OSK201301200036.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301200035.html"><span><img src="/sports/articles/images/SEB201301200033.jpg" alt="写真：新ユニホームを披露する赤星拓、池田圭、豊田陽平、奥田達朗の４選手（左から）＝鳥栖市" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301200035.html" title="　【宮田富士男】サッカーＪ１・サガン鳥栖は２０日、鳥栖市でファン報告会を開き、今季の新ユニホームを発表した。色はほとんど変えず、袖の部分に炎の模様を入れた。">Ｊ１鳥栖、プレミア級　ウエアに同じブランド</a>&#160;
+<span class="Update">(1/21)</span></dt><dd><p>　【宮田富士男】サッカーＪ１・サガン鳥栖は２０日、鳥栖市でファン報告会を開き、今季の新ユニホームを発………
+	<a class="ml5" href="/sports/articles/SEB201301200035.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0120/TKY201301200165.html" title="">元日本代表ＧＫの土肥が引退　Ｊ２東京ヴ</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>　Ｊ２東京ヴは２０日、元日本代表ＧＫ土肥洋一（３９）の現役引退と育成コーチ就任を発表した。１９９４年………
+	<a class="ml5" href="/sports/update/0120/TKY201301200165.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0120/NGY201301200009.html" title="">永井のベルギー移籍、正式決定　Ｊ１名古屋、２２日会見</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>　Ｊ１名古屋は２０日、ＦＷ永井謙佑（２３）のベルギー１部スタンダール・リエージュへの完全移籍が決まっ………
+	<a class="ml5" href="/sports/update/0120/NGY201301200009.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301190296.html"><span><img src="/sports/articles/images/TKY201301190295.jpg" alt="写真：サポーターとの交流を楽しんだ三都主アレサンドロ（中央）ら＝宇都宮市のオリオンスクエア" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301190296.html" title="　サッカーＪ２の栃木ＳＣは１９日、宇都宮市のオリオンスクエアで、新加入の９選手を含めたチームの新体制を披露した。約７５０人のサポーターが見守り、熱い声援を送った。">Ｊ２栃木ＳＣ、新体制を披露　オリオンスクエアで</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>　サッカーＪ２の栃木ＳＣは１９日、宇都宮市のオリオンスクエアで、新加入の９選手を含めたチームの新体制………
+	<a class="ml5" href="/sports/articles/TKY201301190296.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301190034.html"><span><img src="/sports/articles/images/SEB201301190026.jpg" alt="写真：ドリブルで相手陣内に切り込む中浜健太選手＝１９日、国立競技場" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301190034.html" title="　【坂本進】粘り強いサッカーで頂点に登りつめた――。第９１回全国高校サッカー選手権大会で県代表の鵬翔は１９日、東京・国立競技場で京都橘（京都）と対戦。１点を追う後半４分、コーナーキックを芳川隼登選手が頭で合わせ同点に。その後、再び得点を許したが後半残り６分、日高献盛選手がもぎ取ったＰＫの好機を矢野大樹主将が落ち着いて決め、４度目のＰＫ戦へ。全員が落ち着いてゴールを決め、県勢悲願の全国制覇を勝ち取った。">絆の結晶、鵬翔Ｖ　中浜選手、けが耐え駆ける　宮崎</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>　【坂本進】粘り強いサッカーで頂点に登りつめた――。第９１回全国高校サッカー選手権大会で県代表の鵬翔………
+	<a class="ml5" href="/sports/articles/SEB201301190034.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301190035.html"><span><img src="/sports/articles/images/SEB201301190033.jpg" alt="写真：優勝が決まり、歓喜する応援席のサッカー部員ら＝国立競技場" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301190035.html" title="　【柴田秀並】全国高校サッカーで頂点に上り詰めた鵬翔。スタンドは約１５００人の生徒や保護者、県人会関係者らが詰めかけ、水色に染まった。一進一退の攻防が続く中、選手に大きな声援を送り続けた。">一進一退、ＰＫ決着に歓喜　鵬翔スタンド、沸く　宮崎</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>　【柴田秀並】全国高校サッカーで頂点に上り詰めた鵬翔。スタンドは約１５００人の生徒や保護者、県人会関………
+	<a class="ml5" href="/sports/articles/SEB201301190035.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301190090.html"><span><img src="/sports/articles/images/OSK201301190085.jpg" alt="写真：今季の新ユニホームを身につけポーズをとる選手＝徳島市藍場町２丁目" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301190090.html" title="　【渡辺元史】サッカーＪ２の徳島ヴォルティスは１９日、徳島市のあわぎんホールで新体制発表会を開いた。今季の新ユニホームや他クラブから新加入の６選手を含む２８選手がサポーターら約８００人に紹介され、念願のＪ１昇格を誓った。">「今年こそ昇格」　Ｊ２徳島、新体制発表</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>　【渡辺元史】サッカーＪ２の徳島ヴォルティスは１９日、徳島市のあわぎんホールで新体制発表会を開いた。………
+	<a class="ml5" href="/sports/articles/OSK201301190090.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301190111.html"><span><img src="/sports/articles/images/OSK201301190110.jpg" alt="写真：試合後、涙する仙頭選手（右）の肩に手を当てる高林主将＝東京・国立競技場" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301190111.html" title="　【籏智広太、佐藤剛志】「最後の最後までこの仲間とサッカーができて、本当に幸せ」。京都橘の高林幹（もとき）主将が涙を流し、応援席に向かって叫んだ。１９日の第９１回全国高校サッカー選手権大会の決勝。創部１２年の京都橘は鵬翔（宮崎）にＰＫ戦の末に惜しくも敗れ、準優勝となった。応援席からは温かい拍手が起きた。">京都橘、紙一重の準優勝　全国高校サッカー</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>　【籏智広太、佐藤剛志】「最後の最後までこの仲間とサッカーができて、本当に幸せ」。京都橘の高林幹（も………
+	<a class="ml5" href="/sports/articles/OSK201301190111.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/update/0119/TKY201301190368.html"><span><img src="/sports/update/0119/images/TKY201301190373.jpg" alt="写真：後半１９分、京都橘・仙頭（７）は勝ち越しのゴールを決める＝福留庸友撮影" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/update/0119/TKY201301190368.html" title="■サッカー全国高校選手権決勝&#10;（鵬翔２―２京都橘、ＰＫ５―３）">京都橘が準優勝、２トップともに得点王に　高校サッカー</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>■サッカー全国高校選手権決勝
+（鵬翔２―２京都橘、ＰＫ５―３）
+　ボールはゴール右のポストにはじかれ………
+	<a class="ml5" href="/sports/update/0119/TKY201301190368.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/update/0119/TKY201301190367.html"><span><img src="/sports/update/0119/images/TKY201301190372.jpg" alt="写真：ＰＫ戦を制し、宮崎県勢として初めての優勝を喜ぶ鵬翔の選手たち＝１９日午後２時３６分、国立競技場、福留庸友撮影" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/update/0119/TKY201301190367.html" title="■サッカー全国高校選手権&#10;（鵬翔２―２京都橘、ＰＫ５―３）">鵬翔Ｖ、技術より折れぬ心　高校サッカー決勝</a>&#160;
+<span class="Update">(1/20)</span></dt><dd><p>■サッカー全国高校選手権
+（鵬翔２―２京都橘、ＰＫ５―３）
+　【伊藤雅哉】幕切れは鵬翔にとって今大会………
+	<a class="ml5" href="/sports/update/0119/TKY201301190367.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/update/0119/TKY201301190097.html"><span><img src="/sports/update/0119/images/TKY201301190098.jpg" alt="写真：後半４分、鵬翔の芳川（中央）はＣＫを頭で合わせ同点ゴールを奪う＝加藤諒撮影" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/update/0119/TKY201301190097.html" title="">鵬翔がＰＫ戦制し初優勝　高校サッカー、京都橘破る</a>&#160;
+<span class="Update">(1/19)</span></dt><dd><p>　サッカーの第９１回全国高校選手権は１９日、東京・国立競技場で決勝があり、ＰＫ戦の末、鵬翔（宮崎）が………
+	<a class="ml5" href="/sports/update/0119/TKY201301190097.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301180015.html"><span><img src="/sports/articles/images/SEB201301180014.jpg" alt="写真：準決勝の星稜（石川）戦では、左ひざのサポーターを外し、順調な回復ぶりを見せた中浜健太選手＝１２日、東京都の国立競技場" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301180015.html" title="　全国高校サッカー選手権大会で宮崎県勢初優勝をかけた鵬翔が１９日、決勝で京都橘と対戦する。当初１４日に予定されていた決勝は大雪で異例の順延に。いったん県内に戻って調整した選手たちの活躍が期待される。夢の全国制覇へカギを握るのは？――。">鵬翔、頂点めざし気迫　全国高校サッカー、京都橘と決勝</a>&#160;
+<span class="Update">(1/19)</span></dt><dd><p>　全国高校サッカー選手権大会で宮崎県勢初優勝をかけた鵬翔が１９日、決勝で京都橘と対戦する。当初１４日………
+	<a class="ml5" href="/sports/articles/SEB201301180015.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301180096.html"><span><img src="/sports/articles/images/OSK201301180095.jpg" alt="写真：優勝の報告をする選手会長の青山敏弘選手＝安芸高田市吉田町" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301180096.html" title="　【長尾大生】サッカーＪ１で初優勝したサンフレッチェ広島と１８歳以下の日本一を決める高円宮杯チャンピオンシップで連覇を達成したユースの選手たちが１８日、練習拠点の安芸高田市で優勝を報告した。">サポーター７００人拍手　サンフレッチェＶ報告　広島</a>&#160;
+<span class="Update">(1/19)</span></dt><dd><p>　【長尾大生】サッカーＪ１で初優勝したサンフレッチェ広島と１８歳以下の日本一を決める高円宮杯チャンピ………
+	<a class="ml5" href="/sports/articles/OSK201301180096.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0118/TKY201301180288.html" title="">なでしこリーグ日テレ、監督交代　寺谷真弓氏が昇格</a>&#160;
+<span class="Update">(1/18)</span></dt><dd><p>　なでしこリーグ日テレは１８日、野田朱美監督（４３）が退任し、下部組織の寺谷真弓監督（４１）が昇格す………
+	<a class="ml5" href="/sports/update/0118/TKY201301180288.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301170349.html"><span><img src="/sports/articles/images/TKY201301170348.jpg" alt="写真：先制点を決めて喜び合う常盤木学園の選手ら＝静岡県磐田市" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301170349.html" title="　【後藤一也】第２１回全日本高校女子サッカー選手権大会の決勝が１７日、静岡県磐田市であり、東北代表の常盤木学園（仙台市）が九州代表の神村学園（鹿児島県）に２―０で勝ち、大会連覇を果たした。">常盤木、堅守で連覇　高校女子サッカー、２−０　宮城</a>&#160;
+<span class="Update">(1/18)</span></dt><dd><p>　【後藤一也】第２１回全日本高校女子サッカー選手権大会の決勝が１７日、静岡県磐田市であり、東北代表の………
+	<a class="ml5" href="/sports/articles/TKY201301170349.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301170384.html"><span><img src="/sports/articles/images/TKY201301170383.jpg" alt="写真：巨大絵馬にサインを書き込む奥野監督（右）と中井川ＧＭ＝山形市諏訪町１丁目" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301170384.html" title="　サッカーＪ２モンテディオ山形の選手たちが１７日、Ｊ１昇格を願い山形市の諏訪神社で必勝祈願をした。おはらいを受けた選手たちは「必勝祈願」と書かれた縦１メートル、横１・８メートルの絵馬に次々とサイン。中井川茂敏ＧＭは今季のスローガン「信」と、佐藤和志専務理事は「Ｊ１復帰」と書き込んだ。">巨大絵馬にＪ１昇格託す　モンテ山形、神社で必勝祈願</a>&#160;
+<span class="Update">(1/18)</span></dt><dd><p>　サッカーＪ２モンテディオ山形の選手たちが１７日、Ｊ１昇格を願い山形市の諏訪神社で必勝祈願をした。お………
+	<a class="ml5" href="/sports/articles/TKY201301170384.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301170366.html"><span><img src="/sports/articles/images/TKY201301170362.jpg" alt="写真：Ｊ１昇格に向け必勝祈願する栃木ＳＣのスタッフ、選手ら＝宇都宮市の宇都宮二荒山神社" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301170366.html" title="　サッカーＪ２の栃木ＳＣは１７日、３月３日の開幕に向けて始動した。午前９時からは宇都宮市の宇都宮二荒山神社で、チーム関係者約５０人が参加して必勝祈願をした。">Ｊ２の栃木ＳＣ、必勝祈願　「感動の結果を残す」と強調</a>&#160;
+<span class="Update">(1/18)</span></dt><dd><p>　サッカーＪ２の栃木ＳＣは１７日、３月３日の開幕に向けて始動した。午前９時からは宇都宮市の宇都宮二荒………
+	<a class="ml5" href="/sports/articles/TKY201301170366.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301170031.html"><span><img src="/sports/articles/images/SEB201301170030.jpg" alt="写真：今季のスローガンを書いたボードを先頭に佐嘉神社を訪れた。先頭左から竹原稔社長、藤田直之主将、尹晶煥監督＝佐賀市" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301170031.html" title="　【大野宏、宮田富士男】サッカーＪ１・サガン鳥栖の選手とスタッフが１７日、佐賀市の佐嘉神社で必勝祈願をした。尹晶煥（ユンジョンファン）監督は「第一に選手がけが無くシーズンを送れることを祈願した。二つ目にチームとして今年もいい成績を残し、応援してくれる人には幸運が舞い降りてくれるよう祈りました」と話した。">サガン選手ら必勝祈願　「今年もいい成績を」　佐賀</a>&#160;
+<span class="Update">(1/18)</span></dt><dd><p>　【大野宏、宮田富士男】サッカーＪ１・サガン鳥栖の選手とスタッフが１７日、佐賀市の佐嘉神社で必勝祈願………
+	<a class="ml5" href="/sports/articles/SEB201301170031.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301170413.html"><span><img src="/sports/articles/images/TKY201301170412.jpg" alt="写真：新設したクラブハウス前でテープカットが行われた＝さいたま市西区" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301170413.html" title="　サッカーＪ１の大宮アルディージャの新しいクラブハウスと練習場がさいたま市西区高木に完成し、記念式典が１７日開かれた。選手らは新しい拠点で今季の活躍に向けて始動する。">Ｊ１大宮に新練習場　アルディージャ、今季へ始動　埼玉</a>&#160;
+<span class="Update">(1/18)</span></dt><dd><p>　サッカーＪ１の大宮アルディージャの新しいクラブハウスと練習場がさいたま市西区高木に完成し、記念式典………
+	<a class="ml5" href="/sports/articles/TKY201301170413.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301170013.html"><span><img src="/sports/articles/images/TKY201301180060.jpg" alt="写真：巨大スクリーンに映し出されたインターネット中継で神村学園の選手を応援する生徒たち＝いちき串木野市の神村学園" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301170013.html" title="　【佐藤幸徳】１７日に静岡県の磐田スポーツ交流の里ゆめりあ球技場であった第２１回全日本高等学校女子サッカー選手権大会の決勝。神村学園（鹿児島県）は常盤木学園（宮城県）に０―２で敗れたが、準優勝に輝いた。いちき串木野市の母校では同級生や後輩らがインターネット中継を見守り、懸命にボールを追う選手らに熱い声援を送った。">準優勝の神村学園、応援一丸　高校女子サッカー　鹿児島</a>&#160;
+<span class="Update">(1/18)</span></dt><dd><p>　【佐藤幸徳】１７日に静岡県の磐田スポーツ交流の里ゆめりあ球技場であった第２１回全日本高等学校女子サ………
+	<a class="ml5" href="/sports/articles/SEB201301170013.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0117/TKY201301170060.html" title="　サッカーのベルギー１部スタンダール・リエージュは１６日、昨夏のロンドン五輪代表で、Ｊ１名古屋に所属するＦＷ永井謙佑（２３）と移籍で合意したと公式ホームページで発表した。契約は２０１７年６月までの４年半になる見込みで、名古屋とのクラブ間交渉をへて正式に決まる。">Ｊ１名古屋の永井、ベルギー移籍へ　川島所属のチーム</a>&#160;
+<span class="Update">(1/17)</span></dt><dd><p>　サッカーのベルギー１部スタンダール・リエージュは１６日、昨夏のロンドン五輪代表で、Ｊ１名古屋に所属………
+	<a class="ml5" href="/sports/update/0117/TKY201301170060.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/TKY201301160410.html"><span><img src="/sports/articles/images/TKY201301160409.jpg" alt="写真：常盤木学園の２点目はＦＷ伊藤美紀選手（左）が左足で決めた＝静岡県磐田市" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/TKY201301160410.html" title="　第２１回全日本高校女子サッカー選手権大会の準決勝が１６日、静岡県磐田市であった。東北代表の常盤木学園（宮城）は関西代表の日ノ本学園（兵庫）に２―０で勝ち、大会連覇に王手をかけた。決勝は１７日、九州代表の神村学園（鹿児島）と対戦する。">宮城・常盤木学園、決勝へ　全日本高校女子サッカー</a>&#160;
+<span class="Update">(1/17)</span></dt><dd><p>　第２１回全日本高校女子サッカー選手権大会の準決勝が１６日、静岡県磐田市であった。東北代表の常盤木学………
+	<a class="ml5" href="/sports/articles/TKY201301160410.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/SEB201301160031.html"><span><img src="/sports/articles/images/SEB201301160029.jpg" alt="写真：サッカーボールパン" height="50" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/SEB201301160031.html" title="　【柴田秀並】全国高校サッカー選手権大会の決勝にのぞむ鵬翔高校サッカー部を応援しようと、宮崎市の宮崎観光ホテルパンショップが「サッカーボールパン」を販売している。メロンパンにココアパウダーを五角形にまぶし、サッカーボールに模した。１日限定２４個で、連日売り切れるほど好評という。">日本一へ、パンで応援　高校サッカー決勝控え　宮崎</a>&#160;
+<span class="Update">(1/17)</span></dt><dd><p>　【柴田秀並】全国高校サッカー選手権大会の決勝にのぞむ鵬翔高校サッカー部を応援しようと、宮崎市の宮崎………
+	<a class="ml5" href="/sports/articles/SEB201301160031.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><p class="ThmbCol"><a href="/sports/articles/OSK201301160152.html"><span><img src="/sports/articles/images/OSK201301160150.jpg" alt="写真：新加入した選手、コーチと監督。前列左から、宮下俊コーチ、牧内辰也コーチ、影山雅永監督、荒田智之、押谷祐樹、鈴木崇文。後列左から、李載官、島田譲、寄特（きどく）直人、小林秀征、藤岡浩介、幡野貴紀＝岡山市" width="80" /></span></a></p><div class="ThmbTxt"><dl><dt><a href="/sports/articles/OSK201301160152.html" title="　【藤原学思】今年こそＪ１へ――。サッカーＪ２のファジアーノ岡山は１６日、新加入した選手９人とコーチ２人を交え、岡山市のホテルで会見した。指揮４年目となる影山雅永監督は「頼もしい選手と一緒に戦えることが楽しみ」と意気込みを語った。">ファジアーノ、新布陣　新加入選手９人が意気込み　岡山</a>&#160;
+<span class="Update">(1/17)</span></dt><dd><p>　【藤原学思】今年こそＪ１へ――。サッカーＪ２のファジアーノ岡山は１６日、新加入した選手９人とコーチ………
+	<a class="ml5" href="/sports/articles/OSK201301160152.html">[記事全文]
+	</a></p></dd></dl></div></div><div class="ThmbSetXw80"><div class="ThmbTxt"><dl><dt><a href="/sports/update/0116/TKY201301160472.html" title="">なでしこ矢野が引退　「気持ち維持できなくなった」</a>&#160;
+<span class="Update">(1/17)</span></dt><dd><p>　なでしこリーグ浦和は１６日、優勝した２０１１年Ｗ杯、銀メダルを獲得した昨年のロンドン五輪で日本代表………
+	<a class="ml5" href="/sports/update/0116/TKY201301160472.html">[記事全文]
+	</a></p></dd></dl></div></div></div></div>
+<!-- impactフィーチャーテキスト（スポーツ）３行 ★ここから -->
 <script type="text/javascript" language="JavaScript">
-<!-- 
 impAserver = "http://imp.asahi.com";
-impAtarget = "/SITE=MT.HOKKAIDO/AREA=RECT/AAMSZ=300X250/OENCJP=EUC";
+impAtarget1 = "/AAMB1/SITE=SPORTS/AREA=FEATURE.TXT1/AAMSZ=230X40/OENCJP=EUC";
+impAtarget2 = "/AAMB2/SITE=SPORTS/AREA=FEATURE.TXT2/AAMSZ=230X40/OENCJP=EUC";
+impAtarget3 = "/AAMB3/SITE=SPORTS/AREA=FEATURE.TXT3/AAMSZ=230X40/OENCJP=EUC";
+impAtarget  = impAtarget1 + impAtarget2 + impAtarget3;
+
 impArnd = Math.round(Math.random() * 100000000);
 if (!impApid) var impApid = Math.round(Math.random() * 100000000);
-
 document.write('<scr');
-document.write('ipt src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('ipt src="' + impAserver + '/bservers/AAMALL/acc_random=' + impArnd + '/pageid=' + impApid + impAtarget+'">');
 document.write('</scr');
 document.write('ipt>');
 //-->
 </script>
-<!-- impactマイタウン北海道ラージタイル 200*200 ★ここまで -->
+
+<!-- 広告並び替え -->
+<script>
+var impAnads = 3;
+var impAbs = new Array(impAnads);
+for ( i = 0 ; i < impAnads ; i++) {
+	eval('impAbs['+i+'] = (typeof(AAMB' + (i+1) + ') != "undefined")?AAMB' + (i+1) + ':"";');
+	impAbs[i] = (impAbs[i].indexOf('AEAH') == -1)?impAbs[i]:'';
+}
+
+impAads = impA_rotate(impAbs);
+
+function impA_rotate(list) {
+	var i = list.length;
+	while (--i) {
+		var j = Math.floor(Math.random() * (i + 1));
+		if (i == j) continue;
+		var k = list[i]; list[i] = list[j]; list[j] = k;
+	}
+	for ( i = 0; i <= list.length; i++){ if ( list[i] == "" ) list.splice(i,1);}
+	return list;
+}
+</script>
+
+<!-- 広告書き出し部分 広告数に応じて書き出す-->
+<script>
+if ((typeof(impAads[0]) !='undefined' && impAads[0] !="") || (typeof(impAads[1]) !='undefined' && impAads[1] !="") || (typeof(impAads[2]) !='undefined' && impAads[2] !="") ){document.write('<dl class="PrInfo"><dt>PR情報</dt><dd><ul class="Lnk">');}
+if (typeof(impAads[0]) !='undefined' && impAads[0] !=""){document.write(impAads[0]);}
+if (typeof(impAads[1]) !='undefined' && impAads[1] !=""){document.write(impAads[1]);}
+if (typeof(impAads[2]) !='undefined' && impAads[2] !=""){document.write(impAads[2]);}
+
+if ((typeof(impAads[0]) !='undefined' && impAads[0] !="") || (typeof(impAads[1]) !='undefined' && impAads[1] !="") || (typeof(impAads[2]) !='undefined' && impAads[2] !="")){document.write('</ul></dd></dl>');}
+</script>
+<!-- impactフィーチャーテキスト（スポーツ）３行 ★ここまで -->
+
+<form action="http://websearch.asahi.com/.cgi/websearch/websearch.pl" method="post" class="SearchBox1"><fieldset><legend>検索フォーム</legend><p><input type="text" value="" class="Txt" name="Keywords" /><input type="image" src="/images08/common/btn_search.gif" alt="検索" class="Btn" /></p><ul><li class="Fst"><a href="http://websearch.asahi.com/.cgi/websearch/websearch.pl"><strong>WEB</strong></a></li><li><a href="http://www.asahi.com/tool/sitesearch/index.html">サイト内</a></li><li><a href="http://esearch.asahicom.rakuten.co.jp/search/e.search">買物</a></li><li><a href="http://dictionary.asahi.com/.cgi/kotobank/search_e.cg">国語</a></li><li><a href="http://dictionary.asahi.com/.cgi/kotobank/ejsearch_e.cg">英和・和英</a></li><li><a href="http://www.asahi.com/tool/map/index.html">地図</a></li><li class="OptItm"><a href="http://www.asahi.com/tool/">使い方</a></li></ul></fieldset></form>
+<div class="Section">
+<ul class="FeaturePhoto">
+<li class="Fst"><a href="http://www.asahi.com/sports/update/0203/TKY201302030161.html?ref=com_fbox"><img alt="サムネイル写真" width="112" height="96" src="http://www.asahicom.jp/images13/fbox/edit5/201302/130203_yacult.jpg"><span>沖縄そばで、タフマンに</span></a></li>
+<li><a href="http://www.asahi.com/national/update/0203/TKY201302030073.html?ref=com_fbox"><img alt="サムネイル写真" width="112" height="96" src="http://www.asahicom.jp/images13/fbox/edit5/201302/130203_yukiyama.jpg"><span>アツアツぶり、雪山も溶かす？</span></a></li>
+<li><a href="http://www.asahi.com/shimen/articles/TKY201302020571.html?ref=top?ref=com_fbox"><img alt="サムネイル写真" width="112" height="96" src="http://www.asahicom.jp/images13/fbox/edit5/201302/130203_hokutokuni.jpg"><span>伝説の男、土俵を去る</span></a></li>
+<li><a href="http://www.asahi.com/topics/word/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%82%A6%E3%83%AB.html?ref=com_fbox"><img alt="サムネイル写真" width="112" height="96" src="http://www.asahicom.jp/images13/fbox/edit5/201302/130203_american.jpg"><span>全米が釘付けになる日</span></a></li>
+<li><a href="http://www.asahi.com/shopping/special/TKY201301300063.html?ref=com_fbox"><img alt="サムネイル写真" width="112" height="96" src="http://www.asahicom.jp/images13/fbox/shopping/living_interior_130131_f.jpg"><span>フレームで密着！花粉マスク</span></a></li>
+</ul>
+<ul class="FeatureSubLnk">
+<li class="Fst"><a href="http://www.asahi.com/reporter/?ref=com_fbox">記者ページ</a></li>
+<li><a href="http://www.asahi.com/sns/?ref=com_fbox">朝日新聞のソーシャルアカウント</a></li>
+</ul>
+<div class="FeatureList">
+<ul class="Recommend">
+<li class="Fst">
+<p class="Image"><a href="http://www.asahi.com/news/intro/TKY201302030224.html?ref=com_fbox"><img alt="サムネイル写真" width="80" height="80" src="http://www.asahicom.jp/images13/fbox/edit5/201302/130204_shougen.jpg"></a></p>
+<dl>
+<dt>
+<span><a href="http://digital.asahi.com/article_search/s_list3.html?keyword=%A1%D2%BE%DA%B8%C0%A4%BD%A4%CE%A4%C8%A4%AD%A1%D3&amp;s_title=%BE%DA%B8%C0%A4%BD%A4%CE%A4%C8%A4%AD%B0%EC%CD%F7&amp;rel=1">証言そのとき</a></span><a href="http://www.asahi.com/news/intro/TKY201302030224.html?ref=com_fbox">詩と芝居と経営と：4　いじめられ対抗心</a>
+</dt>
+<dd><p><a href="http://www.asahi.com/news/intro/TKY201302030224.html?ref=com_fbox">西武百貨店の経営者にはなりましたが、問屋に行っても「ニシタケ百貨店さん」と言われました。</a></p></dd>
+</dl>
+</li>
+<li>
+<p class="Image"><a href="http://globe.asahi.com/breakthrough/2013013100003.html?ref=com_fbox"><img alt="サムネイル写真" width="80" height="80" src="http://www.asahicom.jp/images13/fbox/edit5/201302/130203_yamamoto.jpg"></a></p>
+<dl>
+<dt>
+<span><a href="http://globe.asahi.com/index.html">GLOBE</a></span><a href="http://globe.asahi.com/breakthrough/2013013100003.html?ref=com_fbox">(突破する力)俳優・山本耕史</a>
+</dt>
+<dd><p><a href="http://globe.asahi.com/breakthrough/2013013100003.html?ref=com_fbox">俳優とは何か。問いかけ、ぶつかり、ひとり歩んできた。役を超えたいという欲望を胸に秘めて。</a></p></dd>
+</dl>
+</li>
+</ul>
+<ul class="List">
+<li class="Fst"><a href="http://www.asahi.com/culture/articles/TKY201301310498.html?ref=comtop_fbox?ref=com_fbox">マツケン、初舞台に挑む</a></li>
+<li><a href="http://www.asahi.com/culture/articles/TKY201301310502.html?ref=com_fbox">好楽、自前寄席で恩返し</a></li>
+<li><a href="http://www.asahi.com/shopping/special/TKY201301310256.html?ref=comtop_fbox?ref=com_fbox">この人もフィギュアに</a></li>
+<li><a href="http://www.asahi.com/and_M/interest/entertainment/NIK201302030116.html?ref=com_fbox">サブちゃん、峯岸にエール</a></li>
+<li><a href="http://www.asahi.com/jsg/articles/TKY201302020335.html?ref=comtop_fbox?ref=com_fbox">カキとキャベツで春の味</a></li>
+<li><a href="http://book.asahi.com/reviews/column/2013012700003.html?ref=com_fbox">天皇の料理番　レシピの全て</a></li>
+</ul>
 </div>
-<!-- impact注目情報マイタウン ★ここから-->
+</div>
+
+<!--#include virtual="/news/featbox13.htm"-->
+
+<!-- impactスポーツボックス 140*100 ★ここから -->
 <script type="text/javascript" language="JavaScript">
 impAserver = "http://imp.asahi.com";
-impAtarget1 = "/AAMB1/SITE=MT.ALL/AREA=CHUMOKU01/AAMSZ=50X50/OENCJP=EUC";
-impAtarget  = impAtarget1 ;
+impAtarget1 = "/AAMB1/SITE=SPORTS/AREA=BOX11/AAMSZ=140X100/OENCJP=EUC";
+impAtarget  = impAtarget1
 
 impArnd = Math.round(Math.random() * 100000000);
 if (!impApid) var impApid = Math.round(Math.random() * 100000000);
@@ -731,94 +833,421 @@ function impA_rotate(list) {
 </script>
 
 <!-- 広告書き出し部分 広告数に応じて書き出す-->
+<script>
+if (typeof(impAads[0]) !='undefined' && impAads[0] !=""){
+document.write('<div class="BoxAdGeneral fclear">');
+document.write('<h2 class="SportsGenre">[PR]おすすめ情報</h2>');
+document.write('<div class="BoxAdInner">');
+document.write(impAads[0]);
+document.write('</div>');
+document.write('</div>');
+}
+</script>
+<!-- impactスポーツボックス 140*100 ★ここまで -->
+
+</div></div><div id="Sub">
+	<div class="Tools">
+<ul class="MorningPaperNav">
+<li class="MorningPaper"><a href="http://www.asahi.com/shimen/index.html?ref=com_rnavi"><span>朝刊紙面</span></a></li>
+<li class="PlusD"><a href="http://www.asahi.com/news/plusd.html?ref=com_rnavi"><span>紙面にプラス</span></a></li>
+</ul>
+
+
+<!--#include virtual="/news/esi/chokan_plusd.htm"-->
+<ul class="SignupNav">
+<li class="Paper"><a href="https://33.asahi.com/apply/w/brandSelect.php?cmpncd=111111w&afltfg=1&sfg=0">新聞宅配申し込み</a></li>
+<li class="Digital"><a href="http://digital.asahi.com/info/?ref=com_rnavi2013">デジタル申し込み</a></li>
+</ul>
+
+
+<!--#include virtual="/news/esi/subscription_pr.htm"--></div><div id="SubInner">
+<div class="Section"><ul class="ListBlock"><li>
+<p class="Image"><a href="http://t.asahi.com/9m5q?ref=com_rnavi"><img alt="サムネイル写真" width="80" height="65" src="http://www.asahicom.jp/images13/fbox/edit5/201302/04ann.jpg"></a></p>
+<dl>
+<dt class="Big"><a href="http://t.asahi.com/9m5q?ref=com_rnavi">華やかカルチャーページ</a></dt>
+<dd><p><a href="http://t.asahi.com/9m5q?ref=com_rnavi">杏さん、ＡＫＢ４８…。新装カルチャーページは目にも華やか。</a></p></dd>
+</dl>
+</li></ul></div>
+
+<!--#include virtual="/news/esi/rnavi_contents_index.htm"-->
+<div class="Section">
+<!-- Ad BGN --><div class="Ad">
+<!-- impactスポーツラージレクタングル＋ラージタイル ★ここから-->
+<script type="text/javascript" language="JavaScript">
+<!--
+var impAcn  = "IMPASEG";
+var impAco  = document.cookie;
+var impApos = impAco.indexOf(impAcn + "=");
+var impAseg = (impApos != -1) ? impAco.substring(impApos + impAcn.length + 1, (impAco.indexOf("; ", impApos) != -1) ? impAco.indexOf("; ", impApos) : impAco.length) : null;
+impAseg = (impAseg) ? unescape(impAseg) : '';
+
+var impAserver = "http://imp.asahi.com";
+var impAtag    = "/SITE=SPORTS/AREA=RECT/AAMSZ=300X250";
+var impAtarget = (impAseg.match(/^[\w\/=]+$/)) ? impAtag + "/" + impAseg : impAtag;
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+document.write('<scr');
+document.write('ipt src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('</scr');
+document.write('ipt>');
+//-->
+</script>
+<!-- impactスポーツラージレクタングル＋ラージタイル ★ここまで-->
+</div><!-- Ad END -->
+</div>
+
+<!-- impact注目情報・速報以外 ★ここから-->
+<script type="text/javascript" language="JavaScript">
+impAserver = "http://imp.asahi.com";
+impAtarget1 = "/AAMB1/SITE=CYUMOKU/AREA=CYUMOKU01/AAMSZ=50X50/OENCJP=EUC";
+impAtarget2 = "/AAMB2/SITE=CYUMOKU/AREA=CYUMOKU02/AAMSZ=50X50/OENCJP=EUC";
+
+impAtarget  = impAtarget1 + impAtarget2 ;
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+document.write('<scr');
+document.write('ipt src="' + impAserver + '/bservers/AAMALL/acc_random=' + impArnd + '/pageid=' + impApid + impAtarget+'">');
+document.write('</scr');
+document.write('ipt>');
+//-->
+</script>
+
+<!-- 広告並び替え -->
+<script>
+var impAnads = 2;
+var impAbs = new Array(impAnads);
+for ( i = 0 ; i < impAnads ; i++) {
+	eval('impAbs['+i+'] = (typeof(AAMB' + (i+1) + ') != "undefined")?AAMB' + (i+1) + ':"";');
+	impAbs[i] = (impAbs[i].indexOf('AEAH') == -1)?impAbs[i]:'';
+}
+
+impAads = impA_rotate(impAbs);
+
+function impA_rotate(list) {
+	var i = list.length;
+	while (--i) {
+		var j = Math.floor(Math.random() * (i + 1));
+		if (i == j) continue;
+		var k = list[i]; list[i] = list[j]; list[j] = k;
+	}
+	for ( i = 0; i <= list.length; i++){ if ( list[i] == "" ) list.splice(i,1);}
+	return list;
+}
+</script>
+
+<!-- 広告書き出し部分 広告数に応じて書き出す-->
+<script>
+if ((typeof(impAads[0]) !='undefined' && impAads[0] !="") || (typeof(impAads[1]) !='undefined' && impAads[1] !="")){document.write('<div class="Section"><div class="Pr"><div class="TitleSmall"><h3><span>PR</span>注目情報</h3></div><ul class="ListBlock">');}
+</script>
+
+
 
 <script>
 if (typeof(impAads[0]) !='undefined' && impAads[0] !=""){document.write(impAads[0]);}
 </script>
-<!-- impact注目情報マイタウン ★ここまで-->
-<!-- ★☆★☆★広告担当部分ここまで★☆★☆★　-->
+<script>
+if (typeof(impAads[1]) !='undefined' && impAads[1] !=""){document.write(impAads[1]);}
+</script>
 
-<p class="hide">広告終わり</p>
+
+<script>
+if ((typeof(impAads[0]) !='undefined' && impAads[0] !="") || (typeof(impAads[1]) !='undefined' && impAads[1] !="")){document.write('</ul></div></div>');}
+</script>
+<!-- impact注目情報・速報以外 ★ここまで-->
+
+
+<!-- twitter ここから -->
+<div class="Section">
+<div class="Title">
+<h2><a href="https://twitter.com/#!/asahi_koshien" target="_blank">朝日新聞高校野球Twitter</a></h2>
+</div>
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 6000,
+  title: '朝日新聞デジタル　高校野球ニュース',
+  subject: 'asahi_koshien',
+  width: 275,
+  height: 200,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().setUser('asahi_koshien').start();
+</script>
+</div>
+<!-- twitter ここまで -->
+
+<!--★☆★AD★☆★-->
+<!-- impactスポーツサイドボタン1-4 300*55 ★ここから -->
+<script type="text/javascript">
+impAserver = "http://imp.asahi.com";
+impAtarget1 = "/AAMB1/SITE=SPORTS/AREA=SIDEBUTTON1/AAMSZ=300X55/OENCJP=EUC";
+impAtarget2 = "/AAMB2/SITE=SPORTS/AREA=SIDEBUTTON2/AAMSZ=300X55/OENCJP=EUC";
+impAtarget3 = "/AAMB3/SITE=SPORTS/AREA=SIDEBUTTON3/AAMSZ=300X55/OENCJP=EUC";
+impAtarget4 = "/AAMB4/SITE=SPORTS/AREA=SIDEBUTTON4/AAMSZ=300X55/OENCJP=EUC";
+impAtarget  = impAtarget1 + impAtarget2 + impAtarget3 + impAtarget4;
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+document.write('<scr');
+document.write('ipt src="' + impAserver + '/bservers/AAMALL/acc_random=' + impArnd + '/pageid=' + impApid + impAtarget+'">');
+document.write('</scr');
+document.write('ipt>');
+//-->
+</script>
+
+<!-- 広告並び替え -->
+<script type="text/javascript">
+var impAnads = 4;
+var impAbs = new Array(impAnads);
+for ( i = 0 ; i < impAnads ; i++) {
+	eval('impAbs['+i+'] = (typeof(AAMB' + (i+1) + ') != "undefined")?AAMB' + (i+1) + ':"";');
+	impAbs[i] = (impAbs[i].indexOf('AEAH') == -1)?impAbs[i]:'';
+}
+
+impAads = impA_rotate(impAbs);
+
+function impA_rotate(list) {
+	var i = list.length;
+	while (--i) {
+		var j = Math.floor(Math.random() * (i + 1));
+		if (i == j) continue;
+		var k = list[i]; list[i] = list[j]; list[j] = k;
+	}
+	for ( i = 0; i <= list.length; i++){ if ( list[i] == "" ) list.splice(i,1);}
+	return list;
+}
+</script>
+
+<!-- ★★※<li></li>はスクリプトの中に記述★★ -->
+
+<script>
+if ((typeof(impAads[0]) !='undefined' && impAads[0] !="") || (typeof(impAads[1]) !='undefined' && impAads[1] !="") || (typeof(impAads[2]) !='undefined' && impAads[2] !="") || (typeof(impAads[3]) !='undefined' && impAads[3] !="")){document.write('<ul class="BnrLnk">');}
+</script>
+<script>
+if (typeof(impAads[0]) !='undefined' && impAads[0] !=""){document.write('<li>');}
+if (typeof(impAads[0]) !='undefined' && impAads[0] !=""){document.write(impAads[0]);}
+if (typeof(impAads[0]) !='undefined' && impAads[0] !=""){document.write('</li>');}
+</script>
+<script>
+if (typeof(impAads[1]) !='undefined' && impAads[1] !=""){document.write('<li>');}
+if (typeof(impAads[1]) !='undefined' && impAads[1] !=""){document.write(impAads[1]);}
+if (typeof(impAads[1]) !='undefined' && impAads[1] !=""){document.write('</li>');}
+</script>
+<script>
+if (typeof(impAads[2]) !='undefined' && impAads[2] !=""){document.write('<li>');}
+if (typeof(impAads[2]) !='undefined' && impAads[2] !=""){document.write(impAads[2]);}
+if (typeof(impAads[2]) !='undefined' && impAads[2] !=""){document.write('</li>');}
+</script>
+<script>
+if (typeof(impAads[3]) !='undefined' && impAads[3] !=""){document.write('<li>');}
+if (typeof(impAads[3]) !='undefined' && impAads[3] !=""){document.write(impAads[3]);}
+if (typeof(impAads[3]) !='undefined' && impAads[3] !=""){document.write('</li>');}
+</script>
+<script>
+if ((typeof(impAads[0]) !='undefined' && impAads[0] !="") || (typeof(impAads[1]) !='undefined' && impAads[1] !="") || (typeof(impAads[2]) !='undefined' && impAads[2] !="") || (typeof(impAads[3]) !='undefined' && impAads[3] !="")){document.write('</ul>');}
+</script>
+<!-- impactスポーツサイドボタン1-4 300*55 ★ここまで -->
 <!--/★☆★AD★☆★-->
 
 
-
-
-
-
-<!-- プレミアム企画特集 -->
-<script type="text/javascript">
-</script><noscript><div class="Box1 BoxFeatPlan PremiumClntBox">
-<div class="HeadingSet">
-<h2>企画特集 PICK UP!</h2>
-<p><a href="http://www.asahi.com/ad/clients/">一覧へ</a></p>
+<div class="Section">
+<div class="Title">
+<h2><a href="http://www.asahi.com/whatsnew/ranking/?ref=com_rnavi">アクセスランキング</a></h2>
+<ul class="SubLink"><li class="Fst"><a href="http://www.asahi.com/whatsnew/ranking/?ref=com_rnavi2">もっと見る</a></li></ul>
 </div>
-<ul class="PrmLnk"></ul>
-</div></noscript>
-
-<!-- /プレミアム企画特集 -->
-
-
-<!-- 地域のメニュー -->
-<div class="Box1">
-<h2><a href="http://mytown.asahi.com/hokkaido/" class="areatop">マイタウン北海道</a></h2>
-
-
-<!-- 天気ここから -->
-<div class="FlatLnk2Col FstMod">
-<ul class="Lnk">
-<li><a href="http://weather.asahi.com/pinpoint/hokkaido/sapporo.html">札幌の天気</a></li>
-<li class="Lst NoArrow"><div>29日<img src="../image/hare_kumo.gif" alt="晴→曇" width="40" height="18"></div></li>
-</ul>
+<dl class="Ranking">
+<dt><span>1</span></dt>
+<dd><p><a href="http://www.asahi.com/politics/update/0203/SEB201302030023.html">西東京市長に丸山氏が初当選（３日の市区長選）</a></p></dd>
+<dt><span>2</span></dt>
+<dd><p><a href="http://www.asahi.com/obituaries/update/0204/TKY201302030254.html">市川団十郎さんが死去　歌舞伎十八番や豪快な荒事芸継承</a></p></dd>
+<dt><span>3</span></dt>
+<dd><p><a href="http://www.asahi.com/obituaries/update/1205/TKY201212050369.html">歌舞伎俳優の中村勘三郎さん死去　５７歳</a></p></dd>
+<dt><span>4</span></dt>
+<dd><p><a href="http://www.asahi.com/national/update/0203/TKY201302030009.html">気象庁、余震に警戒呼びかけ　北海道の地震、けが１２人</a></p></dd>
+<dt><span>5</span></dt>
+<dd><p><a href="http://www.asahi.com/politics/update/0203/OSK201302030057.html">無免許運転の広島県議のリコール成立　３日付で解職</a></p></dd>
+</dl>
 </div>
-<!-- 天気ここまで -->
 
+<!--#include virtual="/news/esi/access_ranking.htm"-->
+<div class="Section">
+<script type="text/javascript" src="http://www.asahicom.jp/js/ranking_sns.js"></script>
 
-<div class="FlatLnk2Col">
-<ul class="Lnk LstMargin">
+</div>
 
-
-
-<li><a href="newslist.php?d_id=0100000">ニュース一覧</a></li>
-
-<li><a href="newslist.php?d_id=0100087">２０１０参院選</a></li>
-
-<li><a href="newslist.php?d_id=0100081">２０１０高校野球</a></li>
-
-<li><a href="newslist.php?d_id=0100083">企画特集１</a></li>
-
-<li><a href="newslist.php?d_id=0100068">企画特集２</a></li>
-
-<li><a href="newslist.php?d_id=0100084">百年企業＠北海道</a></li>
-
-
-<li><a href="net.php">地域の取材網</a></li>
-</ul>
-</div><!-- /FlatLnk2Col -->
-
-</div><!-- /Box1 -->
-
-<!-- /地域のメニュー -->
-
-
-
-<!-- 企画特集 -->
+<!--#include virtual="/news/esi/sns_ranking.htm"-->
+<div class="Section">
+<div class="Title">
+<h2>注目コンテンツ</h2>
+<ul class="SubLink"><li class="Fst"><a href="http://www.asahi.com/ad/clients/">ご案内</a></li></ul>
+</div>
+<ul class="ListBlock">
 <script type="text/javascript">
+<!--
+var kikakup="";
 
-var ad= new Array(11);
+var adp= new Array(0);
 
-ad[0]='<em><a href="http://www.asahi.com/ad/clients/maison/">賃貸経営を始めるなら今！：</a></em><a href="http://www.asahi.com/ad/clients/maison/">カタログプレゼント</a>'; 
-ad[1]='<em><a href="http://www.asahi.com/ad/clients/kokusai/">初心者にもやさしい：</a></em><a href="http://www.asahi.com/ad/clients/kokusai/">大橋マキと一緒に学ぼう！</a>'; 
-ad[2]='<em><a href="http://www.asahi.com/ad/clients/daigakuryoku-kansai/">関西の大学力：</a></em><a href="http://www.asahi.com/ad/clients/daigakuryoku-kansai/">タレント中野裕太の必勝受験極意</a>'; 
-ad[3]='<em><a href="http://www.asahi.com/ad/clients/malaysia/">ハッピー＆ビューティ：</a></em><a href="http://www.asahi.com/ad/clients/malaysia/">プリンセスキャンペーン</a>'; 
-ad[4]='<em><a href="http://ac.ebis.ne.jp/tr_set.php?argument=FWG9mMAb&amp;ai=a4bea220be6a93">クラウド：</a></em><a href="http://ac.ebis.ne.jp/tr_set.php?argument=FWG9mMAb&amp;ai=a4bea220be6a93">なぜマイクロソフトが提供するのか</a>'; 
-ad[5]='<em><a href="http://www.asahi.com/ad/clients/seikyo/index.html">環境特集：</a></em><a href="http://www.asahi.com/ad/clients/seikyo/index.html">聖教新聞社の「環境啓発活動」とは</a>'; 
-ad[6]='<em><a href="http://www.asahi.com/food/gourmet/">大人のグルメ：</a></em><a href="http://www.asahi.com/food/gourmet/">見つけた！隠れ家的オススメ店</a>'; 
-ad[7]='<em><a href="http://www.major7.net/mrd/50304/">『理想のマンション』：</a></em><a href="http://www.major7.net/mrd/50260">駅はスグそこ！駅近物件</a>'; 
-ad[8]='<em><a href="http://www.campusasahi.com/">キャンパス アサヒ・コム：</a></em><a href="http://www.asahi.com/ad/clients/campusasahicom/feature/open/">大学を体験しよう！</a>'; 
-ad[9]='<em><a href="http://www.asahi.com/ad/clients/tsushinseidaigaku/">通信制大学特集：</a></em><a href="http://www.asahi.com/ad/clients/tsushinseidaigaku/">空き時間に学ぶ、学位も取れる</a>'; 
-ad[10]='<em><a href="http://www.asahi.com/ad/clients/lostcrime/">三億円事件封印された真相：</a></em><a href="http://www.asahi.com/ad/clients/lostcrime/">「遺留品」</a>'; 
-underad=''; 
+function tokusyuADp(lines) {
+    var i;
+    var f=0;
+    if(lines == 0){lines=adp.length;}
+    for(i=0;i<adp.length;i++){
+        if(adp[i]!=''){if(++f>=lines){break;}}
+    }
+    lines=f;
+    for(i=0;i<lines;){
+        val=Math.floor(Math.random() * adp.length);
+        if (adp[val]!=''){
+　　　　　　if (i == 0){
+               kikakup ='<li class="Fst"><dl>' + adp[val] + '</dl></li>';
+            }else{
+            kikakup =  kikakup + '<li><dl>' + adp[val] + '</dl></li>';
+            }
+            adp[val]='';
+            i++;
+        }
+    }
+}
+
+
+tokusyuADp(0);
+
+
+
+document.write(kikakup);
+
+
+//-->
+</script>
+
+
+<!--#include virtual="/news/esi/featplan2013_prm.txt"-->
+<li>
+<p class="Image"><a href="http://www.asahi.com/shopping/special/TKY201301310256.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/fbox/shopping/hobby_130201_r4.jpg"></a></p>
+<dl>
+<dt>
+<span><a href="http://www.asahi.com/shopping/?ref=com_rnavi">ショッピング</a></span><a href="http://www.asahi.com/shopping/special/TKY201301310256.html?ref=com_rnavi">えー！こんなの売ってるの？</a>
+</dt>
+<dd><p><a href="http://www.asahi.com/shopping/special/TKY201301310256.html?ref=com_rnavi">今日は大人のフィギュア！</a></p></dd>
+</dl>
+</li><li>
+<p class="Image"><a target="_blank" href="http://book.asahi.com/booknews/interview/2013013000006.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/fbox/book/news_130130_rnavi_c.jpg"></a></p>
+<dl>
+<dt>
+<span><a target="_blank" class="Blank" href="http://book.asahi.com/?ref=com_rnavi">ブック・アサヒ・コム</a></span><a target="_blank" href="http://book.asahi.com/booknews/interview/2013013000006.html?ref=com_rnavi">小池真理子　父がいとおしい</a>
+</dt>
+<dd><p><a target="_blank" href="http://book.asahi.com/booknews/interview/2013013000006.html?ref=com_rnavi">帝大出の父の遺品にアダルトビデオ</a></p></dd>
+</dl>
+</li><li>
+<p class="Image"><a target="_blank" href="http://www.asahi.com/and_M/?ref=com_rnavi"><img src="http://www.asahi.com/and_M/images/kinenbi/1302/130204_bijin_r.jpg"></a></p>
+<dl>
+<dt>
+<span><a target="_blank" class="Blank" href="http://www.asahi.com/and_M/index.html?ref=com_rnavi">【＆Ｍ】</a></span><a target="_blank" href="http://www.asahi.com/and_M/?ref=com_rnavi">きょうは、何の日？</a>
+</dt>
+<dd><p><a target="_blank" href="http://www.asahi.com/and_M/?ref=com_rnavi">美人と一緒なら、毎日が特別な1日</a></p></dd>
+</dl>
+</li><li>
+<p class="Image"><a target="_blank" href="http://www.asahi.com/and_w/?ref=com_rnavi"><img src="http://www.asahi.com/images13/and_w/life/130131_flower_rnavi.jpg"></a></p>
+<dl>
+<dt>
+<span><a target="_blank" class="Blank" href="http://www.asahi.com/and_w/index.html?ref=com_rnavi">【＆ｗ】</a></span><a target="_blank" href="http://www.asahi.com/and_w/?ref=com_rnavi">世界に一つだけの花束を贈る</a>
+</dt>
+<dd><p><a target="_blank" href="http://www.asahi.com/and_w/?ref=com_rnavi">「物語を贈ろう」</a></p></dd>
+</dl>
+</li>
+<script type="text/javascript">
+<!--
+var doraku_txt= new Array(15);
+
+doraku_txt[0]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130201_astellas_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi">病気と闘った偉人の言葉特集</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi">パーキンソン病と闘ったアリ</a></p></dd></dl></li>';
+doraku_txt[1]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130201_astellas_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi">病気と闘った偉人の言葉特集</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi">パーキンソン病と闘ったアリ</a></p></dd></dl></li>';
+doraku_txt[2]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130201_astellas_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi">病気と闘った偉人の言葉特集</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi">パーキンソン病と闘ったアリ</a></p></dd></dl></li>';
+doraku_txt[3]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130201_astellas_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi">病気と闘った偉人の言葉特集</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/ad/clients/astellas/?ref=com_rnavi">パーキンソン病と闘ったアリ</a></p></dd></dl></li>';
+doraku_txt[4]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130125_hito_80x65_04.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/?ref=com_rnavi">筧利夫さん、初めての経験とは</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/?ref=com_rnavi">いろんな意味で大変と感じる…</a></p></dd></dl></li>';
+doraku_txt[5]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/karada/care/130117.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130117_care_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/karada/care/130117.html?ref=com_rnavi">タオル一本で足の痛みをケア</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/karada/care/130117.html?ref=com_rnavi">硬くなった筋肉をほぐす３ステップ</a></p></dd></dl></li>';
+doraku_txt[6]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/lifestyle/pet/soudan_130122.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130122_pet_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/lifestyle/pet/soudan_130122.html?ref=com_rnavi">姉妹犬の仲が悪いんです…</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/lifestyle/pet/soudan_130122.html?ref=com_rnavi">ドッグアドバイザーによるペット相談</a></p></dd></dl></li>';
+doraku_txt[7]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/info/doraku/lifestyle2_130130.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/000000_lifestyle2_iin_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/info/doraku/lifestyle2_130130.html?ref=com_rnavi">八塩圭子さん、夫の土産に</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/info/doraku/lifestyle2_130130.html?ref=com_rnavi">夫が買ってくるおいしいお土産</a></p></dd></dl></li>';
+doraku_txt[8]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130125_hito_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/?ref=com_rnavi">奥さんとの会話で…</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/?ref=com_rnavi">筧利夫さんロングインタビュー</a></p></dd></dl></li>';
+doraku_txt[9]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/lifestyle/chotto/130125.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130125_chotto_80x65_02.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/lifestyle/chotto/130125.html?ref=com_rnavi">心が温まるジビエ料理</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/lifestyle/chotto/130125.html?ref=com_rnavi">食通マスヒロさんお薦めの店</a></p></dd></dl></li>';
+doraku_txt[10]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/kiwameru/naraigoto/130124.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130124_naraigoto_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/kiwameru/naraigoto/130124.html?ref=com_rnavi">小筆を使った習字に挑戦</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/kiwameru/naraigoto/130124.html?ref=com_rnavi">大人になってあえて始める習い事</a></p></dd></dl></li>';
+doraku_txt[11]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/earth/clickdeep/130131.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130131_clickdeep_80x65_02.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/earth/clickdeep/130131.html?ref=com_rnavi">のんびり韓国ローカル列車旅</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/earth/clickdeep/130131.html?ref=com_rnavi">韓国の列車旅で出会った人々</a></p></dd></dl></li>';
+doraku_txt[12]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/entertainment/beatles/130201.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130201_beatles_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/entertainment/beatles/130201.html?ref=com_rnavi">教科書に初登場したとき</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/entertainment/beatles/130201.html?ref=com_rnavi">そっと、慎重に登場したビートルズ</a></p></dd></dl></li>';
+doraku_txt[13]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/kiwameru/camera/130118.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130118_camera_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/kiwameru/camera/130118.html?ref=com_rnavi">階段を撮り続ける男</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/kiwameru/camera/130118.html?ref=com_rnavi">階段研究家の撮影術とは？</a></p></dd></dl></li>';
+doraku_txt[14]='<li><p class="Image"><a target="_blank" href="http://doraku.asahi.com/hito/runner2/130129.html?ref=com_rnavi"><img src="http://www.asahi.com/images13/rnavi/doraku/130129_runner2_80x65.jpg"></a></p><dl><dt><span><a target="_blank" class="Blank" href="http://doraku.asahi.com/?ref=com_rnavi">どらく</a></span><a target="_blank" href="http://doraku.asahi.com/hito/runner2/130129.html?ref=com_rnavi">ヒッグス研究で世界観反転へ</a></dt><dd><p><a target="_blank" href="http://doraku.asahi.com/hito/runner2/130129.html?ref=com_rnavi">たった１種類の謎めいた粒子を…</a></p></dd></dl></li>';
+function tokusyuDORAKU(lines) {
+    var i;
+    var f=0;
+    if(lines == 0){lines=doraku_txt.length;}
+    for(i=0;i<1;i++){
+        if(doraku_txt[i]!=''){if(++f>=lines){break;}}
+    }
+    lines=f;
+    for(i=0;i<lines;){
+        val=Math.floor(Math.random() * doraku_txt.length);
+        if (doraku_txt[val]!=''){
+　　　　　　if (i == 0){
+		document.write(doraku_txt[val]);
+            }else{
+		document.write(doraku_txt[val]);
+            }
+            doraku_txt[val]='';
+            i++;
+        }
+    }
+}
+tokusyuDORAKU(15);
+
+//-->
+</script>
+
+
+<!--#include virtual="/news/esi/contents_update13.htm"-->
+<script type="text/javascript">
+<!--
+
+var ad= new Array(14);
+
+ad[0]='<dt><a href="http://www.asahi.com/ad/clients/bukken/">気になる住まいの資料請求</a></dt><dd><p><a href="http://www.asahi.com/ad/clients/bukken/">クオカード当たる！</a></p></dd>';
+ad[1]='<dt><a href="http://www.asahi.com/ad/AR/?ref=comtop">アルファ ロメオ</a></dt><dd><p><a href="http://www.asahi.com/ad/AR/?ref=comtop">名前の由来</a></p></dd>';
+ad[2]='<dt><a href="http://www.asahi.com/ad/toushin/ac/">椎名誠×投資信託協会</a></dt><dd><p><a href="http://www.asahi.com/ad/toushin/ac/">床とのタタカイ</a></p></dd>';
+ad[3]='<dt><a href="http://www.asahi.com/ad/clients/kampo/">【無料ご招待】</a></dt><dd><p><a href="http://www.asahi.com/ad/clients/kampo/">女性のための漢方セミナー！</a></p></dd>';
+ad[4]='<dt><a href="http://www.asahi.com/ad/mufg/choice/">悩まずプロに聞く！</a></dt><dd><p><a href="http://www.asahi.com/ad/mufg/choice/">住宅ローン選び</a></p></dd>';
+ad[5]='<dt><a href="http://www.asahi.com/ad/sq/">シンガポール航空</a></dt><dd><p><a href="http://www.asahi.com/ad/sq/">満足度ランキング上位の訳</a></p></dd>';
+ad[6]='<dt><a href="http://www.asahi.com/ad/tochi">賃貸住宅経営</a></dt><dd><p><a href="http://www.asahi.com/ad/tochi">朝日土地活用セミナー無料ご招待</a></p></dd>';
+ad[7]='<dt><a href="http://www.asahi.com/edu/jrhigh-exam/">サクラサケ中学受験生</a></dt><dd><p><a href="http://www.asahi.com/edu/jrhigh-exam/">応援コラム満載</a></p></dd>';
+ad[8]='<dt><a href="http://www.asahi.com/ad/sophia/">SOPHIA.com</a></dt><dd><p><a href="http://www.asahi.com/ad/sophia/">創立100周年を迎える上智大学の今</a></p></dd>';
+ad[9]='<dt><a href="http://www.asahi.com/suumo/"><<新築マンション>>情報満載！</a></dt><dd><p><a href="http://www.asahi.com/suumo/">SUUMO[無料]</a></p></dd>';
+ad[10]='<dt><a href="http://www.asahi.com/ad/clients/daigakuin/">大学院特集</a></dt><dd><p><a href="http://www.asahi.com/ad/clients/daigakuin/">学びを広げる、世界が広がる</a></p></dd>';
+ad[11]='<dt><a href="http://www.campusasahi.com/">大学受験情報</a></dt><dd><p><a href="http://www.asahi.com/ad/clients/campusasahicom/photolibrary/">キャンパスをフォトさんぽ</a></p></dd>';
+ad[12]='<dt><a href="http://www.asahi.com/ad/toyo/">哲学を、持て。</a></dt><dd><p><a href="http://www.asahi.com/ad/toyo/">東洋大学×朝日新聞</a></p></dd>';
+ad[13]='<dt><a href="http://book.asahi.com/special/tsutsuiyasutaka.html">筒井康隆特集</a></dt><dd><p><a href="http://book.asahi.com/special/tsutsuiyasutaka.html">朝日新聞朝刊連載小説「聖痕」</a></p></dd>';underad='<dt><a href="http://resource.asahi.com/">「Re:SOURCE」：</a></dt><dd><p><a href="http://resource.asahi.com/">企業が生成するメディア</a></p></dd>';
+
+
 function tokusyuAD(lines) {
     var i;
     var f=0;
@@ -831,209 +1260,215 @@ function tokusyuAD(lines) {
         val=Math.floor(Math.random() * ad.length);
         if (ad[val]!=''){
 　　　　　　if (i == 0){
-               document.write('<li class="FstItm"><div>' + ad[val] + '</div></li>');
+               kikaku ='<li><dl class="Flat">' + ad[val] + '</dl></li>';
             }else{
-            document.write('<li><div>' + ad[val] + '</div></li>');
+            kikaku =  kikaku + '<li><dl class="Flat">' + ad[val] + '</dl></li>';
             }
             ad[val]='';
             i++;
         }
     }
 }
-document.write('<div class="Box1 BoxFeatPlan">');
-document.write('<div class="HeadingSet">');
-document.write('<h2>企画特集</h2>');
-document.write('<p><a href="http://www.asahi.com/ad/clients/">一覧へ</a></p>');
-document.write('</div>');
-document.write('<ul class="DividLnk FstMod">');
 
 
-tokusyuAD(11);
+tokusyuAD(14);
 
 
-if (underad != ""){
-document.write('<li><div>' + underad + '</div></li>');
-}
-document.write('</ul>');
-document.write('</div>');
 
-</script><noscript><div class="Box1 BoxFeatPlan">
-<div class="HeadingSet">
-<h2>企画特集</h2>
-<p><a href="http://www.asahi.com/ad/clients/">一覧へ</a></p>
-</div>
-<ul class="DividLnk FstMod">
-<li class="FstItm"><div>
-<a href="http://www.asahi.com/ad/clients/maison/">賃貸経営を始めるなら今！：</a><a href="http://www.asahi.com/ad/clients/maison/">カタログプレゼント</a>
-</div></li>
-<li><div>
-<a href="http://www.asahi.com/ad/clients/kokusai/">初心者にもやさしい：</a><a href="http://www.asahi.com/ad/clients/kokusai/">大橋マキと一緒に学ぼう！</a>
-</div></li>
-<li><div>
-<a href="http://www.asahi.com/ad/clients/daigakuryoku-kansai/">関西の大学力：</a><a href="http://www.asahi.com/ad/clients/daigakuryoku-kansai/">タレント中野裕太の必勝受験極意</a>
-</div></li>
-<li><div>
-<a href="http://www.asahi.com/ad/clients/malaysia/">ハッピー＆ビューティ：</a><a href="http://www.asahi.com/ad/clients/malaysia/">プリンセスキャンペーン</a>
-</div></li>
-<li><div>
-<a href="http://ac.ebis.ne.jp/tr_set.php?argument=FWG9mMAb&amp;ai=a4bea220be6a93">クラウド：</a><a href="http://ac.ebis.ne.jp/tr_set.php?argument=FWG9mMAb&amp;ai=a4bea220be6a93">なぜマイクロソフトが提供するのか</a>
-</div></li>
-<li><div>
-<a href="http://www.asahi.com/ad/clients/seikyo/index.html">環境特集：</a><a href="http://www.asahi.com/ad/clients/seikyo/index.html">聖教新聞社の「環境啓発活動」とは</a>
-</div></li>
-<li><div>
-<a href="http://www.asahi.com/food/gourmet/">大人のグルメ：</a><a href="http://www.asahi.com/food/gourmet/">見つけた！隠れ家的オススメ店</a>
-</div></li>
-<li><div>
-<a href="http://www.major7.net/mrd/50304/">『理想のマンション』：</a><a href="http://www.major7.net/mrd/50260">駅はスグそこ！駅近物件</a>
-</div></li>
-<li><div>
-<a href="http://www.campusasahi.com/">キャンパス アサヒ・コム：</a><a href="http://www.asahi.com/ad/clients/campusasahicom/feature/open/">大学を体験しよう！</a>
-</div></li>
-<li><div>
-<a href="http://www.asahi.com/ad/clients/tsushinseidaigaku/">通信制大学特集：</a><a href="http://www.asahi.com/ad/clients/tsushinseidaigaku/">空き時間に学ぶ、学位も取れる</a>
-</div></li>
-<li><div>
-<a href="http://www.asahi.com/ad/clients/lostcrime/">三億円事件封印された真相：</a><a href="http://www.asahi.com/ad/clients/lostcrime/">「遺留品」</a>
-</div></li>
-</ul>
-</div></noscript>
-<script language="JavaScript"><!--
 bust = Math.floor(1000000*Math.random());
-document.write("<img src='http://www3.asahi.com/image/count.gif?ord=" + bust +"&ref=" + document.URL + "' height='1' width='1' alt='' />");
-//--></script>
-<noscript><img src="http://www3.asahi.com/image/count.gif?ref=noscript" width="1" height="1" alt= "" /></noscript>
+kikaku = '' + kikaku + '<li><dl class="Flat">' + underad + '</dl></li>' + '<img class="AdCount" src="http://www3.asahi.com/image/count.gif?ord=' + bust +'&ref=' + encodeURIComponent(document.URL) + '" height="1" width="1" alt="" />';
+
+document.write(kikaku);
 
 
+//-->
+</script>
+<li><p><a href="http://www.asahi.com/job/?ref=com_rnavi">朝日転職情報</a></p></li><li><p><a href="http://www.asahi.com/job/syuukatu/2014/?ref=com_rnavi">就活朝日２０１４</a></p></li>
 
-<!-- /企画特集 -->
-
-
-<!-- マイタウン地域情報 -->
-<p class="bnr2"><a href="http://mytown.asahi.com/"><img src="http://www.asahi.com/images/mytown.gif" alt="マイタウン地域情報" width="298" height="52"></a></p>
-<!-- /マイタウン地域情報 -->
-
-
-<!--★☆★AD★☆★-->
-<p class="hide">ここから広告です</p>
-<div class="bnr2">
-<!-- 速報タイル 55*250 ★ここから -->
-<!-- 速報タイル ★ここから-->
-
-<!-- 速報タイル ★ここまで-->
-<!-- 速報タイル　55*250 ★ここまで -->
+<!--#include virtual="/news/esi/featplan2013_std.txt"--></ul>
 </div>
-<p class="hide">広告終わり</p>
-<!--/★☆★AD★☆★-->
 
+<!--#include virtual="/news/esi/contents_update.htm"-->
+<div class="Section">
+<div class="Title"><h2><a href="http://www.asahi.com/video/?ref=com_rnavi">動画</a></h2></div>
+<div class="Videos cFix">
+<div class="VideosListOuter"><ul class="VideosList cFix">
+<li><a href="http://www.asahi.com/national/update/0202/OSK201302020045.html?ref=com_rnavi"><span class="vThm cFix"><img alt="動画" class="vImg" src="http://www.asahi.com/images13/fbox/edit5/video/130203setubun.jpg"><span class="vIcon"><span>動画</span></span></span><span class="vTit">祇園・八坂神社で節分祭</span></a></li>
+<li><a href="http://www.asahi.com/national/update/0201/OSK201302010044.html?ref=com_rnavi"><span class="vThm cFix"><img alt="動画" class="vImg" src="http://www.asahi.com/images13/fbox/edit5/video/130202mame.jpg"><span class="vIcon"><span>動画</span></span></span><span class="vTit">ライオンキングも　通天閣福豆まき</span></a></li>
+<li><a href="http://www.asahi.com/international/update/0130/TKY201301300457.html?ref=com_rnavi"><span class="vThm cFix"><img alt="動画" class="vImg" src="http://www.asahi.com//images13/fbox/edit5/video/130131pekin.jpg"><span class="vIcon"><span>動画</span></span></span><span class="vTit">中国の大気汚染深刻化　北京覆う霧</span></a></li>
+<li><a href="http://www.asahi.com/tech_science/update/0127/SEB201301270005.html?ref=com_rnavi"><span class="vThm cFix"><img alt="動画" class="vImg" src="http://www.asahi.com/images13/fbox/edit5/video/130129H2A.jpg"><span class="vIcon"><span>動画</span></span></span><span class="vTit">Ｈ２Ａロケット打ち上げ成功</span></a></li>
+<li><a href="http://www.asahi.com/business/update/0201/OSK201301310152.html?ref=com_rnavi"><span class="vThm cFix"><img alt="動画" class="vImg" src="http://www.asahi.com/images13/fbox/edit5/video/130201daimaru.jpg"><span class="vIcon"><span>動画</span></span></span><span class="vTit">大丸新長田店、閉店</span></a></li>
+<li><a href="http://www.asahi.com/national/update/0130/TKY201301300012.html?ref=com_rnavi"><span class="vThm cFix"><img alt="動画" class="vImg" src="http://www.asahi.com/images13/fbox/edit5/video/130130fuji.jpg"><span class="vIcon"><span>動画</span></span></span><span class="vTit">見納め？ダイヤモンド富士</span></a></li>
+</ul></div>
+<div class="VideosBtnL"><a href="javascript:void(0)"><span>前へ</span></a></div>
+<div class="VideosBtnR"><a href="javascript:void(0)"><span>次へ</span></a></div>
+</div>
+</div>
 
-<!-- 朝日新聞社から -->
-<!-- 080603 -->
-<div class="Box1">
-<h2><a href="http://www.asahi.com/shimbun/">朝日新聞社インフォメーション</a></h2>
-<div class="FlatLnk2Col FstMod">
-<ul class="Lnk">
-<li><a href="http://www.asahishimbun-saiyou.com/">採用情報</a></li>
-<li class="Lst"><a href="http://www.asahi.com/shimbun/edu.html">教育関連・ＮＩＥ</a></li>
-</ul>
-<ul class="Lnk">
-<li><a href="http://www.asahi.com/chizai/">記事や写真利用案内</a></li>
-<li class="Lst"><a href="http://www.asahi.com/advertising/">広告掲載のご案内</a></li>
+<!--#include virtual="/news/esi/video.htm"-->
+<div class="Section">
+<div class="Title">
+<h2><a href="http://www.asahi.com/photonews/?ref=com_rnavi">写真</a></h2>
+<ul class="SubLink">
+<li class="Fst"><a href="http://www.asahi.com/gallery/?ref=com_rnavi">フォトギャラリー</a></li>
+<li><a href="http://digital.asahi.com/photoviewer/?ref=com_rnavi">写真地球儀</a></li>
 </ul>
 </div>
-<div class="FlatLnk2Col">
-<ul class="Lnk">
-<li><a href="http://www.asahi.com/information/service/">asahi.com利用案内</a></li>
-<li class="Lst"><a href="http://www.asahi.com/information/service/list.html">デジタルサービス一覧</a></li>
+<div class="Photos cFix">
+<div class="PhotosListOuter"><ul class="PhotosList cFix">
+<li><a href="http://www.asahi.com/tech_science/gallery/130127h2a/?ref=com_rnavi"><span class="pThm"><img alt="写真" src="http://www.asahi.com/tech_science/gallery/27h2a1.jpg"></span><span class="pTit">Ｈ２Ａロケット２２号機打ち上げ</span></a></li>
+<li><a href="http://www.asahi.com/sports/gallery/senbatsu2013_team/?ref=com_rnavi"><span class="pThm"><img alt="写真" src="http://www.asahi.com/images13/fbox/edit5/201301/26senbatsu.jpg"></span><span class="pTit">選抜高校野球　晴れの３６出場校</span></a></li>
+<li><a href="http://www.asahi.com/special/2012africa/photogallery5/?ref=com_rnavi"><span class="pThm"><img alt="写真" src="http://www.asahi.com/special/2012africa/images/africa5.jpg"></span><span class="pTit">アフリカの風に吹かれて　コモロ・マダガスカル編</span></a></li>
+<li><a href="http://www.asahi.com/national/gallery/130120supercar/?ref=com_rnavi"><span class="pThm"><img alt="写真" src="http://www.asahi.com/images13/fbox/edit5/201301/130121supercar2.jpg"></span><span class="pTit">小学校にスーパーカー</span></a></li>
+<li><a href="http://www.asahi.com/gallery/130119taiho/?ref=com_rnavi"><span class="pThm"><img alt="写真" src="http://www.asahicom.jp/images13/fbox/edit5/201301/20130119taiho_fbox.jpg"></span><span class="pTit">写真で振り返る大鵬</span></a></li>
+<li><a href="http://www.asahi.com/tech_science/gallery/130111tokyoautosalon/?ref=com_rnavi"><span class="pThm"><img alt="写真" src="http://www.asahi.com/images13/fbox/edit5/201301/130111tokyoautosalon1.jpg"></span><span class="pTit">世界最大級！東京オートサロン2013</span></a></li>
+<li><a href="http://www.asahi.com/edu/center-exam/gallery/130111ebisu/?ref=com_rnavi"><span class="pThm"><img alt="写真" src="http://www.asahicom.jp/images13/fbox/edit5/201301/130111ebisu_fbox.jpg"></span><span class="pTit">大阪・今宮戎の十日戎</span></a></li>
+<li><a href="http://www.asahi.com/culture/gallery/130110miku/?ref=com_rnavi"><span class="pThm"><img alt="写真" src="http://www.asahi.com/images13/fbox/edit5/201301/130110miku2.jpg"></span><span class="pTit">ミュージカル「千本桜」　ミク役にＡＫＢ石田晴香　　</span></a></li>
+</ul></div>
+<div class="PhotosBtnL"><a href="javascript:void(0)"><span>前へ</span></a></div>
+<div class="PhotosBtnR"><a href="javascript:void(0)"><span>次へ</span></a></div>
+</div>
+</div>
+
+<!--#include virtual="/news/esi/photogallery.htm"-->
+<div class="Section">
+<!-- Ad BGN --><div class="Ad">
+<!-- impact速報セカンドレクタングル ★ここから-->
+<script type="text/javascript" language="JavaScript">
+<!-- 
+impAserver = "http://imp.asahi.com";
+impAtarget = "/SITE=SOKUHOU/AREA=RECT2/AAMSZ=300X250/OENCJP=EUC";
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '">');
+document.write('</scr');
+document.write('ipt>');
+//-->
+</script>
+<!-- impact速報セカンドレクタングル ★ここまで-->
+</div><!-- Ad END -->
+</div>
+
+<div class="Section">
+<!-- Pr BGN --><div class="Pr">
+<div class="TitleSmall">
+<h3><span>PR</span>比べてお得！</h3>
+</div>
+<ul class="ListSmall">
+<li><a target="_blank" href="http://provider.asahi.com/">プロバイダー比較はこちら</a></li>
+<li><a target="_blank" href="http://hikaku.asahi.com/hikkoshi/">引越し見積もりはこちら</a></li>
+<li><a target="_blank" href="http://www.asahicom.rakuten.co.jp/">お買い物はこちら</a></li>
+<li><a target="_blank" href="http://www.amazon.co.jp/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.co.jp%2F&tag=asahicom-top-22&linkCode=ur2&camp=247&creative=1211">本の購入はこちら</a></li>
 </ul>
-</div>
-<div class="FlatLnk2Col">
-<ul class="Lnk">
-<li><a href="http://kotobank.jp/">kotobank 用語解説</a></li>
-<li class="Lst"><a href="http://publications.asahi.com/">朝日新聞出版の本</a></li>
-</ul>
-</div>
-<!--
-<div class="FlatLnk2Col">
-<ul class="Lnk">
-<li><a href="http://www.asahi.com/information/mobile/">携帯サービス</a></li>
-<li class="Lst"><a href="http://kotobank.jp/">kotobank 用語解説</a></li>
-</ul>
-</div>
--->
+</div><!-- Pr END -->
 </div>
 
 
-<!-- /朝日新聞社から -->
 
+<!--#include virtual="/news/esi/kurabete_otoku.htm"--></div>
 
-
-<!-- 写真リンク -->
-
-<!-- /写真リンク -->
-
-
-</div><!-- /#rcnt -->
-
-
-
-
-</td>
-</tr>
-</table>
-
-
-<!-- ====/コンテンツエリア==== -->
-
-
-
-<!-- ====フッタエリア==== -->
-
+	<!--#include virtual="/sports/esi/rightnavi13.htm"-->
+	</div></div></div>
+	<!-- Footer BGN -->
 <div id="Footer">
-<hr>
-<ul id="PageTop"><li><a href="#Top">ページトップへ戻る</a></li></ul>
-<p>asahi.comに掲載の記事・写真の無断転載を禁じます。すべての内容は日本の著作権法並びに国際条
-約により保護されています。</p>
-<ul id="FooterLnk">
-<li class="Fst"><a href="http://www.asahi.com/policy/" rel="nofollow">サイトポリシー</a></li>
-<li><a href="http://www.asahi.com/kojinjoho/index.html" rel="nofollow">個人情報</a></li>
-<li><a href="http://www.asahi.com/policy/copyright.html" rel="nofollow">著作権</a></li>
-<li><a href="http://www.asahi.com/policy/link.html" rel="nofollow">リンク</a></li>
-<li><a href="http://www.asahi.com/shimbun/" rel="nofollow">会社案内</a></li>
-<li><a href="http://www.asahi.com/advertising/" rel="nofollow">広告掲載</a></li>
-<li><a href="http://www.asahi.com/reference/" rel="nofollow">お問い合わせ・ヘルプ</a></li>
+
+<!-- ToTop BGN --><div id="ToTop">
+<!-- ToTopInner BGN --><div id="ToTopInner">
+<p><a href="#Header">ページトップへ戻る</a></p>
+</div><!-- ToTopInner END -->
+</div><!-- ToTop END -->
+
+<!-- Services BGN --><div id="Services">
+<dl>
+<dt><a href="http://www.asahi.com/information/release/TKY201212120491.html?ref=com_footer">朝日新聞デジタルの関連サイト<span>有料会員は追加料金なしでご利用可能。詳しく&gt;&gt;</span></a></dt>
+<dd>
+<ul class="Fst">
+<li class="globe"><a href="http://globe.asahi.com/?ref=com_footer" target="_blank">GLOBE（グローブ）</a></li>
+<li class="webronza"><a href="http://webronza.asahi.com/?ref=com_footer" target="_blank">WEBRONZA（ウェブロンザ）</a></li>
+<li class="apital"><a href="http://apital.asahi.com/?ref=com_footer" target="_blank">apital（アピタル）</a></li>
 </ul>
-<img alt="Copyright The Asahi Shimbun Company. All rights reserved. No reproduction or
-republication without written permission."
-src="http://www.asahi.com/images/copyright.gif" width="552" height="20">
-<!-- /Footer --></div>
+</dd>
+</dl>
+</div><!-- Services END -->
 
-<!-- ====/フッタエリア==== -->
+<!-- FooterInner BGN --><div id="FooterInner">
 
+<!-- Information BGN --><div class="Information">
+<dl class="fromAsahiShimbun">
+<dt><a href="http://www.asahi.com/shimbun/?ref=com_footer" target="_blank">朝日新聞社から</a></dt>
+<dd>
+<ul>
+<li><a href="http://www.asahi.com/shimbun/?ref=com_footer" target="_blank">会社案内</a></li>
+<li><a href="http://www.asahi.com/shimbun/csr/?ref=com_footer" target="_blank">CSR報告書</a></li>
+<li><a href="http://www.asahishimbun-saiyou.com/?ref=com_footer" target="_blank">採用情報</a></li>
+<li><a href="http://www.asahi.com/chizai/?ref=com_footer" target="_blank">記事や写真利用案内</a></li>
+<li><a href="http://adv.asahi.com/?ref=com_footer" target="_blank">新聞広告ガイド</a></li>
+</ul>
+</dd>
+</dl>
+<dl class="fromDigitalBusiness">
+<dt><a href="http://www.asahi.com/information/service/?ref=com_footer">デジタル事業から</a></dt>
+<dd>
+<ul>
+<li><a href="http://www.asahi.com/information/service/list.html?ref=com_footer">デジタルサービス一覧</a></li>
+<li><a href="http://www.asahi.com/information/service/list.html?ref=com_footer">携帯サービス</a></li>
+<li><a href="http://astand.asahi.com/?ref=com_footer" target="_blank">Astand(コンテンツ販売)</a></li>
+<li><a href="http://www.asahi.com/information/haishin/index.html?ref=com_footer" target="_blank">法人向け配信</a></li>
+<li><a href="http://photoarchives.asahi.com/?ref=com_footer" target="_blank">写真の購入案内</a></li>
+<li><a href="http://www.asahi.com/information/db/?ref=com_footer" target="_blank">記事データベース案内</a></li>
+</ul>
+</dd>
+</dl>
+<dl class="GroupCompany">
+<dt><a href="http://www.asahi.com/shimbun/associate.html?ref=com_footer" target="_blank">グループ企業</a></dt>
+<dd>
+<ul>
+<li><a href="http://publications.asahi.com/?ref=com_footer" target="_blank">朝日新聞出版の本</a></li>
+<li><a href="http://dot.asahi.com/?ref=com_footer" target="_blank">朝日新聞出版(dot.)</a></li>
+<li><a href="http://aiasahi.jp/?ref=com_footer" target="_blank">朝日インタラクティブ</a></li>
+</ul>
+</dd>
+</dl>
+<dl class="WorldWideSite">
+<dt>各国語サイト</dt>
+<dd>
+<ul>
+<li><a href="http://www.asahi.com/english/?ref=com_footer">The Asahi Shimbun English Web Edition</a></li>
+<li><a href="http://www.asahi.com/english/weekly/?ref=com_footer">Asahi Weekly</a></li>
+<li><a href="http://ajw.asahi.com/category/forum/?ref=com_footer" target="_blank">The Asahi Shimbun AJW Forum</a></li>
+<li><a href="http://www.asahi.com/information/english/?ref=com_footer" target="_blank">Asahi Shimbun English-language Publication</a></li>
+<li><a href="http://www.cnn.co.jp/?ref=com_footer" target="_blank">CNN</a></li>
+<li><a href="http://asahichinese.com/?ref=com_footer" target="_blank">朝日新聞中文網</a></li>
+<li><a href="http://asahikorean.com/?ref=com_footer" target="_blank">アサヒ・アジア・アンテナ</a></li>
+</ul>
+</dd>
+</dl>
+</div><!-- Information END -->
 
+<!-- AboutSite BGN --><div class="AboutSite">
+<ul>
+<li class="Fst"><a href="http://www.asahi.com/policy/?ref=com_footer">サイトポリシー</a></li>
+<li><a href="http://www.asahi.com/sitemap/?ref=com_footer">サイトマップ</a></li>
+<li><a href="http://digital.asahi.com/info/guide/index09_02.html?ref=com_footer">利用規約</a></li>
+<li><a href="http://www.asahi.com/advertising/guide.html?ref=com_footer">web広告ガイド</a></li>
+<li><a href="http://www.asahi.com/policy/link.html?ref=com_footer">リンク</a></li>
+<li><a href="http://www.asahi.com/kojinjoho/index.html?ref=com_footer">個人情報</a></li>
+<li><a href="http://www.asahi.com/policy/copyright.html?ref=com_footer">著作権</a></li>
+<li><a href="http://www.asahi.com/reference/?ref=com_footer">お問い合わせ・ヘルプ</a></li>
+</ul>
+<!-- Copyright BGN --><div class="Copyright">
+<p>朝日新聞デジタルに掲載の記事・写真の無断転載を禁じます。すべての内容は日本の著作権法並びに国際条約により保護されています。<br />
+Copyright &copy; 2013 The Asahi Shimbun Company. All rights reserved. No reproduction or republication without written permission.</p>
+</div><!-- Copyright END -->
+</div><!-- AboutSite END -->
 
-<form name="web_s" action="http://websearch.asahi.com/.cgi/websearch/websearch.pl" method="post"><input type="hidden" name="Keywords"></form>
-<form name="site_s" action="http://sitesearch.asahi.com/.cgi/sitesearch/sitesearch.pl" method="post"><input type="hidden" name="Keywords"></form>
-<form name="dic_s" action="http://jishosearch.asahi.com/.cgi/jishosearch/jishosearch.pl" method="get"><input type="hidden" name="Word"></form>
-<form name="map_num_s" action="http://www.mapion.co.jp/c/f" method="get">
-<input type="hidden" name="uc" value="11"><input type="hidden" name="grp" value="asahicom"><input type="hidden" name="zip">
-</form>
-<form name="map_free_s" action="http://www.mapion.co.jp/c/f" method="get">
-<input type="hidden" name="uc" value="7"><input type="hidden" name="grp" value="asahicom"><input type="hidden" name="find">
-</form>
-<form name="shop_s" action="http://esearch.asahicom.rakuten.co.jp/search/e.search" method="get">
-
-<input type="hidden" name="sv" value="2"><input type="hidden" name="sitem">
-</form>
+</div><!-- FooterInner END -->
 
 </div>
-
-<!-- SC start -->
-<!-- SiteCatalyst code version: G.9.
-Copyright 1997-2004 Omniture, Inc. More info available at
-http://www.omniture.com -->
-
-<script language="JavaScript"><!--
+<!-- Footer END -->
+<script src="http://img.ak.impact-ad.jp/bta/b/BU.ASAHICOM.js"></script><script type="text/javascript" charset="euc-jp" src="/js08/beacon.js"></script><script language="JavaScript"><!--
 /* You may give each page an identifying name, server, and channel on
 the next lines. */
 var s_pageName=""
@@ -1045,24 +1480,34 @@ var s_pageType=""
 
 /* E-commerce Variables */
 /********* INSERT THE DOMAIN AND PATH TO YOUR CODE BELOW ************/
-//--></script>
-<script language="JavaScript" src="http://www.asahi.com/js/s_code_mytown.js"></script>
-<!-- End SiteCatalyst code version: G.9. -->
-
-<!-- SC end -->
-<script type="text/javascript">
+//--></script><script language="JavaScript" src="/js/s_code_remote.js"></script><script type="text/javascript"><!--
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
+//--></script><script type="text/javascript"><!--
 try {
 var pageTracker = _gat._getTracker("UA-6624382-1");
+
+pageTracker._addOrganic("images.google","q");
+pageTracker._addOrganic("biglobe","q",true);
+pageTracker._addOrganic("nifty","q",true);
+pageTracker._addOrganic("azby.search.nifty","q",true);
+pageTracker._addOrganic("infoseek","qt");
+pageTracker._addOrganic("rakuten","qt");
+pageTracker._addOrganic("livedoor","q",true);
+pageTracker._addOrganic("so-net","query");
+pageTracker._addOrganic("fresheye","kw");
+pageTracker._addOrganic("auone","q",true);
+pageTracker._addOrganic("ocnsearch", "MT");
+pageTracker._addOrganic("hi-ho", "MT");
+pageTracker._addOrganic("odn","search");
+pageTracker._addOrganic("eonet","search");
+pageTracker._addOrganic("goo", "MT");
+pageTracker._addOrganic("excite","search");
+
 pageTracker._trackPageview();
-} catch(err) {}</script>
+} catch(err) {}
+//--></script>
 
-
-
-<!--googleon:index-->
-
-</body>
+	<!--#include virtual="/news/footer13.htm"-->
+	<!--googleon:index--></body>
 </html>
