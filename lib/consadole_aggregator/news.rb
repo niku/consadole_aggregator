@@ -115,7 +115,7 @@ module ConsadoleAggregator
       end
 
       sites.name(:asahi) do |site|
-        site.resource { HTTPClient.new.get_content('http://www.asahi.com/sports/list/soccer/national_news.html').force_encoding.encode('UTF-8') }
+        site.resource { HTTPClient.new.get_content('http://www.asahi.com/sports/list/soccer/national_news.html').force_encoding('EUC-JP').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('#HeadLine2 dl dt a').reverse }
         site.filter_article { |article| article.text =~ /札幌|コンサ/ }
         site.parse_article { |article| { url: "http://www.asahi.com#{article['href']}", title: article.text } }
