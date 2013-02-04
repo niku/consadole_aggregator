@@ -121,6 +121,13 @@ module ConsadoleAggregator
         site.parse_article { |article| { url: "http://www.asahi.com#{article['href']}", title: article.text } }
       end
 
+      sites.name(:mainichi) do |site|
+        site.resource { HTTPClient.new.get_content('http://mainichi.jp/area/hokkaido/archive/').force_encoding('UTF-8') }
+        site.parse_list { |list| Nokogiri::HTML(list).search('#Archive dl dd a').reverse }
+        site.filter_article { |article| article.text =~ /コンサドーレ/ }
+        site.parse_article { |article| { url: article['href'], title: article.text.strip } }
+      end
+
       sites.name(:forzaconsadole) do |site|
         site.resource { HTTPClient.new.get_content('http://www.hokkaido-np.co.jp/news/e_index/?g=consadole').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('ul.iSwBox > li > a').reverse }
