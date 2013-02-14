@@ -7,11 +7,16 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="imagetoolbar" content="no" />
-<title>サッカー：北海道：スポーツ報知</title>
-<link rel="stylesheet" type="text/css" href="/styles/genre18.css" media="all" />
+<title>Ｊリーグ：サッカー：スポーツ報知</title>
+<link rel="stylesheet" type="text/css" href="/styles/genre4.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/styles/sub/soccer_world_table.css" media="all" />
 <!-- EMPTY -->
-<meta name="description" content="報知新聞社の東北版サッカー情報ページです。Ｊリーグの仙台、山形はもちろん、東北のサッカーネタ満載のコンテンツがお楽しみ頂けます。" />
-<meta name="keywords" content="北海道,日本ハム,新庄,札幌,コンサドーレ,報知新聞,スポーツ報知,報知" />
+<meta name="description" content="報知新聞社のＪリーグ情報ページです。最新ニュースのほか各種記録などＪリーグ情報満載のコンテンツがお楽しみ頂けます。" />
+<meta name="keywords" content="速報,サッカー,Ｊリーグ,日本代表,Ｗ杯,欧州,ＵＥＦＡ,試合日程,報知新聞,スポーツ報知,報知,ニュース" />
+<meta property="og:title" content="Ｊリーグ" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="スポーツ報知" />
+<meta property="og:image" content="http://hochi.yomiuri.co.jp/img/icon3.png" />
 <script type="text/javascript" src="/scripts/base.js"></script>
 <script type="text/javascript" src="/scripts/utils.js"></script>
 </head>
@@ -25,9 +30,8 @@
 <div id="pageTop">
   <p class="tab_hochi" id="headLOGO"><strong><a href="/">スポーツ報知</a></strong></p>
   <ul class="sNavi"> 
-    <li><a href="/contents/info/">会社案内</a></li> 
+    <li><a href="/info/company/">会社案内</a></li> 
     <li><a href="/contents/ad/">広告ガイド</a></li> 
-    <li><a href="/osaka/index.htm?from=t-top">大阪報知</a></li> 
     <li class="border0"><a href="/sitemap/">サイトマップ</a></li> 
   </ul>
   <p id="skip"><a href="#mainContent" title="ナビゲーションを飛ばして本文エリアにジャンプします。">［本文へ］</a></p>
@@ -40,476 +44,713 @@
     <li class="tab_sphoto"><a href="/photo_service/">報知フォトサービス</a></li>
     <li class="tab_cinema"><a href="http://cinemahochi.yomiuri.co.jp/" target="_blank">シネマ報知</a></li>
     <li class="tab_magazine"><a href="http://www.magazine-hochi.com/" target="_blank">マガジン報知</a></li>
+    <li class="tab_prc"><a href="http://www.hochiprc.co.jp/" target="_blank">スポーツショップ報知</a></li>
   </ul>
  
 </div>
 <div class="container clearfix">
   <div id="pageHead">
-  <div class="logo"> 
+  <div class="logo">
     <!-- Count Down & Calendar -->
     <script type="text/javascript" src="/scripts/date.js"></script>
     <!-- /Count Down & Calendar -->
     <p class="logoMini"><a href="/contents/info/"><img src="/img/common/head_logo_mini.gif" width="100" height="15" alt="報知新聞社" /></a></p> 
   </div> 
   <div class="superBanner"> 
-<!-- start -->
-<script>
-<!--
-var A4Uclient = "hochi"
-var A4Uwidth = "728";
-var A4Uheight = "90";
-var A4Udomain = "";
-var A4Uencode = "EUC-JP";
-var A4Usite = "adnw";
-var A4Ucont = "hochi";
-var A4Utype = "banner";
-var A4Utg = "1";
-document.write('<scr' + 'ipt language="JavaScript1.1" charset="' + A4Uencode + '" src="http://grp03.ias.rakuten.co.jp/content/ad/DCBT/delivery/script/191.js">\n');
-document.write('</scr' + 'ipt>\n');
-//-->
+<!-- begin ad tag 2011.03.07-->
+<script type="text/javascript" language="JavaScript">
+
+var impAcn = "IMPASEG";
+var impAco = document.cookie;
+var impApos = impAco.indexOf(impAcn+"=");
+var impAseg = (impApos!=-1)?impAco.substring(impApos+impAcn.length+1,(impAco.indexOf("; ",impApos)!=-1)?impAco.indexOf("; ",impApos):impAco.length):null;
+impAseg = (impAseg)?unescape(impAseg):null;
+
+var impAserver = "http://as.hc.impact-ad.jp";
+var impAtag = "/SITE=SOCCER/AREA=SUPERBANNER/AAMSZ=728X90/OENCJP=UTF8";
+var impAtarget = (impAseg)?impAtag+"/"+impAseg:impAtag;
+
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt type="text/javascript" language="JavaScript" src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('</scr');
+document.write('ipt>');
+
 </script>
-<noscript><iframe src="http://grp03.ias.rakuten.co.jp/html.ng/site=adnw&cont=hochi&type=banner2&tg=1" width="728" height="90" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" bordercolor="#000000" allowtransparency="true"></iframe></noscript>
-<!-- end -->
+<noscript>
+<iframe src="http://as.hc.impact-ad.jp/hserver/SITE=SOCCER/AREA=SUPERBANNER/AAMSZ=728X90/OENCJP=UTF8" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=728 height=90 allowTranspareeny="true">
+</iframe>
+</noscript>
+<!-- End ad tag -->
+
   </div> 
   </div>
 </div>
-<!--#Main Menu -->
-<div class="container">
-<ul class="gNavi">
-  <li class="home"><a href="/">スポーツ報知</a></li>
-  <li class="giants"><a href="/giants/">巨人</a></li>
-  <li class="baseball"><a href="/baseball/">野球</a></li>
-  <li class="mlb"><a href="/mlb/">MLB</a></li>
-  <li class="soccer"><a href="/soccer/">サッカー</a></li>
-  <li class="golf"><a href="/sports/golf/">ゴルフ</a></li>
-  <li class="sports"><a href="/sports/">スポーツ</a></li>
-  <li class="battle"><a href="/battle/">格闘技</a></li>
-  <li class="hrace"><a href="/horserace/">競馬</a></li>
-  <li class="ent"><a href="/entertainment/">芸能</a></li>
-  <li class="topics"><a href="/topics/">社会</a></li>
-  <li class="ex"><a href="/2010worldcup/" title="南アフリカW杯">2010FIFAワールドカップ</a></li>
-</ul>
+<div class="mainMenu container">
+  <ul class="gNavi">
+    <li class="home"><a href="/">スポーツ報知</a></li>
+    <li class="giants"><a href="/giants/">巨人</a></li>
+    <li class="baseball"><a href="/baseball/">野球</a></li>
+    <li class="mlb"><a href="/mlb/">MLB</a></li>
+    <li class="soccer"><a href="/soccer/">サッカー</a></li>
+    <li class="golf"><a href="/sports/golf/">ゴルフ</a></li>
+    <li class="sports"><a href="/sports/">スポーツ</a></li>
+    <li class="hrace"><a href="/horserace/">競馬</a></li>
+    <li class="ent"><a href="/entertainment/">芸能</a></li>
+    <li class="topics"><a href="/topics/">社会</a></li>
+    <li class="leisure"><a href="/leisure/">レジャー</a></li>
+  </ul>
+  <ul class="gNaviText">
+    <li><a href="/column/">ブログ&amp;コラム</a></li>
+    <li><a href="/leisure/fishing/">釣り</a></li>
+    <li><a href="/gamble/">ギャンブル</a></li>
+    <li><a href="/feature/">特集</a></li>
+    <li><a href="/event/">イベント</a></li>
+    <li><a href="/publicity/">ＰＲ</a></li>
+    <li><a href="http://www.magazine-hochi.com/" target="_blank">雑誌・書籍</a></li>
+  </ul>
 </div>
-<!-- /#Main Menu -->
 
 <div id="naviLOC">
 <ul>
-<li><a href="/hokkaido/index.htm">トップ</a></li>
-<li><a href="/hokkaido/baseball/index.htm">野球</a></li>
-<li class="group2_select"><a href="/hokkaido/soccer/index.htm">サッカー</a></li>
-<li><a href="/hokkaido/sports/index.htm">スポーツ</a></li>
-<li><a href="/hokkaido/entertainment/index.htm">芸能・社会</a></li>
+<li><a href="/soccer/index.htm">サッカートップ</a></li>
+<li><a href="/soccer/japan/index.htm">日本代表</a></li>
+<li><a href="/2014worldcup/qualifiers/">W杯予選</a></li>
+<li class="soccer_select"><a href="/soccer/jleague/index.htm">Ｊリーグ</a></li>
+<li><a href="/soccer/jleague/acl/index.htm">ＡＣＬ</a></li>
+<li><a href="/soccer/world/index.htm">海外</a></li>
+<li><a href="/soccer/etc/index.htm">その他</a></li>
+<li><a href="http://www.masakuni-yamamoto.com/" target="_blank">山本昌邦公式サイト</a></li>
 </ul>
 </div>
-<div class="container">
-<!-- #Pankuzu Navi and Search Box -->
-<div class="pNavi clearfix">
-<!-- Search Box --> 
-<div class="blockR">
-<!-- font size -->
-  <script type="text/javascript" src="/scripts/lib/tools_core.js"></script>
-  <script type="text/javascript" src="/scripts/fontSize2.js"></script>
-  <div class="blockR">
-    <p class="blockL"><span>文字サイズ</span><span id="font-label">100</span><span>%</span></p>
-    <div id="fontSize" class="blockL">
-      <div class="slider"><button class="knob"></button></div>
-    </div>
-  </div>
-<script type="text/javascript">
-<!--
-var start = Cookie.read('hochiFS') || '100';
-document.write('<style type="text/css">#contents {font-size: ' + start + '%;}</style>');
-// -->
-</script>
-  <!-- /font size -->
-
-</div>
-<!-- Search Box -->
-</div>
-<!-- /#Pankuzu Navi and Search Box -->
-</div><!-- /container -->
+<!-- EMPTY -->
 
 </div>
 <div class="panNAVI">
-<a href="/index.htm">スポーツ報知</a>&gt;<a href="/hokkaido/index.htm">北海道</a>&gt;<a href="/hokkaido/soccer/index.htm">サッカー</a>
+<a href="/index.htm">スポーツ報知</a>&gt;<a href="/soccer/index.htm">サッカー</a>&gt;<a href="/soccer/jleague/index.htm">Ｊリーグ</a>
 </div>
 <div class="jump"><p><a id="main" name="main">ここからスポーツ報知のメインコンテンツです</a></p></div>
 <div id="contentWRAP">
 <div id="contents">
 <!-- top Start -->
+<!-- rakuten_ad_target_begin -->
 <div id="top">
-<div class="box-r" style="width:200px;">
-<a href="/zoomImage/20100627-OHT9I00127.htm" target="photoWin" onclick="photoWinOpen2(450,299,34)" class="enlarge"><img src="/photo/20100627-069923-1-N.jpg" width="200" height="133" alt="サイン、写真撮影会に２０００人ものサポーターが集まった白い恋人パーク" class="photo-ph"/></a>
-<div class="photo-cap">サイン、写真撮影会に２０００人ものサポーターが集まった白い恋人パーク&nbsp;<a href="/hokkaido/soccer/news/20100627-OHT1T00130.htm">[記事へ]</a></div>
-</div>
-<div id="topKIJI-p">
-<h1><a href="/hokkaido/soccer/news/20100627-OHT1T00130.htm">ゴン、移籍後初ゴール…札幌</a></h1>
-<p>　<strong>◆コンサドーレ３─０川崎</strong>（２６日・白い恋人パーク）　コンサドーレ札幌の練習拠点の白い恋人パーク１５周年を記念した「コンサドーレ札幌　ハーフタイムパーティー２０１０」が２６日、札幌市西区宮の沢で開催された。選手らのサイン、写真撮影会には約２０００人ものサポーターが集まった。<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />&nbsp;<span class="time">（6月27日&nbsp;11:03）</span><a href="/hokkaido/soccer/news/20100627-OHT1T00130.htm">[全文へ]</a>
+<div id="topKIJI">
+<h1><a href="/soccer/jleague/news/20130214-OHT1T00001.htm">【Ｆ東京】サウサンプトン・李獲得へ　レンタルも視野</a></h1>
+<p>　Ｆ東京がイングランド・プレミアリーグ、サウサンプトンのＦＷ李忠成（２７）の獲得に向けて交渉していることが１３日、分かった。&nbsp;<span class="time">（2月14日&nbsp;06:02）</span><a href="/soccer/jleague/news/20130214-OHT1T00001.htm">[全文へ]</a>
 </p>
 </div>
 </div>
 <!-- top End -->
+<!-- rakuten_ad_target_end -->
+<!--▼PR-->
+<!--▲PR-->
+
+<!--▼▼ここからタブ表示▼▼-->
+<br style="clear: both;" />
+<div class="fbTabPanel">
+  <div id="tabPanelSoccer" class="TabbedPanels">
+    <ul class="fbTabGroup">
+      <li class="TabbedPanelsTab" tabindex="0">国内</li>
+      <li class="TabbedPanelsTab" tabindex="0">海外</li>
+      <li class="TabbedPanelsTab" tabindex="0">W杯予選</li>
+      <li class="TabbedPanelsTab" tabindex="0">日本代表</li>
+    </ul>
+    <div class="tabContentGroup">
+      <!--▼国内-->
+      <div class="tabContent footballData_clearfix">
+          <div class="block1">
+              <h2>J1</h2>
+              <ul class="list">
+                <li><a href="/soccer/jleague/j1/schedule.htm">日程</a></li>
+                <!--<li><a href="/soccer/jleague/j1/standings.htm">順位表</a></li>-->
+              </ul>
+          </div>
+          <div class="block1">
+              <h2>J2</h2>
+              <ul class="list">
+                <li><a href="/soccer/jleague/j2/schedule.htm">日程</a></li>
+                <!--<li><a href="/soccer/jleague/j2/standings.htm">順位表</a></li>-->
+              </ul>
+          </div>
+<!--
+          <div class="block1">
+              <h2>ナビスコ杯</h2>
+              <ul class="list">
+                <li><a href="/soccer/jleague/nabi/results/prompt/index.htm">結果</a></li>
+                <li><a href="/soccer/jleague/nabi/schedule/group_a.htm">順位表</a></li>
+          </ul>
+        </div>
+-->
+        <div class="block2">
+          <h2>その他</h2>
+          <ul class="list">
+            <!--<li><a href="/soccer/jleague/acl/index.htm">アジアCL</a></li>-->
+            <li><a href="/soccer/emperorscup/index.htm">天皇杯</a></li>
+            <li><a href="/soccer/hs/championship/index.htm">高校選手権</a></li>
+            <li><a href="/soccer/world/cwc/index.htm">クラブW杯</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--▲国内-->
+      <!--▼海外-->
+      <div class="tabContent footballData_clearfix">
+        <p>スコア速報</p>
+        <div class="block3">
+          <ul class="w_league">
+            <li class="spain"><a href="/soccer/world/spain/index.htm">スペイン</a></li>
+            <li class="england"><a href="/soccer/world/england/index.htm">イングランド</a></li>
+            <li class="italy"><a href="/soccer/world/italy/index.htm">イタリア</a></li>
+            <li class="germany"><a href="/soccer/world/germany/index.htm">ドイツ</a></li>
+          </ul>
+        </div>
+        <div class="block3">
+          <ul class="w_league">
+            <li class="france"><a href="/soccer/world/france/index.htm">フランス</a></li>
+            <li class="netherlands"><a href="/soccer/world/netherlands/index.htm">オランダ</a></li>
+            <li class="cl"><a href="/soccer/world/cl/index.htm">欧州CL</a></li>
+            <li class="cl"><a href="/soccer/world/euroleague/index.htm">欧州リーグ</a></li>
+            <li class="cl"><a href="/soccer/world/cwc/index.htm">クラブW杯</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--▲海外--> 
+      <!--▼W杯予選-->
+      <div class="tabContent footballData_clearfix">
+        <p>W杯予選　スコア速報・日程</p>
+        <div class="block3">
+          <ul class="w_league">
+            <li class="cl"><a href="/2014worldcup/qualifiers/afc/group_B.htm">日本</a></li>
+            <li class="cl"><a href="/2014worldcup/qualifiers/afc/">アジア</a></li>
+            <li class="cl"><a href="/2014worldcup/qualifiers/conmebol/">南米</a></li>
+            <li class="cl"><a href="/2014worldcup/qualifiers/concacaf/">北中米・カリブ</a></li>
+          </ul>
+        </div>
+        <div class="block3">
+          <ul class="w_league">
+            <li class="cl"><a href="/2014worldcup/qualifiers/uefa/">欧州</a></li>
+            <li class="cl"><a href="/2014worldcup/qualifiers/caf/">アフリカ</a></li>
+            <li class="cl"><a href="/2014worldcup/qualifiers/ofc/">オセアニア</a></li>
+            <li class="cl"><a href="/2014worldcup/qualifiers/playoff/">大陸間プレーオフ</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--▲W杯予選-->
+      <!--▼日本代表-->
+      <div class="tabContent footballData_clearfix">
+        <div class="block1">
+          <h2>記録</h2>
+          <ul class="list">
+            <li><a href="/soccer/japan/schedule/index.htm">Ａ代表日程・結果</a></li>
+            <li><a href="/soccer/japan/schedule/okada_index.htm">岡田日本</a></li>
+            <li><a href="/contents/soccer/japan/japan_a/osim_member.htm">オシム日本</a></li>
+          </ul>
+        </div>
+        <!--
+        <div class="block2">
+          <h2>大会</h2>
+          <ul class="list">
+            <li><a href="/london2012/soccer/schedule/men_D.htm">五輪・男子</a></li>
+            <li><a href="/london2012/soccer/schedule/women_F.htm">五輪・女子</a></li>
+            <li><a href="/soccer/japan/asiacup/">アジア杯</a></li>
+          </ul>
+        </div>
+        -->
+      </div>
+      <!--▲日本代表-->
+    </div>
+  </div>
+<script type="text/javascript"> 
+//<![CDATA[
+var tab = new Spry.Widget.TabbedPanels("tabPanelSoccer");
+//]]>
+</script>
+</div>
+<!--▲タブここまで▲-->
+
 <div id="hochi-txtAD1">
-<p><a href="/photo_service/netprint/">◇…ネットプリント　巨人Ｌ判の販売スタートしました…◇</a></p>
-<p><a href="http://www.s-hochi.jp/">◇…報知新聞の購読申し込み　ただいま新規購読キャンペーン実施中！…◇</a></p>
+<div style="width:500px; height:482px; margin:0 auto;"><div id='perflj6h03lixdcf1xc5jfom5psof'><a href='http://www.adobe.com/go/getflashplayer' target='_blank'> <img  src='http://images.eplayer.performgroup.com/namedImage/12637/install_flash.gif' alt='Get Adobe Flash player' /></a></div> <script type='text/javascript' src='http://static.eplayer.performgroup.com/flash/js/swfobject.js'></script><script type='text/javascript' src='http://static.eplayer.performgroup.com/flash/js/performgroup.js'></script><script>addCustomPlayer('lj6h03lixdcf1xc5jfom5psof', '', '', 500, 482, 'perflj6h03lixdcf1xc5jfom5psof', 'eplayer14');</script></div> 
+<iframe src="http://www.eplayer.performgroup.com/hochi_mc" width="615" height="162" scrolling="no" marginwidth="0" frameborder="0"></iframe>
+
+
+<p><a href="https://business.form-mailer.jp/fms/3841f80f581" target="_blank">◇…北澤豪さんが読者の声に答えます！相談・質問を募集中…◇</a></p>
+<p><a href="http://www.s-hochi.jp/" target="_blank">◇…報知新聞の購読申し込み　ただいま新規購読キャンペーン実施中！…◇</a></p>
 </div>
 
 <div class="genreBAR1">
-<div class="genreBAR1-head"><p><a href="/hokkaido/soccer/index.htm"><span class="group2-f">■</span>サッカー</a></p></div>
+<div class="genreBAR1-head"><p><a href="/soccer/jleague/index.htm"><span class="soccer-f">■</span>Ｊリーグ</a></p></div>
 <div class="genreBAR1-wrap">
-<div class="genreBAR1-top"><p><a href="/hokkaido/soccer/index.htm">トップ</a></p></div>
+<div class="genreBAR1-top"><p><a href="/soccer/jleague/index.htm">トップ</a></p></div>
+<div class="genreBAR1-menu"><a href="/soccer/jleague/prompt/index.htm">試合速報</a><span class="list-def">&#124;</span><a href="/soccer/jleague/j1/schedule.htm">Ｊ１日程</a><span class="list-def">&#124;</span><a href="/soccer/jleague/j2/schedule.htm">Ｊ２日程</a></div>
 </div>
 </div>
 <!-- MenuEtc Start-->
 <!-- MenuEtc End-->
 <div class="list1">
 <ul>
-<li><h3><a href="/hokkaido/soccer/news/20100627-OHT1T00130.htm">ゴン、移籍後初ゴール…札幌</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月27日&nbsp;11:03）</span>
+<li><h3><a href="/soccer/jleague/news/20130213-OHT1T00210.htm">【ＡＣＬ】奪冠へ協会大作戦！総額最大１・２億円ボーナス</a>&nbsp;
+<span class="time">（2月14日&nbsp;06:03）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100626-OHT1T00150.htm">石崎監督、再び大予言「パラグアイにも勝てる」…札幌</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月26日&nbsp;11:18）</span>
+<li><h3><a href="/soccer/jleague/news/20130214-OHT1T00010.htm">積雪の山形視察「有意義」…Ｊ秋春制移行戦略会議</a>&nbsp;
+<span class="time">（2月14日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100626-OHT1T00146.htm">フットサルの屋内コート、２０１１年１月完成予定</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月26日&nbsp;11:18）</span>
+<li><h3><a href="/soccer/jleague/news/20130214-OHT1T00009.htm">【浦和】森脇、移籍初弾もＦＣソウルに完敗</a>&nbsp;
+<span class="time">（2月14日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100623-OHT1T00182.htm">夏バテ不可だ練習負荷だ！…札幌</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月23日&nbsp;12:09）</span>
+<li><h3><a href="/soccer/jleague/news/20130214-OHT1T00006.htm">【川崎】大久保、快勝に笑顔「主導権握れた」</a>&nbsp;
+<span class="time">（2月14日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100622-OHT1T00177.htm">左サイドの救世主！横浜Ｃ・片山獲得を視野…札幌</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月22日&nbsp;11:33）</span>
+<li><h3><a href="/soccer/jleague/news/20130214-OHT1T00002.htm">【広島】寿人弾で仙台に快勝！ＡＣＬへ光明</a>&nbsp;
+<span class="time">（2月14日&nbsp;06:02）</span>
 </h3></li>
 <li class="lineSpacer"><p>&nbsp;</p></li>
-<li><h3><a href="/hokkaido/soccer/news/20100622-OHT1T00176.htm">藤田が１８日千葉戦で復帰に意欲…札幌</a>&nbsp;
-<span class="time">（6月22日&nbsp;11:33）</span>
-</h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100622-OHT1T00175.htm">ゴンが気合「中断明けがカギ」…札幌</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130213-OHT1T00161.htm">【札幌】砂川、１４日に今季初実戦「アピールする」</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月22日&nbsp;11:33）</span>
+<span class="time">（2月14日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100620-OHT1T00104.htm">内村＆宮沢、トークショーで巻き返し約束…札幌</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130213-OHT1T00157.htm">【山形】ロメロ、宣言！開幕スタメンで移籍１号だ</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月20日&nbsp;10:47）</span>
+<span class="time">（2月14日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100619-OHT1T00134.htm">札幌一の１年生ＤＦ志田、同点弾＆決勝弾！…全道高校サッカー</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130213-OHT1T00156.htm">【仙台】太田、豪快ボレー！今年こそ２ケタ得点決める</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月19日&nbsp;11:13）</span>
+<span class="time">（2月14日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100619-OHT1T00133.htm">室蘭大谷、決勝の連勝２４で止まる…全道高校サッカー</a>&nbsp;
-<span class="time">（6月19日&nbsp;11:13）</span>
+<li><h3><a href="/soccer/jleague/news/20130213-OHT1T00109.htm">【広島】森保監督「順調」練習試合で仙台に勝利</a>&nbsp;
+<span class="time">（2月13日&nbsp;19:06）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130213-OHT1T00108.htm">【神戸】札幌・高柳を獲得</a>&nbsp;
+<span class="time">（2月13日&nbsp;18:59）</span>
 </h3></li>
 <li class="lineSpacer"><p>&nbsp;</p></li>
-<li><h3><a href="/hokkaido/soccer/news/20100618-OHT1T00152.htm">端３戦４発！札幌一が３年ぶり全国に王手…全道高校サッカー</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月18日&nbsp;11:49）</span>
+<li><h3><a href="/soccer/jleague/news/20130213-OHT1T00063.htm">【Ｆ東京】日本代表ＦＷ李と交渉</a>&nbsp;
+<span class="time">（2月13日&nbsp;12:29）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100617-OHT1T00189.htm">室蘭大谷・安藤が２発快勝…全道高校サッカー</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130213-OHT1T00048.htm">【Ｃ大阪】好感触！柿谷と新加入エジノ＆ブランコ融合</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月17日&nbsp;13:00）</span>
+<span class="time">（2月13日&nbsp;11:24）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100617-OHT1T00190.htm">札幌創成が王者・旭川実撃破…全道高校サッカー</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月17日&nbsp;12:57）</span>
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00156.htm">【鹿島】曽ケ端、後輩・八木の早期回復祈る</a>&nbsp;
+<span class="time">（2月13日&nbsp;06:03）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100616-OHT1T00150.htm">市函館・スーパーサブ小笠原が１分Ｖ弾…全道高校サッカー</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月16日&nbsp;11:33）</span>
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00153.htm">【柏】工藤「２年連続狙います」ちばぎん杯ＭＶＰ宣言！</a>&nbsp;
+<span class="time">（2月13日&nbsp;06:03）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100616-OHT1T00149.htm">安藤１３分でハット！室蘭大谷３年ぶり王座へ好発進…全道高校サッカー</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月16日&nbsp;11:33）</span>
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00151.htm">【浦和】那須、ＡＣＬ球で居残り練習</a>&nbsp;
+<span class="time">（2月13日&nbsp;06:03）</span>
 </h3></li>
 <li class="lineSpacer"><p>&nbsp;</p></li>
-<li><h3><a href="/hokkaido/soccer/news/20100614-OHT1T00159.htm">畠山２発！札大ＧＰが国体切符…道サッカーリーグ</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月14日&nbsp;12:01）</span>
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00150.htm">【大宮】４日で３試合３連勝！ベルデニック監督も評価</a>&nbsp;
+<span class="time">（2月13日&nbsp;06:03）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100614-OHT1T00157.htm">内村同点弾も無情のドロー…札幌</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00148.htm">Ｊリーグ秋春制移行へ山形視察　豪雪対策など意見交換</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月14日&nbsp;11:55）</span>
+<span class="time">（2月13日&nbsp;06:03）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100613-OHT1T00140.htm">内村古巣撃破へ１１戦ぶり強行先発…札幌</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00134.htm">【札幌】古田、スイスＬ挑戦失敗でドタバタ合流「申し訳ない」</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月13日&nbsp;12:19）</span>
+<span class="time">（2月13日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100613-OHT1T00139.htm">キリノ“勝負ヘア”で必勝誓った…札幌</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00133.htm">【山形】中島、２ケタ弾狙う「冷静に、正確に、大胆に」</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月13日&nbsp;12:19）</span>
+<span class="time">（2月13日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100606-OHT1T00126.htm">エスポラーダ指揮官Ｖ宣言…フットサル</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00131.htm">【仙台】手倉森監督、手応え！ＡＣＬへ実戦モード突入</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（6月6日&nbsp;11:40）</span>
+<span class="time">（2月13日&nbsp;06:02）</span>
 </h3></li>
 <li class="lineSpacer"><p>&nbsp;</p></li>
-<li><h3><a href="/hokkaido/soccer/news/20100330-OHT1T00175.htm">エスポラーダが知事を表敬訪問…フットサル</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（3月30日&nbsp;11:27）</span>
+<li><h3><a href="/soccer/jleague/news/20130212-OHT1T00080.htm">【岐阜】ＤＦ三田が現役引退</a>&nbsp;
+<span class="time">（2月12日&nbsp;16:03）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100305-OHT1T00135.htm">［ゴン４２歳の挑戦］（下）パスの受け手として「最高の瞬間」意識</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（3月5日&nbsp;11:16）</span>
+<li><h3><a href="/soccer/jleague/news/20130211-OHT1T00199.htm">【大宮】富山“プロ初ゴール”「目標は開幕スタメンでゴール」</a>&nbsp;
+<span class="time">（2月12日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100304-OHT1T00143.htm">［ゴン４２歳の挑戦］（中）抜群知名度、常に行列待ち</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（3月4日&nbsp;11:19）</span>
+<li><h3><a href="/soccer/jleague/news/20130211-OHT1T00197.htm">【浦和】槙野の完璧ＦＫで磐田に勝利</a>&nbsp;
+<span class="time">（2月12日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100303-OHT1T00129.htm">［ゴン４２歳の挑戦］（上）「本物のプロ」の姿勢が若手の意識変えた</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130211-OHT1T00144.htm">【札幌】サポーターズ集会に２００人参加</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（3月3日&nbsp;11:30）</span>
+<span class="time">（2月12日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20100125-OHT1T00063.htm">エスポラーダ、完封勝ちでホーム初勝利…Ｆリーグ</a>&nbsp;
-<span class="time">（1月25日&nbsp;10:18）</span>
+<li><h3><a href="/soccer/jleague/news/20130211-OHT1T00141.htm">【札幌】財前監督、若手にゲキ「型にハマるな！」</a>&nbsp;
+<span class="time">（2月12日&nbsp;06:02）</span>
 </h3></li>
 <li class="lineSpacer"><p>&nbsp;</p></li>
-<li><h3><a href="/hokkaido/soccer/news/20091228-OHT1T00094.htm">エスポラーダ５失点で小樽開催飾れず…Ｆリーグ</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130211-OHT1T00146.htm">【仙台】渡辺、衝撃告白！他クラブのオファー蹴っていた</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（12月28日&nbsp;10:25）</span>
+<span class="time">（2月12日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20091213-OHT1T00078.htm">エスポラーダ、今季初の連敗…Ｆリーグ</a>&nbsp;
-<span class="time">（12月13日&nbsp;09:30）</span>
+<li><h3><a href="/soccer/jleague/news/20130210-OHT1T00256.htm">【横浜Ｍ】俊輔、ヒヤッ　左でん部違和感で途中交代</a>&nbsp;
+<span class="time">（2月11日&nbsp;06:03）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20091124-OHT1T00120.htm">エスポラーダ、大黒摩季効果で３位…Ｆリーグ</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130210-OHT1T00253.htm">【川崎】大久保、古巣から２発！攻撃主体チーム「合っている」</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（11月24日&nbsp;10:55）</span>
+<span class="time">（2月11日&nbsp;06:03）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20091013-OHT1T00059.htm">本職エスポラーダが、札幌倒した…イーワンＳオープニングイベント</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130211-OHT1T00025.htm">【仙台】新加入・ジオゴが合流　両足ロングシュートが武器</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（10月13日&nbsp;09:26）</span>
+<span class="time">（2月11日&nbsp;06:02）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20091011-OHT1T00079.htm">「サッポロ・イーワン・スタジアム」開業…フットサルコート屋内外４面</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（10月11日&nbsp;10:21）</span>
+<li><h3><a href="/soccer/jleague/news/20130211-OHT1T00016.htm">【札幌】古田の残留を正式発表　１２日チーム合流</a>&nbsp;
+<span class="time">（2月11日&nbsp;06:01）</span>
 </h3></li>
 <li class="lineSpacer"><p>&nbsp;</p></li>
-<li><h3><a href="/hokkaido/soccer/news/20090922-OHT1T00103.htm">エスポラーダ札幌がホーム戦初勝利逃す…Ｆリーグ</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130211-OHT1T00015.htm">【札幌】韓国・水原三星に敗戦も収穫！課題見えた</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（9月22日&nbsp;10:58）</span>
+<span class="time">（2月11日&nbsp;06:01）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20090915-OHT1T00067.htm">フットサルの聖地が札幌に誕生！</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（9月15日&nbsp;10:55）</span>
+<li><h3><a href="/soccer/jleague/news/20130210-OHT1T00261.htm">【鹿島】植田、厳しい自己評価「目指すのはスタメン」</a>&nbsp;
+<span class="time">（2月11日&nbsp;06:01）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20090824-OHT1T00177.htm">佐々木同点弾！水上２発！エスポラーダが勝ち点１…フットサル</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（8月24日&nbsp;11:18）</span>
+<li><h3><a href="/soccer/jleague/news/20130210-OHT1T00258.htm">【横浜Ｍ】専大ＭＦ長沢にラブコール</a>&nbsp;
+<span class="time">（2月11日&nbsp;06:01）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20090706-OHT1T00165.htm">“コンサ弟”２年ぶり３度目全国切符…全日本少年サッカー大会</a>&nbsp;
-<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（7月6日&nbsp;12:37）</span>
+<li><h3><a href="/soccer/jleague/news/20130210-OHT1T00148.htm">【札幌】古田、スイス移籍断念し残留</a>&nbsp;
+<span class="time">（2月10日&nbsp;18:29）</span>
 </h3></li>
-<li><h3><a href="/hokkaido/soccer/news/20090705-OHT1T00140.htm">２０年ぶり決めた！札幌ジュニア圧勝４強入り…全日本少年サッカー大会</a>&nbsp;
+<li><h3><a href="/soccer/jleague/news/20130210-OHT1T00144.htm">【鹿島】八木、心疾患で離脱</a>&nbsp;
+<span class="time">（2月10日&nbsp;18:14）</span>
+</h3></li>
+<li class="lineSpacer"><p>&nbsp;</p></li>
+<li><h3><a href="/soccer/jleague/news/20130209-OHT1T00213.htm">【Ｇ大阪】代表組欠場で福岡に敗れる</a>&nbsp;
+<span class="time">（2月10日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130209-OHT1T00211.htm">【Ｆ東京】ＦＷ渡辺「きれいに決まった」１得点１アシスト</a>&nbsp;
+<span class="time">（2月10日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130209-OHT1T00166.htm">【札幌】古田出戻り！海外トライアウト不合格！</a>&nbsp;
+<span class="time">（2月10日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130209-OHT1T00163.htm">【札幌】前、前へ前へ！ＳＢ転向で攻める！</a>&nbsp;
 <img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
-<span class="time">（7月5日&nbsp;11:54）</span>
+<span class="time">（2月10日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130209-OHT1T00162.htm">【仙台】ブラジル名門出身ＭＦジオゴ獲得</a>&nbsp;
+<span class="time">（2月10日&nbsp;06:02）</span>
+</h3></li>
+<li class="lineSpacer"><p>&nbsp;</p></li>
+<li><h3><a href="/soccer/jleague/news/20130209-OHT1T00074.htm">【仙台】ＭＦジオゴを獲得</a>&nbsp;
+<span class="time">（2月9日&nbsp;14:28）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130208-OHT1T00171.htm">【札幌】イメチェン「ボンバー奈良」がコンサ引っ張る！</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月9日&nbsp;06:01）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130208-OHT1T00101.htm">【清水】本拠地「ＩＡＩスタジアム」に名称変更へ</a>&nbsp;
+<span class="time">（2月8日&nbsp;17:05）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130208-OHT1T00089.htm">【熊本】流通経大からＤＦ藤本が加入</a>&nbsp;
+<span class="time">（2月8日&nbsp;15:48）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130208-OHT1T00015.htm">【Ｃ大阪】７・２６に香川が長居凱旋！マンＵ戦を発表</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月8日&nbsp;06:02）</span>
+</h3></li>
+<li class="lineSpacer"><p>&nbsp;</p></li>
+<li><h3><a href="/soccer/jleague/news/20130207-OHT1T00210.htm">【札幌】荒野＆堀米、スタメンへ猛アピール</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月8日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130207-OHT1T00207.htm">【仙台】松下、鹿実の先輩ヤットに追いつく</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月8日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130207-OHT1T00138.htm">【Ｊリーグ】Ｊ２日曜開催への支持広がらず</a>&nbsp;
+<span class="time">（2月7日&nbsp;19:09）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130207-OHT1T00126.htm">【Ｃ大阪】ＦＷエジノが加入</a>&nbsp;
+<span class="time">（2月7日&nbsp;18:39）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130207-OHT1T00093.htm">【Ｇ大阪】新スタ予定地下に空洞、旧日本海軍弾薬庫か</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月7日&nbsp;17:54）</span>
+</h3></li>
+<li class="lineSpacer"><p>&nbsp;</p></li>
+<li><h3><a href="/soccer/jleague/news/20130207-OHT1T00092.htm">【Ｃ大阪】マンＵ・香川、７・２６長居凱旋を発表</a>&nbsp;
+<span class="time">（2月7日&nbsp;17:37）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130207-OHT1T00045.htm">【Ｃ大阪】ＡＫＢと深夜合コン報道で扇原、杉本に注意</a>&nbsp;
+<span class="time">（2月7日&nbsp;10:53）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130206-OHT1T00180.htm">【Ｆ東京】森重、新主将フライングゲット！異例の開幕１か月前指名</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月7日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130206-OHT1T00168.htm">【仙台】梁が芸術弾！今季はゴール量産目指す</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月7日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130206-OHT1T00162.htm">【札幌】１８歳堀米、初の新人で副主将</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月7日&nbsp;06:02）</span>
+</h3></li>
+<li class="lineSpacer"><p>&nbsp;</p></li>
+<li><h3><a href="/soccer/jleague/news/20130206-OHT1T00072.htm">【名古屋】闘莉王がキャンプ合流</a>&nbsp;
+<span class="time">（2月6日&nbsp;14:47）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130206-OHT1T00030.htm">【清水】今季主将に杉山</a>&nbsp;
+<span class="time">（2月6日&nbsp;11:12）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130205-OHT1T00206.htm">【横浜Ｍ】大黒、中国へ！岡田監督の下で再び輝く</a>&nbsp;
+<img src="/img/ic_camera.gif" width="19" height="15" alt="写真付き" />
+<span class="time">（2月6日&nbsp;06:03）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130205-OHT1T00203.htm">【浦和】興梠１発＆関口１アシスト！補強効果で東京Ｖに圧勝</a>&nbsp;
+<span class="time">（2月6日&nbsp;06:02）</span>
+</h3></li>
+<li><h3><a href="/soccer/jleague/news/20130205-OHT1T00201.htm">【横浜Ｍ】俊輔、マンＵ戦へ意気込み「胸借りる」</a>&nbsp;
+<span class="time">（2月6日&nbsp;06:02）</span>
 </h3></li>
 <li class="lineSpacer"><p>&nbsp;</p></li>
 </ul>
 </div>
 <div class="textM"><p><img src="/img/ya_g.gif" width="7" height="13" alt="" /><strong>これより前の記事は、<a href="#top">サイト内検索</a>、もしくは<a href="/contents/info/database.htm">記事データベース</a>をご利用ください。</strong></p></div>
-<!-- Bottom Ad for Top Page -->
+<iframe src="http://www.eplayer.performgroup.com/hochi_mc" width="615" height="162" scrolling="no" marginwidth="0" frameborder="0"></iframe>
+<iframe src="http://www.eplayer.performgroup.com/hochi/strID/wxr90a1xq9r1cwbchx783pga" width="615" height="135" scrolling="no" marginwidth="0" frameborder="0"></iframe>
 <div class="bottom_AD">
-<div class="align-C"><a href="/ad/redirect2.htm" target="_blank"><img src="/img/ad/carview/cid0258_18_490x160.gif" alt="" width="490" height="160" /></a></div>
+<div class="align-C">
+<script type="text/javascript" language="JavaScript">
+var impAcn = "IMPASEG";
+var impAco = document.cookie;
+var impApos = impAco.indexOf(impAcn+"=");
+var impAseg = (impApos!=-1)?impAco.substring(impApos+impAcn.length+1,(impAco.indexOf("; ",impApos)!=-1)?impAco.indexOf("; ",impApos):impAco.length):null;
+impAseg = (impAseg)?unescape(impAseg):null;
+
+var impAserver = "http://as.hc.impact-ad.jp";
+var impAtag = "/SITE=SOCCER/AREA=UNDER.RECTANGLE/AAMSZ=300X250/OENCJP=UTF8";
+var impAtarget = (impAseg)?impAtag+"/"+impAseg:impAtag;
+
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt type="text/javascript" language="JavaScript" src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('</scr');
+document.write('ipt>');
+
+</script>
+<noscript>
+<iframe src="http://as.hc.impact-ad.jp/hserver/SITE=SOCCER/AREA=UNDER.RECTANGLE/AAMSZ=300X250/OENCJP=UTF8" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=250 allowTranspareeny="true">
+</iframe>
+</noscript>
 </div>
-<!-- Bottom Ad for Top Page -->
+</div>
+<!-- Rakuten Widget FROM HERE -->
+    <div class="rakutenWidget">
+<script type="text/javascript">rakuten_design="slide";rakuten_affiliateId="02f47b11.67c44c97.0d88e15b.3744cec5";rakuten_items="ranking";rakuten_genreId="0";rakuten_size="600x200";rakuten_target="_blank";rakuten_theme="gray";rakuten_border="off";rakuten_auto_mode="off";rakuten_genre_title="off";rakuten_recommend="on";rakuten_ver="20100708";rakuten_pointbackId="_RTmtlk20010086";</script><script type="text/javascript" src="http://xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget.js"></script>
+    </div>
+<!-- Rakuten Widget TO HERE -->
 
 <!-- EMPTY -->
 </div>
 <div id="sideMENU">
 <!-- search box -->
-    <div class="search clearfix">
-      <form action="http://www.yahoo-search.jp/" name="search" target="_top" id="search">
-        <input type="hidden" value="t" name="ord" />
-        <input type="hidden" value="utf8" name="cs" />
-        <input type="hidden" value="300724" name="id" />
-        <input type="text" name="kw" size="30" id="srchInput" onfocus="this.style.background='#fff';" onblur="if(this.value=='')this.style.background='#fff url(http://img.yahoo-search.jp/img/logo_wm.gif) center center no-repeat'" style="background:#fff url(http://img.yahoo-search.jp/img/logo_wm.gif) center center no-repeat;" />
-        <input type="image" src="/img/common/btn_search.gif" alt="讀懃ｴ｢" id="srchBtn" />
-        <label>
-          <input type="radio" name="rt" value="" checked="checked" />
-          サイト内</label>
-        <label>
-          <input type="radio" name="rt" value="web" />
-          WEB</label>
-      </form>
-      <script type="text/javascript" language="JavaScript">
-<!--
-brnd = Math.floor(1000000*Math.random());
-document.write('<img src="http://img.yahoo-search.jp/img/bcn.gif?id=300724&rnd='+brnd+'" alt="" width="1" height="1" />');
-//-->
-  </script>
-      <noscript>
-      <img src="http://img.yahoo-search.jp/img/bcn.gif?id=300724" alt="" width="1" height="1" />
-      </noscript>
-    </div>
-    <!-- /search box -->
+<div class="search clearfix">
+<!-- popIn searchBox Begin -->
+<script type="text/javascript" charset="UTF-8">
+  var _popIn_search_box = {
+    "_popin_default" : {
+      "action" : "http://hochi.yomiuri.co.jp/search.htm",
+      "qname" : "?q={_popIn_word}"
+    }
+  };
+  var _popIn_customsearch_path = 'http://hochi.yomiuri.co.jp/';
+</script>
+<script src="http://api.popin.cc/searchbox/hochi.js" type="text/javascript" charset="UTF-8"></script>
+<!-- popIn searchBox End -->
+</div>
+<!-- /search box -->
 
 <!-- sideMenuSaleAD1 Start-->
-<div class="sale1">
-<p><a href="http://ohme-hochi.com/"><img src="/img/koudoku.gif" width="300" height="19" alt="報知新聞　ご購読のお申し込み" /></a></p>
+<div class="sideLogo">
+<p><a href="http://www.s-hochi.jp/"><img src="/img/koudoku.gif" width="300" height="19" alt="報知新聞　ご購読のお申し込み" /></a></p>
 </div>
 <!-- sideMenuSaleAD1 End-->
 <!-- SideMenu Regular Contents Start-->
-<div class="sideRegularCONT">
-<p><a href="http://www.yomiuri.co.jp/" target="_blank">YOMIURI ON LINE</a><span class="list-def">&#124;</span><a href="http://yorimo.jp/?cidy=0316000000000" target="_blank">yorimo</a><span class="list-def">&#124;</span><a href="http://www.giants.jp/" target="_blank">ジャイアンツ</a><span class="list-def">&#124;</span><a href="http://www.yomiuri-ryokou.co.jp/" target="_blank">読売旅行</a></p>
-</div>
-<!-- SideMenu Regular Contents End-->
 <!-- sideMenuAD1 Start-->
 <div class="sideMenuAD1">
 <div class="ad200-out">
 <div class="ad200-in">
-<!-- begin ad tag -->
-<!-- -------------- Advertising.com ------ HOCHI SHIMBUN - HOCHI TOP 300x250-748203 ------------ -->
-<SCRIPT TYPE='text/javascript'>
-var ACE_AR = {Site: '748203', Size: '300250', Region: '3'};
-</SCRIPT>
-<SCRIPT TYPE='text/javascript' SRC='http://uac.advertising.com/wrapper/aceUAC.js'></SCRIPT>
-<NOSCRIPT>
-<IFRAME SRC="http://ace.advertising.com/site=748203/size=300250/bnum=11510708/tags=1/rich=0/optn=1/ns=1" scrolling="no" width="300" height="250" frameborder="0" marginheight="0" marginwidth="0" title="Advertisement"></IFRAME>
-</NOSCRIPT>
-<!-- ---------- Copyright 2007, Advertising.com ---------- -->
+<!-- begin ad tag 2011.03.07-->
+<script type="text/javascript" language="JavaScript">
+
+var impAcn = "IMPASEG";
+var impAco = document.cookie;
+var impApos = impAco.indexOf(impAcn+"=");
+var impAseg = (impApos!=-1)?impAco.substring(impApos+impAcn.length+1,(impAco.indexOf("; ",impApos)!=-1)?impAco.indexOf("; ",impApos):impAco.length):null;
+impAseg = (impAseg)?unescape(impAseg):null;
+
+var impAserver = "http://as.hc.impact-ad.jp";
+var impAtag = "/SITE=SOCCER/AREA=RECTANGLE/AAMSZ=300X250/OENCJP=UTF8";
+var impAtarget = (impAseg)?impAtag+"/"+impAseg:impAtag;
+
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt type="text/javascript" language="JavaScript" src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('</scr');
+document.write('ipt>');
+
+</script>
+<noscript>
+<iframe src="http://as.hc.impact-ad.jp/hserver/SITE=SOCCER/AREA=RECTANGLE/AAMSZ=300X250/OENCJP=UTF8" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=250 allowTranspareeny="true">
+</iframe>
+</noscript>
 <!-- End ad tag -->
+
 </div>
 </div>
 </div>
 <!-- sideMenuAD1 End -->
-<!-- CarviewAd Start-->
+<!-- CarviewAd Start -->
+<div class="sideLogo">
+<p><a href="/info/saiyo/" target="_blank"><img src="/img/info/saiyo/side.gif" width="300" alt="報知採用情報" /></a>
+</p>
+</div>
 <!-- Pick Up for Side Menu -->
-  <div class="sideRegularCONT">
+<div class="sideRegularCONT">
   <h2>ピックアップ</h2>
+  <!-- パチンコ -->
+  <div class="clearfix" style="margin-bottom: 3px;">
+    <div class="pickLeft">
+      <a href="/ad/redirect5.htm" target="_blank"><img src="/img/ad/pachinko/sanyo20120719.gif" width="100" height="50" alt="パチンコロゴ" /></a>
+    </div>
+    <div class="pickRight">
+      <ul>
+        <li><span><a href="/ad/redirect5.htm" target="_blank">「パチンコパチスロスクープ！？」としてリニューアル！毎週最新情報を紹介！</a></span></li>
+      </ul>
+    </div>
+  </div>
   <!-- カービュー -->
-  <div class="left" style="margin-bottom: 3px;">
-  <a href="/ad/redirect1.htm" target="_blank"><img src="/img/ad/carview/cid0006_1_150x80.jpg" width="150" height="80" alt="カービューロゴ" /></a>
+  <div class="clearfix" style="margin-bottom: 3px;">
+    <div class="pickLeft">
+      <a href="/ad/redirect3.htm" target="_blank"><img src="/img/ad/carview/cid0457_01_100x050_20121119.jpg" width="100" height="50" alt="カービューロゴ" /></a>
+    </div>
+    <div class="pickRight">
+      <ul>
+        <li><span><a href="/ad/redirect3.htm" target="_blank">愛車、今いくら？Webで調べてみよう！高値で手放して、ワンランク上の車に乗り替えよう【無料】</a></span></li>
+      </ul>
+    </div>
   </div>
-  <div class="right">
-  <ul>
-  <li><span><a href="/ad/redirect1.htm" target="_blank">あなたの愛車、今いくら？現在価格をチェック！最大８社の比較で、愛車の最高額がわかる【無料】</a></span></li>
-  </ul>
-  </div>
-  <!-- 求人 -->
-  <div class="left" style="clear: both; margin-top: 3px;">
-  <a href="http://hochi.oshigoto-search.info" target="_blank"><img src="/img/ad/kyujin.gif" width="150" height="80" alt="求人情報のロゴ" /></a>
-  </div>
-  <div class="right" style="margin-top: 3px;">
-  <ul>
-  <li><span><a href="http://hochi.oshigoto-search.info" target="_blank">自分の適職を探そう！<br/>正社員・アルバイト・<br/>派遣・独立から探せる<br/>スポーツ報知のお仕事<br/>検索サイト</a></span></li>
-  </ul>
-  </div>
-  <!-- サムライブルーカフェ -->
-  <div class="left" style="clear: both; margin-top: 3px;">
-  <a href="http://sbcafe.jp" target="_blank"><img src="/img/ad/samurai_blue_cafe.gif" width="150" height="40" alt="SAMURAI BLUE CAFEのロゴ" /></a>
-  </div>
-  <div class="right" style="margin-top: 3px;">
-  <ul>
-  <li><span><a href="http://sbcafe.jp" target="_blank">サッカー日本代表を応援しよう！オフィシャル応援カフェが完成！</a></span></li>
-  </ul>
-  </div>
-  </div>
+</div>
 <!-- Pick Up for Side Menu -->
-
-<!-- CarviewAd End-->
-<!-- score Start-->
-<div class="score">
-<div class="sideBAR1">
-<div class="sideBAR1-HEAD">
-<p class="sideMENU-p1"><a href="/baseball/npb/index.htm">プロ野球</a></p>
-<p class="sideMENU-p2"><a href="/baseball/npb/results/index.htm">一覧</a></p>
-</div>
-<!-- EMPTY -->
-<div class="scoreTABLE">
-<table>
-<tr>
-<th colspan="4">
-<a href="/baseball/npb/results/index.htm">試合結果</a>&nbsp;（6月27日）</th>
-</tr>
-<tr>
-<td class="tbLegue" colspan="4">▼セ・リーグ</td>
-</tr>
-<tr>
-<td class="tb-l">巨人</td>
-<td class="tb-m">
-<div class="tbScore">
-<a href="http://hochi.yomiuri.co.jp/baseball/npb/results/games/20100627-2010062701.htm">2-4</a>
-</div>
-</td>
-<td class="tb-r">横浜</td>
-<td>
-<div class="tbState">終了</div>
-</td>
-</tr>
-<tr>
-<td class="tb-l">ヤクルト</td>
-<td class="tb-m">
-<div class="tbScore">
-<a href="http://hochi.yomiuri.co.jp/baseball/npb/results/games/20100627-2010062702.htm">8-4</a>
-</div>
-</td>
-<td class="tb-r">阪神</td>
-<td>
-<div class="tbState">終了</div>
-</td>
-</tr>
-<tr>
-<td class="tb-l">中日</td>
-<td class="tb-m">
-<div class="tbScore">
-<a href="http://hochi.yomiuri.co.jp/baseball/npb/results/games/20100627-2010062703.htm">4-6</a>
-</div>
-</td>
-<td class="tb-r">広島</td>
-<td>
-<div class="tbState">終了</div>
-</td>
-</tr>
-<tr>
-<td class="tbLegue" colspan="4">▼パ・リーグ</td>
-</tr>
-<tr>
-<td class="tb-l">日本ハム</td>
-<td class="tb-m">
-<div class="tbScore">
-<a href="http://hochi.yomiuri.co.jp/baseball/npb/results/games/20100627-2010062704.htm">10-3</a>
-</div>
-</td>
-<td class="tb-r">ロッテ</td>
-<td>
-<div class="tbState">終了</div>
-</td>
-</tr>
-<tr>
-<td class="tb-l">楽天</td>
-<td class="tb-m">
-<div class="tbScore">
-<a href="http://hochi.yomiuri.co.jp/baseball/npb/results/games/20100627-2010062705.htm">1-1</a>
-</div>
-</td>
-<td class="tb-r">ソフトバンク</td>
-<td>
-<div class="tbState">終了</div>
-</td>
-</tr>
-<tr>
-<td class="tb-l">西武</td>
-<td class="tb-m">
-<div class="tbScore">
-<a href="http://hochi.yomiuri.co.jp/baseball/npb/results/games/20100627-2010062706.htm">4-2</a>
-</div>
-</td>
-<td class="tb-r">オリックス</td>
-<td>
-<div class="tbState">終了</div>
-</td>
-</tr>
-</table>
+<div class="sideRegularCONT">
+  <h2>Facebookページがオープン</h2>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fsportshochi&amp;width=300&amp;height=250&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:250px;" allowTransparency="true"></iframe>
 </div>
 
-</div>
-</div>
-<!-- score end -->
+<!-- CarviewAd End -->
+<!-- Football Start -->
+<!-- Topics -->
+    <div class="sideBlock">
+      <h4>名門FCバイエルンミュンヘンと提携</h4>
+      <div class="sideBlockContent">
+        <dl>
+          <dt><a href="http://www.fcbayern.telekom.de/jp/news/start/index.php" target="_blank"><img src="/img/fcbayern_logo.gif" width="50" height="50" alt="バイエルンミュンヘン" /></a></dt>
+          <dd><a href="http://www.fcbayern.telekom.de/jp/news/start/index.php" target="_blank">ドイツの名門サッカークラブ、FCバイエルンミュンヘン公式サイトへ</a><br /><br /><a href="/feature/soccer/fcbayern/index.htm">スポーツ報知・バイエルン特集へ</a></dd>
+        </dl>
+      </div>
+    </div>
+    <!-- /Topics -->
 
-<!-- EMPTY -->
+<!-- Football End -->
+<!-- 山本昌邦ブログ -->
+<div class="sideRegularCONT">
+  <h2>おすすめリンク</h2>
+  <div class="clearfix" style="margin-bottom: 3px;">
+    <div class="left">
+      <a href="http://www.masakuni-yamamoto.com/" target="_blank"><img src="/img/soccer/yamamoto.gif" width="150" height="50" alt="山本昌邦公式ウェブサイト" /></a>
+    </div>
+    <div class="right">
+      <ul>
+        <li><span><a href="http://www.masakuni-yamamoto.com/" target="_blank">アテネ五輪日本代表監督・山本昌邦氏公式サイトがリニューアル</a></span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- 山本昌邦ブログ -->
+<!-- Mobile -->
+<!-- popin access ranking --> 
+<div id="set_popin_hot"></div> 
+<!-- /popin access ranking --> 
+<!-- popin sns ranking --> 
+<div id="set_popin_sns"></div> 
+<!-- /popin sns ranking --> 
+  <div class="sideBlock mobile">
+    <h3><img src="/img/common/side_head_mobile.gif" width="287" height="22" alt="携帯サービス" /></h3>
+    <div id="tabPanel3">
+      <ul class="tabGroup">
+        <li>ニュース</li>
+        <li>GIANTS</li>
+        <li>釣り</li>
+        <li>競輪</li>
+      </ul>
+      <div class="tabContentGroup">
+        <!-- cont1 -->
+        <div class="tabContent">
+          <img src="/img/sales/mobile/bar_code1.gif" alt="" width="65" height="64" /> 
+          <dl class="description"> 
+            <dt class="tabContentHead"><a href="/contents/info/mobile.htm">NEWS 読売・報知</a></dt> 
+            <dd>
+            <p>国内最大規模の携帯ニュースサイト。スポーツニュース速報のほか、旬の社会、芸能ニュースも満載。月額84円（税込）</p> 
+            <p class="alignR"><a href="/contents/info/mobile.htm">NEWS読売・報知の詳細へ</a></p> 
+            </dd> 
+          </dl>
+        </div>
+        <!-- /cont1 -->
+        <!-- cont2 -->
+        <div class="tabContent">
+          <img src="/img/sales/mobile/bar_code2.gif" alt="" width="65" height="64" />
+          <dl class="description">
+            <dt class="tabContentHead"><a href="/contents/info/mobile.htm#mGiants">モバイルGIANTS</a></dt>
+            <dd>
+            <p>巨人軍公式サイト。待ち受け画像や注目の選手情報など、シーズンオフも必見。「NEWS読売・報知」の全コンテンツも利用できて月額210円（税込）！</p> 
+            <p class="alignR"><a href="/contents/info/mobile.htm#mGiants">モバイルGIANTSの詳細へ</a></p>
+            </dd>
+          </dl>
+        </div>
+        <!-- /cont2 -->
+        <!-- cont3 -->
+        <div class="tabContent">
+          <img src="/img/sales/mobile/bar_code4.gif" alt="" width="65" height="64" />
+          <dl class="description">
+            <dt class="tabContentHead"><a href="/contents/info/mobile.htm#fishing">報知つり速報</a></dt>
+            <dd>
+            <p>翌日朝掲載の釣果情報を当日夜に配信。厳選した指定船宿と協力店からの正確な情報や、船宿の自慢料理・仕掛けなど、実用的なメニューもご用意。月額210円(税込)</p>
+            <p class="alignR"><a href="/contents/info/mobile.htm#fishing">報知つり速報の詳細へ</a></p>
+            </dd>
+          </dl>
+        </div>
+        <!-- /cont3 -->
+        <!-- cont4 -->
+        <div class="tabContent">
+          <img src="/img/sales/mobile/bar_code3.gif" alt="" width="65" height="64" />
+          <dl class="description">
+            <dt class="tabContentHead"><a href="/contents/info/mobile.htm#keirin">報知競輪情報</a></dt>
+            <dd>
+            <p>携帯初の競輪予想情報。グランプリやダービーはもちろん、関東・南関東を中心に各レースを徹底予測。月額210円(税込)</p>
+            <p class="alignR"><a href="/contents/info/mobile.htm#keirin">報知競輪情報の詳細へ</a></p>
+            </dd>
+          </dl> 
+        </div>
+        <!-- /cont4 -->
+      </div>
+    </div>
+  </div>
+<script type="text/javascript">
+//<![CDATA[
+var tab = new Spry.Widget.TabbedPanels("tabPanel3");
+//]]>
+</script>
+
+<!-- /Mobile -->
 <!-- score Start-->
 <div class="score">
 <div class="sideBAR1">
@@ -520,84 +761,20 @@ var ACE_AR = {Site: '748203', Size: '300250', Region: '3'};
 <div class="scoreTABLE">
 	<table>
 	<tr>
-	    <th colspan="4"><a href="/soccer/jleague/results/prompt/index.htm">試合結果</a>&nbsp;（6月13日）</th>
+	    <th colspan="4"><a href="/soccer/japan/results/20130205-FUTYTT00003.htm">試合結果</a>&nbsp;（2月6日）</th>
 	</tr>
 <tr>
-<td colspan="4" class="tbLegue">▼Ｊ２　第17節</td>
+<td colspan="4" class="tbLegue">▼キリンチャレンジカップ2013</td>
 </tr>
 	<tr>
-	    <td class="tb-l"><a href="/contents/soccer/jleague/team/sapporo/index.htm">
-札幌
-</a>
+	    <td class="tb-l">日本
 </td>
 	    <td class="tb-m">
 <div class="tbScore">
-        2-2
+        3-0
 </div>
 	    </td>
-	    <td class="tb-r"><a href="/contents/soccer/jleague/team/ehime/index.htm">
-愛媛
-</a>
-</td>
-<td>
-<div class="tbState">
-終了
-</div>
-</td>
-	</tr>
-	<tr>
-	    <td class="tb-l"><a href="/contents/soccer/jleague/team/mito/index.htm">
-水戸
-</a>
-</td>
-	    <td class="tb-m">
-<div class="tbScore">
-        1-1
-</div>
-	    </td>
-	    <td class="tb-r"><a href="/contents/soccer/jleague/team/kusatsu/index.htm">
-草津
-</a>
-</td>
-<td>
-<div class="tbState">
-終了
-</div>
-</td>
-	</tr>
-	<tr>
-	    <td class="tb-l"><a href="/contents/soccer/jleague/team/kashiwa/index.htm">
-柏
-</a>
-</td>
-	    <td class="tb-m">
-<div class="tbScore">
-        2-0
-</div>
-	    </td>
-	    <td class="tb-r"><a href="/contents/soccer/jleague/team/kitakyushu/index.htm">
-北九州
-</a>
-</td>
-<td>
-<div class="tbState">
-終了
-</div>
-</td>
-	</tr>
-	<tr>
-	    <td class="tb-l"><a href="/contents/soccer/jleague/team/fukuoka/index.htm">
-福岡
-</a>
-</td>
-	    <td class="tb-m">
-<div class="tbScore">
-        2-1
-</div>
-	    </td>
-	    <td class="tb-r"><a href="/contents/soccer/jleague/team/oita/index.htm">
-大分
-</a>
+	    <td class="tb-r">ラトビア
 </td>
 <td>
 <div class="tbState">
@@ -613,6 +790,82 @@ var ACE_AR = {Site: '748203', Size: '300250', Region: '3'};
 </div>
 </div>
 <!-- score end -->
+<!-- EMPTY -->
+<!-- EMPTY -->
+<!-- SideMenu Regular Contents Start-->
+<div class="sideRegularCONT">
+<h2>日本代表</h2>
+<div class="left">
+<h3>記録</h3>
+<ul>
+<li><a href="/soccer/japan/schedule/index.htm">日本代表&nbsp;日程・結果</a></li>
+<li><a href="/soccer/japan/schedule/u22_index.htm">U-23日本&nbsp;日程・結果</a></li>
+<li><a href="/soccer/japan/schedule/okada_index.htm">岡田日本</a></li>
+<li><a href="/contents/soccer/japan/japan_a/osim_member.htm">オシム日本</a></li>
+</ul>
+</div>
+<div class="right">
+<h3>大会</h3>
+<ul>
+<li><a href="/soccer/olympic/men/qualifying/schedule/group_c.htm">五輪アジア予選・男子</a></li>
+<li><a href="/soccer/olympic/women/qualifying/schedule/index.htm">五輪アジア予選・女子</a></li>
+<li><a href="/soccer/japan/eaff/index.htm">東アジア選手権</a></li>
+<li><a href="/soccer/japan/asiacup/">アジア杯</a></li>
+<li><a href="/soccer/afc/asiancup/schedule/qualify_group_a.htm">アジア杯予選</a></li>
+</ul>
+</div>
+</div>
+<!-- SideMenu Regular Contents End-->
+<!-- SideMenu Regular Contents Start-->
+<div class="sideRegularCONT">
+<h2>国内サッカー</h2>
+<div class="left">
+<h3>Ｊ１</h3>
+<p><a href="/soccer/jleague/j1/schedule.htm">日程</a><!-- &nbsp;|&nbsp;<a href="/soccer/jleague/standings/j1_standings.htm">順位表</a>&nbsp;|&nbsp;<a href="/contents/soccer/jleague/2008/standings/j1_standings.htm">2008年</a> --></p>
+<!--
+<h3>ナビスコ杯</h3>
+<p><a href="/soccer/jleague/nabi/results/prompt/index.htm">結果</a>&nbsp;|&nbsp;<a href="/contents/soccer/jleague/2008/nabi/schedule/final.htm">2008年</a></p>
+-->
+<h3>天皇杯</h3>
+<p><a href="/soccer/emperorscup/index.htm">結果</a></p>
+</div>
+<div class="right">
+<h3>Ｊ２</h3>
+<p><a href="/soccer/jleague/j2/schedule.htm">日程</a><!-- &nbsp;|&nbsp;<a href="/soccer/jleague/standings/j2_standings.htm">順位表</a>&nbsp;|&nbsp;<a href="/contents/soccer/jleague/2008/standings/j2_standings.htm">2008年</a> --></p>
+<!--
+<h3>ＡＣＬ</h3>
+<p><a href="/soccer/jleague/acl/index.htm">結果</a></p>
+-->
+<h3>高校サッカー</h3>
+<p><a href="/soccer/hs/championship/index.htm">結果</a></p>
+</div>
+</div>
+<!-- SideMenu Regular Contents End-->
+<!-- SideMenu Regular Contents Start-->
+<div class="sideRegularCONT">
+<h2>海外サッカー</h2>
+<div class="left">
+<h3>各国リーグ</h3>
+<ul>
+<li><a href="/soccer/world/spain/index.htm">スペイン</a></li>
+<li><a href="/soccer/world/italy/index.htm">イタリア</a></li>
+<li><a href="/soccer/world/england/index.htm">イングランド</a></li>
+<li><a href="/soccer/world/germany/index.htm">ドイツ</a></li>
+<li><a href="/soccer/world/france/index.htm">フランス</a></li>
+<li><a href="/soccer/world/netherlands/index.htm">オランダ</a></li>
+</ul>
+</div>
+<div class="right">
+<h3>大会</h3>
+<ul>
+<li><a href="/2014worldcup/qualifiers/">Ｗ杯予選</a></li>
+<li><a href="/soccer/world/cl/index.htm">欧州ＣＬ</a></li>
+<li><a href="/soccer/world/euroleague/index.htm">欧州リーグ</a></li>
+<li><a href="/soccer/jleague/acl/index.htm">アジアＣＬ</a></li>
+</ul>
+</div>
+</div>
+<!-- SideMenu Regular Contents End-->
 <!-- iconLayout start-->
 <div class="iconLayoutWrap">
 <div class="left">
@@ -621,7 +874,7 @@ var ACE_AR = {Site: '748203', Size: '300250', Region: '3'};
 <ul>
 <li><a href="http://www.hochi.rakuten.co.jp/">楽天市場</a></li>
 <li><a href="http://www.ebookbank.jp/hochi">電子書籍</a></li>
-<li><a href="http://hochi.yomiuri.co.jp/contents/sales/calendar/index.htm">カレンダー</a></li>
+<li><a href="http://www.magazine-hochi.com/calendar/">カレンダー</a></li>
 </ul>
 </div>
 </div>
@@ -636,92 +889,59 @@ var ACE_AR = {Site: '748203', Size: '300250', Region: '3'};
 </div>
 </div>
 <!-- iconLayout end -->
-<!-- SideMenu Regular Contents Start-->
-<div class="sideRegularCONT">
-<h2>報知特薦コラム</h2>
-<div class="center">
-<h3>政治</h3>
+<!-- sideMenuTokusyu Start-->
+<div class="sideBAR1">
+<div class="sideBAR1-HEAD">
+<p class="sideMENU-p1"><a href="/feature/index.htm">特集ページ</a></p>
+<p class="sideMENU-p2"><a href="/feature/index.htm">一覧</a></p>
+</div>
+<div class="featureList">
 <ul>
-<li><a href="/column/masuzoe/index.htm">舛添要一の永田町「奮戦」ルポ</a></li>
-</ul>
-<h3>野球</h3>
-<ul>
-<li><a href="http://weblog.hochi.co.jp/hiruma/">ヒルマ記者のBaseball inside</a></li>
-</ul>
-<h3>芸能</h3>
-<ul>
-<li><a href="http://weblog.hochi.co.jp/takao/">高尾友行　タカの目</a></li>
-<li><a href="/column/enta/index.htm">ここだけの話</a></li>
-<li><a href="http://weblog.hochi.co.jp/uchino/">内野小百美　芸能ナイショ話</a></li>
-</ul>
-<h3>釣り</h3>
-<ul>
-<li><a href="/column/yamada/index.htm">山田邦子　釣りウキウキ</a></li>
-</ul>
-<h3>ボート</h3>
-<ul>
-<li><a href="/column/isoyama/index.htm">磯山さやか　「ボートヒーローSTORY」</a></li>
+<li><a href="/feature/soccer/20110718-117253/index.htm">なでしこ</a></li>
+<li><a href="/feature/soccer/20091012-353677/index.htm">日本代表</a></li>
+<li><a href="/feature/soccer/fcbayern/index.htm">FCバイエルンミュンヘン</a></li>
+<li><a href="/feature/soccer/20101205-069496/index.htm">全国高校サッカー選手権</a></li>
 </ul>
 </div>
 </div>
-
-<!-- SideMenu Regular Contents End-->
+<!-- sideMenuTokusyu End-->
 <!-- sideMenuAD2 Start-->
-<div class="sideMenuAD1">
+<div class="sideMenuAD2">
 <div class="ad200-out">
 <div class="ad200-in">
-<iframe src="/esi/ad/POSTi_rectangle_script.htm" scrolling="no" width="300" height="250" frameborder="0" marginheight="0" marginwidth="0" title="POSTi"></iframe>
+<!-- begin ad tag 2011.03.07-->
+<script type="text/javascript" language="JavaScript">
+
+var impAcn = "IMPASEG";
+var impAco = document.cookie;
+var impApos = impAco.indexOf(impAcn+"=");
+var impAseg = (impApos!=-1)?impAco.substring(impApos+impAcn.length+1,(impAco.indexOf("; ",impApos)!=-1)?impAco.indexOf("; ",impApos):impAco.length):null;
+impAseg = (impAseg)?unescape(impAseg):null;
+
+var impAserver = "http://as.hc.impact-ad.jp";
+var impAtag = "/SITE=SOCCER/AREA=SECOND.RECTANGLE/AAMSZ=300X250/OENCJP=UTF8";
+var impAtarget = (impAseg)?impAtag+"/"+impAseg:impAtag;
+
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt type="text/javascript" language="JavaScript" src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('</scr');
+document.write('ipt>');
+
+</script>
+<noscript>
+<iframe src="http://as.hc.impact-ad.jp/hserver/SITE=SOCCER/AREA=SECOND.RECTANGLE/AAMSZ=300X250/OENCJP=UTF8" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=250 allowTranspareeny="true">
+</iframe>
+</noscript>
+<!-- End ad tag -->
 
 </div>
 </div>
 </div>
 <!-- sideMenuAD2 End -->
-<!-- sideMenuAD3 Start-->
-<div class="sideMenuAD1">
-<div class="ad200-out">
-<div class="ad200-in">
-<!-- begin ad tag -->
-<script type="text/javascript">
-    var amp_med = '270';
-    var amp_site = '54';
-    var amp_frame = '11625';
-    var amp_iframe = '0';
-    var amp_height = '250';
-    var amp_width = '300';
-    var amp_type = '0';
-    var amp_rurl = document.referrer;
-    var amp_send = location.protocol + '//ads.adjust-net.jp/adserver/ad/ads.js';
-    document.write("<scr" + "ipt language='javascript' src='" + amp_send + "'></scr" + "ipt>");
-</script>
-<noscript>
-    <iframe src="https://ads.adjust-net.jp/adserver/ads?med=270&site=54&frame=11625&height=250&width=300&type=0&js=0" scrolling="no" height="250" width="300" frameborder="0" marginheight="0" marginwidth="0" title="ads">
-    </iframe>
-</noscript>
-<!-- end ad tag -->
-</div>
-</div>
-</div>
-<!-- sideMenuAD3 End -->
-<!-- recruit Start-->
-<div class="sideRegularCONT">
-<h2>ＰＲ</h2>
-<div class="sideRecruiteAd clearfix">
-<a href="http://gap-click.jp/xx0Y" target="_blank"><img src="/img/r-agent.gif" width="148" height="28" alt="リクルートエージェント" /></a><p><span><a href="http://www.r-agent.co.jp/" target="_blank">転職</a></span><br />リクルートエージェント</p> 
-</div> 
-<div class="sideRecruiteAd clearfix">
-<a href="http://kaitori.carview.co.jp/" target="_blank">
-<img src="/img/ad/carview.gif" width="148" height="46" alt="中古車買取査定ならカービュー" /></a>
-<p><span><a href="http://kaitori.carview.co.jp/" target="_blank">中古車の買取・査定</a></span>
-<span><a href="http://www.carview.co.jp/" target="_blank">中古車買取査定</a></span>
-<br />カービュー</p>
-</div>
-<div class="sideRecruiteAd clearfix"> 
-<a href="http://hochi.gourmet-coupon.jp/"><img src="/img/ad/gourmet.gif" width="148" height="28" alt="グルメ・クーポン" /></a> 
-<p><span><a href="http://hochi.gourmet-coupon.jp/">グルメ・クーポン<br />オススメ店舗満載！</a></span></p> 
-</div>
-</div>
-
-<!-- recruit End-->
 <!-- sideMenuHochi Start-->
 <div class="ad200-out">
 <table>
@@ -730,52 +950,121 @@ var ACE_AR = {Site: '748203', Size: '300250', Region: '3'};
 <th>スポーツショップ報知</th>
 </tr>
 <tr>
-<td><a href="http://www.magazine-hochi.com/"><img src="http://www.magazine-hochi.com/canban/canban.gif" alt="報知新聞社出版局" width="130" height="170" border="0"/></a></td>
-<td><a href="http://www.hochiprc.co.jp/"><img src="/img/prc.gif" alt="スポーツショップ報知" width="130" height="170" border="0"/></a></td>
+<td><a href="http://www.magazine-hochi.com/" target="_blank"><img src="/img/common/banner_magazine_l.gif" alt="報知新聞社出版局" width="130" height="170" /></a></td>
+<td><a href="http://www.hochiprc.co.jp/" target="_blank"><img src="/img/prc.gif" alt="スポーツショップ報知" width="130" height="170" ></a></td>
 </tr>
 </table>
 </div>
 <!-- sideMenuHochi End -->
+<!-- sideMenuAD3 Start-->
+<div class="sideMenuAD1">
+<div class="ad200-out">
+<div class="ad200-in">
+<!-- begin ad tag 2011.03.07-->
+<script type="text/javascript" language="JavaScript">
+
+var impAcn = "IMPASEG";
+var impAco = document.cookie;
+var impApos = impAco.indexOf(impAcn+"=");
+var impAseg = (impApos!=-1)?impAco.substring(impApos+impAcn.length+1,(impAco.indexOf("; ",impApos)!=-1)?impAco.indexOf("; ",impApos):impAco.length):null;
+impAseg = (impAseg)?unescape(impAseg):null;
+
+var impAserver = "http://as.hc.impact-ad.jp";
+var impAtag = "/SITE=SOCCER/AREA=THIRD.RECTANGLE/AAMSZ=300X250/OENCJP=UTF8";
+var impAtarget = (impAseg)?impAtag+"/"+impAseg:impAtag;
+
+
+impArnd = Math.round(Math.random() * 100000000);
+if (!impApid) var impApid = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt type="text/javascript" language="JavaScript" src="' + impAserver + '/jserver/acc_random=' + impArnd + impAtarget + '/pageid=' + impApid + '">');
+document.write('</scr');
+document.write('ipt>');
+
+</script>
+<noscript>
+<iframe src="http://as.hc.impact-ad.jp/hserver/SITE=SOCCER/AREA=THIRD.RECTANGLE/AAMSZ=300X250/OENCJP=UTF8" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=250 allowTranspareeny="true">
+</iframe>
+</noscript>
+<!-- End ad tag -->
+
+</div>
+</div>
+</div>
+<!-- sideMenuAD3 End -->
+<!-- recruit Start-->
+<!-- EMPTY -->
+
+<!-- recruit End-->
 
 </div>
 </div>
 <div id="footer">
-  <div class="footNavi">
-  <h2><img src="/img/common/foot_logo.gif" alt="報知新聞社" width="120" height="23" /></h2>
-  <ul>
-    <li><a href="/contents/info/">会社案内</a></li>
-    <li><a href="/contents/info/privacy.htm">個人情報</a></li>
-    <li><a href="/contents/info/copyright.htm">著作権</a></li>
-    <li><a href="/contents/info/link.htm">リンクポリシー</a></li>
-    <li><a href="/contents/info/arbeit.htm">アルバイト募集</a></li>
-    <li><a href="/contents/sales/backnumber.htm">バックナンバー</a></li>
-    <li><a href="/contents/info/contact.htm">お問い合わせ</a></li>
-    <li><a href="/contents/ad/">広告ガイド</a></li>
-  </ul>
-  <p class="pTop"><a href="#pageTop"><img src="/img/common/ptop.gif" alt="ページTOPへ" width="74" height="19" /></a></p>
-  </div>
-  <ul class="gNavi">
-    <li class="home"><a href="http://hochi.yomiuri.co.jp/">スポーツ報知</a></li>
+  <div class="mainMenu">
+    <ul class="gNavi">
+    <li class="home"><a href="/">スポーツ報知</a></li>
     <li class="giants"><a href="/giants/">巨人</a></li>
     <li class="baseball"><a href="/baseball/">野球</a></li>
     <li class="mlb"><a href="/mlb/">MLB</a></li>
     <li class="soccer"><a href="/soccer/">サッカー</a></li>
     <li class="golf"><a href="/sports/golf/">ゴルフ</a></li>
     <li class="sports"><a href="/sports/">スポーツ</a></li>
-    <li class="battle"><a href="/battle/">格闘技</a></li>
     <li class="hrace"><a href="/horserace/">競馬</a></li>
     <li class="ent"><a href="/entertainment/">芸能</a></li>
     <li class="topics"><a href="/topics/">社会</a></li>
-    <li class="ex"><a href="/2010worldcup/" title="南アフリカW杯">2010FIFAワールドカップ</a></li>
-  </ul>
-  <p class="copyright">見出し、記事、写真の無断転載を禁じます。Copyright © The Hochi Shimbun.</p>
-<!-- Ad for iPhone start -->
-<div id="smartilay"></div>
-<!-- Ad for iPhone end -->
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script> 
-<script type="text/javascript"> 
-_uacct = "UA-1555097-11";
-urchinTracker();
+    <li class="leisure"><a href="/leisure/">レジャー</a></li>
+    </ul>
+    <ul class="gNaviText">
+    <li><a href="/column/">ブログ&amp;コラム</a></li>
+    <li><a href="/leisure/fishing/">釣り</a></li>
+    <li><a href="/gamble/">ギャンブル</a></li>
+    <li><a href="/feature/">特集</a></li>
+    <li><a href="/event/">イベント</a></li>
+    <li><a href="/publicity/">ＰＲ</a></li>
+    <li><a href="http://www.magazine-hochi.com/" target="_blank">雑誌・書籍</a></li>
+    </ul>
+  </div>
+  <p class="copyright">見出し、記事、写真の無断転載を禁じます。Copyright &copy; The Hochi Shimbun.</p>
+  <div class="footNavi">
+    <h2><img src="/img/common/foot_logo.gif" alt="報知新聞社" width="120" height="23" /></h2>
+    <ul>
+      <li><a href="/info/company/">会社案内</a></li>
+      <li><a href="/info/policy/privacy.htm">個人情報</a></li>
+      <li><a href="/info/policy/copyright.htm">著作権</a></li>
+      <li><a href="/info/policy/link.htm">リンクポリシー</a></li>
+      <li><a href="/info/saiyo/arbeit.htm">アルバイト募集</a></li>
+      <li><a href="/contents/sales/backnumber.htm">バックナンバー</a></li>
+      <li><a href="/info/company/contact.htm">お問い合わせ</a></li>
+      <li><a href="/contents/ad/">広告ガイド</a></li>
+    </ul>
+    <p class="pTop"><a href="#pageTop"><img src="/img/common/ptop.gif" alt="ページTOPへ" width="74" height="19" /></a></p>
+  </div>
+<!-- Ad for smartphone start -->
+<script type='text/javascript' charset='utf-8' src='http://cache.ssend.microad.jp/js/overlay_load.js'></script>
+<script type='text/javascript'>
+var agent = navigator.userAgent;
+if(agent.search(/iPhone/) != -1 || agent.search(/iPad/) != -1 || agent.search(/iPod/) != -1) {
+  //iOS
+  document.write('<di'+'v class="micorad_overlay tagid_81258e0f7b8444cc"'+'></di'+'v>');
+} else if (agent.search(/Android/) != -1) {
+  //Android
+  document.write('<di'+'v class="micorad_overlay tagid_da64c7f75de072fb"'+'></di'+'v>');
+}
+</script>
+<!-- Ad for smartphone end -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-1555097-11']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
 
 </div>

@@ -108,7 +108,7 @@ module ConsadoleAggregator
       end
 
       sites.name(:hochiyomiuri) do |site|
-        site.resource { HTTPClient.new.get_content('http://hochi.yomiuri.co.jp/hokkaido/soccer/index.htm').force_encoding('UTF-8') }
+        site.resource { HTTPClient.new.get_content('http://hochi.yomiuri.co.jp/soccer/jleague/index.htm').force_encoding('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('div.list1 > ul > li a').reverse }
         site.filter_article { |article| article.text =~ /札幌|コンサ/ }
         site.parse_article { |article| { url:"http://hochi.yomiuri.co.jp#{article['href']}", title:article.text } }
