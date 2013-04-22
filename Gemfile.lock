@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    consadole_aggregator (0.2.6)
+    consadole_aggregator (0.2.7)
       eventmachine
       httpclient
       nokogiri
