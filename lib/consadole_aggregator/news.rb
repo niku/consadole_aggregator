@@ -189,7 +189,7 @@ module ConsadoleAggregator
       sites.name(:gekisaka) do |site|
         site.resource { HTTPClient.new.get_content('http://web.geki.jp/category/news/domestic').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('div.post-title a').reverse }
-        site.filter_article { |article| article.title =~ /札幌/ }
+        site.filter_article { |article| article.text =~ /札幌/ }
         site.parse_article { |article| { url: "http://web.geki.jp#{article['href']}", title: article.text.strip }}
       end
 
