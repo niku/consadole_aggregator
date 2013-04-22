@@ -192,6 +192,12 @@ module ConsadoleAggregator
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article| { url: "http://web.geki.jp#{article['href']}", title: article.text.strip }}
       end
+
+      sites.name(:consadole_sapporo_tv) do |site|
+        site.resource { HTTPClient.new.get_content('http://gdata.youtube.com/feeds/base/users/consadolesapporotv/uploads').encode('UTF-8') }
+        site.parse_list { |list| RSS::Parser.parse(list, false).items }
+        site.parse_article { |article| { url: article.link.href, title: article.title.content } }
+      end
     end
   end
 end
