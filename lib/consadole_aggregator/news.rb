@@ -124,7 +124,7 @@ module ConsadoleAggregator
       sites.name(:mainichi) do |site|
         site.resource { HTTPClient.new.get_content('http://mainichi.jp/area/hokkaido/archive/').force_encoding('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('#Archive dl dd a').reverse }
-        site.filter_article { |article| article.text =~ /コンサドーレ/ }
+        site.filter_article { |article| article.text =~ /コンサドーレ/ rescue nil }
         site.parse_article { |article| { url: article['href'], title: article.text.strip } }
       end
 
