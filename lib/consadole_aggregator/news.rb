@@ -170,9 +170,10 @@ module ConsadoleAggregator
         }
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article|
-          entry_point = HTTPClient.get(article.link).header['location'].first
-          c = HTTPClient.get(entry_point) while c.status == 301
-          { url: c.header['location'].first, title: article.title }
+          # redirect twice
+          c1 = HTTPClient.get(article.link)
+          c2 = HTTPClient.get(c1.header['location'].first)
+          { url: c2.header['location'].first, title: article.title }
         }
       end
 
@@ -188,9 +189,10 @@ module ConsadoleAggregator
         }
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article|
-          entry_point = HTTPClient.get(article.link).header['location'].first
-          c = HTTPClient.get(entry_point) while c.status == 301
-          { url: c.header['location'].first, title: article.title }
+          # redirect twice
+          c1 = HTTPClient.get(article.link)
+          c2 = HTTPClient.get(c1.header['location'].first)
+          { url: c2.header['location'].first, title: article.title }
         }
       end
 
