@@ -160,7 +160,9 @@ module ConsadoleAggregator
 
       sites.name(:jsgoalnews) do |site|
         site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/jsgoal?format=xml').encode('UTF-8') }
-        site.parse_list { |list| RSS::Parser.parse(list, false).items.reverse }
+        site.parse_list { |list|
+          RSS::Parser.parse(list, false).items.reverse
+        }
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article|
           entry_point = HTTPClient.get(article.link).header['location'].first
@@ -171,7 +173,9 @@ module ConsadoleAggregator
 
       sites.name(:jsgoalphotos) do |site|
         site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/photo?format=xml').encode('UTF-8') }
-        site.parse_list { |list| RSS::Parser.parse(list, false).items.reverse }
+        site.parse_list { |list|
+          RSS::Parser.parse(list, false).items.reverse
+        }
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article|
           entry_point = HTTPClient.get(article.link).header['location'].first
