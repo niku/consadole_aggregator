@@ -163,8 +163,8 @@ module ConsadoleAggregator
         site.parse_list { |list| RSS::Parser.parse(list, false).items.reverse }
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article|
-          c = HTTPClient.new.get(article.link)
-          c = HTTPClient.new.get(c.header['location'].first) while c.status == 301
+          entry_point = HTTPClient.get(article.link).header['location'].first
+          c = HTTPClient.get(entry_point) while c.status == 301
           { url: c.header['location'].first, title: article.title }
         }
       end
@@ -174,8 +174,8 @@ module ConsadoleAggregator
         site.parse_list { |list| RSS::Parser.parse(list, false).items.reverse }
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article|
-          c = HTTPClient.new.get(article.link)
-          c = HTTPClient.new.get(c.header['location'].first) while c.status == 301
+          entry_point = HTTPClient.get(article.link).header['location'].first
+          c = HTTPClient.get(entry_point) while c.status == 301
           { url: c.header['location'].first, title: article.title }
         }
       end
