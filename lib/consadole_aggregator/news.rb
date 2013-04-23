@@ -162,8 +162,10 @@ module ConsadoleAggregator
         site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/jsgoal?format=xml').encode('UTF-8') }
         site.parse_list { |list|
           begin
-            RSS::Parser.parse(list, false).items.reverse
+            RSS::Parser.parse(list, false).items.reverse # FIXME sometimes fail
           rescue
+            logger.error('%s: %s'%[site.name, $!])
+            []
           end
         }
         site.filter_article { |article| article.title =~ /札幌/ }
@@ -178,8 +180,10 @@ module ConsadoleAggregator
         site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/photo?format=xml').encode('UTF-8') }
         site.parse_list { |list|
           begin
-            RSS::Parser.parse(list, false).items.reverse
+            RSS::Parser.parse(list, false).items.reverse # FIXME sometimes fail
           rescue
+            logger.error('%s: %s'%[site.name, $!])
+            []
           end
         }
         site.filter_article { |article| article.title =~ /札幌/ }
