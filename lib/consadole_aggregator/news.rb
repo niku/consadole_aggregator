@@ -24,6 +24,8 @@ module ConsadoleAggregator
     end
 
     class SiteBuilder
+      attr_reader :name
+
       def initialize name
         @name = name
       end
