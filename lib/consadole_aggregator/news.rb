@@ -162,7 +162,7 @@ module ConsadoleAggregator
         site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/jsgoal?format=xml').encode('UTF-8') }
         site.parse_list { |list|
           begin
-          RSS::Parser.parse(list, false).items.reverse
+            RSS::Parser.parse(list, false).items.reverse
           rescue
           end
         }
@@ -178,7 +178,7 @@ module ConsadoleAggregator
         site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/photo?format=xml').encode('UTF-8') }
         site.parse_list { |list|
           begin
-          RSS::Parser.parse(list, false).items.reverse
+            RSS::Parser.parse(list, false).items.reverse
           rescue
           end
         }
