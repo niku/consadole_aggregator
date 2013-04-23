@@ -164,7 +164,7 @@ module ConsadoleAggregator
           begin
             RSS::Parser.parse(list, false).items.reverse # FIXME sometimes fail
           rescue
-            logger.error('%s: %s'%[site.name, $!])
+            ConsadoleAggregator.logger.error('%s: %s'%[site.name, $!])
             []
           end
         }
@@ -182,7 +182,7 @@ module ConsadoleAggregator
           begin
             RSS::Parser.parse(list, false).items.reverse # FIXME sometimes fail
           rescue
-            logger.error('%s: %s'%[site.name, $!])
+            ConsadoleAggregator.logger.error('%s: %s'%[site.name, $!])
             []
           end
         }
