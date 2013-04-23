@@ -102,64 +102,64 @@ module ConsadoleAggregator
 
     register! do |sites|
       sites.name(:nikkansports) do |site|
-        site.resource { HTTPClient.new.get_content('http://www.nikkansports.com/rss/soccer/jleague/consadole.rdf').force_encoding('UTF-8') }
+        site.resource { HTTPClient.get_content('http://www.nikkansports.com/rss/soccer/jleague/consadole.rdf').force_encoding('UTF-8') }
         site.parse_list { |list| RSS::Parser.parse(list, false).items.reverse }
         site.parse_article { |article| { url: article.link, title: article.title } }
       end
 
       sites.name(:hochiyomiuri) do |site|
-        site.resource { HTTPClient.new.get_content('http://hochi.yomiuri.co.jp/soccer/jleague/index.htm').force_encoding('UTF-8') }
+        site.resource { HTTPClient.get_content('http://hochi.yomiuri.co.jp/soccer/jleague/index.htm').force_encoding('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('div.list1 > ul > li a').reverse }
         site.filter_article { |article| article.text =~ /^【札幌】/ }
         site.parse_article { |article| { url:"http://hochi.yomiuri.co.jp#{article['href']}", title:article.text } }
       end
 
       sites.name(:asahi) do |site|
-        site.resource { HTTPClient.new.get_content('http://www.asahi.com/sports/list/soccer/national_news.html').force_encoding('EUC-JP').encode('UTF-8') }
+        site.resource { HTTPClient.get_content('http://www.asahi.com/sports/list/soccer/national_news.html').force_encoding('EUC-JP').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('#HeadLine2 dl dt a').reverse }
         site.filter_article { |article| article.text =~ /札幌|コンサ/ }
         site.parse_article { |article| { url: "http://www.asahi.com#{article['href']}", title: article.text } }
       end
 
       sites.name(:mainichi) do |site|
-        site.resource { HTTPClient.new.get_content('http://mainichi.jp/area/hokkaido/archive/').force_encoding('UTF-8') }
+        site.resource { HTTPClient.get_content('http://mainichi.jp/area/hokkaido/archive/').force_encoding('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('#Archive dl dd a').reverse }
         site.filter_article { |article| article.text =~ /コンサドーレ/ rescue nil }
         site.parse_article { |article| { url: article['href'], title: article.text.strip } }
       end
 
       sites.name(:forzaconsadole) do |site|
-        site.resource { HTTPClient.new.get_content('http://www.hokkaido-np.co.jp/news/e_index/?g=consadole').encode('UTF-8') }
+        site.resource { HTTPClient.get_content('http://www.hokkaido-np.co.jp/news/e_index/?g=consadole').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('ul.iSwBox > li > a').reverse }
         site.parse_article { |article| { url: article['href'], title: article.text } }
       end
 
       sites.name(:consaburn) do |site|
-        site.resource { HTTPClient.new.get_content('http://www.hokkaido-np.co.jp/cont/consa-burn/index.html').encode('UTF-8') }
+        site.resource { HTTPClient.get_content('http://www.hokkaido-np.co.jp/cont/consa-burn/index.html').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('ul#news_list > li > a').reverse }
         site.parse_article { |article| { url: article['href'], title: article.text } }
       end
 
       sites.name(:consaclub) do |site|
-        site.resource { HTTPClient.new.get_content('http://www.hokkaido-np.co.jp/cont/consa-club/index.html').encode('UTF-8') }
+        site.resource { HTTPClient.get_content('http://www.hokkaido-np.co.jp/cont/consa-club/index.html').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('ul#news_list > li > a').reverse }
         site.parse_article { |article| { url: article['href'], title: article.text } }
       end
 
       sites.name(:consadolenews) do |site|
-        site.resource { HTTPClient.new.get_content('http://www.consadole-sapporo.jp/news/atom.xml').force_encoding('UTF-8') }
+        site.resource { HTTPClient.get_content('http://www.consadole-sapporo.jp/news/atom.xml').force_encoding('UTF-8') }
         site.parse_list { |list| Nokogiri::XML(list).search('entry').reverse }
         site.parse_article { |article| { title: article.at('title').text, url: article.at('link')['href'] } }
       end
 
       sites.name(:consadolephotos) do |site|
-        site.resource { HTTPClient.new.get_content('http://www.consadole-sapporo.jp/').force_encoding('UTF-8') }
+        site.resource { HTTPClient.get_content('http://www.consadole-sapporo.jp/').force_encoding('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('div.anythingSlider img').reverse }
         site.parse_article { |article| { url: article['src'], title: article['alt'] } }
       end
 
       sites.name(:jsgoalnews) do |site|
-        site.resource { HTTPClient.new.get_content('http://feeds.feedburner.com/jsgoal/jsgoal?format=xml').encode('UTF-8') }
+        site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/jsgoal?format=xml').encode('UTF-8') }
         site.parse_list { |list| RSS::Parser.parse(list, false).items.reverse }
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article|
@@ -170,7 +170,7 @@ module ConsadoleAggregator
       end
 
       sites.name(:jsgoalphotos) do |site|
-        site.resource { HTTPClient.new.get_content('http://feeds.feedburner.com/jsgoal/photo?format=xml').encode('UTF-8') }
+        site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/photo?format=xml').encode('UTF-8') }
         site.parse_list { |list| RSS::Parser.parse(list, false).items.reverse }
         site.filter_article { |article| article.title =~ /札幌/ }
         site.parse_article { |article|
@@ -181,7 +181,7 @@ module ConsadoleAggregator
       end
 
       sites.name(:clubconsadole) do |site|
-        site.resource { HTTPClient.new.get_content('http://club-consadole.jp/news/index.php?page=1').encode('UTF-8') }
+        site.resource { HTTPClient.get_content('http://club-consadole.jp/news/index.php?page=1').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('li.news a').reverse }
         site.parse_article { |article| { url: article['href'], title: article.text.strip } }
       end
