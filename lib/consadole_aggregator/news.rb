@@ -160,6 +160,20 @@ module ConsadoleAggregator
         site.parse_article { |article| { url: article['src'], title: article['alt'] } }
       end
 
+      sites.name(:consadoletickets) do |site|
+        site.resource { HTTPClient.get_content('http://www.consadole-sapporo.jp/').force_encoding('UTF-8') }
+        site.parse_list { |list| Nokogiri::XML(list).search('#next-homegame') }
+        site.parse_article { |article|
+          next_match = article.at('dd').text.tr("\n", ' ')
+          target = article.at('li.target').text
+          now = article.at('li.now').text
+          {
+            url: 'http://www.consadole-sapporo.jp/ticket/guide/',
+            title: "次のホームゲーム:#{next_match}, 目標チケット販売数:#{target}, 現在チケット販売数:#{now}"
+          }
+        }
+      end
+
       sites.name(:jsgoalnews) do |site|
         site.resource { HTTPClient.get_content('http://feeds.feedburner.com/jsgoal/jsgoal?format=xml').encode('UTF-8') }
         site.parse_list { |list|
