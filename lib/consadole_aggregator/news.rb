@@ -116,6 +116,12 @@ module ConsadoleAggregator
         site.parse_article { |article| { url:"http://hochi.yomiuri.co.jp#{article['href']}", title:article.text } }
       end
 
+      sites.name(:koutascheck) do |site|
+        site.resource { HTTPClient.get_content('http://hochi.yomiuri.co.jp/feature/soccer/20130524-461413/index.htm').force_encoding('UTF-8') }
+        site.parse_list { |list| Nokogiri::HTML(list).search('div.list1 > ul > li a').reverse }
+        site.parse_article { |article| { url:"http://hochi.yomiuri.co.jp#{article['href']}", title:article.text } }
+      end
+
       sites.name(:asahi) do |site|
         site.resource { HTTPClient.get_content('http://www.asahi.com/sports/list/soccer/national_news.html').force_encoding('EUC-JP').encode('UTF-8') }
         site.parse_list { |list| Nokogiri::HTML(list).search('#HeadLine2 dl dt a').reverse }
