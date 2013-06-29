@@ -3,6 +3,7 @@ require 'rss'
 require 'pstore'
 require 'nokogiri'
 require 'httpclient'
+require_relative 'news/store'
 
 module ConsadoleAggregator
   module News
