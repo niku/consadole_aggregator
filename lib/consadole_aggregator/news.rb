@@ -5,6 +5,7 @@ require 'nokogiri'
 require 'httpclient'
 require_relative 'news/store'
 require_relative 'news/source'
+require_relative 'news/dsl'
 
 module ConsadoleAggregator
   module News
