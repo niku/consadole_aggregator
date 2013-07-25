@@ -6,6 +6,7 @@ require 'httpclient'
 require_relative 'news/store'
 require_relative 'news/source'
 require_relative 'news/dsl'
+require_relative 'news/article'
 
 module ConsadoleAggregator
   module News
