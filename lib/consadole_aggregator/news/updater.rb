@@ -23,5 +23,10 @@ module ConsadoleAggregator::News
         store.add_if_not_member(article, &to_do_if_new_member)
       end
     end
+
+    def == other
+      other.kind_of?(self.class) \
+      && self.source == other.source
+    end
   end
 end

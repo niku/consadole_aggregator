@@ -33,6 +33,29 @@ module ConsadoleAggregator::News
           subject.invoke {|article| article }
         end
       end
+
+      describe '#==' do
+        context 'given object same class and source evaluates be true' do
+          it {
+            allow(source).to receive(:==).and_return(true)
+            expect(subject == described_class.new(source)).to be_true
+          }
+        end
+
+        context 'given object same class and source evaluates be false' do
+          it {
+            allow(source).to receive(:==).and_return(false)
+            expect(subject == described_class.new(source)).to be_false
+          }
+        end
+
+        context 'given object another class and source evaluates be true' do
+          it {
+            other_class = Struct.new(:source)
+            expect(subject == other_class.new(source)).to be_false
+          }
+        end
+      end
     end
   end
 end
