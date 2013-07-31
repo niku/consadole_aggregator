@@ -21,6 +21,23 @@ module ConsadoleAggregator::News
       describe '#get' do
         it { expect(subject.get).to eq [] }
       end
+
+      describe '#==' do
+        context 'given object has same name and same class' do
+          it { expect(subject == described_class.new(name)).to be_true }
+        end
+
+        context 'given object has other name and same class' do
+          it { expect(subject == described_class.new(:bar)).to be_false }
+        end
+
+        context 'given object has same name and other class' do
+          it {
+            other_class = Struct.new(:name)
+            expect(subject == other_class.new(name)).to be_false
+          }
+        end
+      end
     end
 
     context 'when how_to_create_resource returns value' do

@@ -36,5 +36,10 @@ module ConsadoleAggregator::News
     rescue
       []
     end
+
+    def == other
+      other.kind_of?(self.class) \
+      && self.name == other.name
+    end
   end
 end
