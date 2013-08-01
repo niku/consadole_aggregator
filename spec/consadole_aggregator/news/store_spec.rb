@@ -6,8 +6,8 @@ module ConsadoleAggregator::News
     subject { described_class.new(store, name) }
     let(:store) { PStore.new(Tempfile.open('store'), true) }
     let(:name) { 'a-store' }
-    let(:is_not_member_of_store_value) { 'is not member of store value' }
-    let(:is_member_of_store_value) { 'is member of store value' }
+    let(:new_item) { 'new item' }
+    let(:stored_value) { 'stored value' }
 
     describe '.store_path' do
       it { expect(described_class.store_path).to end_with 'pstore' }
@@ -22,19 +22,19 @@ module ConsadoleAggregator::News
 
     context 'when data does not exist' do
       describe '#member?' do
-        it { expect(subject.member?(is_not_member_of_store_value)).to be_false }
+        it { expect(subject.member?(new_item)).to be_false }
       end
 
-      describe '#add_if_not_member' do
+      describe '#add_if_new_item' do
         it 'should increase count' do
           expect {
-            subject.add_if_not_member(is_not_member_of_store_value)
+            subject.add_if_new_item(new_item)
           }.to change { subject.count }.from(0).to(1)
         end
 
         it 'should sync to store' do
-          subject.add_if_not_member(is_not_member_of_store_value)
-          expect(store.transaction {|s| s.fetch(name, []) }).to eq [is_not_member_of_store_value]
+          subject.add_if_new_item(new_item)
+          expect(store.transaction {|s| s.fetch(name, []) }).to eq [new_item]
         end
       end
     end
@@ -42,62 +42,62 @@ module ConsadoleAggregator::News
     context 'when a data exists' do
       let(:store) {
         pstore = super()
-        pstore.transaction {|s| s[name] = [is_member_of_store_value] }
+        pstore.transaction {|s| s[name] = [stored_value] }
         pstore
       }
 
       describe '#member?' do
-        it { expect(subject.member?(is_member_of_store_value)).to be_true }
-        it { expect(subject.member?(is_not_member_of_store_value)).to be_false }
+        it { expect(subject.member?(stored_value)).to be_true }
+        it { expect(subject.member?(new_item)).to be_false }
       end
 
-      describe '#add_if_not_member' do
-        context 'given value that is not member of store without block' do
+      describe '#add_if_new_item' do
+        context 'given new item without block' do
           it 'should increase count' do
             expect {
-              subject.add_if_not_member(is_not_member_of_store_value)
+              subject.add_if_new_item(new_item)
             }.to change { subject.count }.from(1).to(2)
           end
 
           it 'should sync to store' do
-            subject.add_if_not_member(is_not_member_of_store_value)
-            expect(store.transaction {|s| s.fetch(name, []) }).to eq [is_member_of_store_value,
-                                                                      is_not_member_of_store_value]
+            subject.add_if_new_item(new_item)
+            expect(store.transaction {|s| s.fetch(name, []) }).to eq [stored_value,
+                                                                      new_item]
           end
         end
 
-        context 'given value that is member of store without block' do
+        context 'given stored item without block' do
           it 'should not increase count' do
             expect {
-              subject.add_if_not_member(is_member_of_store_value)
+              subject.add_if_new_item(stored_value)
             }.to_not change { subject.count }
           end
 
           it 'should sync to store' do
-            subject.add_if_not_member(is_member_of_store_value)
-            expect(store.transaction {|s| s.fetch(name, []) }).to eq [is_member_of_store_value]
+            subject.add_if_new_item(stored_value)
+            expect(store.transaction {|s| s.fetch(name, []) }).to eq [stored_value]
           end
         end
 
-        context 'given value that is member of store with block' do
+        context 'given stored item with block' do
           it 'should not yield block' do
             expect {|block|
-              subject.add_if_not_member(is_member_of_store_value, &block)
+              subject.add_if_new_item(stored_value, &block)
             }.to_not yield_control
           end
         end
 
-        context 'given value that is no member of store with block' do
+        context 'given new item with block' do
           it 'should yield block with the value' do
             expect {|block|
-              subject.add_if_not_member(is_not_member_of_store_value, &block)
-            }.to yield_with_args(is_not_member_of_store_value)
+              subject.add_if_new_item(new_item, &block)
+            }.to yield_with_args(new_item)
           end
 
           describe 'does not raise error' do
             it 'should add value' do
               expect {
-                subject.add_if_not_member(is_not_member_of_store_value) {|v| v }
+                subject.add_if_new_item(new_item) {|v| v }
               }.to change { subject.count }.by(1)
             end
           end
@@ -105,7 +105,7 @@ module ConsadoleAggregator::News
           describe 'raise error' do
             it 'should add value' do
               expect {
-                subject.add_if_not_member(is_not_member_of_store_value) {|v| raise }
+                subject.add_if_new_item(new_item) {|v| raise }
               }.to_not change { subject.count }
             end
           end

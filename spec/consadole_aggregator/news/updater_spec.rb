@@ -24,12 +24,12 @@ module ConsadoleAggregator::News
       end
 
       describe '#invoke' do
-        it 'should call Store#add_if_not_member'do
+        it 'should call Store#add_if_new_item'do
           store = double('store')
           allow(subject).to receive(:store).and_return(store)
           # FIXME How to write to expect given block?
-          expect(store).to receive(:add_if_not_member).with(source_articles[0]).and_yield('done!')
-          expect(store).to receive(:add_if_not_member).with(source_articles[1]).and_yield('done!!')
+          expect(store).to receive(:add_if_new_item).with(source_articles[0]).and_yield('done!')
+          expect(store).to receive(:add_if_new_item).with(source_articles[1]).and_yield('done!!')
           subject.invoke {|article| article }
         end
       end

@@ -29,7 +29,7 @@ module ConsadoleAggregator::News
       end
     end
 
-    def add_if_not_member value
+    def add_if_new_item value
       @store.transaction {|s|
         stored_value = s.fetch(@name, [])
         if not stored_value.member?(value)

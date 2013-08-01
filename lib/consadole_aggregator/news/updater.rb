@@ -20,7 +20,7 @@ module ConsadoleAggregator::News
 
     def invoke &to_do_if_new_member
       articles.each do |article|
-        store.add_if_not_member(article, &to_do_if_new_member)
+        store.add_if_new_item(article, &to_do_if_new_member)
       end
     end
 
