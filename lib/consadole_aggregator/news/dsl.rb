@@ -16,7 +16,7 @@ module ConsadoleAggregator::News
       def name source_name
         site = Site.new(Source.new(source_name))
         yield site if block_given?
-        @sites << site
+        @sites << site.get
       end
 
       def get
@@ -39,6 +39,10 @@ module ConsadoleAggregator::News
 
       def elements &block
         @source.how_to_create_elements = block
+      end
+
+      def get
+        @source
       end
     end
   end

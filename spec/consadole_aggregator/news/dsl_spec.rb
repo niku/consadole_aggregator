@@ -61,6 +61,10 @@ module ConsadoleAggregator::News
           subject.elements {|element| { url:element, path:element.split('/').last } }
         end
       end
+
+      describe '#get' do
+        it { expect(subject.get).to eq source }
+      end
     end
   end
 end
