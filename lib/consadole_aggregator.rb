@@ -1,4 +1,5 @@
 require "consadole_aggregator/version"
+require 'consadole_aggregator/loggable'
 require 'consadole_aggregator/helper.rb'
 require 'consadole_aggregator/live.rb'
 require 'consadole_aggregator/news.rb'
