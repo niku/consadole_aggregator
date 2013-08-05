@@ -25,7 +25,7 @@ module ConsadoleAggregator
   case subcommand
   when 'news'
     opt.parse!(ARGV)
-    News.run &output
+    News.update(&output)
   when 'live'
     starting_time = Time.parse(ARGV.shift)
     opt.parse!(ARGV)
