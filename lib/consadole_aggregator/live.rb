@@ -73,7 +73,7 @@ module ConsadoleAggregator
     def self.parse document
       Nokogiri
         .parse(document)
-        .search('p:last-of-type')
+        .search('hr:last-of-type ~ p')
         .children
         .grep(Nokogiri::XML::Text)
         .map(&:text)
