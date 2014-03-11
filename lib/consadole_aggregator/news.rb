@@ -8,6 +8,7 @@ require_relative 'news/source'
 require_relative 'news/dsl'
 require_relative 'news/article'
 require_relative 'news/updater'
+require_relative 'news/fetcher'
 
 module ConsadoleAggregator
   module News
