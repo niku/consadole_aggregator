@@ -1,0 +1,2 @@
+defmodule ConsadoleAggregator do
+end

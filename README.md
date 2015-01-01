@@ -1,0 +1,4 @@
+ConsadoleAggregator
+===================
+
+** TODO: Add description **
