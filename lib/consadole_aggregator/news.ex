@@ -11,4 +11,18 @@ defmodule ConsadoleAggregator.News do
       {:error, %HTTPoison.Error{reason: reason}} -> {:error, reason}
     end
   end
+
+  @spec parse_rss(String.t) :: [map]
+  def parse_rss(doc) do
+    # https://gist.github.com/sasa1977/5967224
+    {root, _} = doc
+    |> :binary.bin_to_list
+    |> :xmerl_scan.string
+    items = :xmerl_xpath.string('/rdf:RDF/item', root)
+    Enum.map items, fn item ->
+      [{_, _, _, _, link, _}] = :xmerl_xpath.string('link/text()', item)
+      [{_, _, _, _, title, _}] = :xmerl_xpath.string('title/text()', item)
+      %{link: to_string(link), title: to_string(title)}
+    end
+  end
 end

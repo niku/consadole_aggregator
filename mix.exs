@@ -5,7 +5,8 @@ defmodule ConsadoleAggregator.Mixfile do
     [app: :consadole_aggregator,
      version: "0.0.1",
      elixir: "~> 1.0",
-     deps: deps]
+     deps: deps,
+     dialyzer: dialyzer]
   end
 
   # Configuration for the OTP application
@@ -27,5 +28,9 @@ defmodule ConsadoleAggregator.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [{:httpoison, "~> 0.5"}]
+  end
+
+  defp dialyzer do
+    [plt_add_apps: [:xmerl]]
   end
 end
