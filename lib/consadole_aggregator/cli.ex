@@ -6,7 +6,9 @@ defmodule ConsadoleAggregator.CLI do
   @type runner :: :help | :news
 
   def run(argv) do
-    parse_args(argv)
+    argv
+    |> parse_args
+    |> process
   end
 
   @doc """
@@ -26,5 +28,18 @@ defmodule ConsadoleAggregator.CLI do
       {_, ["news"], _ } -> :news
       _ -> :help
     end
+  end
+
+  @spec process(runner) :: any
+
+  def process(:help) do
+    IO.puts """
+    usage: consadole_aggregator news
+    """
+    System.halt(0)
+  end
+
+  def process(:news) do
+    # do anything
   end
 end
