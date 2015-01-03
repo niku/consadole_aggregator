@@ -14,7 +14,8 @@ defmodule ConsadoleAggregator.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [applications: [:logger,
-                    :httpoison]]
+                    :httpoison,
+                    :amnesia]]
   end
 
   # Dependencies can be Hex packages:
@@ -27,7 +28,8 @@ defmodule ConsadoleAggregator.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:httpoison, "~> 0.5"}]
+    [{:httpoison, "~> 0.5"},
+     {:amnesia, github: "meh/amnesia"}]
   end
 
   defp dialyzer do

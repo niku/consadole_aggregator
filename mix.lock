@@ -1,3 +1,6 @@
-%{"hackney": {:hex, :hackney, "0.14.3"},
+%{"amnesia": {:git, "git://github.com/meh/amnesia.git", "07a30a73ce71e03e56daa7a2855161d81ba20c48", []},
+  "continuum": {:git, "git://github.com/meh/continuum.git", "4125f9d428971568f16da78cec24fddce18d6eca", []},
+  "exquisite": {:hex, :exquisite, "0.1.4"},
+  "hackney": {:hex, :hackney, "0.14.3"},
   "httpoison": {:hex, :httpoison, "0.5.0"},
   "idna": {:hex, :idna, "1.0.1"}}
