@@ -3,6 +3,9 @@ defmodule ConsadoleAggregator.News do
   News of Consadole Sapporo
   """
 
+  @type t :: %__MODULE__{uri: URI.t, title: String.t}
+  defstruct uri: %URI{}, title: ""
+
   @spec fetch(URI.t) :: {:ok, String.t} | {:error, String.t}
   def fetch(uri) do
     case HTTPoison.get(uri) do
@@ -12,7 +15,7 @@ defmodule ConsadoleAggregator.News do
     end
   end
 
-  @spec parse_rss(String.t) :: [map]
+  @spec parse_rss(String.t) :: [News.t]
   def parse_rss(doc) do
     # https://gist.github.com/sasa1977/5967224
     {root, _} = doc
@@ -22,7 +25,7 @@ defmodule ConsadoleAggregator.News do
     Enum.map items, fn item ->
       [{_, _, _, _, link, _}] = :xmerl_xpath.string('link/text()', item)
       [{_, _, _, _, title, _}] = :xmerl_xpath.string('title/text()', item)
-      %{link: to_string(link), title: to_string(title)}
+      %__MODULE__{uri: URI.parse(to_string(link)), title: to_string(title)}
     end
   end
 end
