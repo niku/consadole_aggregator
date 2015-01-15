@@ -30,7 +30,7 @@ defmodule ConsadoleAggregator.TwitterTest do
     assert String.length(snip(text, uri)) == 105
   end
 
-  test "\"title uri #consadole\" returned if gieven news" do
+  test "\"title uri hashtag\" returned if gieven news" do
     assert to_twitter_string(%ConsadoleAggregator.News{uri: URI.parse("https://example.com/foo"), title: "タイトル"}) == "タイトル https://example.com/foo #consadole"
   end
 end
