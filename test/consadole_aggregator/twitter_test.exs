@@ -33,4 +33,11 @@ defmodule ConsadoleAggregator.TwitterTest do
   test "\"title uri hashtag\" returned if gieven news" do
     assert to_twitter_string(%ConsadoleAggregator.News{uri: URI.parse("https://example.com/foo"), title: "タイトル"}) == "タイトル https://example.com/foo #consadole"
   end
+
+  test "\"snipped_title uri hashtag\" returned if gieven news, and title is too long" do
+    too_long_title = Stream.repeatedly(fn -> "あ" end) |> Enum.take(140) |> Enum.join
+    snipped_title = Stream.repeatedly(fn -> "あ" end) |> Enum.take(105) |> Enum.join
+    news = %ConsadoleAggregator.News{uri: URI.parse("https://example.com/foo"), title: too_long_title}
+    assert to_twitter_string(news) == "#{snipped_title} https://example.com/foo #consadole"
+  end
 end

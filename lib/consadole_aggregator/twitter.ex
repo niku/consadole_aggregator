@@ -16,7 +16,8 @@ defmodule ConsadoleAggregator.Twitter do
   @spec to_twitter_string(ConsadoleAggregator.News.t) :: String.t
   def to_twitter_string(news = %ConsadoleAggregator.News{}) do
     %{title: title, uri: uri} = news
-    Enum.join([title, to_string(uri), @twitter_hashtag], " ")
+    snipped_title = snip(title, uri)
+    Enum.join([snipped_title, to_string(uri), @twitter_hashtag], " ")
   end
 
   @spec snip(String.t, URI.t) :: String.t
