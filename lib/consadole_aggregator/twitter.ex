@@ -18,4 +18,15 @@ defmodule ConsadoleAggregator.Twitter do
     %{title: title, uri: uri} = news
     Enum.join([title, to_string(uri), @twitter_hashtag], " ")
   end
+
+  @spec snip(String.t, URI.t) :: String.t
+  def snip(text, uri) do
+    # "text url hashtag"
+    #      ^   ^
+    # So, space length = 2
+    space_length = 2
+    occupied_length = url_length(uri) + String.length(@twitter_hashtag) + space_length
+    title_length = @twitter_length_limit - occupied_length
+    String.slice(text, 0, title_length)
+  end
 end
