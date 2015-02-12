@@ -40,6 +40,23 @@ defmodule ConsadoleAggregator.CLI do
   end
 
   def process(:news) do
-    # do anything
+    start_link
+
+    %{uri: uri} = Enum.find(ConsadoleAggregator.Config.source, &(%{name: "nikkansports"} = &1))
+    {:ok, doc} = uri |> ConsadoleAggregator.News.fetch
+
+    doc
+    |> ConsadoleAggregator.News.parse_rss
+    |> Enum.filter(&ConsadoleAggregator.Database.Content.unread?/1)
+    |> Enum.map(&ConsadoleAggregator.Twitter.to_twitter_string/1)
+    |> Enum.each(&ConsadoleAggregator.Publisher.notify/1)
+    # |> Enum.each(&ConsadoleAggregator.Database.Content.register/1)
+  end
+
+  defp start_link do
+    ConsadoleAggregator.Publisher.start_link([
+      ConsadoleAggregator.TwitterHandler,
+      ConsadoleAggregator.StdoutHandler
+    ])
   end
 end
