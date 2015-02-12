@@ -5,8 +5,8 @@ defmodule ConsadoleAggregator.CLI do
 
   @type runner :: :help | :news
 
-  def run(argv) do
-    argv
+  def main(args) do
+    args
     |> parse_args
     |> process
   end

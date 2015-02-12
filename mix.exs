@@ -6,7 +6,8 @@ defmodule ConsadoleAggregator.Mixfile do
      version: "0.0.1",
      elixir: "~> 1.0",
      deps: deps,
-     dialyzer: dialyzer]
+     dialyzer: dialyzer,
+     escript: [main_module: ConsadoleAggregator.CLI]]
   end
 
   # Configuration for the OTP application
