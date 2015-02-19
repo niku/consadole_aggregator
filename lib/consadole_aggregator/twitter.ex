@@ -14,7 +14,7 @@ defmodule ConsadoleAggregator.Twitter do
   def url_length(%URI{scheme: "https"}), do: @twitter_short_url_length_https
 
   @spec to_twitter_string(ConsadoleAggregator.News.t) :: String.t
-  def to_twitter_string(news = %ConsadoleAggregator.News{}) do
+  def to_twitter_string(%ConsadoleAggregator.News{} = news) do
     %{title: title, uri: uri} = news
     snipped_title = snip(title, uri)
     Enum.join([snipped_title, to_string(uri), @twitter_hashtag], " ")
