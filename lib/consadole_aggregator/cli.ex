@@ -45,12 +45,11 @@ defmodule ConsadoleAggregator.CLI do
     %{uri: uri} = Enum.find(ConsadoleAggregator.Config.source, &(%{name: "nikkansports"} = &1))
     {:ok, doc} = uri |> ConsadoleAggregator.News.fetch
 
-    doc
-    |> ConsadoleAggregator.News.parse_rss
-    |> Enum.filter(&ConsadoleAggregator.Database.Content.unread?/1)
-    |> Enum.map(&ConsadoleAggregator.Twitter.to_twitter_string/1)
-    |> Enum.each(&ConsadoleAggregator.Publisher.notify/1)
-    # |> Enum.each(&ConsadoleAggregator.Database.Content.register/1)
+    for news <- ConsadoleAggregator.News.parse_rss(doc),
+        ConsadoleAggregator.Database.Content.unread?(news) do
+      ConsadoleAggregator.Publisher.notify(news)
+      ConsadoleAggregator.Database.Content.register(news)
+    end
   end
 
   defp start_link do
