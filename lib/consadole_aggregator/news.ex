@@ -15,8 +15,8 @@ defmodule ConsadoleAggregator.News do
     end
   end
 
-  @spec parse_rss(String.t) :: [News.t]
-  def parse_rss(doc) do
+  @spec parse(String.t, :rss) :: [News.t]
+  def parse(doc, :rss) do
     # https://gist.github.com/sasa1977/5967224
     {root, _} = doc
     |> :binary.bin_to_list

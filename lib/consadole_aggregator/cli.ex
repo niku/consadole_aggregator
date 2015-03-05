@@ -45,7 +45,7 @@ defmodule ConsadoleAggregator.CLI do
     %{uri: uri} = Enum.find(ConsadoleAggregator.Config.source, &(%{name: "nikkansports"} = &1))
     {:ok, doc} = uri |> ConsadoleAggregator.News.fetch
 
-    for news <- ConsadoleAggregator.News.parse_rss(doc),
+    for news <- ConsadoleAggregator.News.parse(doc, :rss),
         ConsadoleAggregator.Database.Content.unread?(news) do
       ConsadoleAggregator.Publisher.notify(news)
       ConsadoleAggregator.Database.Content.register(news)
