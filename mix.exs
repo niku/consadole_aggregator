@@ -30,7 +30,9 @@ defmodule ConsadoleAggregator.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [{:httpoison, "~> 0.5"},
-     {:amnesia, github: "meh/amnesia"}]
+     {:amnesia, github: "meh/amnesia"},
+     {:mochiweb, github: "mochi/mochiweb", override: true},
+     {:mochiweb_xpath, github: "retnuh/mochiweb_xpath"}]
   end
 
   defp dialyzer do

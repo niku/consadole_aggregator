@@ -15,8 +15,8 @@ defmodule ConsadoleAggregator.News do
     end
   end
 
-  @spec parse(String.t, :rss) :: [News.t]
-  def parse(doc, :rss) do
+  @spec parse(String.t, :rss, any) :: [News.t]
+  def parse(doc, :rss, _) do
     # https://gist.github.com/sasa1977/5967224
     {root, _} = doc
     |> :binary.bin_to_list
@@ -27,5 +27,14 @@ defmodule ConsadoleAggregator.News do
       [{_, _, _, _, title, _}] = :xmerl_xpath.string('title/text()', item)
       %__MODULE__{uri: URI.parse(to_string(link)), title: to_string(title)}
     end
+  end
+
+  @spec parse(String.t, :html, ParseConfig.t) :: [News.t]
+  def parse(doc, :html, parse_config) do
+    tree = :mochiweb_html.parse(doc)
+    x = :mochiweb_xpath.execute(String.to_char_list(parse_config.xpath), tree)
+    y = Enum.map x, parse_config.parser
+    z = Enum.filter y, parse_config.filter
+    Enum.map z, fn {uri, title} -> %__MODULE__{uri: uri, title: title} end
   end
 end

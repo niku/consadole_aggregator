@@ -3,4 +3,6 @@
   "exquisite": {:hex, :exquisite, "0.1.4"},
   "hackney": {:hex, :hackney, "0.14.3"},
   "httpoison": {:hex, :httpoison, "0.5.0"},
-  "idna": {:hex, :idna, "1.0.1"}}
+  "idna": {:hex, :idna, "1.0.1"},
+  "mochiweb": {:git, "git://github.com/mochi/mochiweb.git", "b66b68d95c9e1b2a32b194202e870e6d1e232eb7", []},
+  "mochiweb_xpath": {:git, "git://github.com/retnuh/mochiweb_xpath.git", "ccea7319e88281f6274b6fce617278c434bac56f", []}}
