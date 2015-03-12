@@ -4,7 +4,8 @@ defmodule ConsadoleAggregator.SourceTest do
   test "parse from dict" do
     name = "foo"
     uri = "http://example.com/"
-    assert ConsadoleAggregator.Source.parse(name: name, uri: uri) ==
-      %ConsadoleAggregator.Source{name: name, uri: URI.parse(uri)}
+    type = :rss
+    assert ConsadoleAggregator.Source.parse(name: name, uri: uri, type: type) ==
+      %ConsadoleAggregator.Source{name: name, uri: URI.parse(uri), type: type}
   end
 end
