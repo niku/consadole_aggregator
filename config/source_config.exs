@@ -17,8 +17,21 @@ config :consadole_aggregator, :source, [
                    {URI.parse(uri), String.strip(title)}
                  end,
                  filter: fn {_uri, title} ->
-                   String.contains?(title, ["札幌", "宏太’Ｓチェック"])
+                   String.contains?(title, ["札幌"])
                  end
+               ]
+           ],
+           [
+               name: "kouta's-check",
+               uri: "http://www.hochi.co.jp/soccer/feature/TO000258",
+               type: :html,
+               parse_config: [
+                 xpath: ~s{//div[@id="article1"]//span[@class="ar_title"]/a | //ul[@class="article_text"]/li/a},
+                 parser: fn item ->
+                   {"a", [{"href", uri}], [title|_]} = item
+                   {URI.parse(uri), String.strip(title)}
+                 end,
+                 filter: fn {_uri, _title} -> true end
                ]
            ],
            [
