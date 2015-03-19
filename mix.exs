@@ -32,7 +32,9 @@ defmodule ConsadoleAggregator.Mixfile do
     [{:httpoison, "~> 0.5"},
      {:amnesia, github: "meh/amnesia"},
      {:mochiweb, github: "mochi/mochiweb", override: true},
-     {:mochiweb_xpath, github: "retnuh/mochiweb_xpath"}]
+     {:mochiweb_xpath, github: "retnuh/mochiweb_xpath"},
+     {:oauth, github: "tim/erlang-oauth"},
+     {:extwitter, "~> 0.4"}]
   end
 
   defp dialyzer do

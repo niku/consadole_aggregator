@@ -1,8 +1,12 @@
 %{"amnesia": {:git, "git://github.com/meh/amnesia.git", "07a30a73ce71e03e56daa7a2855161d81ba20c48", []},
   "continuum": {:git, "git://github.com/meh/continuum.git", "4125f9d428971568f16da78cec24fddce18d6eca", []},
   "exquisite": {:hex, :exquisite, "0.1.4"},
+  "extwitter": {:hex, :extwitter, "0.4.0"},
   "hackney": {:hex, :hackney, "0.14.3"},
   "httpoison": {:hex, :httpoison, "0.5.0"},
   "idna": {:hex, :idna, "1.0.1"},
   "mochiweb": {:git, "git://github.com/mochi/mochiweb.git", "b66b68d95c9e1b2a32b194202e870e6d1e232eb7", []},
-  "mochiweb_xpath": {:git, "git://github.com/retnuh/mochiweb_xpath.git", "ccea7319e88281f6274b6fce617278c434bac56f", []}}
+  "mochiweb_xpath": {:git, "git://github.com/retnuh/mochiweb_xpath.git", "ccea7319e88281f6274b6fce617278c434bac56f", []},
+  "oauth": {:git, "git://github.com/tim/erlang-oauth.git", "2ee206ea921722893200a0ad534c6b6130233325", []},
+  "poison": {:hex, :poison, "1.3.1"},
+  "timex": {:hex, :timex, "0.13.3"}}
