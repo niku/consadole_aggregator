@@ -20,5 +20,44 @@ config :consadole_aggregator, :source, [
                    String.contains?(title, ["札幌", "宏太’Ｓチェック"])
                  end
                ]
+           ],
+           [
+               name: "hokkaido-np",
+               uri: "http://dd.hokkaido-np.co.jp/sports/soccer/consadole/",
+               type: :html,
+               parse_config: [
+                 xpath: ~s{//ul[@class="newsList"]/li/a},
+                 parser: fn item ->
+                   {"a", [{"href", uri}], [title|_]} = item
+                   {URI.parse("http://dd.hokkaido-np.co.jp" <> uri), String.strip(title)}
+                 end,
+                 filter: fn {_uri, _title} -> true end
+               ]
+           ],
+           [
+               name: "consa-club",
+               uri: "http://dd.hokkaido-np.co.jp/cont/consa-club/",
+               type: :html,
+               parse_config: [
+                 xpath: ~s{//ul[@class="newsList"]/li/a},
+                 parser: fn item ->
+                   {"a", [{"href", uri}], [title|_]} = item
+                   {URI.parse("http://dd.hokkaido-np.co.jp" <> uri), String.strip(title)}
+                 end,
+                 filter: fn {_uri, _title} -> true end
+               ]
+           ],
+           [
+               name: "consa-burn",
+               uri: "http://dd.hokkaido-np.co.jp/cont/consa-burn/",
+               type: :html,
+               parse_config: [
+                 xpath: ~s{//ul[@class="newsList"]/li/a},
+                 parser: fn item ->
+                   {"a", [{"href", uri}], [title|_]} = item
+                   {URI.parse("http://dd.hokkaido-np.co.jp" <> uri), String.strip(title)}
+                 end,
+                 filter: fn {_uri, _title} -> true end
+               ]
            ]
        ]
