@@ -2,6 +2,11 @@ use Mix.Config
 
 config :consadole_aggregator, :source, [
   [
+      name: "official rss",
+      uri: "http://www.consadole-sapporo.jp/news/atom.xml",
+      type: :rss
+  ],
+  [
       name: "nikkansports",
       uri: "http://www.nikkansports.com/rss/soccer/jleague/consadole.rdf",
       type: :rss
