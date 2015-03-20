@@ -46,7 +46,7 @@ defmodule ConsadoleAggregator.CLI do
       {:ok, doc} = uri |> ConsadoleAggregator.News.fetch
 
       for news <- ConsadoleAggregator.News.parse(doc, type, parse_config),
-          ConsadoleAggregator.Database.Content.unread?(news) do
+      ConsadoleAggregator.Database.Content.unread?(news) do
         ConsadoleAggregator.Publisher.notify(news)
         ConsadoleAggregator.Database.Content.register(news)
       end
