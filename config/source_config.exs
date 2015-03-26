@@ -33,7 +33,8 @@ config :consadole_aggregator, :source, [
       parse_config: [
         xpath: ~s{//div[@id="article1"]//span[@class="ar_title"]/a | //ul[@class="article_text"]/li/a},
         parser: fn item ->
-          {"a", [{"href", uri}], [title|_]} = item
+          uri = elem(item, 1) |> Enum.find(fn {k, _v} -> k === "href" end) |> elem(1)
+          title = elem(item, 2) |> hd
           {URI.parse(uri), String.strip(title)}
         end,
         filter: fn {_uri, _title} -> true end
@@ -46,7 +47,8 @@ config :consadole_aggregator, :source, [
       parse_config: [
         xpath: ~s{//ul[@class="newsList"]/li/a},
         parser: fn item ->
-          {"a", [{"href", uri}], [title|_]} = item
+          uri = elem(item, 1) |> Enum.find(fn {k, _v} -> k === "href" end) |> elem(1)
+          title = elem(item, 2) |> hd
           {URI.parse("http://dd.hokkaido-np.co.jp" <> uri), String.strip(title)}
         end,
         filter: fn {_uri, _title} -> true end
@@ -59,7 +61,8 @@ config :consadole_aggregator, :source, [
       parse_config: [
         xpath: ~s{//ul[@class="newsList"]/li/a},
         parser: fn item ->
-          {"a", [{"href", uri}], [title|_]} = item
+          uri = elem(item, 1) |> Enum.find(fn {k, _v} -> k === "href" end) |> elem(1)
+          title = elem(item, 2) |> hd
           {URI.parse("http://dd.hokkaido-np.co.jp" <> uri), String.strip(title)}
         end,
         filter: fn {_uri, _title} -> true end
@@ -72,7 +75,8 @@ config :consadole_aggregator, :source, [
       parse_config: [
         xpath: ~s{//ul[@class="newsList"]/li/a},
         parser: fn item ->
-          {"a", [{"href", uri}], [title|_]} = item
+          uri = elem(item, 1) |> Enum.find(fn {k, _v} -> k === "href" end) |> elem(1)
+          title = elem(item, 2) |> hd
           {URI.parse("http://dd.hokkaido-np.co.jp" <> uri), String.strip(title)}
         end,
         filter: fn {_uri, _title} -> true end
