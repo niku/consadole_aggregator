@@ -2,6 +2,8 @@
   "continuum": {:git, "git://github.com/meh/continuum.git", "4125f9d428971568f16da78cec24fddce18d6eca", []},
   "exquisite": {:hex, :exquisite, "0.1.4"},
   "extwitter": {:hex, :extwitter, "0.4.0"},
+  "feeder": {:hex, :feeder, "1.4.5"},
+  "feeder_ex": {:git, "git://github.com/manukall/feeder_ex.git", "5a546ac2b2137970c63d4fa7d78c37d7c4b89642", []},
   "hackney": {:hex, :hackney, "0.14.3"},
   "httpoison": {:hex, :httpoison, "0.5.0"},
   "idna": {:hex, :idna, "1.0.1"},

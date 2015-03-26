@@ -34,7 +34,8 @@ defmodule ConsadoleAggregator.Mixfile do
      {:mochiweb, github: "mochi/mochiweb", override: true},
      {:mochiweb_xpath, github: "retnuh/mochiweb_xpath"},
      {:oauth, github: "tim/erlang-oauth"},
-     {:extwitter, "~> 0.4"}]
+     {:extwitter, "~> 0.4"},
+     {:feeder_ex, github: "manukall/feeder_ex"}]
   end
 
   defp dialyzer do

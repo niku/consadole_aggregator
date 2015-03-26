@@ -17,15 +17,9 @@ defmodule ConsadoleAggregator.News do
 
   @spec parse(String.t, :rss, any) :: [News.t]
   def parse(doc, :rss, _) do
-    # https://gist.github.com/sasa1977/5967224
-    {root, _} = doc
-    |> :binary.bin_to_list
-    |> :xmerl_scan.string
-    items = :xmerl_xpath.string('/rdf:RDF/item', root)
-    Enum.map items, fn item ->
-      [{_, _, _, _, link, _}] = :xmerl_xpath.string('link/text()', item)
-      [{_, _, _, _, title, _}] = :xmerl_xpath.string('title/text()', item)
-      %__MODULE__{uri: URI.parse(to_string(link)), title: to_string(title)}
+    {:ok, feed, _} = FeederEx.parse(doc)
+    Enum.map feed.entries, fn entry ->
+      %__MODULE__{uri: URI.parse(entry.link), title: entry.title}
     end
   end
 
