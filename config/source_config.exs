@@ -27,6 +27,22 @@ config :consadole_aggregator, :source, [
       ]
   ],
   [
+      name: "Next Home Game",
+      uri: "http://www.consadole-sapporo.jp/",
+      type: :html,
+      parse_config: [
+        xpath: ~s{//div[@id="next-homegame"]},
+        parser: fn item ->
+          [target, now] = :mochiweb_xpath.execute('//ul//li/text()', item)
+          [date, time_and_place, opponent | _] = :mochiweb_xpath.execute('//dd/p/text()', item) |> Enum.map(&String.strip/1)
+          text = "次のホームゲームは #{date} #{time_and_place} #{opponent}，チケット販売数 現在:#{now}/目標:#{target}"
+          require IEx; IEx.pry
+          {URI.parse("http://www.consadole-sapporo.jp/lp/"), text}
+        end,
+        filter: fn {_uri, _title} -> true end
+      ]
+  ],
+  [
       name: "hochiyomiuri",
       uri: "http://www.hochi.co.jp/soccer/national/",
       type: :html,
