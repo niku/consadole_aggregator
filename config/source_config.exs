@@ -12,6 +12,21 @@ config :consadole_aggregator, :source, [
       type: :rss
   ],
   [
+      name: "official photes on the top page",
+      uri: "http://www.consadole-sapporo.jp/",
+      type: :html,
+      parse_config: [
+        xpath: ~s{//div[@class="wrapper"]//li},
+        parser: fn item ->
+          title = :mochiweb_xpath.execute('/li/@title', item) |> hd
+          image = :mochiweb_xpath.execute('//img/@src', item) |> hd
+          href = :mochiweb_xpath.execute('//a/@href', item) |> hd
+          {URI.parse(href), Enum.join([title, image], " ") |> String.strip}
+        end,
+        filter: fn {_uri, _title} -> true end
+      ]
+  ],
+  [
       name: "hochiyomiuri",
       uri: "http://www.hochi.co.jp/soccer/national/",
       type: :html,
