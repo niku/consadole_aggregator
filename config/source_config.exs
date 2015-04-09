@@ -111,5 +111,19 @@ config :consadole_aggregator, :source, [
         end,
         filter: fn {_uri, _title} -> true end
       ]
+  ],
+  [
+      name: "gekisaka",
+      uri: "http://web.gekisaka.jp/news/category?category=domestic",
+      type: :html,
+      parse_config: [
+        xpath: ~s{//div[@class="post-title"]/a},
+        parser: fn item ->
+          uri = :mochiweb_xpath.execute('/a/@href', item) |> hd
+          title = :mochiweb_xpath.execute('/a/text()', item) |> hd
+          {URI.parse(uri), title}
+        end,
+        filter: fn {_uri, title} -> String.contains?(title, "札幌") end
+      ]
   ]
 ]
