@@ -36,7 +36,6 @@ config :consadole_aggregator, :source, [
           [target, now] = :mochiweb_xpath.execute('//ul//li/text()', item)
           [date, time_and_place, opponent | _] = :mochiweb_xpath.execute('//dd/p/text()', item) |> Enum.map(&String.strip/1)
           text = "次のホームゲームは #{date} #{time_and_place} #{opponent}，チケット販売数 現在:#{now}/目標:#{target}"
-          require IEx; IEx.pry
           {URI.parse("http://www.consadole-sapporo.jp/lp/"), text}
         end,
         filter: fn {_uri, _title} -> true end
