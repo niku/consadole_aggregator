@@ -42,10 +42,10 @@ defmodule ConsadoleAggregator.CLI do
   def process(:news) do
     start_link
 
-    for %{uri: uri, type: type, parse_config: parse_config} <- ConsadoleAggregator.Config.source do
-      {:ok, doc} = uri |> ConsadoleAggregator.News.fetch
+    for source <- ConsadoleAggregator.Source.sources do
+      {:ok, doc} = ConsadoleAggregator.News.fetch(source.uri)
 
-      for news <- ConsadoleAggregator.News.parse(doc, type, parse_config),
+      for news <- ConsadoleAggregator.News.parse(doc, source.type, source.parse_config),
       ConsadoleAggregator.Database.Content.unread?(news) do
         ConsadoleAggregator.Publisher.notify(news)
         ConsadoleAggregator.Database.Content.register(news)
